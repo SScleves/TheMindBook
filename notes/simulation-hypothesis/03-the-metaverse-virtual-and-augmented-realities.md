@@ -31,7 +31,7 @@ Virk traces the metaverse from Neal Stephenson's coinage in *Snow Crash* (1992) 
 ## Concepts
 - **Metaverse** — an independent, persistent virtual world beyond any individual player or session, with the twist that the virtual landscape is built mostly by users. Term coined by Neal Stephenson in *Snow Crash* (1992); Stephenson envisioned a combination of an interactive video game and today's internet, hosting hundreds of millions of players with a full virtual economy and intelligent AI characters.
 - **Avatar** — the in-world representation of a player. Stephenson's usage in *Snow Crash* popularized the term, now universal in the video game industry and beyond.
-- **Sci-Fi Feedback Loop** — Virk's (informal) name for the process in which science fiction influences real-world techno-scientific development and real-world innovations influence the next wave of science fiction.
+- **Sci-Fi Feedback Loop** — the informal name for the process in which science fiction influences real-world techno-scientific development and real-world innovations influence the next wave of science fiction.
 - **Simulation point** — the point at which the technical developments in these stages come together into the capability to build the Great Simulation. The exact date is unknown.
 - **The Great Simulation** — "our version of The Matrix": a more sophisticated incarnation of today's MMORPGs with better output methods, better input methods, better NPCs, and full immersion.
 - **Stage 4: Immersion Using Virtual Reality** (roadmap stage defined here) — moving beyond the 2D screen to full immersion via VR headsets; culminates in a fully immersive, photorealistic persistent virtual world (the merging of VR and MMORPGs, like the fictional OASIS).

@@ -87,12 +87,29 @@ numbers, knowledge leakage. Fix in place (smallest edit), add missing
 substantive items in matching style, delete untraceable ones. Report counts +
 verdict.
 
+## NEXT SESSION — start here (Opus, effort HIGH everywhere, xhigh retired for cost)
+
+Decision 2026-07-22: remaining work runs on Opus at effort high — including
+synthesis (no more xhigh). The templates in this file are the quality carrier;
+the verification stage backstops the model change.
+
+Remaining for simulation-hypothesis (notes verified, in repo):
+1. Synthesis: 3 agents at HIGH over notes/simulation-hypothesis/ → 00-map.md,
+   90-glossary.md, 91-qa.md (same specs as stage 5 above; book id
+   simulation-hypothesis, author Rizwan Virk, 2nd ed).
+2. `_build/build-libros.ps1`, `_build/build-agent-kit.ps1` (add 'sh' prefix to
+   $bookPrefix in build-agent-kit.ps1), commit, push (Pages auto-deploys).
+Then next books in order (stages 1-6 per book): my-big-toe (trilogy — treat
+each sub-book's parts as chapters), power-of-now (practice template),
+american-cosmic, zen-motorcycle, dark-psychology, sekret-machines-war
+(fiction template). EPUBs: C:\Libros Mente\ (this machine only).
+
 ## Status board
 
 | Book | Split | Notes | Verified | Synthesis | In site/kit |
 |---|---|---|---|---|---|
 | holographic-universe | done (OCR path) | 10/10 (397 examples) | 10/10, zero major | map+glossary(207c/332p)+qa(70) | yes |
-| simulation-hypothesis | done (17 units: foreword+15ch+FAQ) | in progress | — | — | — |
+| simulation-hypothesis | done (17 units: foreword+15ch+FAQ) | 17/17 (~493 examples) | 17/17, zero major (all MINOR/CLEAN) | PENDING — next session | chapters only |
 | my-big-toe | pending (trilogy — split per book-within-book) | — | — | — | — |
 | power-of-now | pending (practice-book template) | — | — | — | — |
 | american-cosmic | pending | — | — | — | — |
