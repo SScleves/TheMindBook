@@ -4,21 +4,22 @@
   :root {
     --bg: #faf8f4; --panel: #f1ede5; --ink: #2b2620; --muted: #7a6f60;
     --accent: #7c5cbf; --accent-soft: #ece5f7; --border: #e0d9cc; --mark: #f5e6a8;
+    --good: #2e7d4f; --good-soft: #e2f2e8; --bad: #b3452e; --bad-soft: #f8e6e0;
   }
   @media (prefers-color-scheme: dark) {
     :root {
       --bg: #201d18; --panel: #2a2620; --ink: #e8e2d6; --muted: #9c917f;
       --accent: #b39ddb; --accent-soft: #3a3247; --border: #3a352c; --mark: #5c512a;
+      --good: #7fc79e; --good-soft: #263b30; --bad: #e09679; --bad-soft: #43291f;
     }
   }
   * { box-sizing: border-box; }
   body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.65 Georgia, 'Times New Roman', serif; }
   #app { display: flex; min-height: 100vh; }
-  /* sidebar */
   #side { width: 290px; flex-shrink: 0; background: var(--panel); border-right: 1px solid var(--border);
           padding: 18px 14px; position: sticky; top: 0; height: 100vh; overflow-y: auto;
           font-family: 'Segoe UI', system-ui, sans-serif; }
-  #side h1 { font-size: 17px; margin: 0 0 4px; letter-spacing: .3px; }
+  #side h1 { font-size: 17px; margin: 0 0 4px; }
   #side .built { font-size: 11px; color: var(--muted); margin-bottom: 14px; }
   #q { width: 100%; padding: 8px 10px; font-size: 14px; border: 1px solid var(--border); border-radius: 8px;
        background: var(--bg); color: var(--ink); outline: none; }
@@ -26,15 +27,15 @@
   .book { margin-top: 16px; }
   .book > .bt { font-weight: 600; font-size: 14px; cursor: pointer; padding: 6px 8px; border-radius: 8px; }
   .book > .bt:hover { background: var(--accent-soft); }
-  .book .ba { font-size: 12px; color: var(--muted); padding: 0 8px 4px; }
+  .book .ba { font-size: 12px; color: var(--muted); padding: 0 8px 2px; }
+  .book .bp { font-size: 11px; color: var(--accent); padding: 0 8px 6px; }
   .doclist { margin: 2px 0 0; padding: 0; list-style: none; }
-  .doclist li { padding: 4px 8px 4px 18px; font-size: 13px; border-radius: 8px; cursor: pointer; color: var(--ink); }
+  .doclist li { padding: 4px 8px 4px 18px; font-size: 13px; border-radius: 8px; cursor: pointer; }
   .doclist li:hover { background: var(--accent-soft); }
   .doclist li.active { background: var(--accent); color: #fff; }
   .doclist li.aux { color: var(--muted); font-style: italic; }
   .doclist li.aux.active { color: #fff; }
-  /* main */
-  #main { flex: 1; min-width: 0; padding: 34px 40px 80px; }
+  #main { flex: 1; min-width: 0; padding: 26px 40px 80px; }
   #doc { max-width: 46em; margin: 0 auto; }
   #doc h1 { font-size: 27px; line-height: 1.25; margin: 0 0 6px; }
   #doc h2 { font-size: 20px; margin: 1.8em 0 .5em; border-bottom: 1px solid var(--border); padding-bottom: 5px; }
@@ -46,23 +47,53 @@
   #doc code { font: 13px/1.5 Consolas, monospace; background: var(--panel); padding: 1px 5px; border-radius: 5px; }
   #doc mark { background: var(--mark); color: inherit; padding: 0 2px; border-radius: 3px; }
   #doc a.int { color: var(--accent); text-decoration: none; border-bottom: 1px dotted var(--accent); cursor: pointer; }
-  .crumb { font-family: 'Segoe UI', system-ui, sans-serif; font-size: 12px; color: var(--muted); margin-bottom: 14px; }
+  .crumb { font-family: 'Segoe UI', system-ui, sans-serif; font-size: 12px; color: var(--muted); margin-bottom: 8px; }
   .chips { margin: 10px 0 26px; font-family: 'Segoe UI', system-ui, sans-serif; }
   .chip { display: inline-block; font-size: 11.5px; background: var(--accent-soft); color: var(--accent);
           border-radius: 999px; padding: 2px 10px; margin: 0 5px 5px 0; cursor: pointer; }
   .chip:hover { filter: brightness(.93); }
-  /* search results */
+  /* tabs */
+  #tabs { max-width: 46em; margin: 0 auto 20px; display: flex; gap: 8px; font-family: 'Segoe UI', system-ui, sans-serif; }
+  .tab { padding: 7px 18px; border-radius: 999px; border: 1px solid var(--border); cursor: pointer;
+         font-size: 13.5px; background: var(--panel); user-select: none; }
+  .tab.on { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .tab .n { opacity: .7; font-size: 11.5px; margin-left: 4px; }
+  /* cards & quiz shared */
+  .arena { max-width: 34em; margin: 0 auto; font-family: 'Segoe UI', system-ui, sans-serif; }
+  .meter { display: flex; gap: 16px; font-size: 12.5px; color: var(--muted); margin-bottom: 14px; flex-wrap: wrap; }
+  .meter b { color: var(--ink); }
+  .meter .streak { color: var(--accent); font-weight: 600; }
+  .deckpick { margin-bottom: 14px; }
+  .deckpick .chip.on { background: var(--accent); color: #fff; }
+  .bigcard { background: var(--panel); border: 1px solid var(--border); border-radius: 16px;
+             padding: 34px 30px; min-height: 190px; display: flex; flex-direction: column;
+             justify-content: center; box-shadow: 0 2px 8px rgba(0,0,0,.05); }
+  .bigcard .front { font: 600 21px/1.35 Georgia, serif; text-align: center; }
+  .bigcard .back { font: 15.5px/1.6 Georgia, serif; margin-top: 18px; border-top: 1px dashed var(--border); padding-top: 16px; }
+  .bigcard .meta { font-size: 11.5px; color: var(--muted); margin-top: 12px; text-align: right; }
+  .bigcard .qtag { font-size: 11px; color: var(--accent); text-transform: uppercase; letter-spacing: .5px;
+                   text-align: center; margin-bottom: 10px; }
+  .actions { display: flex; gap: 10px; justify-content: center; margin-top: 18px; }
+  .btn { padding: 10px 22px; border-radius: 10px; border: 1px solid var(--border); background: var(--panel);
+         color: var(--ink); font: 600 14px 'Segoe UI', system-ui, sans-serif; cursor: pointer; }
+  .btn:hover { border-color: var(--accent); }
+  .btn.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .btn.good { background: var(--good-soft); border-color: var(--good); color: var(--good); }
+  .btn.bad { background: var(--bad-soft); border-color: var(--bad); color: var(--bad); }
+  .doneMsg { text-align: center; padding: 40px 0; }
+  .doneMsg .big { font: 600 22px Georgia, serif; margin-bottom: 8px; }
+  .bar { height: 6px; background: var(--border); border-radius: 3px; margin-bottom: 16px; overflow: hidden; }
+  .bar > div { height: 100%; background: var(--accent); border-radius: 3px; transition: width .25s; }
   .sr { max-width: 46em; margin: 0 auto; }
   .sr h1 { font-size: 21px; }
   .hit { padding: 12px 14px; border: 1px solid var(--border); border-radius: 10px; margin-bottom: 10px; cursor: pointer; }
   .hit:hover { border-color: var(--accent); }
   .hit .where { font-family: 'Segoe UI', system-ui, sans-serif; font-size: 12px; color: var(--accent); margin-bottom: 3px; }
   .hit .snip { font-size: 14px; color: var(--muted); }
-  .hit .snip mark { background: var(--mark); }
   @media (max-width: 760px) {
     #app { flex-direction: column; }
     #side { width: 100%; height: auto; position: static; }
-    #main { padding: 20px 16px 60px; }
+    #main { padding: 18px 14px 60px; }
   }
 </style>
 <div id="app">
@@ -72,7 +103,10 @@
     <input id="q" type="search" placeholder="Search everything&hellip;" autocomplete="off">
     <div id="nav"></div>
   </nav>
-  <main id="main"><div id="doc"></div></main>
+  <main id="main">
+    <div id="tabs"></div>
+    <div id="doc"></div>
+  </main>
 </div>
 <script id="data" type="application/json">/*__DATA__*/</script>
 <script>
@@ -81,7 +115,18 @@ const docsById = {};
 DATA.books.forEach(b => b.docs.forEach(d => { d.book = b; docsById[d.id] = d; }));
 document.getElementById('built').textContent = 'built ' + DATA.built;
 
-/* ---------- tiny markdown renderer ---------- */
+/* ---------- storage ---------- */
+const store = {
+  get k(){ return 'themindbook'; },
+  read() { try { return JSON.parse(localStorage.getItem(this.k)) || {}; } catch { return {}; } },
+  write(o) { localStorage.setItem(this.k, JSON.stringify(o)); },
+  cardLevel(book, term) { const s = this.read(); return ((s[book]||{}).cards||{})[term] || 0; },
+  setCard(book, term, lvl) { const s = this.read(); s[book]=s[book]||{}; s[book].cards=s[book].cards||{}; s[book].cards[term]=lvl; this.write(s); },
+  quizStat(book) { const s = this.read(); return (s[book]||{}).quiz || { best: 0, right: 0, wrong: 0 }; },
+  setQuiz(book, q) { const s = this.read(); s[book]=s[book]||{}; s[book].quiz=q; this.write(s); },
+};
+
+/* ---------- markdown renderer ---------- */
 function esc(s) { return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
 function inline(s) {
   return s
@@ -110,6 +155,37 @@ function md(src) {
   return out.join('\n');
 }
 
+/* ---------- parse glossary -> cards, qa -> quiz ---------- */
+function parseCards(book) {
+  const gl = book.docs.find(d => d.type === 'glossary'); if (!gl) return [];
+  const cards = []; let section = 'Concepts';
+  for (const line of gl.body.split(/\r?\n/)) {
+    const h = line.match(/^#\s+(.*)$/); if (h) { section = /people/i.test(h[1]) ? 'People' : 'Concepts'; continue; }
+    const m = line.match(/^\s*[-*]\s+\*\*(.+?)\*\*\s*[—–-]\s*(.*)$/);
+    if (m) {
+      let def = m[2];
+      const chap = (def.match(/Chapters?:\s*([^.]+)\./) || [])[1] || '';
+      def = def.replace(/\s*Chapters?:.*$/, '');
+      cards.push({ deck: section, term: m[1], def, chap: chap.trim() });
+    }
+  }
+  return cards;
+}
+function parseQuiz(book) {
+  const qa = book.docs.find(d => d.type === 'qa'); if (!qa) return [];
+  const items = []; let group = 'General'; let cur = null;
+  for (const line of qa.body.split(/\r?\n/)) {
+    const h = line.match(/^##\s+(.*)$/); if (h) { group = h[1].trim(); continue; }
+    const q = line.match(/^\*\*Q:\s*(.+?)\*\*\s*$/);
+    if (q) { cur = { group, q: q[1], a: '' }; items.push(cur); continue; }
+    const a = line.match(/^A:\s*(.*)$/);
+    if (a && cur) { cur.a = a[1]; continue; }
+    if (cur && line.trim() && !line.startsWith('#')) cur.a += (cur.a ? '\n' : '') + line.trim();
+  }
+  return items.filter(i => i.a);
+}
+function shuffle(arr) { for (let i = arr.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [arr[i], arr[j]] = [arr[j], arr[i]]; } return arr; }
+
 /* ---------- navigation ---------- */
 function docLabel(d) {
   if (d.type === 'map') return 'Book map';
@@ -120,6 +196,13 @@ function docLabel(d) {
   }
   return d.title;
 }
+function bookProgress(b) {
+  const cards = parseCards(b);
+  if (!cards.length) return '';
+  const mastered = cards.filter(c => store.cardLevel(b.id, c.term) >= 2).length;
+  const qz = store.quizStat(b.id);
+  return mastered + '/' + cards.length + ' cards mastered' + (qz.best ? ' · quiz best streak ' + qz.best : '');
+}
 function buildNav() {
   const nav = document.getElementById('nav'); nav.innerHTML = '';
   DATA.books.forEach(b => {
@@ -127,6 +210,7 @@ function buildNav() {
     const bt = document.createElement('div'); bt.className = 'bt'; bt.textContent = b.title; div.appendChild(bt);
     const ba = document.createElement('div'); ba.className = 'ba';
     ba.textContent = b.author + (b.year ? ' · ' + b.year : ''); div.appendChild(ba);
+    const bp = document.createElement('div'); bp.className = 'bp'; bp.textContent = bookProgress(b); div.appendChild(bp);
     const ul = document.createElement('ul'); ul.className = 'doclist';
     const order = d => d.type === 'map' ? 0 : d.type === 'glossary' ? 90 : d.type === 'qa' ? 91 : 10 + Number(d.chapter || 0);
     [...b.docs].sort((x, y) => order(x) - order(y)).forEach(d => {
@@ -143,12 +227,32 @@ function buildNav() {
   });
 }
 
+/* ---------- tabs ---------- */
+let currentBook = null, currentMode = 'read', current = null;
+function renderTabs() {
+  const el = document.getElementById('tabs');
+  if (!currentBook) { el.innerHTML = ''; return; }
+  const cards = parseCards(currentBook), quiz = parseQuiz(currentBook);
+  const tabs = [['read', 'Read', null]];
+  if (cards.length) tabs.push(['cards', 'Flashcards', cards.length]);
+  if (quiz.length) tabs.push(['quiz', 'Quiz', quiz.length]);
+  el.innerHTML = tabs.map(([id, label, n]) =>
+    '<div class="tab' + (currentMode === id ? ' on' : '') + '" data-m="' + id + '">' + label +
+    (n ? '<span class="n">' + n + '</span>' : '') + '</div>').join('');
+  el.querySelectorAll('.tab').forEach(t => t.onclick = () => {
+    currentMode = t.dataset.m;
+    if (currentMode === 'read') openDoc(current || currentBook.docs[0].id);
+    else if (currentMode === 'cards') startCards();
+    else startQuiz();
+  });
+}
+
 /* ---------- doc view ---------- */
-let current = null;
 function openDoc(id, highlight) {
   const d = docsById[id]; if (!d) return;
-  current = id;
+  current = id; currentBook = d.book; currentMode = 'read';
   location.hash = encodeURIComponent(id);
+  renderTabs();
   let html = '<div class="crumb">' + esc(d.book.title) + (d.book.author ? ' · ' + esc(d.book.author) : '') + '</div>';
   html += md(d.body);
   if (d.concepts && d.concepts.length) {
@@ -159,8 +263,7 @@ function openDoc(id, highlight) {
   document.querySelectorAll('#nav .doclist li').forEach(li => li.classList.toggle('active', li.dataset.doc === id));
   el.querySelectorAll('a.int').forEach(a => a.onclick = () => {
     const ref = a.dataset.doc.replace(/\.md$/, '');
-    const target = ref.includes('/') ? ref : d.book.id + '/' + ref;
-    openDoc(target);
+    openDoc(ref.includes('/') ? ref : d.book.id + '/' + ref);
   });
   el.querySelectorAll('.chip').forEach(ch => ch.onclick = () => {
     const gl = d.book.docs.find(x => x.type === 'glossary');
@@ -170,13 +273,120 @@ function openDoc(id, highlight) {
   if (highlight) {
     const rx = new RegExp('(' + highlight.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'i');
     for (const p of el.querySelectorAll('p, li, h2, h3')) {
-      if (rx.test(p.textContent)) {
-        p.innerHTML = p.innerHTML.replace(rx, '<mark>$1</mark>');
-        p.scrollIntoView({ block: 'center' });
-        break;
-      }
+      if (rx.test(p.textContent)) { p.innerHTML = p.innerHTML.replace(rx, '<mark>$1</mark>'); p.scrollIntoView({ block: 'center' }); break; }
     }
   }
+}
+
+/* ---------- flashcards ---------- */
+let cardState = null;
+function startCards(deckFilter) {
+  currentMode = 'cards'; renderTabs();
+  const all = parseCards(currentBook);
+  const deck = deckFilter ? all.filter(c => c.deck === deckFilter) : all;
+  const pool = shuffle(deck.filter(c => store.cardLevel(currentBook.id, c.term) < 2))
+    .concat(shuffle(deck.filter(c => store.cardLevel(currentBook.id, c.term) >= 2)));
+  cardState = { deckFilter: deckFilter || null, queue: pool, idx: 0, revealed: false, done: 0, again: 0 };
+  renderCard();
+}
+function renderCard() {
+  const s = cardState, el = document.getElementById('doc');
+  const b = currentBook, allCount = parseCards(b).length;
+  const mastered = parseCards(b).filter(c => store.cardLevel(b.id, c.term) >= 2).length;
+  const decks = [...new Set(parseCards(b).map(c => c.deck))];
+  let head = '<div class="arena">';
+  head += '<div class="meter"><span>mastered <b>' + mastered + '/' + allCount + '</b></span>' +
+          '<span>this session <b>' + s.done + '</b></span>' +
+          (s.again ? '<span>to retry <b>' + s.again + '</b></span>' : '') + '</div>';
+  if (decks.length > 1) {
+    head += '<div class="deckpick">' + ['All'].concat(decks).map(dk =>
+      '<span class="chip' + ((dk === 'All' ? null : dk) === s.deckFilter || (dk === 'All' && !s.deckFilter) ? ' on' : '') + '" data-dk="' + dk + '">' + dk + '</span>').join('') + '</div>';
+  }
+  if (s.idx >= s.queue.length) {
+    el.innerHTML = head + '<div class="doneMsg"><div class="big">Deck done 🎉</div><p>' + s.done +
+      ' cards this session.</p><div class="actions"><button class="btn primary" id="rc">Go again</button></div></div></div>';
+    document.getElementById('rc').onclick = () => startCards(s.deckFilter);
+  } else {
+    const c = s.queue[s.idx];
+    const lvl = store.cardLevel(currentBook.id, c.term);
+    let card = '<div class="bigcard"><div class="qtag">' + esc(c.deck) + (lvl >= 2 ? ' · mastered' : '') + '</div>' +
+      '<div class="front">' + esc(c.term) + '</div>';
+    if (s.revealed) card += '<div class="back">' + esc(c.def) + '</div>' +
+      (c.chap ? '<div class="meta">Chapters ' + esc(c.chap) + '</div>' : '');
+    card += '</div>';
+    const btns = s.revealed
+      ? '<button class="btn bad" id="miss">Again</button><button class="btn good" id="got">Got it</button>'
+      : '<button class="btn primary" id="rev">Reveal</button>';
+    el.innerHTML = head + card + '<div class="actions">' + btns + '</div></div>';
+    if (s.revealed) {
+      document.getElementById('got').onclick = () => {
+        store.setCard(currentBook.id, c.term, lvl + 1); s.done++; s.idx++; s.revealed = false; renderCard(); buildNav();
+      };
+      document.getElementById('miss').onclick = () => {
+        store.setCard(currentBook.id, c.term, 0); s.again++;
+        s.queue.splice(Math.min(s.idx + 5, s.queue.length), 0, c);
+        s.idx++; s.revealed = false; renderCard();
+      };
+    } else document.getElementById('rev').onclick = () => { s.revealed = true; renderCard(); };
+  }
+  document.querySelectorAll('.deckpick .chip').forEach(ch => ch.onclick = () => startCards(ch.dataset.dk === 'All' ? null : ch.dataset.dk));
+  window.scrollTo(0, 0);
+}
+
+/* ---------- quiz ---------- */
+let quizState = null;
+function startQuiz(groupFilter) {
+  currentMode = 'quiz'; renderTabs();
+  const all = parseQuiz(currentBook);
+  const items = shuffle(groupFilter ? all.filter(i => i.group === groupFilter) : all.slice());
+  quizState = { groupFilter: groupFilter || null, items, idx: 0, revealed: false, right: 0, wrong: 0, streak: 0, retry: [] };
+  renderQuiz();
+}
+function renderQuiz() {
+  const s = quizState, el = document.getElementById('doc');
+  const stat = store.quizStat(currentBook.id);
+  const groups = [...new Set(parseQuiz(currentBook).map(i => i.group))];
+  const total = s.items.length;
+  let head = '<div class="arena">';
+  head += '<div class="meter"><span>score <b>' + s.right + '</b>/' + (s.right + s.wrong) + '</span>' +
+    '<span class="streak">streak ' + s.streak + '</span><span>best <b>' + stat.best + '</b></span></div>';
+  head += '<div class="bar"><div style="width:' + Math.round(100 * s.idx / Math.max(1, total)) + '%"></div></div>';
+  if (groups.length > 1) {
+    head += '<div class="deckpick">' + ['All'].concat(groups).map(g =>
+      '<span class="chip' + ((g === 'All' ? null : g) === s.groupFilter || (g === 'All' && !s.groupFilter) ? ' on' : '') + '" data-g="' + g + '">' + g + '</span>').join('') + '</div>';
+  }
+  if (s.idx >= s.items.length) {
+    if (s.retry.length) { s.items = shuffle(s.retry); s.retry = []; s.idx = 0; renderQuiz(); return; }
+    el.innerHTML = head + '<div class="doneMsg"><div class="big">' +
+      (s.wrong === 0 ? 'Perfect round 🏆' : 'Round done') + '</div><p>' + s.right + ' right, ' + s.wrong +
+      ' wrong.</p><div class="actions"><button class="btn primary" id="rq">Go again</button></div></div></div>';
+    document.getElementById('rq').onclick = () => startQuiz(s.groupFilter);
+  } else {
+    const item = s.items[s.idx];
+    let card = '<div class="bigcard"><div class="qtag">' + esc(item.group) + '</div>' +
+      '<div class="front">' + esc(item.q) + '</div>';
+    if (s.revealed) card += '<div class="back">' + inline(esc(item.a)) + '</div>';
+    card += '</div>';
+    const btns = s.revealed
+      ? '<button class="btn bad" id="wr">I was wrong</button><button class="btn good" id="ri">I was right</button>'
+      : '<button class="btn primary" id="rev">Reveal answer</button>';
+    el.innerHTML = head + card + '<div class="actions">' + btns + '</div></div>';
+    if (s.revealed) {
+      document.getElementById('ri').onclick = () => {
+        s.right++; s.streak++;
+        const st = store.quizStat(currentBook.id);
+        st.right++; if (s.streak > st.best) st.best = s.streak; store.setQuiz(currentBook.id, st);
+        s.idx++; s.revealed = false; renderQuiz(); buildNav();
+      };
+      document.getElementById('wr').onclick = () => {
+        s.wrong++; s.streak = 0; s.retry.push(s.items[s.idx]);
+        const st = store.quizStat(currentBook.id); st.wrong++; store.setQuiz(currentBook.id, st);
+        s.idx++; s.revealed = false; renderQuiz();
+      };
+    } else document.getElementById('rev').onclick = () => { s.revealed = true; renderQuiz(); };
+  }
+  document.querySelectorAll('.deckpick .chip').forEach(ch => ch.onclick = () => startQuiz(ch.dataset.g === 'All' ? null : ch.dataset.g));
+  window.scrollTo(0, 0);
 }
 
 /* ---------- search ---------- */
@@ -190,13 +400,14 @@ q.addEventListener('input', () => {
     const body = d.body.toLowerCase();
     let idx = body.indexOf(needle), n = 0;
     while (idx !== -1 && n < 3) {
-      const s = Math.max(0, idx - 70), e = Math.min(d.body.length, idx + needle.length + 90);
-      hits.push({ d, snip: d.body.slice(s, e).replace(/\s+/g, ' ') });
+      const st = Math.max(0, idx - 70), e = Math.min(d.body.length, idx + needle.length + 90);
+      hits.push({ d, snip: d.body.slice(st, e).replace(/\s+/g, ' ') });
       n++; idx = body.indexOf(needle, idx + needle.length);
     }
     if (hits.length > 60) break;
   }
   const rx = new RegExp('(' + term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'gi');
+  document.getElementById('tabs').innerHTML = '';
   document.getElementById('doc').innerHTML =
     '<div class="sr"><h1>' + hits.length + ' match' + (hits.length === 1 ? '' : 'es') + ' for “' + esc(term) + '”</h1>' +
     hits.map((h, i) => '<div class="hit" data-i="' + i + '"><div class="where">' + esc(h.d.book.title) + ' → ' + esc(docLabel(h.d)) +
