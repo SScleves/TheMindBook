@@ -68,5 +68,7 @@ $json = $json -replace '</', '<\/'   # keep </script> sequences from closing the
 
 $template = [System.IO.File]::ReadAllText((Join-Path $PSScriptRoot 'libros-template.html'))
 $html = $template.Replace('/*__DATA__*/', $json)
-[System.IO.File]::WriteAllText($out, $html, (New-Object System.Text.UTF8Encoding $false))
-"built $out ($([Math]::Round((Get-Item $out).Length/1KB)) KB) - $($books.Count) book(s), $(@($books | ForEach-Object { $_.docs }).Count) docs"
+$enc = New-Object System.Text.UTF8Encoding $false
+[System.IO.File]::WriteAllText($out, $html, $enc)
+[System.IO.File]::WriteAllText((Join-Path $root 'index.html'), $html, $enc)   # same site, GitHub Pages entrypoint
+"built $out + index.html ($([Math]::Round((Get-Item $out).Length/1KB)) KB) - $($books.Count) book(s), $(@($books | ForEach-Object { $_.docs }).Count) docs"
