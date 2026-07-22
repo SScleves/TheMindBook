@@ -1,0 +1,7 @@
+# Full extracted book texts — copyrighted material, never push these.
+# The pipeline reads them locally from source/ at processing time only.
+source/
+
+# Scratch
+*.tmp
+~$*

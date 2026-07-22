@@ -1,0 +1,212 @@
+<title>Libros Mente</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root {
+    --bg: #faf8f4; --panel: #f1ede5; --ink: #2b2620; --muted: #7a6f60;
+    --accent: #7c5cbf; --accent-soft: #ece5f7; --border: #e0d9cc; --mark: #f5e6a8;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #201d18; --panel: #2a2620; --ink: #e8e2d6; --muted: #9c917f;
+      --accent: #b39ddb; --accent-soft: #3a3247; --border: #3a352c; --mark: #5c512a;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.65 Georgia, 'Times New Roman', serif; }
+  #app { display: flex; min-height: 100vh; }
+  /* sidebar */
+  #side { width: 290px; flex-shrink: 0; background: var(--panel); border-right: 1px solid var(--border);
+          padding: 18px 14px; position: sticky; top: 0; height: 100vh; overflow-y: auto;
+          font-family: 'Segoe UI', system-ui, sans-serif; }
+  #side h1 { font-size: 17px; margin: 0 0 4px; letter-spacing: .3px; }
+  #side .built { font-size: 11px; color: var(--muted); margin-bottom: 14px; }
+  #q { width: 100%; padding: 8px 10px; font-size: 14px; border: 1px solid var(--border); border-radius: 8px;
+       background: var(--bg); color: var(--ink); outline: none; }
+  #q:focus { border-color: var(--accent); }
+  .book { margin-top: 16px; }
+  .book > .bt { font-weight: 600; font-size: 14px; cursor: pointer; padding: 6px 8px; border-radius: 8px; }
+  .book > .bt:hover { background: var(--accent-soft); }
+  .book .ba { font-size: 12px; color: var(--muted); padding: 0 8px 4px; }
+  .doclist { margin: 2px 0 0; padding: 0; list-style: none; }
+  .doclist li { padding: 4px 8px 4px 18px; font-size: 13px; border-radius: 8px; cursor: pointer; color: var(--ink); }
+  .doclist li:hover { background: var(--accent-soft); }
+  .doclist li.active { background: var(--accent); color: #fff; }
+  .doclist li.aux { color: var(--muted); font-style: italic; }
+  .doclist li.aux.active { color: #fff; }
+  /* main */
+  #main { flex: 1; min-width: 0; padding: 34px 40px 80px; }
+  #doc { max-width: 46em; margin: 0 auto; }
+  #doc h1 { font-size: 27px; line-height: 1.25; margin: 0 0 6px; }
+  #doc h2 { font-size: 20px; margin: 1.8em 0 .5em; border-bottom: 1px solid var(--border); padding-bottom: 5px; }
+  #doc h3 { font-size: 17px; margin: 1.4em 0 .4em; }
+  #doc p, #doc li { margin: 0 0 .75em; }
+  #doc ul, #doc ol { padding-left: 1.4em; }
+  #doc blockquote { margin: 1em 0; padding: 2px 16px; border-left: 3px solid var(--accent); color: var(--muted); }
+  #doc hr { border: 0; border-top: 1px solid var(--border); margin: 2em 0; }
+  #doc code { font: 13px/1.5 Consolas, monospace; background: var(--panel); padding: 1px 5px; border-radius: 5px; }
+  #doc mark { background: var(--mark); color: inherit; padding: 0 2px; border-radius: 3px; }
+  #doc a.int { color: var(--accent); text-decoration: none; border-bottom: 1px dotted var(--accent); cursor: pointer; }
+  .crumb { font-family: 'Segoe UI', system-ui, sans-serif; font-size: 12px; color: var(--muted); margin-bottom: 14px; }
+  .chips { margin: 10px 0 26px; font-family: 'Segoe UI', system-ui, sans-serif; }
+  .chip { display: inline-block; font-size: 11.5px; background: var(--accent-soft); color: var(--accent);
+          border-radius: 999px; padding: 2px 10px; margin: 0 5px 5px 0; cursor: pointer; }
+  .chip:hover { filter: brightness(.93); }
+  /* search results */
+  .sr { max-width: 46em; margin: 0 auto; }
+  .sr h1 { font-size: 21px; }
+  .hit { padding: 12px 14px; border: 1px solid var(--border); border-radius: 10px; margin-bottom: 10px; cursor: pointer; }
+  .hit:hover { border-color: var(--accent); }
+  .hit .where { font-family: 'Segoe UI', system-ui, sans-serif; font-size: 12px; color: var(--accent); margin-bottom: 3px; }
+  .hit .snip { font-size: 14px; color: var(--muted); }
+  .hit .snip mark { background: var(--mark); }
+  @media (max-width: 760px) {
+    #app { flex-direction: column; }
+    #side { width: 100%; height: auto; position: static; }
+    #main { padding: 20px 16px 60px; }
+  }
+</style>
+<div id="app">
+  <nav id="side">
+    <h1>&#128218; Libros Mente</h1>
+    <div class="built" id="built"></div>
+    <input id="q" type="search" placeholder="Search everything&hellip;" autocomplete="off">
+    <div id="nav"></div>
+  </nav>
+  <main id="main"><div id="doc"></div></main>
+</div>
+<script id="data" type="application/json">/*__DATA__*/</script>
+<script>
+const DATA = JSON.parse(document.getElementById('data').textContent);
+const docsById = {};
+DATA.books.forEach(b => b.docs.forEach(d => { d.book = b; docsById[d.id] = d; }));
+document.getElementById('built').textContent = 'built ' + DATA.built;
+
+/* ---------- tiny markdown renderer ---------- */
+function esc(s) { return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+function inline(s) {
+  return s
+    .replace(/`([^`]+)`/g, '<code>$1</code>')
+    .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
+    .replace(/\*([^*\n]+)\*/g, '<em>$1</em>')
+    .replace(/\[([^\]]+)\]\(([^)]+\.md)\)/g, '<a class="int" data-doc="$2">$1</a>')
+    .replace(/\[([^\]]+\.md)\]/g, '<a class="int" data-doc="$1">$1</a>');
+}
+function md(src) {
+  const out = []; let list = null, quote = false;
+  const closeList = () => { if (list) { out.push('</' + list + '>'); list = null; } };
+  const closeQuote = () => { if (quote) { out.push('</blockquote>'); quote = false; } };
+  for (const raw of src.split(/\r?\n/)) {
+    const line = raw.replace(/\s+$/, '');
+    let m;
+    if (!line.trim()) { closeList(); closeQuote(); continue; }
+    if ((m = line.match(/^(#{1,4})\s+(.*)$/))) { closeList(); closeQuote(); out.push('<h' + m[1].length + '>' + inline(esc(m[2])) + '</h' + m[1].length + '>'); continue; }
+    if (/^---+$/.test(line.trim())) { closeList(); closeQuote(); out.push('<hr>'); continue; }
+    if ((m = line.match(/^\s*[-*]\s+(.*)$/))) { closeQuote(); if (list !== 'ul') { closeList(); out.push('<ul>'); list = 'ul'; } out.push('<li>' + inline(esc(m[1])) + '</li>'); continue; }
+    if ((m = line.match(/^\s*\d+\.\s+(.*)$/))) { closeQuote(); if (list !== 'ol') { closeList(); out.push('<ol>'); list = 'ol'; } out.push('<li>' + inline(esc(m[1])) + '</li>'); continue; }
+    if ((m = line.match(/^>\s?(.*)$/))) { closeList(); if (!quote) { out.push('<blockquote>'); quote = true; } out.push('<p>' + inline(esc(m[1])) + '</p>'); continue; }
+    closeList(); closeQuote(); out.push('<p>' + inline(esc(line)) + '</p>');
+  }
+  closeList(); closeQuote();
+  return out.join('\n');
+}
+
+/* ---------- navigation ---------- */
+function docLabel(d) {
+  if (d.type === 'map') return 'Book map';
+  if (d.type === 'glossary') return 'Glossary & people';
+  if (d.type === 'qa') return 'Q&A';
+  if (d.chapter !== null && d.chapter !== undefined) {
+    return (d.chapter === '0' ? 'Intro' : 'Ch ' + d.chapter) + ' — ' + d.title.replace(/^"|"$/g, '');
+  }
+  return d.title;
+}
+function buildNav() {
+  const nav = document.getElementById('nav'); nav.innerHTML = '';
+  DATA.books.forEach(b => {
+    const div = document.createElement('div'); div.className = 'book';
+    const bt = document.createElement('div'); bt.className = 'bt'; bt.textContent = b.title; div.appendChild(bt);
+    const ba = document.createElement('div'); ba.className = 'ba';
+    ba.textContent = b.author + (b.year ? ' · ' + b.year : ''); div.appendChild(ba);
+    const ul = document.createElement('ul'); ul.className = 'doclist';
+    const order = d => d.type === 'map' ? 0 : d.type === 'glossary' ? 90 : d.type === 'qa' ? 91 : 10 + Number(d.chapter || 0);
+    [...b.docs].sort((x, y) => order(x) - order(y)).forEach(d => {
+      const li = document.createElement('li');
+      li.textContent = docLabel(d);
+      if (d.type !== 'chapter') li.classList.add('aux');
+      li.dataset.doc = d.id;
+      li.onclick = () => openDoc(d.id);
+      ul.appendChild(li);
+    });
+    div.appendChild(ul);
+    bt.onclick = () => { const first = b.docs.find(d => d.type === 'map') || b.docs[0]; openDoc(first.id); };
+    nav.appendChild(div);
+  });
+}
+
+/* ---------- doc view ---------- */
+let current = null;
+function openDoc(id, highlight) {
+  const d = docsById[id]; if (!d) return;
+  current = id;
+  location.hash = encodeURIComponent(id);
+  let html = '<div class="crumb">' + esc(d.book.title) + (d.book.author ? ' · ' + esc(d.book.author) : '') + '</div>';
+  html += md(d.body);
+  if (d.concepts && d.concepts.length) {
+    html += '<div class="chips">' + d.concepts.map(c => '<span class="chip" data-c="' + esc(c) + '">' + esc(c) + '</span>').join('') + '</div>';
+  }
+  const el = document.getElementById('doc');
+  el.innerHTML = html;
+  document.querySelectorAll('#nav .doclist li').forEach(li => li.classList.toggle('active', li.dataset.doc === id));
+  el.querySelectorAll('a.int').forEach(a => a.onclick = () => {
+    const ref = a.dataset.doc.replace(/\.md$/, '');
+    const target = ref.includes('/') ? ref : d.book.id + '/' + ref;
+    openDoc(target);
+  });
+  el.querySelectorAll('.chip').forEach(ch => ch.onclick = () => {
+    const gl = d.book.docs.find(x => x.type === 'glossary');
+    if (gl) openDoc(gl.id, ch.dataset.c.replace(/-/g, ' '));
+  });
+  window.scrollTo(0, 0);
+  if (highlight) {
+    const rx = new RegExp('(' + highlight.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'i');
+    for (const p of el.querySelectorAll('p, li, h2, h3')) {
+      if (rx.test(p.textContent)) {
+        p.innerHTML = p.innerHTML.replace(rx, '<mark>$1</mark>');
+        p.scrollIntoView({ block: 'center' });
+        break;
+      }
+    }
+  }
+}
+
+/* ---------- search ---------- */
+const q = document.getElementById('q');
+q.addEventListener('input', () => {
+  const term = q.value.trim();
+  if (term.length < 2) { if (current) openDoc(current); return; }
+  const needle = term.toLowerCase();
+  const hits = [];
+  for (const b of DATA.books) for (const d of b.docs) {
+    const body = d.body.toLowerCase();
+    let idx = body.indexOf(needle), n = 0;
+    while (idx !== -1 && n < 3) {
+      const s = Math.max(0, idx - 70), e = Math.min(d.body.length, idx + needle.length + 90);
+      hits.push({ d, snip: d.body.slice(s, e).replace(/\s+/g, ' ') });
+      n++; idx = body.indexOf(needle, idx + needle.length);
+    }
+    if (hits.length > 60) break;
+  }
+  const rx = new RegExp('(' + term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'gi');
+  document.getElementById('doc').innerHTML =
+    '<div class="sr"><h1>' + hits.length + ' match' + (hits.length === 1 ? '' : 'es') + ' for “' + esc(term) + '”</h1>' +
+    hits.map((h, i) => '<div class="hit" data-i="' + i + '"><div class="where">' + esc(h.d.book.title) + ' → ' + esc(docLabel(h.d)) +
+      '</div><div class="snip">…' + esc(h.snip).replace(rx, '<mark>$1</mark>') + '…</div></div>').join('') + '</div>';
+  document.querySelectorAll('.hit').forEach(el => el.onclick = () => { q.value = ''; openDoc(hits[+el.dataset.i].d.id, term); });
+});
+
+/* ---------- boot ---------- */
+buildNav();
+const start = location.hash ? decodeURIComponent(location.hash.slice(1)) : null;
+if (start && docsById[start]) openDoc(start);
+else { const b0 = DATA.books[0]; openDoc((b0.docs.find(d => d.type === 'map') || b0.docs[0]).id); }
+</script>
