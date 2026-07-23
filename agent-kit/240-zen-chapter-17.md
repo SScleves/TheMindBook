@@ -1,0 +1,87 @@
+---
+book: zen-motorcycle
+chapter: 18
+title: "17"
+part: "Part III"
+concepts: [quality, chautauqua, church-of-reason, corruption-and-decay-in-the-church-of-reason, refusal-to-define, aspects-of-quality, unity, authority, outline, footnotes, ego-climbing, selfless-climbing, ego-goals, crystallization, waves-of-crystallization, mountain-climbing-without-desire, quality-rankings-exercise]
+people: [the-narrator, chris, phaedrus, chris-mother, phaedrus-students, cromwell, ymca-camp-counselors, holy-man, shiva]
+---
+# 17
+
+## In one paragraph
+Chapter 17 interleaves the hardest stretch yet of the narrator and Chris's mountain climb with the story of how Phaedrus's classroom concept of Quality first took hold. On the trail, Chris flags badly; the narrator revives him with an old story about a bull moose encounter with Chris's mother at timberline, then coaches him to climb slowly, "with as little effort as possible and without desire." The Chautauqua recounts Phaedrus's explosive first class after the "What is quality in thought and statement?" assignment, his blackboard "definition" that was really a refusal to define, his show-of-hands and paper-ranking demonstrations that students already know Quality, and the transformation of rhetoric texts from resented rules into techniques for producing Quality. The narrator marks this as the start of Phaedrus's "crystallization" — waves of thought expanding concentrically from Quality at the center. The chapter closes by diagnosing Chris's trouble through Phaedrus's letter about a failed pilgrimage to Mount Kailas: the contrast between ego-climbing and selfless climbing.
+
+## Core claims
+- The narrator claims mountains should be climbed with as little effort as possible and without desire, in an equilibrium between restlessness and exhaustion, with the reality of your own nature determining the speed.
+- He argues that living only for some future goal is shallow: "It's the sides of the mountain which sustain life, not the top" — yet concedes that without the top you can't have any sides; the top defines the sides.
+- Phaedrus told his class he genuinely could not define quality either and really wanted to know — the students' outrage at being used to actually seek truth was, he said, a measure of the corruption of the Church of Reason, where you were supposed to fake the search for truth, not conduct it.
+- Phaedrus claimed there is such a thing as Quality, but as soon as you try to define it, something goes haywire — you can't do it.
+- The narrator points out that Phaedrus's blackboard "definition" was formally completely irrational: if you can't define something you have no formal rational way of knowing it exists, and there is no formal difference between inability to define and stupidity.
+- Phaedrus nonetheless insisted — and demonstrated — that even though Quality cannot be defined, "you know what Quality is!"
+- The narrator says Phaedrus knew this was intellectually outrageous — he wasn't teaching anymore, he was indoctrinating — and got away with it because logical refutation required more talent than any student had; he continually invited refutations and none came.
+- Once students accepted that they knew Quality, the standard rhetoric texts "came into their own": rules became techniques, gimmicks, for producing what stood independently of them — Quality — and a heresy from traditional rhetoric turned into a beautiful introduction to it.
+- By answering the eternal "How do I do this?" with "It doesn't make a bit of difference how you do it! Just so it's good," Phaedrus trapped students into making quality judgments for themselves — "and it was just exactly this and nothing else that taught him to write."
+- Separately, by reversing the basic rule that all things to be taught must first be defined, Phaedrus found a way out of forcing students into the artificial, uncreative conformity the academic system had previously compelled from him.
+- The narrator claims any effort with self-glorification as its final endpoint is bound to end in disaster: proving yourself creates a false image that must be filled again and again, haunted by fear of exposure.
+- Phaedrus got as far as he did with Quality because he deliberately refused to look outside the immediate classroom experience — the narrator applies Cromwell's line, "No one ever travels so high as he who knows not where he is going."
+- Because of Phaedrus's past despair over abstract questions of existence, the question "What is Quality?" spread out for him like waves in all directions simultaneously — not hierarchically but concentrically, with Quality at the center — the beginning of his crystallization.
+- The narrator argues ego-climbing and selfless climbing look identical to the untrained eye but differ completely: the ego-climber is "here but he's not here," imagines his goal as external and distant, and rejects the very thing he wants, which is all around him.
+
+## Concepts
+**Quality** — Phaedrus's blackboard statement: "Quality is a characteristic of thought and statement that is recognized by a nonthinking process. Because definitions are a product of rigid, formal thinking, quality cannot be defined." He held both that Quality exists and that any attempt to define it makes something "go haywire" — yet that everyone knows what it is.
+
+**Refusal to define** — The narrator's name for what Phaedrus's "definition" actually was. Formally it is completely irrational: if you can't define something you have no formal rational way of knowing it exists, and "there is, in fact, no formal difference between inability to define and stupidity." Yet by reversing the rule that things taught must first be defined, Phaedrus found his way out of forcing students into artificial forms.
+
+**Chautauqua** — The narrator's ongoing traveling lecture, here offered "for entertainment" on the climb; he remarks that mental reflection is so much more interesting than TV it's a shame more people don't switch over to it.
+
+**Church of Reason / "Corruption and Decay in the Church of Reason"** — Phaedrus's theme, returned to when students rioted at his assignment: it measured the corruption of the institution that students should be outraged by someone trying to use them to seek the truth; the search for truth was supposed to be faked, imitated.
+
+**Aspects of Quality** — Qualities of writing Phaedrus singled out — unity, vividness, authority, economy, sensitivity, clarity, emphasis, flow, suspense, brilliance, precision, proportion, depth "and so on" — each kept as poorly defined as Quality itself but demonstrated by class reading.
+
+**Unity** — An aspect of Quality: "the hanging-togetherness of a story," improvable with a technique called an outline.
+
+**Authority** — An aspect of Quality of an argument, which "could be jacked up with a technique called footnotes, which gives authoritative reference."
+
+**Outlines and footnotes** — Standard freshman-composition devices that, recast as techniques for improving Quality, "had a purpose"; rote use could now be judged worthless for missing the goal of Quality even while fulfilling the letter of the assignment.
+
+**Crystallization / waves of crystallization** — The narrator's image for the second phase of Phaedrus's exploration of Quality: because of his past, the question spread out "like waves in all directions simultaneously, not in a hierarchic structure, but in a concentric one," with Quality at the center generating the waves; the expected shore of existing thought patterns was never reached until the end, if at all.
+
+**Ego-climbing** — Climbing (or any effort) with self-glorification as the endpoint. The ego-climber is like an instrument out of adjustment: mistimed steps, rests at odd times, talk forever about somewhere else; "he's here but he's not here," and every step is an effort because he imagines his goal to be external and distant.
+
+**Selfless climbing** — Its outward twin and inward opposite, exemplified by the Kailas pilgrims who sensed the mountain's holiness so intensely that each footstep was an act of devotion and submission, which enabled them to endure more than Phaedrus's greater physical strength could.
+
+**Climbing without desire** — The narrator's method: as little effort as possible, speed set by the reality of your own nature (speed up when restless, slow down when winded), so that each footstep becomes "a unique event in itself" rather than a means to an end.
+
+## Experiments, examples & case studies
+- **Chris's exhaustion on the mountainside.** Chris sits under a tree, flushed and distant, afraid he may not be able to climb the mountain at all. The narrator distracts him with a story, feeds him cheese cut with his hunting knife, and coaches him: too fast → winded → dizzy → weakened spirit → "I can't do it." Chris insists on staying behind, then later, with defiant effort, works his way around the narrator and pulls ahead, stumbling and letting branches tear at him — the live illustration of ego-climbing.
+- **The bull moose story.** Years ago, at timberline near a lake with a marsh, the narrator and Chris's mother woke at dawn to squishing and "GALOOMPH" sounds: the biggest bull moose he ever saw — horns as wide as a man is tall, "next to the grizzly the most dangerous animal in the mountains" — came straight at them through the muck. He cocked his .38 Special (knowing it wasn't much for a moose); the moose stopped three yards away, gunsights between its eyes, looked at him, at the sleeping mother, back at him — then "smiled and slowly walked away." Later that day a "great big brown boulder" they were about to jump on turned out to be the same moose running off. Told to pull Chris out of his fear.
+- **Phaedrus's first class after the Quality assignment.** The atmosphere was explosive — "You're supposed to tell us!" — and his admission that he couldn't figure it out either ignited a roar of indignation loud enough that another teacher looked in. Phaedrus: "We just accidentally stumbled over a genuine question, and the shock is hard to recover from." One student sat up all night; a girl was ready to cry with anger. Some students dawned to the fact that he wasn't playing games — "a most peculiar person." Friendly answers in later classes that day showed the first class had been discussed at lunch.
+- **The blackboard definition.** A few days later he posted his non-definition of Quality "for posterity," then wrote below it: "But even though Quality cannot be defined, you know what Quality is!" — restarting the storm ("Oh, no, we don't!" / "Oh, yes, you do!").
+- **The two-compositions demonstration.** He read two student pieces: one rambling and disconnected with ideas that never built into anything, and one magnificent piece whose own author was mystified about why it came out so well. Show of hands: 2 votes for the first, 28 for the second. "Whatever it is that caused the overwhelming majority to raise their hands for the second one is what I mean by Quality. So you know what it is." Long reflective silence.
+- **The four-paper ranking routine.** He read four student papers per class, had everyone rank them by Quality on slips, tallied and averaged the class ranking on the blackboard, then revealed his own — almost always close to or identical with the class average; differences usually meant two papers were close in quality. Classes were excited at first, then bored: what he meant was obvious, and the question shifted to "All right, we know what Quality is. How do we get it?"
+- **Rhetoric texts reborn.** With Quality established, unity/outlines and authority/footnotes became purposeful techniques; rote work could be called worthless despite fulfilling the letter of an assignment. To "How do I do this?" he could now answer, "It doesn't make a bit of difference how you do it! Just so it's good" — and other students would supply "You just see it." Students who "used to just hate English" came to his office saying they now spent more time on it than anything else — "Not just one or two. Many."
+- **The YMCA camp.** Chris attended for two weeks just before the trip; per the narrator it made "a big ego thing" of the outdoors — a proof-of-manhood program starting in a lowly class ("original sin") followed by a series of accomplishments (swimming, rope tying, a dozen he's forgotten). The narrator blames this ego-goal motivation, effective in the short run but ultimately destructive, for Chris's present trouble.
+- **Phaedrus's Mount Kailas pilgrimage.** In a letter from India, Phaedrus described joining a holy man and his adherents on a pilgrimage to holy Mount Kailas — source of the Ganges and abode of Shiva, high in the Himalayas. He gave up exhausted after the third day and the pilgrimage went on without him. He had the physical strength and intellectual motivation, but was using the mountain and the pilgrimage for his own purposes, regarding himself as the fixed entity — and thus wasn't ready. The pilgrims who arrived, he speculated, made each footstep an act of devotion; the mountain's holiness infused their spirits and let them endure more than he could.
+
+## Key quotes
+- "Mountains should be climbed with as little effort as possible and without desire." — the narrator's climbing instruction, opening the chapter's method-of-travel theme.
+- "To live only for some future goal is shallow. It's the sides of the mountain which sustain life, not the top. Here's where things grow." — immediately qualified: "without the top you can't have any sides."
+- "We just accidentally stumbled over a genuine question, and the shock is hard to recover from." — Phaedrus to a teacher investigating the uproar in his classroom.
+- "You were supposed to fake this search for the truth, to imitate it. To actually search for it was a damned imposition." — his diagnosis of corruption in the Church of Reason.
+- "I think there is such a thing as Quality, but that as soon as you try to define it, something goes haywire. You can't do it." — Phaedrus's first spoken answer to his own question.
+- "Quality is a characteristic of thought and statement that is recognized by a nonthinking process. Because definitions are a product of rigid, formal thinking, quality cannot be defined." — the blackboard definition-that-refuses.
+- "There is, in fact, no formal difference between inability to define and stupidity. When I say, 'Quality cannot be defined,' I'm really saying formally, 'I'm stupid about Quality.'" — the narrator's formal critique of the move.
+- "He wasn't teaching anymore, he was indoctrinating." — the narrator's frank assessment of the two-compositions demonstration.
+- "The student was finally and completely trapped into making quality judgments for himself. And it was just exactly this and nothing else that taught him to write." — the pedagogical payoff.
+- "No one ever travels so high as he who knows not where he is going." — Cromwell's statement, applied to Phaedrus's refusal to look outside the classroom.
+- "Any effort that has self-glorification as its final endpoint is bound to end in disaster." — the narrator on the YMCA camp's ego motivation.
+- "He's here but he's not here. He rejects the here, is unhappy with it, wants to be farther up the trail but when he gets there will be just as unhappy because then it will be 'here.'" — the portrait of the ego-climber, and the diagnosis of Chris.
+
+## Thread
+This chapter delivers the payoff of the classroom crisis built in Part III's preceding chapters: the "What is quality in thought and statement?" assignment that infuriated Phaedrus and his students becomes, through the refusal to define and the ranking demonstrations, a working pedagogy that fills the vacuum left by the withheld grades and finally puts "that mysterious, individual, internal goal of each creative person, on the blackboard at last." The narrator explicitly flags the transition: this is "the beginning of the crystallization that I talked about before," and he announces he will now follow "these waves of crystallization, the second phase of his exploration into quality" — setting up the metaphysical expansion of the coming chapters, since an irrational method that works demands an explanation ("Why should an irrational method work when rational methods were all so rotten?"). In parallel, the narrative layer turns the physical climb into a lived parable: Chris's ego-driven struggle, the YMCA critique, and the Kailas letter braid the mountain and the Quality inquiry into one lesson about goal-directed versus present-centered effort, ending on "That seems to be Chris's problem now."
+
+## Connections
+- Follows the assignment crisis and grades experiment recounted in units 16-17 (chapters 15-16), where the Quality question was born and the classroom vacuum created; the "crystallization" the narrator says he "talked about before" points back there.
+- Sets up the "second phase" — the waves of crystallization — pursued in the subsequent Part III units (19 onward), where Phaedrus asks why the irrational method works and Quality expands beyond rhetoric.
+- The Church of Reason theme continues from Phaedrus's Bozeman teaching story earlier in the book (Part II/III units).
+- The ego-climbing vs. selfless climbing distinction anticipates the book's later treatment of gumption and being present with the work, and the mountain narrative continues into the next chapters of the climb with Chris.

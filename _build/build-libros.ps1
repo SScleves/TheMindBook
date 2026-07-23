@@ -13,7 +13,7 @@ $bookMeta = @{
     'my-big-toe' = @{ title = 'My Big TOE'; author = 'Thomas Campbell'; year = '2007' }
     'zen-motorcycle' = @{ title = 'Zen and the Art of Motorcycle Maintenance'; author = 'Robert M. Pirsig'; year = '1974' }
     'american-cosmic' = @{ title = 'American Cosmic'; author = 'D.W. Pasulka'; year = '2019' }
-    'dark-psychology' = @{ title = 'Dark Psychology and Manipulation'; author = 'William Cooper'; year = '' }
+    'dark-psychology' = @{ title = 'Dark Psychology and Manipulation'; author = 'William Cooper'; year = '2024' }
     'sekret-machines-war' = @{ title = 'Sekret Machines 3: War'; author = 'DeLonge & Levenda'; year = '2024' }
 }
 

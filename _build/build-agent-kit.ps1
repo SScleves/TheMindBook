@@ -7,7 +7,16 @@ $notes = Join-Path $root 'notes'
 New-Item -ItemType Directory -Force $kit | Out-Null
 
 # short prefix per book folder (add when a new book is processed)
-$bookPrefix = @{ 'holographic-universe' = 'hu'; 'simulation-hypothesis' = 'sh' }
+$bookPrefix = @{
+    'holographic-universe'  = 'hu'
+    'simulation-hypothesis' = 'sh'
+    'my-big-toe'            = 'mbt'
+    'power-of-now'          = 'pon'
+    'american-cosmic'       = 'ac'
+    'zen-motorcycle'        = 'zen'
+    'dark-psychology'       = 'dp'
+    'sekret-machines-war'   = 'smw'
+}
 
 Get-ChildItem $kit -Filter '*.md' | Where-Object { $_.Name -ne '00-instructions.md' } | Remove-Item -Force
 $n = 1

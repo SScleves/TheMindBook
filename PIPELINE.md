@@ -93,19 +93,37 @@ Decision 2026-07-22: remaining work runs on Opus at effort high — including
 synthesis (no more xhigh). The templates in this file are the quality carrier;
 the verification stage backstops the model change.
 
-simulation-hypothesis is DONE (2026-07-23): synthesis (00-map, 90-glossary =
-373 entries, 91-qa = 69 pairs) written, both builds run (site 2 books/33 docs;
-agent-kit 34 files with the 'sh' prefix added to $bookPrefix), committed +
-pushed (Pages auto-deploys). NOTE: the glossary's synthesis subagent died on a
-monthly-spend-limit mid-run; the glossary was written directly this session
-from a frontmatter+Concepts extract of all 17 notes — same specs, no loss.
-Still TODO: re-upload the changed agent-kit files (all sh-*) to the claude.ai
-Project as knowledge.
+ALL EIGHT BOOKS ARE DONE (2026-07-24). my-big-toe (93 units), power-of-now (10),
+american-cosmic (11), zen-motorcycle (36), dark-psychology (37), and
+sekret-machines-war (19) all completed stages 1-6 this session, joining
+holographic-universe and simulation-hypothesis. Site = 8 books / 257 docs;
+agent-kit = 258 files (prefixes hu/sh/mbt/pon/ac/zen/dp/smw). Committed + pushed
+(Pages auto-deploys).
 
-Next book: my-big-toe (stages 1-6 per book). It is a trilogy — treat each
-sub-book's parts as chapters. Then power-of-now (practice template),
-american-cosmic, zen-motorcycle, dark-psychology, sekret-machines-war
-(fiction template). EPUBs: C:\Libros Mente\ (this machine only).
+How it ran (for the record):
+- Split: my-big-toe via _build/split-mbt.ps1 (chapters are h3.calibre22 headings
+  in the Calibre trilogy EPUB; 92 ch + front matter). power-of-now via
+  _build/split-pon.ps1. The other four via parallel "librarian" subagents.
+  sekret-machines-war is NONFICTION (history/essays), not a novel — argument
+  template.
+- Notes + verification: a Workflow pipeline (one agent per unit writes the note,
+  then an adversarial verifier per unit). Began on Fable; hit a FABLE-SPECIFIC
+  monthly spend cap mid-run, so switched all note/verify agents to Sonnet
+  (Opus/Sonnet unaffected). A "finish" workflow then wrote only the still-missing
+  notes + verified ALL units. One note (mbt ch65) tripped a content-filter
+  false-positive at the note stage; recovered by the verifier's
+  write-note-from-scratch fallback.
+- Synthesis: 3 Opus agents per book (map / glossary / qa), reusable wf-synth.
+- Gotcha: C:\Repos\libros-mente was a junction to C:\Repos\personal\TheMindBook
+  and was removed mid-session by the C:\Repos reorg. The real repo path is
+  C:\Repos\personal\TheMindBook. (Scratch workflow scripts live in this session's
+  scratchpad: wf-finish.mjs, wf-synth.mjs.)
+
+Still TODO (human): re-upload the new/changed agent-kit files to the claude.ai
+Project as knowledge (all mbt-/pon-/ac-/zen-/dp-/smw-* plus last session's sh-*).
+Optional: none of the 6 new books had a second human proof-read — spot-check if
+desired. Site v2 (interactive layer) from the roadmap is still open.
+EPUBs: C:\Libros Mente\ (this machine only).
 
 ## Status board
 
@@ -113,12 +131,12 @@ american-cosmic, zen-motorcycle, dark-psychology, sekret-machines-war
 |---|---|---|---|---|---|
 | holographic-universe | done (OCR path) | 10/10 (397 examples) | 10/10, zero major | map+glossary(207c/332p)+qa(70) | yes |
 | simulation-hypothesis | done (17 units: foreword+15ch+FAQ) | 17/17 (~493 examples) | 17/17, zero major (all MINOR/CLEAN) | map+glossary(373 entries)+qa(69) | yes |
-| my-big-toe | pending (trilogy — split per book-within-book) | — | — | — | — |
-| power-of-now | pending (practice-book template) | — | — | — | — |
-| american-cosmic | pending | — | — | — | — |
-| zen-motorcycle | pending (novel/philosophy hybrid template) | — | — | — | — |
-| dark-psychology | pending | — | — | — | — |
-| sekret-machines-war | pending (fiction template) | — | — | — | — |
+| my-big-toe | done (93 units: trilogy, 92 ch + front; split-mbt.ps1) | 93/93 (Fable + 29 Sonnet) | 93/93 verified (Sonnet adversarial) | map+glossary+qa | yes |
+| power-of-now | done (10 units: intro + 9 ch; split-pon.ps1) | 10/10 (Fable) | 10/10 verified (Sonnet) | map+glossary+qa | yes |
+| american-cosmic | done (11 units: preface+intro+7ch+concl+glossary) | 11/11 (Fable) | 11/11 verified (Sonnet) | map+glossary+qa | yes |
+| zen-motorcycle | done (36 units: intro+32ch+afterword+note) | 36/36 (Fable+Sonnet) | 36/36 verified (Sonnet) | map+glossary+qa | yes |
+| dark-psychology | done (37 units: intro+34ch+bonus+concl) | 37/37 (Fable+Sonnet) | 37/37 verified (Sonnet) | map+glossary+qa | yes |
+| sekret-machines-war | done (19 units: NONFICTION history + endnotes) | 19/19 (Fable+Sonnet) | 19/19 verified (Sonnet) | map+glossary+qa | yes |
 
 Audio-only (no text in collection): Maps of Meaning, The Tibetan Book of
 Living and Dying, The Holographic Universe audiobook (text done from EPUB),

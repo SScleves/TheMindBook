@@ -1,0 +1,758 @@
+---
+book: sekret-machines-war
+type: glossary
+title: "Sekret Machines Book 3: War — Glossary & People Index"
+---
+
+# Glossary
+
+Legend: Chapter pointers use each source note's frontmatter `chapter:` number (the knowledge-base unit number), which is not always the book's own printed chapter number. Units 1–4 are front matter (dedications, Tom's and Peter's acknowledgments, preface); unit 5 is the Introduction ("Welcome to the War Room"); units 6–16 are the main chapters; unit 17 is the Afterword ("The Alien in the Panopticon"); unit 18 is the Bibliography; unit 19 is the Endnotes. (There is no unit 0.) All definitions are the book's own, attributed where apt; the authors are Tom DeLonge & Peter Levenda ("the authors").
+
+- **AATIP (Advanced Aerospace Threat Identification Program)** — The Pentagon program focused on UAPs that Lue Elizondo ran and whose existence he revealed; its December 2017 exposure (with the Navy videos) made Ufology's "fantasy world" real. Chapters: 4, 12, 13. Related: To The Stars, disclosure.
+- **Abyss / Da'ath** — On the Kabbalistic Tree of Life, the empty realm between the lower and upper spheres; Da'ath ("Knowledge") is, per Parsons, "the only real and true knowledge," stripped of form and illusion, crossed via the Oath of the Abyss. Chapters: 7. Related: Oath of the Abyss, Ordo Templi Orientis.
+- **Acámbaro figurines** — Clay figurines from Acámbaro, Mexico, taken to suggest humans and dinosaurs coexisted; the town where Puharich "accidentally" met the Laugheads. Chapters: 10, 19. Related: the Nine.
+- **ad astra / ad astra per aspera ("to the stars" / "through hardship to the stars")** — The dedication page's shared sign-off ("Ad Astra!") and the Latin motto the teenaged Parsons adopted for rocketry and love alike, for whom success in love, rocketry, and magic were identified. Chapters: 1, 7. Related: To The Stars.
+- **Aeon of Horus** — Per Parsons's Book of Babalon, the coming New Aeon of "the Child, 'undifferentiated.'" Chapters: 7. Related: Babalon Working, Thelema.
+- **Agape Lodge** — The California OTO lodge Parsons joined February 15, 1941, becoming its master by 1943 and moving it to Pasadena; site of the Gnostic Mass and the sci-fi/occult salon. Chapters: 7. Related: Ordo Templi Orientis, Gnostic Mass.
+- **Agni Yoga** — A Roerich-associated esoteric system referenced in Joyce Borden Baloković's Theosophical writings. Chapters: 10. Related: Theosophy.
+- **Ahnenerbe (SS-Ahnenerbe)** — Himmler's "ancestral heritage research" division: intellectuals pursuing ancient civilizations, paganism, occultism, runes, the Grail, and reincarnation; the authors' prime exhibit for the SS fusion of science and occult ideology. Chapters: 8, 12. Related: Wewelsburg, race science.
+- **Alien, the** — The intelligence behind the Phenomenon, "whatever it is": an adversary with no discernible origin, homeland, language, or known vulnerability, which the authors argue reacts to human weapons systems, not to human culture or religion. Chapters: 4, 8, 14, 15, 16, 17. Related: the Phenomenon, sekret machines.
+- **Alien gaze** — The authors' phrase for the Others' presumed total observational capability, against which even the best human cryptography is "as thin as parchment." Chapters: 16. Related: panopticon, SIGINT/ELINT/HUMINT.
+- **Alien invasion theory** — The two-sided popular theory (evil aliens with designs on Earth vs. benevolent saviors); the authors argue "both positions are equally wrong." Chapters: 12, 14, 16. Related: fifth column, alien self-interest.
+- **Alien-Nazi alliance** — The theory (probed as a diagnostic mirror, not endorsed) that the villain-with-acumen Nazi is a "natural ally" of the Alien; the authors note the Nazis would share power only with a perceived equal and that any real contact "didn't amount to much." Chapters: 8. Related: alien self-interest, Nazi-UFO hypothesis.
+- **Alien origin conjecture** — The authors' argument that the popular assumption the Alien hails from another planet is "pure conjecture," resting on thin contactee testimony, and that it may instead come "from somewhere within our own environment." Chapters: 15. Related: ultraterrestrial, extraterrestrial hypothesis.
+- **Alien self-interest** — The authors' thesis that any Alien-human relationship is predicated on the Alien's self-interest and on technology, not morality: it watched Peenemünde and Auschwitz with equal indifference. Chapters: 8. Related: alien-Nazi alliance, misdirection hypothesis.
+- **Alienism** — The authors' coinage, modeled on Said's Orientalism: the Ufological habit of making the "alien" a screen for "our worst fears, our most hopeful dreams, or an expression of our colonial anxieties." Chapters: 12. Related: Orientalism.
+- **Allende letters** — Three weirdly formatted 1956 letters to Jessup from "Carlos Miguel Allende"/"Carl M. Allen," mixing antigravity, ancient levitation, and the Philadelphia Experiment story, with enough verifiable detail to unsettle. Chapters: 11. Related: Philadelphia Experiment, Varo edition.
+- **Allied Enterprises** — The Parsons–Hubbard yacht-trading company through which Hubbard swindled Parsons of his life savings. Chapters: 7. Related: Babalon Working.
+- **America as a haunted house** — The authors' figure (carried from earlier writing) that America is haunted by the civilizations that preceded the Europeans; extended to ask whether the whole planet is a haunted house, and whether that is humanity's status among the Aliens. Chapters: 14, 15. Related: ghost in the machine.
+- **Ancient alien / ancient astronaut hypothesis** — The idea of humans as beings engineered by Aliens; the authors aim to strip it "of much of its charlatanism and poor science" to reveal a more profound core. Chapters: 7, 10. Related: vimanas, Nazca lines.
+- **Anomalous Aerial Vehicles (AAV)** — The US Navy's official term for what are commonly called UFOs/UAPs, used in the Nimitz incident. Chapters: 16. Related: Tic Tacs, UAP/UFO.
+- **Antichrist / "Manifesto of the Anti-Christ"** — Parsons's short 1949 treatise, written after a vision from Babalon revealed he was the Antichrist; political as well as mystical, attacking Christianity, governments, police, and courts. Chapters: 7. Related: Babalon Working.
+- **Antigravity propulsion** — The goal of the Levetzow–Pinkell research line; per rumor, tested at a secret Urals facility c. 1938, with the Russians allegedly flying a saucer-shaped antigravity vehicle by 1947. Chapters: 8, 9. Related: Levetzow gravity-shielding theory, tachyon, Gravity Research Foundation.
+- **Apocalyptic utterances / warnings** — The uniformly negative warnings (coming war, ecological ruin) reported by contactees, which the authors compare to Biblical prophecy as evidence that religion and the Phenomenon are "the same type of event." Chapters: 6. Related: close encounter of the third kind, experiencers.
+- **Apport** — The movement or sudden appearance of an object with no visible transfer medium; demonstrated by the séance's nine cotton threads and offered as one possible model for UFOs (machines appearing and vanishing) suggesting interdimensional travel. Chapters: 10. Related: interdimensionality, the Nine.
+- **Arcane School** — A Theosophy-derived esoteric organization referenced in the channeled-instruction lineage. Chapters: 10. Related: Theosophy, ascended masters.
+- **Area 51** — The secret Nevada test site; the CIA admitted some of its spy aircraft were allowed to be identified as UFOs, a model for how a covert craft program could hide. Chapters: 8, 9. Related: special access program.
+- **Argenteum Astrum (A∴A∴, "Silver Star")** — The society Crowley founded in 1907 after leaving the Golden Dawn, named to emphasize "its off-planet characteristics"; Crowley claimed contact with the same secret chiefs. Chapters: 7. Related: Ordo Templi Orientis, secret chiefs.
+- **Ars erotica / scientia sexualis** — Foucault's paired terms: the older pleasure-centered "erotic art" versus the clinical, reproductive, state/science-controlled "science of sexuality"; the authors read abduction accounts as a shift into scientia sexualis. Chapters: 17. Related: confession, panopticon.
+- **Aryan Theosophical Society** — Founded 1883 in New York City by William Q. Judge, a Blavatsky follower; credited by the authors as an institutional link between Theosophy and later Nazi racial/eugenic ideology. Chapters: 17. Related: Theosophy, eugenics.
+- **ATFLIR (AN/ASQ-228 Advanced Targeting Forward-Looking Infrared)** — Raytheon's sensor pod used by the F/A-18F Super Hornets to record the Tic Tac "FLIR video." Chapters: 16. Related: Nimitz Tic Tac encounter.
+- **Autodidact** — The self-taught, eccentric learner (Parsons, Reimar Horten) who builds "a weird kind of mental structure" outside accepted narratives; a temperament central to Parsons's fusion of rocketry and magic. Chapters: 7.
+- **Babalon Working** — Parsons's 1946 Mojave Desert ritual (with Hubbard) to contact nonhuman entities and create a "hybrid" creature — "a bit like an alien abduction scenario but in reverse"; the root of the claim that Parsons opened a "hole in the ether" and "something flew in." Chapters: 7. Related: Book of the Law, two-way contact.
+- **Belokoroviche incident (October 4, 1982)** — At a Soviet-Ukrainian nuclear missile base, a ~900-foot disk hovered nearly an hour and lit the control panels to signal imminent launch of all missiles, then reset and aborted the sequence — all safeguards "bypassed at once by an outside source." Chapters: 13. Related: summoning UFOs, Nimitz Tic Tac encounter.
+- **Bicameral mind (uneven development)** — The authors' closing diagnosis that after millennia "we are still fighting over religion," an unevenness of mind that "may be this very vulnerability that the Phenomenon exploits." Chapters: 9. Related: PSYOP, weapons of consciousness.
+- **Biological fields / ESP mechanism** — The Soviet (and Chinese) theory that the body radiates readable/writable infrared, magnetic, acoustic, and bioluminescent fields, making it "not only a receiver of data but a transmitter" — the proposed physical basis of ESP. Chapters: 13. Related: psychotronics, ELF waves.
+- **Birtherism** — The Tea Party conspiracy theory against Obama, cited in the American panic lineage. Chapters: 13. Related: Pizzagate/QAnon, Protocols of the Learned Elders of Zion.
+- **Black Pilgrimage** — Parsons's rituals begun October 31, 1948 "in response to a summons by Babalon": forty days of visions reviewing his past lives and their errors. Chapters: 7. Related: Oath of the Abyss.
+- **Blanche DuBois rule** — The authors' coinage (dated "from 1947") for humanity's only posture toward the Alien: unable to fight, invade, or negotiate, all we can do is "depend on the kindness of strangers." Chapters: 14. Related: probes vs training, peace treaty.
+- **Blind men and the elephant** — The authors' figure for the field's epistemic condition: every discipline touches part of the Phenomenon, none grasps the whole (an "elephant" that "keeps changing shape"). Chapters: 5, 16. Related: intersectionality, multivalent.
+- **Blood libel** — The weaponized lie against Jews by the Tsarist government and Christian communities, cited as precedent for state-manufactured fantasy. Chapters: 13. Related: Protocols of the Learned Elders of Zion.
+- **Bondage and discipline / S&M framing** — The authors' characterization of abduction sexuality: a "strong S & M element" (human as slave, Alien as master) and bondage-and-discipline, the subject restrained, paralyzed, forced to orgasm in the abductors' laboratory. Chapters: 17. Related: hybrid program, alien abduction as psychological warfare.
+- **Book of Babalon** — Parsons's text (in his Collected Writings) introducing the New Aeon as the "Aeon of the Child." Chapters: 7, 19. Related: Babalon Working, Aeon of Horus.
+- **Book of the Law** — The scripture from Crowley's 1904 Cairo encounter "with an entity not of this world," made the OTO's foundational text; Marjorie Cameron linked her 1946 UFO to its "I will give you a war-engine." Chapters: 7. Related: Thelema, Ordo Templi Orientis.
+- **Brahmin / Upanayanam / second birth** — Per the entity "R.," a Brahmin is "a person dedicated to Brahman," made so by the sacred thread (a "second birth") in the Upanayanam ceremony; the séance's aim "to create Brahmins" the authors call insidious given the caste is hereditary. Chapters: 10. Related: Yadnyobavita, the Nine.
+- **Brainwashing / mind-control programs (Bluebird, Artichoke, Often, MK-ULTRA)** — CIA/military programs born of Korean War "brainwashing" fear, using hypnosis, drugs, and conditioning; per Helms's testimony abandoned as "twenty years of pointless research." Chapters: 5, 12, 13, 15. Related: depatterning, the third possibility.
+- **Breadcrumbs** — DeLonge's metaphor for the partial pieces of information his anonymous government sources provide: not the whole truth, but "breadcrumbs that point to the larger story." Chapters: 2. Related: collaborators in the shadows, the larger story.
+- **Brotherhood of the Seven Rays** — The spiritual order George Hunt Williamson founded in Peru (1956) as "Brother Philip"; the authors' candidate for the Laugheads' South American "mystery school." Chapters: 10. Related: Sananda, rejected knowledge.
+- **CAP (Combat Air Patrol) coordinates** — Classified, computer-generated, encrypted fighter staging coordinates; the Tic Tac's foreknowledge of them is offered as evidence of intelligence "bordering on consciousness and precognition." Chapters: 14, 16. Related: Nimitz Tic Tac encounter, transmedium capability.
+- **CARET documents** — A recent hoax of "alien" alphabets and vehicle designs traced to a computer company's advertising; a pattern-case of the authorless, profitless elaborate hoax. Chapters: 11. Related: MJ-12 documents, hokkani boro.
+- **Cargo cult** — The series' opening frame: human civilizational development as a cargo-cult mentality fixed on the stars and immortality; here also an analogy for how "high strangeness" gets absorbed into belief systems. Chapters: 5, 17. Related: high strangeness, Ur-contact.
+- **Cartesian diversification / Renaissance understanding** — The contrast the authors draw between the Cartesian splitting of knowledge into separate realms of matter, mind, and God and their proposed return to a Renaissance view where these are "interdependent and permeable." Chapters: 5. Related: multivalent, consciousness studies.
+- **Catch-22 of disclosure** — The trust bind: disclosure must come from government employees, yet the UFO community distrusts government — "We want the government to disclose; we don't trust the government's disclosure." Chapters: 4, 12. Related: disclosure, UFO denial.
+- **Cattle mutilation** — Cattle found drained of blood with organs (often sexual) surgically removed, no witnesses, no blood at the "secondary crime scene," the body displayed; read as possible terrorism/warning or as part of a hybridization/food-source program. Chapters: 15, 17. Related: alien abduction as psychological warfare, hybrid program.
+- **Celestial Eye** — Per Li Hongzhi, an ability ("remote sight") to see things "a thousand Li (miles) away." Chapters: 19. Related: qigong, remote viewing.
+- **Checkist** — An old-fashioned term for Russia's secret police. Chapters: 19. Related: KGB.
+- **CIC (Counter-Intelligence Corps)** — US Army intelligence whose officers collected postwar disc-experiment reports and, via Frank Brown, investigated Arnold; the authors read its involvement as possible suspicion of Soviet aircraft or disinformation. Chapters: 8, 9, 19. Related: AFOSI, VENONA.
+- **CIA–AFOSI nexus** — The authors' speculative model: the CIA, barred from domestic operations, could operate domestically through the Air Force's AFOSI (which has no such restriction), mirroring the NSA/Army Cyber Command/CIA Stuxnet arrangement — possibly explaining Richard Doty and the un-declassifiability of such programs. Chapters: 15, 16. Related: AFOSI, disinformation by reductio ad absurdum.
+- **Clausewitzian trinity** — Clausewitz's framework of war as irrational (violent emotion), nonrational (chance), and rational (politics); the authors test it on the Alien and find none of the three verifiable. Chapters: 15. Related: theater of war, politics as continuation of war.
+- **Close encounter of the third kind** — J. Allen Hynek's term for direct experience of alien contact; the demographic the authors say official studies ignore, who consistently report (usually one-directional) communication. Chapters: 6. Related: experiencers, apocalyptic warnings.
+- **Cloudbuster / Spacegun** — Reich's batteries of tubes for drawing orgone from the "orgone stream" to make rain ("cloudbuster") and, aimed at UFOs, to make targeted craft dim, shrink, and "wink out" ("Spacegun"). Chapters: 11. Related: orgone, energy alphas.
+- **Cognitive dissonance / When Prophecy Fails** — The term coined by the psychologists who infiltrated Dorothy Martin's Seekers, for rationalizing the gap between belief and reality; the authors turn it on skeptics who dismiss the Nine–assassination web. Chapters: 10, 13, 19. Related: the Seekers, Sananda.
+- **Coincidence and synchronicity** — The authors' generalization that because the Phenomenon partakes of science, religion, politics, intelligence, and the paranormal at once, cross-linking makes coincidences multiply for those who study it — an "intensely psychological" danger (as with Jessup). Chapters: 11. Related: control mechanism, deep politics.
+- **Collaborators in the shadows** — DeLonge's phrase for the project's unnamed contributors: people "from deeper places within the government that know a lot more than we do," who took risks by participating. Chapters: 2. Related: breadcrumbs, the larger story.
+- **Collateral damage** — The chapter's frame: an imagined memorial wall (like the CIA's stars at Langley) for the researchers, witnesses, and investigators whose lives, reputations, or sanity were destroyed in the "war" over UFO truth. Chapters: 11. Related: cover-up, hoax within a hoax.
+- **Colonization analogy / Alien as Columbus, humans as Arawaks** — The argument that colonized and colonizer experience alike is essential data for modeling human–Alien contact; humans facing the Alien are as the Arawaks facing Columbus's ships, able to resist but unable to reach the home base. Chapters: 5, 15, 16. Related: invader mindset, race as social construct.
+- **Condon Committee** — Dr. Edward Condon's committee, described flatly as "designed to discredit Ufology." Chapters: 11. Related: Project Grudge, cover-up.
+- **Confession (Foucauldian) / dark twins** — Foucault's mechanism by which sexuality is extracted and controlled — voluntary (Catholic penance) and involuntary (state torture, the "dark twins") — reenacted, the authors argue, in abduction/hypnosis; they note the DSM was created at the DoD's request. Chapters: 17. Related: scientia sexualis, hypnotic regression, DSM-1.
+- **Consciousness as the cloud** — The authors' analogy: since memory has no dedicated brain site, consciousness resembles cloud computing more than "a local, unconnected (air gap) personal computer," against the "wet computer" model. Chapters: 6. Related: consciousness-first, consciousness as orchestra.
+- **Consciousness as orchestra** — A philosopher's metaphor the authors adopt: science analyzes single instruments, but consciousness is the whole orchestra ("a steampunk band"); the Golden Dawn magicians fancied themselves conductors, the secret chiefs supplying the sheet music. Chapters: 6. Related: consciousness as the cloud.
+- **Consciousness studies** — The field the authors say must be integrated into the Alien problem (resuming SRI-style research minus "demons" and "spirits of the air"), without first settling what consciousness is. Chapters: 14. Related: SRI programs, metascience.
+- **Consciousness-first (brain as emerging property of consciousness)** — The hypothesis, carried from the prior volume, that "our brain is an emerging property of consciousness and not the other way around," so that a culture with such a science would see our failure to grasp consciousness as an exploitable vulnerability. Chapters: 5, 6. Related: metascience, weapons of consciousness.
+- **Control mechanism / mind game** — Vallée's proposal (endorsed conditionally) that UFOs are intelligently controlled but not spacecraft as we understand them — "a mind game being played on the chessboard of human experience... by an unseen player." Chapters: 11, 13, 14. Related: Plato's cave/Bunker, panopticon.
+- **Convergence** — The point (from Sekret Machines: Man) where human technology becomes indistinguishable from the Phenomenon's; illustrated by stealth triangles resembling triangle UFOs, with propulsion the only critical difference. Chapters: 8. Related: science of the Sekret Machine, stealth.
+- **Cover-up (the authors' qualified sense)** — Real (evidenced by denial and blocked access) but driven by "fear, ignorance, and confusion rather than a cynical desire to fool" — fear because the Phenomenon defies sovereignty, ignorance because leaders knew little, confusion because credible cases left intent unassessable. Chapters: 11. Related: collateral damage, secrecy.
+- **Cultivation practice** — Li Hongzhi's stated aim: not health or longevity but higher consciousness — "one can achieve a divine status through cultivation practice while one is still alive." Chapters: 12. Related: Falun Gong, qigong.
+- **Cultural filtering / material basis** — The proposition that the Phenomenon uses "the psychological content of each culture as the 'material basis' that allows it to manifest," which is why vehicle descriptions always suit their time and place. Chapters: 6. Related: poetry of the cortex, Great Airship sightings.
+- **Dead Sea Scrolls** — The 1946–47 Bedouin discovery whose publication was delayed for decades under Church pressure; cited among the crowded 1946–47 timeline. Chapters: 7.
+- **Deadly Orgone Radiation (DOR) / energy alphas ("Ea's")** — Reich's terms: the black-mist waste UFOs secrete after consuming Orgone Radiation, eroding the planet and causing sickness (DOR); and the cigar-shaped or pulsating craft themselves ("energy alphas"), which he judged so harmful they had to be destroyed. Chapters: 11. Related: orgone, Cloudbuster/Spacegun.
+- **Deep fakes** — Prefabricated images and doctored media that, with the simulacrum, replace the physical world in collective consciousness. Chapters: 13. Related: simulacrum, information warfare.
+- **Deep politics** — The world in which "Tacoma and the French Quarter are in the same neighborhood": clandestine-operations networks where Maury Island personnel resurface around the Kennedy assassination. Chapters: 11. Related: hoax within a hoax, the Octopus.
+- **Deep state** — What suspicious citizens call the unelected federal workforce; to post-2016 QAnon conspiracists, "the sekret machine is the deep state itself." Chapters: 13. Related: Pizzagate/QAnon, information warfare.
+- **Degaussing / stealth ships** — The real wartime Navy technology of reducing a ship's magnetic signature against mines (radar/mine "invisibility," not literal invisibility), possibly the seed of the Philadelphia Experiment confusion. Chapters: 11. Related: Philadelphia Experiment.
+- **Depatterning** — Dr. Ewen Cameron's CIA-contracted "mind control" experiments in Canada, cited as precedent for psychological operations conducted outside the CIA's domestic legal limits. Chapters: 15. Related: MK-ULTRA, CIA–AFOSI nexus.
+- **Deros / Shaver mystery** — Pulp writer Richard Sharpe Shaver's subterranean "detrimental/degenerated robots," published as quasi-fact by Ray Palmer; Crisman claimed to have fought them in a Burma cave. Chapters: 11. Related: Shambhala/Agarttha, Maury Island incident.
+- **Dianetics / Scientology** — Hubbard's system and religion, which the authors present as grounded in the Crowleyan magic Parsons introduced him to and shaped by Sara Northrup — "as much a creature of the OTO as... Hubbard's own imagination." Chapters: 7, 10, 12. Related: Xenu, Sea Org, e-meter.
+- **Disclosure** — The government's revelation of what it knows about the UFO Phenomenon; the book's central problem, caught between public demand and national-security resistance. Chapters: 4, 5, 9, 12. Related: catch-22 of disclosure, existential panic.
+- **Disinformation by reductio ad absurdum** — The alleged AFOSI tactic (Doty case): linking secret aircraft to UFOs discredits real sightings, and linking UFOs to secret aircraft devalues genuine UFO sightings — "Win-win." Chapters: 5. Related: CIA–AFOSI nexus, cover-up.
+- **Disinformatsiya / information warfare / world-view warfare** — The Soviet honing of a "worldview warfare" (convince an enemy "everything they knew was wrong") into deliberately planted false data; the frame for state manipulation of group consciousness, from the Protocols to the 2016 election. Chapters: 13, 16. Related: PSYOP, Protocols of the Learned Elders of Zion, group mind.
+- **DSM-1** — The first Diagnostic and Statistical Manual, "the brainchild of the Department of Defense" (needing a metric for combat stress); its DoD origin the authors flag regarding the therapeutic setting of abduction narratives. Chapters: 9, 17, 19. Related: confession, PTSD.
+- **Duration** — Bergson's concept combining causality and free will through a reinterpretation of time and consciousness; his philosophy moved William James to abandon logic as the sole metric of reality. Chapters: 6. Related: mechanics and mysticism.
+- **Dynamic religion / static religion** — Bergson's pair: static religion is organized, dogmatic, fixed ("religion is a building"); dynamic religion is mysticism, the religious instinct in motion ("mysticism is a machine"). Chapters: 6. Related: ritual magic, machine for the making of gods.
+- **e-meter** — "An electronic device that Scientologists believe registers human thoughts," a technological improvement on Thelemic doctrine. Chapters: 7. Related: Dianetics/Scientology.
+- **ELF waves / entrainment / ELF Magnetic Model** — Puharich's work on extremely low frequency waves: healers' 8 Hz emissions "entrained" a patient's brain waves; he reported to the government that ELF could affect humans and alleged Soviet ELF mind-control broadcasts. Chapters: 10, 13, 19. Related: biological fields, psychotronics.
+- **Enhanced Human Body Functions / Exceptional Functions / somatic science / life science** — The Chinese government's official terms for a field spanning qigong, ESP, PK, and remote viewing, framed within Marxist "spiritual civilization" doctrine and pursued under the PLA with Qian Xuesen "leading the charge." Chapters: 12, 18. Related: qigong, multi-state physics, spiritual civilization.
+- **Enochian Tablets** — The angelic magical system obtained by Dr. Dee and Edward Kelley that Parsons used, with Hubbard playing "the Edward Kelley to Parsons's John Dee." Chapters: 7. Related: Babalon Working.
+- **Ennead / Council of Nine** — The nine primary Old Kingdom Egyptian deities with which Puharich's "Nine" became identified; in Greek myth, Zeus's Council of Nine punished humanity via Pandora for Prometheus's fire. Chapters: 10. Related: the Nine.
+- **Epoch Times / Shen Yun** — Li Hongzhi's US-based media organ ("far-right politics and extreme conspiracy theories," involved in the 2016 Trump campaign) and touring performance company. Chapters: 12. Related: Falun Gong, QAnon.
+- **Estimate of the Situation** — The suppressed Project Sign report (credited chiefly to Alfred Loedding) concluding the UFOs were extraterrestrial; rejected by Vandenberg and "literally incinerated," setting the seventy-year template of ridicule and secrecy. Chapters: 9. Related: Project SIGN, extraterrestrial hypothesis.
+- **Eugenics / Social Darwinism / eugenics–Theosophy link** — The doctrine of "saving the human race from itself"; the authors argue even a "benevolent" alien hybrid program mirrors it, and trace Nazi eugenics "back to Darwin via a detour into Theosophy." Chapters: 17. Related: hybrid program, Aryan Theosophical Society, race science.
+- **Existential panic** — The feared public reaction to blunt disclosure (per Mellon, Nolan, Elizondo): confrontation with "a reality that questions everything we know... about ourselves, our planet, and our existence." Chapters: 4. Related: disclosure, catch-22 of disclosure.
+- **Experiencers** — People bearing the Phenomenon's traces "in the minds and the bodies (and perhaps even in the DNA)"; the evidence governments left "in plain sight," who suffer genuine PTSD-like trauma. Chapters: 5, 14. Related: close encounter of the third kind, alien abduction.
+- **Extraterrestrial hypothesis (ETH)** — The view that UFOs are craft from other planets; defended by Oberth, adopted by Project Sign, suppressed by Vandenberg. The authors call the field's focus on it "partisan" and inadequate to a more holistic Phenomenon. Chapters: 5, 8, 9, 13. Related: alien origin conjecture, ultraterrestrial.
+- **Fa / Ifa divination** — A sophisticated, entirely memorized African divination/mathematical system the authors say anticipated European binary mathematics by centuries; an example of oral African sophistication suppressed by colonization. Chapters: 16. Related: colonization analogy.
+- **Falun Gong / Dharma Wheel Work** — Li Hongzhi's 1992 qigong school, at its height with tens of millions of adherents, banned by Beijing (1999) once it became a "competing belief system"; a "UFO religion" whose doctrine holds aliens are manipulating humanity. Chapters: 12, 18, 19. Related: cultivation practice, UFO religions, supersoldiers.
+- **Faraday cage ESP experiments** — Puharich's tests of psychics inside a grounded, field-blocking cage to see whether ESP had an electromagnetic signature (blocked = electromagnetic; undiminished = "not measurable"). Chapters: 10. Related: Round Table Foundation, biological fields.
+- **Fear of demons** — The authors' explanation for official reluctance: in the 1980s remote-viewing projects were denied funding "because it was believed to be somehow unholy," and UFO study met the same fate. Chapters: 5. Related: UFO gap, remote viewing.
+- **Fedden Mission** — One of the Allied postwar technical-intelligence operations to capture German aeronautical know-how. Chapters: 8. Related: Operation Paperclip, Operation Lusty.
+- **Fifth column** — The authors' hypothesis that humans who insist the Alien is wholly benevolent may function as an unwitting (or witting) psychological fifth column, lowering humanity's guard toward an invader/colonizer. Chapters: 15. Related: alien invasion theory, PSYOP.
+- **Flatland analogy / perpendicular dimension / interdimensionality** — The authors' proposal to add one more dimension and "look perpendicular" to the familiar three; the Tic Tacs may be "the tip of some other reality... inserting itself into our dimension and then suddenly disappearing." Chapters: 14. Related: control mechanism, apport.
+- **Flying discs vs flying saucers** — Before Arnold's June 1947 sighting coined "flying saucers" (from craft bobbing like saucers on water), sightings were reported as "flying discs" — how Crisman and Dahl reported theirs, complicating the copycat-hoax theory. Chapters: 11. Related: Kenneth Arnold sighting.
+- **Flying pelicans theory** — One of many "improbable" skeptical explanations offered for the Arnold sighting. Chapters: 19. Related: Kenneth Arnold sighting.
+- **Flying Rorschach tests** — The authors' speculation that the Other deploys craft to probe human reactions, "trying to understand" our consciousness by observing our responses. Chapters: 5. Related: probes vs training.
+- **Fog of war / "the first casualty of war is truth"** — The adage the authors adopt as the volume's framing device; the book is offered as "a flashlight to guide you through the fog of that war." Chapters: 4, 11. Related: war room, collateral damage.
+- **Foo fighters** — WWII aerial anomalies (colored spheres, red fireballs) seen by airmen in both theaters at once, hence "not of this Earth"; the modern Tic Tac's forerunner and the minimum baseline for how long the Phenomenon has watched us. Chapters: 6, 7, 8, 9, 14, 19. Related: Tic Tacs, ghost rockets.
+- **Foreign devils / white ghosts** — Imperial China's terms for Europeans as "not quite human"; the East's own version of alienizing the Other. Chapters: 12. Related: Orientalism, Alienism.
+- **Foundation for the Study of Consciousness** — Formed in Philadelphia in 1952 by Arthur Young and Ruth Paine Young, shortly before the Maine séance. Chapters: 10. Related: theory of process, the Nine.
+- **Fourth Reich** — What the authors say the underground Nazi weapons-scientist intelligentsia actually served while "pretending to work for a more innocent 'anti-Communist' league." Chapters: 8. Related: Nazi Nation, Gehlen Organization.
+- **Functional states / paranormal state / multi-state physics** — Somatic-science doctrine that the body assumes different "functional states," one "paranormal"; Liu Yicheng's "multi-state physics" holds matter has normal and "extraordinary" states easily interchanged. Chapters: 12. Related: qigong, somatic science.
+- **Furtive power (Foucault)** — The organizing principle of the panopticon: power never directly seen, only inferred from its effects — the hidden "Wizard of Oz... behind the curtain." Chapters: 17. Related: panopticon, master of the tower.
+- **GALCIT Rocket Research Group / Suicide Squad** — The Caltech rocketry circle (Parsons, Forman, Malina, later Qian) under von Kármán, nicknamed the "Suicide Squad" for its constant explosions; it "created the American space program out of whole cloth" and was scattered by the Red Scare. Chapters: 7, 9, 12. Related: JATO, Jet Propulsion Laboratory.
+- **Ghost in the machine** — The authors' inversion: to a pilot the UFO seems a phantom, but it is the Alien that "haunts" us, because we, unlike it, are "reliably three-dimensional" and vulnerable — "Earth... is the house the Alien haunts." Chapters: 15. Related: America as a haunted house.
+- **Ghost rockets** — The 1946 wave of rocket-like objects over Scandinavia, first blamed on Soviets using captured Germans; "in 1946 when you thought 'rockets' you could only come up with 'Nazi.'" Chapters: 7, 9. Related: foo fighters, Nazi Nation.
+- **Glasnost** — Gorbachev-era "openness" that let TASS report the Voronezh sightings even while Soviet censorship persisted. Chapters: 13. Related: Voronezh incident.
+- **Gnostic Mass** — "The central, public ritual" of the OTO, performed frequently at the Winona Boulevard lodge, drawing writers, artists, and seekers. Chapters: 7. Related: Agape Lodge, Ordo Templi Orientis.
+- **Government of the sky** — The authors' phrase for the Other conceived as a ruling power of the heavens, with whom human–alien consciousness contact could become "a new battleground." Chapters: 5. Related: the Alien, weapons of consciousness.
+- **Grand unified theory / theory of everything** — The still-missing integration of the four physical forces; the Alien "does not seem to have a problem with that." Chapters: 7, 14. Related: metascience, quantum mechanics.
+- **Gravity Research Foundation** — Founded 1948 by Roger Babson "with the specific aim of...defeat[ing] gravity"; it still awards prizes (Hawking, Penrose) but has produced no workable antigravity, leaving the Phenomenon's propulsion "a chimera for modern science." Chapters: 9. Related: antigravity propulsion, tachyon.
+- **Great Airship sightings** — The 1896–1897 wave of steampunk-styled craft across North America and Europe (six years before the Wright brothers) that "behaved like UFOs," which the authors read as the Phenomenon in period-appropriate dress. Chapters: 6. Related: steampunk, cultural filtering, searchlight motif.
+- **Great Beast / Scarlet Woman** — Thelemic titles from Crowley's system, cited (via the alleged Hubbard Jr. memoir) as heavy influences on L. Ron Hubbard. Chapters: 19. Related: Thelema, Ordo Templi Orientis.
+- **Great Game** — The era of political adventurism in Central Asia and India during which Blavatsky met many figures later mythologized as Masters. Chapters: 6. Related: Masters, Theosophy.
+- **Great White Brotherhood** — The esoteric brotherhood of hidden adepts said to telepathically direct human evolution; linked by the authors to the "Nordic" alien template. Chapters: 10. Related: Nordic aliens, ascended masters.
+- **Green fireballs** — The 1948 New Mexico phenomenon: horizontally flying green fireballs (non-meteoric, per LaPaz) on trajectories toward and from Los Alamos, that would not land or crash, only vanish. Chapters: 9. Related: Project Sign, nuclear-site interest.
+- **Grey Alien / Grays / Lam / Nordic aliens** — The standard "Grey" alien type, virtually identical to Crowley's painting of the secret chief "Lam"; contrasted with the tall blond "Nordic" type templated by Adamski's Venusian and linked to SS/Great White Brotherhood imagery. Chapters: 6, 8, 10. Related: secret chiefs, Great White Brotherhood.
+- **Group mind / group consciousness** — The chapter's shift from individual to collective consciousness: permeable online mental borders forming "larger and larger communities based on the lowest common denominators" — "a lynch mob of 'shamans' and 'light workers.'" Chapters: 13. Related: information warfare, internet as moral substitute.
+- **Guerrilla / asymmetric warfare analogy** — The authors' claim that in an invasion Earth's militaries would be reduced to "guerrilla cells" waging only asymmetric warfare (Vietnam, the American Revolution, Afghanistan). Chapters: 16. Related: colonization analogy, Blanche DuBois rule.
+- **Hardening consciousness / weapons of consciousness** — Nonlethal weapons "of consciousness, of perception, communication, and perspective," potent because "we have not been able to harden our consciousness." Chapters: 5. Related: PSYOP, bicameral mind.
+- **Heightened tension / summoning UFOs** — The Soviet military finding (per Yeremenko) that UFOs appear where tension is high (weapons tests, massed hardware), so staging tension baited them — "UFOs appeared with a probability of nearly 100 percent." Chapters: 13. Related: Belokoroviche incident, nuclear-site interest.
+- **Hermetic Order of the Golden Dawn** — The 1888 British initiatory society (founded by Freemasons on coded German instructions) whose highest degrees were held by the "secret chiefs," not human leaders; membership spanned artists, writers, and scientists (Yeats, Machen, Blackwood, Crowley). Chapters: 6, 7. Related: secret chiefs, Ordo Templi Orientis.
+- **High strangeness** — The quality of an experience so far outside ordinary reference points that it defeats contextualization or resistance; applied to abduction, MIB encounters, and the cargo-cult reaction. Chapters: 15, 17. Related: cargo cult, alien abduction.
+- **Hive mind question** — Whether the Nimitz "snowflakes" and armada-like coordination imply a hive-mind among multiple craft. Chapters: 16. Related: Nimitz Tic Tac encounter.
+- **Hoax within a hoax** — The authors' formula for Maury Island and federal discrediting generally: the recantation of a sighting is itself staged, so "hoax" becomes the cover story. Chapters: 11. Related: Maury Island incident, cover-up.
+- **Hokkani boro** — "Great trick"/"great con" in the Roma language (source, the authors say, of "hanky panky" and "hocus pocus"); floated for the Allende affair, except no one made money. Chapters: 11, 19. Related: Allende letters, MJ-12 documents.
+- **Hollow Moon theory / Moon as alien creation** — Vasin and Shcherbakov's 1970 Sputnik claim (citing Stanyukovich) that the Moon is a hollow, artificially created satellite, explaining its one-side-facing orbit. Chapters: 8, 18. Related: ancient alien hypothesis.
+- **Horten Ho 229 / flying wing / V3 / lenticular craft** — The Horten brothers' fuselage-less "flying wing" jet (an early stealth design), "very nearly a disk," matching Arnold's 1947 drawings and the Rhodes photo — prompting 1947 conjecture that the saucers were Soviet-built Nazi designs. Chapters: 7, 8, 9. Related: stealth, Nazi-UFO hypothesis.
+- **Huemul Project / Thermotron** — Ronald Richter's attempt on remote Huemul Island, Argentina, to build a fusion device (the "Thermotron") for nuclear-powered aircraft; cancelled with Perón's 1955 fall, Richter jailed for fraud. Chapters: 8. Related: CAPRI, Nazi Nation.
+- **Hybrid program** — The theory that alien-human "hybrids" are being created via abduction (with cattle mutilation as a food-source experiment) to help humanity survive a coming catastrophe; the authors argue even this benevolent reading is a form of genocide. Chapters: 17. Related: eugenics, cattle mutilation, Babalon Working.
+- **Hypnotic regression** — The technique for eliciting suppressed abduction memories; legally inadmissible (suggestibility/confabulation) yet of investigative value, and directly paralleled to the satanic-ritual-abuse recovered-memory panic. Chapters: 17. Related: recovered memories, satanic ritual abuse.
+- **"I Want to Know" / "I Want to Believe"** — Levenda's proposed reframe for the field: "forget 'I Want to Believe.' It's about time for 'I Want to Know'" — inquiry over faith. Chapters: 3. Related: ancient problem, factionalism and paranoia.
+- **Imaginal** — Henry Corbin's term (via El-Zein) for the jinn's realm: a domain with genuine, if non-physical, existence, categorically distinct from imagination or illusion. Chapters: 17. Related: jinn, high strangeness.
+- **Individuation / mandala / saucer-as-mandala** — Jung's proposal that "flying saucers" externalize the mandala, the circular symbol of psychic integration (individuation); the authors ask "What if both ideas are true?" and note Bentham's circular panopticon as an architectural echo. Chapters: 5, 8, 17. Related: panopticon, consciousness-first.
+- **Intelectron Corporation** — Puharich's company for electronic hearing-aid equipment; he was awarded 50+ patents across the 1950s–1970s. Chapters: 10. Related: Teslar watch, ELF waves.
+- **International cabal hypothesis** — The "paranoid response" that an Illuminati-style cabal manages the cross-national UFO disinformation; the authors reject it as fantasy ("like trying to herd cats"). Chapters: 13. Related: deep state, psywar exercise.
+- **Interspecific communication problem** — Tesla's (and later NASA's) recognition that beings evolved under different gravity, chemistry, and electromagnetism would perceive and signal so differently that communication would be nearly impossible. Chapters: 6. Related: close encounter of the third kind, Tesla's Mars signal.
+- **Intersectionality / multivalent** — The authors' method: the Phenomenon (like modern war) must be studied across "discrete realms of knowledge that many may consider unrelated," with repetition and cross-referencing "designed to challenge our accepted paths to knowledge." Chapters: 5, 16. Related: blind men and the elephant, Cartesian/Renaissance.
+- **Iron Curtain / Cold War** — Churchill's March 1946 speech opening the Cold War; the authors argue "The UFO Phenomenon is as much a feature of the Cold War as NATO [and] mutually assured destruction." Chapters: 7, 9, 16. Related: mutually assured destruction, Red Scare.
+- **JATO (jet assisted takeoff)** — Rocket boosters giving heavy planes takeoff from short runways; the Army problem "tailor-made" for Parsons's team and the product Aerojet was formed to build. Chapters: 7. Related: GALCIT, Aerojet Corporation.
+- **Jinn** — In Islamic tradition (via El-Zein), "dual dimensional" spiritual entities living invisibly alongside humans; the authors treat them as the closest prescientific parallel to the alien/UFO phenomenon. Chapters: 17, 18, 19. Related: imaginal, high strangeness.
+- **Kalachakra Tantra** — The Buddhist text prophesying that Shambhala will one day "open its gates" and send forth its inhabitants to conquer unbelievers. Chapters: 17. Related: Shambhala.
+- **Kalki Avatar** — The title Indian nationalist groups gave Hitler: "the godlike genius who would cleanse the world... brandishing rays from the sun," the swastika their symbol. Chapters: 7, 8. Related: Thule, Shambhala.
+- **Kármán vortex street** — Von Kármán's theory of vortices under increasing vibration (demonstrated by the 1940 Tacoma bridge collapse); a parallel German wartime vortex theory "became the basis for the design of an actual flying saucer." Chapters: 9. Related: vortex rings, V7 craft.
+- **Laboratory-and-machine (Foucault)** — Foucault's observation that the panopticon is not only surveillance but an experimental apparatus "to alter behaviour, to train or correct individuals... to experiment with medicines" — mapped directly onto alien abduction. Chapters: 17. Related: panopticon, hybrid program.
+- **Larger story, the** — The implied bigger hidden narrative the "breadcrumbs" point toward; DeLonge asserts its existence without defining it. Chapters: 2. Related: breadcrumbs, collaborators in the shadows.
+- **Levetzow gravity-shielding theory** — German scientist Walter Levetzow's early-20th-century theory of gravity and "gravity shielding" (antigravity), said to have been eclipsed by relativity and later fleshed out in Oberth's notes. Chapters: 8. Related: antigravity propulsion, tachyon.
+- **Lorentz-Einstein transformation** — The equation the entity "M." produced through Vinod at the first Nine séance; its near-duplicate turned up in the 1956 Laughead letters, a mystery Puharich's circle could not explain. Chapters: 10. Related: the Nine, Laughead letters.
+- **L-Ms and S-Ms** — The two Alien races of the Allende mythos ("L-M" = "little men," friendly; the S-Ms hostile), which the authors compare to a Manichaean angels-and-demons scenario using humans as battleground. Chapters: 11. Related: Allende letters, alien invasion theory.
+- **Machine for the making of gods** — Bergson's closing image: the extra effort humanity must decide to make is "fulfilling... the essential function of the universe, which is a machine for the making of gods." Chapters: 6. Related: mechanics and mysticism, dynamic religion.
+- **Maison Rouge meeting** — The secret August 10, 1944 Strasbourg meeting (SS-chaired) that "set the postwar program for the Reich": German industry told to expatriate wealth and know-how through front companies. Chapters: 8. Related: ratline, Nazi Nation.
+- **Man in Black / Men in Black (MIB)** — The near-but-not-fully-human figures with wrong clothing, old cars, and stilted speech who visited Dahl and recur in contactee lore; the authors treat them as the Alien's clumsy attempts at HUMINT. Chapters: 11, 15. Related: SIGINT/ELINT/HUMINT, high strangeness.
+- **Mantell incident (January 7, 1948)** — Capt. Thomas Mantell died pursuing a large metallic UFO over Kentucky; Venus and a Skyhook balloon were rejected, leaving "the obvious one" — he saw and chased something real. Chapters: 11. Related: collateral damage, Project Skyhook.
+- **Master of the tower** — The authors' name for the Alien in its panopticon role: "unseen but eternally present," holding total observational asymmetry over the human "prisoner." Chapters: 17. Related: panopticon, furtive power.
+- **Masters / secret chiefs / ascended masters** — The superhuman spiritual overseers of the planet in Theosophy (Blavatsky's "Masters"), the Golden Dawn ("secret chiefs," "Aliens, before the term came to mean extraterrestrials"), and later channeling lore; Ufologists made them tangible "space friends." Chapters: 6, 7, 10. Related: Theosophy, Golden Dawn, the Nine.
+- **Maury Island incident (June 21, 1947)** — Harold Dahl's report of six donut-shaped discs raining debris that killed his dog; "managed" by Fred Crisman, tangled with a man-in-black threat, the deaths of two Air Force investigators, and (via Crisman and Banister) the JFK-assassination milieu — "a hoax within a hoax." Chapters: 7, 11, 18, 19. Related: hoax within a hoax, deep politics.
+- **Mechanics and mysticism / spiritual impulsion** — Bergson's argument that machines extend the body's (and consciousness's) reach, so "the body, now larger, calls for a bigger soul, and that mechanism should mean mysticism." Chapters: 6. Related: ritual magic, sekret machines.
+- **Merex AG** — The arms-trading firm formed by Skorzeny and Gerhard Mertins, exporting German-made weapons (in one case an F-86 Sabre to Pakistan). Chapters: 8. Related: Die Spinne, Nazi Nation.
+- **Metascience** — A hypothesized science behind our science, "one in which consciousness is part of every equation," possibly mastered by the Others and reflected in their technology. Chapters: 5. Related: consciousness-first, grand unified theory.
+- **Metatechnical** — The authors' descriptor for the Phenomenon as something beyond human technology that technological societies nonetheless confront as technology ("the same metatechnical Phenomenon: sekret machines"). Chapters: 5. Related: sekret machines.
+- **Military-industrial complex** — Eisenhower's phrase for the conjunction of a vast military establishment and arms industry; the authors argue von Kármán proposed it, that it "circumscribes" governmental power and controls Phenomenon-related information, and that it was foreshadowed by the Third Reich. Chapters: 4, 5, 7, 9. Related: national security state, To The Stars.
+- **Misdirection hypothesis** — The authors' speculation that the Alien could retard human technology by inserting seductive technological red herrings so scientists chase a chimera — "Possible, certainly. Even likely." Chapters: 8. Related: alien self-interest, disinformation.
+- **MJ-12 / Majestic 12 documents** — Legitimate-seeming memoranda about a presidential UFO adviser group; creator, motive, and income all unknown — the authors' archetype of the authorless, profitless elaborate hoax, possibly a Doty/Moore PSYOP. Chapters: 11, 19. Related: CARET documents, hokkani boro.
+- **Monastery route / Spanish route / Nordic route** — The three named ratlines: Draganović's Catholic-monastery network out of Austria; Fuldner's route through Franco's Spain to Argentina; Schulz's network through Norway and Sweden (the "Evangelical Escape Organization" front). Chapters: 8. Related: ratline, ODESSA.
+- **Multiverse** — Among the strange theories advanced to accommodate quantum effects: multiple universes, with one particle affecting another with no intermediary medium. Chapters: 7. Related: quantum mechanics, nonlocality.
+- **Mutually assured destruction / mutually assured protection** — The Cold War doctrine (via Dr. Strangelove) versus the authors' proposed inversion: a planetwide defense posture uniting humanity, "something we might call mutually assured protection." Chapters: 5, 9, 12, 13, 16. Related: universal collaboration, threat analysis.
+- **Mystification machines / sekret machines** — The chapter's closing characterization of the Alien craft, whose only interaction with humans has been "increasing mystification": "Mystification machines. Sekret machines." Chapters: 14, 16. Related: sekret machines, probes vs training.
+- **NACA to NASA** — The transformation of the National Advisory Committee for Aeronautics into NASA; the institutional home of Paperclip rocketeers and the satellite/space work of the era. Chapters: 9. Related: Operation Paperclip, Project RAND.
+- **National Security Act** — Signed July 1947, creating the CIA (first director Hillenkoetter) and the Department of Defense (first secretary Forrestal), "only weeks after" Roswell. Chapters: 7, 8. Related: CIA, Department of Defense.
+- **National security state / national security** — Richard Dolan's term for the thesis that militaries hide the truth about UFOs; the frame under which experiencers were "ignored, ridiculed, or targeted." The authors reject its strong conspiratorial form but accept national-security secrecy as the operative motive. Chapters: 1, 4, 5, 9. Related: military-industrial complex, cover-up.
+- **Nazi Bell** — Prague named in passing as "a presumed site of the infamous Nazi Bell" in the Miethe V7 story. Chapters: 8. Related: V7 craft.
+- **Nazi Nation** — The authors' coinage for a stateless, nonstate-actor Germany after 1945: "a kind of 'country' whose borders are nowhere and whose center is everywhere... scattered throughout the world, influencing or controlling local governments." Chapters: 9. Related: ODESSA, Fourth Reich, Gehlen Organization.
+- **Nazi-UFO hypothesis / theory** — The rumor that the Nazis built a flying saucer as a WWII superweapon or manufactured saucers postwar (e.g., at Antarctica); no general solution to the Phenomenon, but treated as partly plausible for specific 1947 sightings given the expatriated infrastructure. Chapters: 8, 9, 10. Related: Horten Ho 229, New Swabia Expedition.
+- **Necronomicon** — Lovecraft's fictional grimoire for summoning "dark extraterrestrial forces," whose Greek numerical value (555) the authors link to Puharich's Nine material. Chapters: 19. Related: number 555.
+- **Need to know** — The compartmentation principle; HIGHJUMP's declassified orders limited knowledge "to... those who need to know." Chapters: 9. Related: security clearance, stovepipes.
+- **New Chinese Academy of Parapsychology** — A 1992 announcement (confirmed by a CIA-evaluated source) of a Chinese parapsychology academy, with procedures for correspondence with Chinese parapsychologists. Chapters: 12. Related: somatic science, psychic magnification effect.
+- **New Swabia Expedition** — Nazi Germany's 1938–39 Antarctic expedition, the seed of the secret-South-Pole-base myth. Chapters: 8. Related: Operation HIGHJUMP, Nazi-UFO hypothesis.
+- **NICAP (National Investigations Committee on Aerial Phenomena)** — "The prime civilian organization investigating UFOs"; ex-CIA director Hillenkoetter served as one of its first governors (1957–1962). Chapters: 7, 10. Related: Donald Keyhoe.
+- **The Nine / extraterrestrial Nine vs human Nine** — Entities channeled through Dr. Vinod from December 31, 1952, calling themselves "Nine Principles and Forces," later identified with the Egyptian Ennead and Aliens aboard a near-Earth spacecraft; mirrored by nine human séance participants told to become their instruments. Chapters: 7, 9, 10, 19. Related: Round Table Foundation, cognitive dissonance, Ennead.
+- **Nonlocality / quantum nonlocality / bilocation** — The theory that changes in one system immediately affect another unlinked one; the kind of physics required for the Others to monitor and appear/disappear at will, "approaching bilocation or quantum nonlocality." Chapters: 7, 17. Related: quantum mechanics, Orch OR.
+- **Nuts-and-bolts vs consciousness aspects / Phenomenon as worldview** — The two idea-sets to hold at once — the physical evidence and the psychological/consciousness component — synthesized into a third, "the Phenomenon as (competing?) worldview"; the authors insist neither can be disentangled. Chapters: 5, 8, 10, 13. Related: convergence, control mechanism.
+- **Oath of the Abyss** — Parsons's December 1948 commitment to become a "Master of the Temple": giving everything, including ego, to Babalon, admitting "no duality, no differentiation." Chapters: 7. Related: Abyss/Da'ath, Black Pilgrimage.
+- **ODESSA / Die Spinne / Kameradenwerke** — The umbrella term (from Forsyth's novel) for the postwar SS underground networks and two of its named branches (Skorzeny's "Spider"; Rudel's Kameradenwerke); the authors call the ODESSA focus convenient but misleading, obscuring a larger corporate-scientific web. Chapters: 8, 9. Related: ratline, Nazi Nation.
+- **The Octopus (Casolaro/Riconosciuto affair)** — Journalist Danny Casolaro's investigation into a sprawling conspiracy tied to Michael Riconosciuto, cut short by his suspicious "suicide"; Riconosciuto later warned of an imminent terror attack and named bin Laden before 9/11. Chapters: 19. Related: deep politics.
+- **Operation Alsos** — The Manhattan Project's own Paperclip-type hunt through Europe for German scientists and atomic secrets (alsos is Greek for "grove," a wink at General Groves). Chapters: 9. Related: Operation Paperclip, U-234.
+- **Operation Bluebird / Artichoke (Project Bluebird)** — The CIA special-access project approved April 20, 1950 to understand and combat brainwashing (prompted by the Mindszenty trial), lasting in some form twenty-five years. Chapters: 12, 13. Related: brainwashing, MK-ULTRA.
+- **Operation Condor** — A multinational anti-Communist assassination program run by Southern Cone dictatorships with Nazi-intelligence help (e.g., Barbie), performing killings in the US, Latin America, and Europe. Chapters: 8. Related: Colonia Dignidad, Nazi Nation.
+- **Operation Crossbow** — The British air campaign of three raids on Peenemünde (August 1943); the first deliberately targeted the living quarters of the scientists later brought to America. Chapters: 8, 9. Related: V2, Operation Paperclip.
+- **Operation Deep Freeze / VXE-6** — The ongoing US Antarctic program since the 1950s; Rear Admiral Dufek credited Deep Freeze sightings as the source of his belief in UFOs, and VXE-6 is the squadron in which the informant "Brian" served. Chapters: 9. Related: Operation HIGHJUMP, Operation NANOOK.
+- **Operation HIGHJUMP** — Admiral Byrd's massive, oddly timed 1946–47 US Navy Antarctic expedition (13 ships, ~5,000 men) amid drastic demobilization, which "made no sense... unless there was a serious national security interest at stake." Chapters: 7, 8, 9, 18, 19. Related: Operation NANOOK, New Swabia Expedition.
+- **Operation Mongoose** — The CIA's 1960s covert program against Castro's Cuba, cited for its contemplated PSYOP of exploiting Cuban Catholicism (a staged "Cuban Christ"). Chapters: 16. Related: PSYOP, Operation Phoenix.
+- **Operation NANOOK** — Task Force Sixty-Eight's 1946 American-Danish mission to Thule, Greenland, whose fleet was rushed south to form HIGHJUMP's core; the authors ask, "Did NANOOK see something?" Chapters: 9. Related: Operation HIGHJUMP.
+- **Operation Osoaviakhim** — The Soviet counterpart to Paperclip: NKVD-run "recruitment" of 2,000+ German scientists (6,000+ with families) for rocket and weapons work. Chapters: 7, 8. Related: Operation Paperclip.
+- **Operation Paperclip** — The US program that imported not hundreds but thousands of Nazi scientists (Dornberger, von Braun, Strughold) to work for the Army, Air Force, and NACA/NASA; counting only Paperclip personnel, the authors stress, "is to miss the bigger picture." Chapters: 7, 8, 9, 19. Related: Operation Osoaviakhim, ratline.
+- **Operation Phoenix** — A Vietnam War program cited for weaponizing local religious/cultural beliefs as psychological operation. Chapters: 16. Related: PSYOP, Operation Mongoose.
+- **Operation Safehaven** — The US investigation of Nazi asset expatriation; it "came to an ignominious end" as Spain, Switzerland, Portugal, and South American states refused cooperation and the Cold War redirected priorities. Chapters: 8. Related: ratline, Nazi Nation.
+- **Operational analysis** — Military-bureaucratic term (from the 1969 USAF Academy symposium) for integrating new science into operational structure; used to illustrate the Pentagon's institutional resistance to novel phenomena. Chapters: 15. Related: weapons platform hypothesis.
+- **Orch OR / microtubule quantum consciousness / quantum consciousness theory** — Hameroff and Penrose's theory that brain microtubules sustain quantum states enabling nonlocal consciousness; cited as science the book draws on for its consciousness claims. Chapters: 18, 19. Related: nonlocality, consciousness-first.
+- **Ordo Templi Orientis (OTO)** — The magical order headed by Crowley (founded by Reuss and Kellner out of quasi-Masonic bodies), whose "great secret" was sexual/Tantric; its initiations reenact Knights Templar history. Chapters: 7, 10. Related: Thelema, Agape Lodge, Golden Dawn.
+- **Orgone / orgone accumulator / armoring / Oranur experiment** — Reich's names for the free life-energy beneath the body ("orgone," from "orgasm"), the box for accumulating it, the childhood-rooted "armoring" that blocks its flow, and his experiment/report on orgone radiation. Chapters: 11, 18, 19. Related: Cloudbuster/Spacegun, DOR/energy alphas.
+- **Orientalism** — Said's characterization (cited by the authors) of a Western fantasy of the East as "mystical, barbaric, and sensual," the model for their coinage "Alienism." Chapters: 12, 18. Related: Alienism, foreign devils.
+- **Panopticon / reverse panopticon** — Bentham's 1791 circular-prison design (an unseen central watcher sees every cell) that Foucault reframed as surveillance-and-control and the authors adopt as the master metaphor for human/alien surveillance; the "reverse panopticon" is humanity's own flood of UFO media trying to observe the Alien back. Chapters: 17, 18, 19. Related: furtive power, master of the tower, laboratory-and-machine.
+- **Panspermia** — Crick's theory that the genetic code arrived on Earth from off-world (here, from Mars), echoed by Neil deGrasse Tyson. Chapters: 19. Related: ancient alien hypothesis.
+- **Peace treaty (impossibility of)** — Treaties assume communication, shared concepts, and rough equivalence — none of which we share with the Alien — so "There will be no peace treaty with the Alien." Chapters: 14. Related: Blanche DuBois rule, universal collaboration.
+- **Perception of reality** — The authors' call to look at one's surroundings and ask how they will look once the Alien's presence is known: "ashen, gray, and hopelessly primitive," cities as prison camps, or objects of nostalgia. Chapters: 14. Related: unintentional threat.
+- **Philadelphia Experiment** — The claim (in the Allende letters) that in October 1943 the Navy tested an invisibility/bilocation device on the USS Eldridge, killing and psychologically damaging sailors; a purported application of a unified field theory. Chapters: 11, 19. Related: Allende letters, degaussing.
+- **Pizzagate / QAnon** — The 2016 conspiracy that a DC pizzeria hid a satanic child-sacrifice cult (decoded from Podesta's hacked emails), and the movement for which "the sekret machine is the deep state itself" — the latest iteration of an old American panic template. Chapters: 13. Related: deep state, satanic ritual abuse, information warfare.
+- **Plato's cave / Plato's Bunker** — The volume's key image: the world's military leaders in their war rooms are the chained prisoners, their sensors the wall, their threat models the chains, while the Alien "is making shadow puppets on that very wall" — "Plato's cave, but for the twenty-first century." Chapters: 5, 14. Related: control mechanism, threat analysis.
+- **Poetry of the cortex** — The authors' phrase for the brain's manufacture of familiar imagery around an unprecedented sighting, like love-song lyrics equating eyes with "limpid pools," not meant literally. Chapters: 6. Related: cultural filtering, Great Airship sightings.
+- **Politics as continuation of war / war as continuation of politics** — The authors' inversion of Clausewitz ("War is a continuation of politics") to: since WWII, "Politics is a continuation of war by other means." Chapters: 5, 11, 15. Related: Clausewitzian trinity, total war.
+- **Polycultural Institution of America** — Schneiderov's exclusive private school (Washington, DC, 1948) where he taught a "flying saucers" class run "like a congressional committee hearing." Chapters: 8. Related: Nazi-UFO hypothesis.
+- **Probes vs training** — The authors' analysis: the probe hypothesis (gauging our technology) fails after centuries of observation of an adversary that already knows our F-16 rendezvous and can switch missile silos on and off; "they are not probing us, but rather they are training us." Chapters: 14. Related: mystification machines, unintentional threat.
+- **Project Blue Book** — The Air Force UFO project begun March 1952 under Ruppelt (on Cabell's decision), logging 200+ "unknowns" in 1952 alone; its manager Hynek later admitted suppressing possibly genuine cases. Chapters: 10, 11. Related: Project Grudge, Project SIGN.
+- **Project Grudge** — Project Sign's successor, "an appropriate name for a project" whose real support was only to dismiss reports as misidentifications or hoaxes. Chapters: 9, 12. Related: Project SIGN, Condon Committee.
+- **Project Mogul** — The classified high-altitude balloon program (microphones to detect Soviet atomic tests) that became the Air Force's third, Cold-War-justifying explanation for the Roswell debris. Chapters: 6, 7, 9, 11. Related: Roswell crash, cover-up.
+- **Project Penguin** — An experimental US Navy program in the military applications of ESP with which Puharich claimed to have worked. Chapters: 10. Related: remote viewing, weaponization of the paranormal.
+- **Project RAND / World-Circling Spaceship report** — Hap Arnold's think-tank project (later the RAND Corporation) whose 1946 Preliminary Design of an Experimental World-Circling Spaceship proposed satellites eleven years before Sputnik. Chapters: 9. Related: NACA to NASA.
+- **Project SIGN** — The first military UFO study (from July 1947), whose requirements stated present knowledge was "probably adequate... for spaceship construction"; its final report leaned terrestrial on Vandenberg's command while leaving the ET question open. Chapters: 7, 9, 12, 19. Related: Estimate of the Situation, Project Grudge.
+- **Project Skyhook** — The balloon program offered (and eventually rejected) as an explanation for what Mantell chased. Chapters: 11. Related: Mantell incident.
+- **Propaganda value** — The authors' proposed metric for why mutilations/abductions occur in stable, developed nations rather than war zones: such acts register as maximally shocking only against an otherwise secure backdrop. Chapters: 15. Related: cattle mutilation, terrorism as technique.
+- **Protocols of the Learned Elders of Zion** — The 1903 Tsarist secret-police forgery used to justify pogroms, brought to Hitler by Alfred Rosenberg and cited as fact by Henry Ford; a founding instance of state-manufactured fantasy. Chapters: 13. Related: disinformatsiya, blood libel.
+- **PSYOP / mass-hysteria countermeasure / Weltanschauungskrieg ("worldview warfare")** — Psychological operations, from leaflets to weaponizing a population's beliefs; the military's chief UFO worry was their use to create mass hysteria, so "the only effective countermeasure... was to ridicule the Phenomenon," with resulting insanity as "collateral damage." Chapters: 9, 13, 15, 16. Related: disinformatsiya, bicameral mind.
+- **Psychic magnification effect** — A Chinese study (in CIA-declassified files) of psychics who could magnify cells at an acupuncture point "to the size of cherries" and observe material exchange across the cell membrane. Chapters: 12, 18. Related: qigong, somatic science.
+- **Psychosynthesis** — The method developed by Italian psychiatrist Roberto Assagioli, who worked for years with Alice Bailey. Chapters: 19. Related: Theosophy.
+- **Psychotronics / psychotronic devices** — The term that replaced "parapsychology" in the Eastern bloc (favored as more scientific); Soviet devices claimed to read/act on biological fields, curtailed for side effects — extended by the authors to the Phenomenon's perception-control technology. Chapters: 13, 19. Related: biological fields, ELF waves.
+- **Qi / prana** — The life-force; qi (Chinese) is "roughly equivalent to prana in the Indian system," and Chinese practice teaches its control. Chapters: 12. Related: qigong, siddhis.
+- **Qigong** — "The Chinese art of the cultivation of qi," which Qian Xuesen called "the key to understanding powerful abilities locked within the human body," with military and aerospace applications. Chapters: 12. Related: somatic science, Falun Gong, supersoldiers.
+- **Quantum Magicians** — The chapter's section framing quantum-era physicists and Parsons-style occultists as parallel challengers of reality's rules; the illogic of quantum physics "would have seemed to Parsons to endorse the improbable possibilities of magic." Chapters: 7. Related: quantum mechanics, ritual magic.
+- **Quantum mechanics** — The new physics (indeterminacy, uncertainty, nonlocality) never reconciled with classical physics yet validated by microchips, lasers, and MRI; the authors' analogy: classical science is a narrative novel, quantum physics "stream of consciousness, or even free verse." Chapters: 7. Related: uncertainty principle, multiverse, nonlocality.
+- **Quantum entanglement weaponized / wave function collapse** — The authors' speculation that the single science behind the Phenomenon "treats consciousness like a computer program" and weaponizes quantum entanglement and wave-function collapse. Chapters: 16. Related: science of the Sekret Machine, AI bias.
+- **Race science / race as social construct** — The Nazi pseudo-scientific racial doctrine with a theological core (an SS man "polluted" by a Jewish woman); conversely, because race has no genetic basis, an alien invader "may not sense any difference between one human and another." Chapters: 8, 16. Related: Ahnenerbe, colonization analogy, eugenics.
+- **Ratline (+ routes)** — Escape-and-transfer networks moving Nazis and assets to Latin America and the Middle East; the authors' "ratline for technology" extends the concept to technical, scientific, and engineering teams and resources. Chapters: 8, 9. Related: monastery/Spanish/Nordic routes, ODESSA, Nazi Nation.
+- **Read-in** — Being formally granted access to a classified program; the authors extend it metaphorically — clergy, artists, philosophers, and mystics are not "read in" to the Phenomenon conversation. Chapters: 4. Related: special access program, soft sciences.
+- **Recovered memories / False Memory Syndrome** — Allegedly repressed traumatic memories made conscious via hypnosis; the False Memory Syndrome Foundation (est. 1992) countered that therapists could implant them, producing "a confabulation of fact and fantasy." Chapters: 5, 17. Related: satanic ritual abuse, the third possibility.
+- **Red Planet Mars (1952)** — The film (opened May 15, 1952) in which an escaped Nazi secretly fakes Soviet-serving "Martian" radio contact; used by the authors to argue media anticipated 1952's real events, with the recurring "11:22" read against November 22, 1963. Chapters: 10. Related: 1952 Washington flap, the Nine.
+- **Red Scare / McCarthyism / blacklist** — The roughly five-year era of Communist/homosexual hunts and Hollywood purges that stripped Parsons, Qian, Malina, and Oppenheimer of standing "while proven Nazis worked unmolested." Chapters: 7, 12, 13. Related: security clearance, VENONA.
+- **Red Shambhala** — Znamenski's book on Soviet-era occult geopolitics in Central Asia, cited for the "weird" combination of religion, mysticism, and politics behind the postwar Nazi-UFO material. Chapters: 18, 19. Related: Shambhala, Thule Society.
+- **Rejected knowledge / rejected political ideologies** — The authors' frame for early Ufology's antinomian streak: occultism plus outsider politics "wrapped in a single, tight bundle," a complete alternative system of religion, politics, and science. Chapters: 10. Related: Soulcraft, Theosophy.
+- **Remote viewing / Stargate** — The psychic-perception technique studied in the US military's Stargate programs and Soviet/Chinese equivalents; 1980s congressional funding was denied as "somehow unholy." Chapters: 12, 13, 14. Related: ESP, UFO gap, fear of demons.
+- **Residual effects** — The Australian MoD report's term for physical traces left after a UFO encounter (stalled engines, burns, paralysis), which it flags as "the greatest potential reward to scientific investigation." Chapters: 15. Related: weapons platform hypothesis.
+- **Resurrection of the dead** — Christian doctrine that the dead rise at the Last Judgment to a paradise reserved for the faithful; cited as another instance of the "elect" motif shared with Shambhala and the alien hybrid program. Chapters: 17. Related: Shambhala, hybrid program.
+- **Ritual magic** — In the authors' framing, "the application of the Bergsonian concept of mechanization to the real world and to consciousness simultaneously"; the "sekret machines themselves may be products of this work." Chapters: 6. Related: mechanics and mysticism, Ordo Templi Orientis.
+- **Root races** — Blavatsky's Theosophical schema of successive humanities, part of the "consensus reality"-revising system Ufologists later literalized. Chapters: 10. Related: Theosophy, ascended masters.
+- **Roswell crash / Roswell deception** — The 1947 debris first called a "flying disk," then reversed to a weather balloon (later Project Mogul); per one of the authors' sources, a man-made craft "designed by the Nazis." Ramey's reversal "prefigure[d] how the...government would...mishandle the UFO phenomenon for the next seventy years." Chapters: 7, 9, 11, 16. Related: Project Mogul, Nazi-UFO hypothesis.
+- **Royal Order of Tibet** — Adamski's occult society (c. 1930), whose religious status served as cover for making wine during Prohibition. Chapters: 10. Related: George Adamski, Shambhala.
+- **Royal touch** — The historical belief that anointed English and French monarchs could heal by laying on of hands; cited as a bloodline-based claim to special power intersecting church and state. Chapters: 17. Related: hybrid program, eugenics.
+- **Sabian symbols** — The astrological system in Marc Edmund Jones's work, in the esoteric/symbolic cluster of the book's sources. Chapters: 10, 18. Related: theory of process.
+- **Sacred thread / Yadnyobavita** — Per the entity "R.," "the sacred threads which Brahmins wear," worn for life, signifying a "second birth"; apported at the 1953 séance. Chapters: 10. Related: Brahmin, the Nine.
+- **Samsara / nirvana** — Invoked among the authors' "childish" but survival-critical questions about the Alien's relation to death and rebirth: does the Alien experience samsara? Nirvana? Chapters: 14. Related: unintentional threat.
+- **Sananda / Sanat Kumara / Kumaras** — Dorothy Martin's channeled entity Sananda (a "Theosophical variant of Jesus" from planet Clarion) and Blavatsky's Sanat Kumara (king of the world in Shambhala), both among the four Kumaras, eternally young "mind-born sons" of Brahma. Chapters: 10. Related: the Seekers, Theosophy.
+- **Satanic ritual abuse** — The 1970s–80s US panic of recovered memories of Satanist abuse and thousands of sacrificed children; investigation found no such murders or networks, leaving the memories' origin unexplained. Chapters: 5, 10, 13, 17. Related: recovered memories, hypnotic regression.
+- **Science of the Sekret Machine** — The book's overarching concept: a single, not-yet-understood science underlying exotic craft behavior, quantum phenomena, and consciousness — "a science that treats consciousness like a computer program, and computer programs like the dreams and memories of conscious beings." Chapters: 16. Related: convergence, quantum entanglement weaponized.
+- **Scientific Advisory Group (AAF-SAG)** — The Army Air Force group formed September 1944 under von Kármán (31 specialists hunting German scientists and prototypes), later "deeply embedded in the UFO studies." Chapters: 9. Related: military-industrial complex, VENONA.
+- **Sea Org** — The secret society atop the Scientology pyramid conducting intelligence, counterintelligence, and "mind control programs on its own staff," templated (the authors argue) on the classified-military milieu around Parsons. Chapters: 7. Related: Dianetics/Scientology.
+- **Searchlight motif** — The one design element common to all 1897 airship reports: a massive light switched on and aimed at the ground; present from the first Sacramento sighting. Chapters: 6. Related: Great Airship sightings.
+- **Sekret machines** — The trilogy's title concept: UFOs/UAPs are machines "whose provenance and purpose are unknowable, unfathomable, and hence sekret," so that official secrecy is downstream of unknowability, not conspiracy; also "spiritualized machines" fusing technology and mysticism. Chapters: 5, 6, 13, 14, 16. Related: metatechnical, mystification machines, science of the Sekret Machine.
+- **Sekret skrim** — The authors' coinage for the possibility that flying-saucer/bug-eyed-alien imagery is a projection screen for humanity's own anxieties about its technological future. Chapters: 16. Related: cultural filtering, Alienism.
+- **Selective / partial witnessing** — The pattern where some observers perceive the Phenomenon while others beside them see nothing (Ariel School, Nimitz); the authors argue it is "not a bug, it's a feature" — diagnostic, not disqualifying. Chapters: 16. Related: Ariel School case, control mechanism.
+- **Shambhala / Agarttha / Thule / Asgard** — The mythic hidden kingdoms of superior/elect beings — Shambhala and Agarttha (Buddhist/Theosophical), Thule (Nazi), Asgard (Norse) — that the authors argue all encode a bloodline/spiritual requirement for admission, paralleling the abduction literature's multigenerational program. Chapters: 7, 8, 17. Related: Kalki Avatar, Thule Society, hybrid program.
+- **Siddhis** — "The Sanskrit term for magical abilities," attained through yoga, pranayama, tantra, and alchemy; the Asian view that psychic powers can be produced and magnified by technique (versus the Western view that they are inherent). Chapters: 12. Related: qi/prana, qigong.
+- **SIGINT / ELINT / HUMINT** — Espionage categories: signals and electronic intelligence (technology-based) versus human-agent intelligence; the authors argue the Alien excels at SIGINT/ELINT but struggles at HUMINT (hence "off" Men in Black). Chapters: 15. Related: Men in Black, divine manipulation of the threads.
+- **Silkworm missile / Long March rocket** — The Chinese weapons Qian Xuesen designed after his expulsion — the Silkworm "used so effectively by Saddam Hussein's Iraq" and the Long March space rockets. Chapters: 12, 19. Related: Qian Xuesen, Red Scare.
+- **Simulacrum** — The "clever, near-perfect" replacement of the physical world by prefabricated images, deep fakes, and doctored media as collective consciousness adapts to digital flows. Chapters: 13. Related: deep fakes, group mind.
+- **Škoda Works SS think tank** — The top-secret SS research operation at the Škoda Works under Kammler's jurisdiction, holding superweapon data "above and beyond" Peenemünde/Nordhausen — inaccessible even to Dornberger and von Braun; its truckload of secrets was lost to the Red Army. Chapters: 9. Related: Hans Kammler, Mittelwerk.
+- **Soft sciences** — Psychology, sociology, and philosophy (grouped with the humanities, religion, and the arts) — disciplines excluded from the official approach despite being needed to prepare the public for disclosure. Chapters: 4. Related: read-in, disclosure.
+- **Soulcraft** — William Dudley Pelley's UFO-and-Nazi-tinged organization, in the "rejected knowledge" lineage. Chapters: 10. Related: rejected knowledge, Nazi-UFO theory.
+- **Sovereignty (Wendt and Duvall)** — The threat an alien presence poses to human ideas of sovereignty, per the "by-now famous" Wendt–Duvall paper: mere presence, not invasion, undermines confidence in human identity and values. Chapters: 14, 18. Related: unintentional threat, colonization analogy.
+- **Special Access Program (SAP) / Controlled Access Program (CAP)** — Classified government program categories dealing (among other things) with the UFO/UAP Phenomenon, embedded beyond bureaucratic and journalistic scrutiny; neither author has been read-in to any. Chapters: 4, 5, 8. Related: read-in, need to know.
+- **Spectral evidence** — The Salem-trials category the authors invoke by contrast: their case rests not on it but on "personal testimonies, declassified documents, military records, and government speeches." Chapters: 10. Related: cognitive dissonance.
+- **Spiritual civilization** — Chinese Marxist doctrine that a high material civilization is impossible without a high "spiritual civilization"; studying "life science" both requires and serves it. Chapters: 12. Related: somatic science, qigong.
+- **Spiritual pollution** — A phrase Levenda says a Chinese business contact used for American culture (distinct from the investment and technology China wanted). Chapters: 19. Related: Orientalism.
+- **SRI programs** — The 1960s Stanford Research Institute consciousness/paranormal studies the authors say must be resumed (minus "demons") to address the Alien problem. Chapters: 14. Related: consciousness studies, remote viewing.
+- **Stealth** — Radar-evading design (the Horten flying wing an early instance) that gives no propeller silhouettes to lock onto; also the modern convergence point where stealth craft resemble UFOs. Chapters: 7, 9. Related: Horten Ho 229, convergence.
+- **Steampunk** — The 1980s-coined aesthetic of pipes, gauges, gears, and boilerplate; the 1897 airships were "steampunk dreams" before the genre had a name. Chapters: 6. Related: Great Airship sightings.
+- **Stovepipes** — The compartmentalized information channels within government, referenced in Knapp's question about whether the UFO problem would remain unsolvable "even after all the stovepipes are torn down." Chapters: 4. Related: need to know, special access program.
+- **Supersoldiers** — The PLA's early-1990s program cultivating soldiers with qigong and martial arts — paranormal ability under state control, as opposed to Falun Gong's "uncontrolled and unregulated remote viewers." Chapters: 12. Related: qigong, Falun Gong.
+- **Superweapons / wonder weapons** — The advanced German war technologies (V1, V2, Me 262, atomic research, alternate propulsion) into which millions were poured once Hitler took power; postwar fear of them became confused with "flying saucer" sightings. Chapters: 7, 8. Related: V1/V2, Horten Ho 229.
+- **Tachyon** — Particles believed able to travel faster than light, essential to the Levetzow antigravity concept; an interest of Hal Puthoff and of Nick Cook's The Hunt for Zero Point. Chapters: 8. Related: Levetzow gravity-shielding theory, antigravity propulsion.
+- **Terraforming** — The term invented by science fiction writer Jack Williamson (of the Parsons circle) in one of his stories. Chapters: 7. Related: To The Stars.
+- **Terrorism as technique** — The authors' definition: "a technique and a strategy" with no inherent ideology, aimed at unnerving a population (not achieving a military objective) and making the perpetrator seem more powerful than it is; the frame for reading abductions/mutilations as psychological warfare. Chapters: 15. Related: alien abduction as psychological warfare, cattle mutilation.
+- **Teslar watch** — A device Puharich invented out of his research into Tesla's work. Chapters: 19. Related: Intelectron, ELF waves.
+- **Tesla's Mars signal** — Tesla's belief that in 1899 at Colorado Springs he received regular, intelligent signals "of planetary origin," reported in 1901 as a "message from Mars." Chapters: 6, 19. Related: interspecific communication problem.
+- **Theater of war** — Jomini's concept of the geographic ground of conflict; the authors argue it collapses for the Phenomenon because there is no identifiable "enemy soil." Chapters: 15. Related: Clausewitzian trinity.
+- **Thelema** — Crowley's revealed religion (Greek for "will"), for which the OTO was the vehicle; its doctrine of "absolute spiritual freedom and the right to discover one's true will" was later enshrined in Scientology. Chapters: 7. Related: Ordo Templi Orientis, Book of the Law.
+- **Theory of process (ToP)** — Arthur Young's post-Bell "approach to integrating the hard sciences with consciousness," suggesting "not all of reality was scientifically measurable"; expressed in The Geometry of Meaning. Chapters: 10. Related: Foundation for the Study of Consciousness.
+- **Theosophy / Theosophical Society / ascended masters** — Blavatsky's 1875 system reappraising "consensus reality" with root races and hidden Asian masters in Shambhala; the precedent for channeled instruction that Ufologists literalized ("The masters of Theosophy and the space visitors were one and the same"). Chapters: 6, 10, 17. Related: Masters, Aryan Theosophical Society, root races.
+- **Third possibility, the** — The authors' suggestion that beyond the False Memory Syndrome view and Helms's CIA dismissal lies "a third — and ultimately more terrifying — possibility": both were "groping in the dark after the same Phenomenon." Chapters: 5. Related: recovered memories, brainwashing.
+- **Threat analysis** — The national-security frame TTS's ex-government founders bring to the Phenomenon; the volume promises "a long, hard look at... the wisdom or folly of interpreting the Alien from a threat analysis perspective." Chapters: 5. Related: war footing, To The Stars.
+- **Thule Society (Thule Gesellschaft)** — An occult society (unlike the scantily evidenced Vril) that met in the same Munich hotel as the fledgling Nazi Party; a mélange of Kabbalah, rune magic, and racism named for the mythical Aryan homeland. Chapters: 9. Related: Shambhala/Thule, Vril.
+- **Tic Tacs** — The authors' shorthand for the modern observed craft (the "lozenges") revealed in the December 2017 NYT footage; the contemporary endpoint of a sighting record traced to ancient Egypt, and the analytical hinge of the invasion chapters. Chapters: 4, 5, 8, 13, 14, 15, 16. Related: Nimitz Tic Tac encounter, foo fighters.
+- **To The Stars (TTS)** — DeLonge's project (team formed 2017–2018 with Mellon, Nolan, Elizondo; research begun January 2015) whose standing position is that the Phenomenon "exceeds science and national security"; widely (mis)read as promoting an "alien threat." Chapters: 4, 5, 16. Related: threat analysis, AATIP.
+- **Total war** — Ludendorff's doctrine of mobilizing a nation's entire resources onto a constant war footing, inherited by the US national-security state; the authors propose "reengineering" it into a planetary, collaborative defense against the Phenomenon. Chapters: 16, 17. Related: military-industrial complex, universal collaboration.
+- **Totenkopf / Allgemeine SS** — The death's-head insignia on SS caps (doubled on camp officers' collars) and the black-uniformed early SS branch; the authors read the skull-and-crossbones as "a kind of psychological warfare technique" and use it to decode Barney Hill's "Nazi" perception. Chapters: 8. Related: Ahnenerbe, race science.
+- **Transmedium capability** — UAPs' observed ability to move from air directly into water without a wake (Nimitz), which the authors connect to abductees' reports of passing through solid walls. Chapters: 15, 16. Related: Nimitz Tic Tac encounter, alien abduction.
+- **UAP / UFO** — "Unidentified Aerial Phenomena," the official term (e.g., in AATIP), "considered less whimsical and more inclusive of related experiences than the more commonly used UFO." Chapters: 4. Related: the Phenomenon, Tic Tacs.
+- **Übermensch / Superman parable** — The Nazi-revered "super man" versus DC's patriotic undocumented Alien; the authors use Clark Kent as the model of a species "in total control over how they appear," and Lex Luthor as "the epitome of the military-industrial complex." Chapters: 13. Related: alien gaze, control mechanism.
+- **UFO denial** — The American approach of ignoring the problem, lumping UFO groups with New Agers and crystal gazers, producing "a collective devaluation of all these systems in public opinion." Chapters: 12. Related: catch-22 of disclosure, cover-up.
+- **UFO gap / remote-viewing gap** — The authors' coinage, by analogy with the "missile gap," for America falling behind because conservative Christian congressmen deemed such research "demonic"; also Hynek's Playboy-article fear that the Russians might solve the mystery first. Chapters: 12, 13. Related: fear of demons, remote viewing.
+- **UFO religions** — The authors' category for Mormonism, Scientology, and Falun Gong: religions in which alien worlds or beings are doctrinally central. Chapters: 12. Related: Falun Gong, Xenu.
+- **Ultraterrestrial** — The possibility that the Alien is an organic coresident of Earth (or a natural Phenomenon) rather than a visitor from outer space, transcending both the nuts-and-bolts and "outer space" approaches. Chapters: 14. Related: alien origin conjecture, extraterrestrial hypothesis.
+- **UMMO** — A 1970s–80s movement claiming verified alien contact through suspicious documentation; almost certainly a hoax, yet its symbol appeared in Voronezh witness drawings, leading Vallée to see "a genuine phenomenon... strangely tainted with hoaxed material." Chapters: 13. Related: Voronezh incident, hoax within a hoax.
+- **Uncertainty principle** — Heisenberg's principle "that the position and the momentum of a particle cannot be known simultaneously," for which he is called "the 'father of quantum mechanics.'" Chapters: 7. Related: quantum mechanics.
+- **Unintentional threat** — The authors' point that the Alien is a threat "even if the Alien doesn't know it or intend it," simply by causing humans to question their values, reality, and sense of self. Chapters: 14. Related: sovereignty, perception of reality.
+- **Universal collaboration** — The authors' prescription in place of one-world government: global cooperation forced into being by the Alien's presence (which could itself impose world government "with itself as our president and parliament"). Chapters: 14. Related: mutually assured protection, total war.
+- **Ur-contact** — A hypothesized event "in dim prehistory" (recalled from Sekret Machines: Gods) that "jump-started human ideas about gods, angels, and demons." Chapters: 5. Related: cargo cult, ancient alien hypothesis.
+- **Urantia Book** — A channeled scripture cited in the Theosophy/secret-chiefs lineage of channeled instruction; Marcella DuPont arranged its French translation. Chapters: 10. Related: the Nine, ascended masters.
+- **V1 / V2** — The German "flying bomb" and the guided rocket; British scientific intelligence at first deemed the missiles "a technical impossibility," a mindset the authors compare to today's establishment reaction to UAP. Chapters: 7, 8, 9. Related: superweapons, Mittelwerk.
+- **V7 craft / Mir-V7** — Per Oberth, a German ramjet-bladed helicopter mistakable for a spinning disc; per a 1952 France-Soir article, an actual disk built by Dr. Richard Miethe in 1944; the Soviet "Mir-V7" (c. 1955) "obviously based on the German design." Chapters: 8. Related: Nazi Bell, Kármán vortex street.
+- **Varo edition** — The copy of Jessup's The Case for the UFO annotated by three apparent hands (judged by the Navy to be Allende alone), sent to the Office of Naval Research and laboriously mimeographed by Varo Manufacturing of Garland, Texas. Chapters: 11. Related: Allende letters, Philadelphia Experiment.
+- **VENONA** — The US Signal Intelligence Service's covert project (from 1943) decrypting Soviet traffic; it exposed William Perl ("Gnome," then "James"/"Brahms"), but protecting VENONA is why he escaped espionage charges. Chapters: 9. Related: Rosenberg spy ring, Red Scare.
+- **Vertical takeoff and landing / Zimmer Skimmer** — Chance Vought's interest in ship-deck aircraft and Charles Zimmerman's disk-shaped, propeller-driven concept behind the V-173 "Flying Pancake" and XF5U "Flying Flapjack," which a 2007 Pravda article traced as the lineage of supposedly American-made UFOs. Chapters: 13. Related: vortex rings.
+- **Vimanas** — The Vedic flying craft that Adamski's co-author Desmond Leslie read as alien spacecraft, a proto-"ancient alien" theme. Chapters: 10. Related: ancient alien hypothesis, Nazca lines.
+- **Voronezh incident (September–October 1989)** — TASS-reported UFO sightings ~300 miles from Moscow, including a landed sphere with a tall, small-headed humanoid and a "robot" in a park; Vallée verified accounts and ground traces, then the Soviets walked it back — "exactly as Roswell was handled." Chapters: 13. Related: UMMO, Roswell deception.
+- **Vortex rings** — The propulsion concept a 2007 Pravda article claimed the USSR used to build its own version of supposedly American-made UFOs. Chapters: 13. Related: Kármán vortex street, Zimmer Skimmer.
+- **Voudon / number 22** — Haiti's indigenous religion; Papa Doc Duvalier's license-plate "22" signaled occult protection, letting him claim on 11/22 that his curse killed Kennedy. Chapters: 10. Related: deep politics.
+- **Vril** — A scantily evidenced occult force/society associated in legend with Nazi mystique, contrasted by the authors with the definitely-existing Thule Society. Chapters: 9. Related: Thule Society.
+- **War footing / defensive posture** — The authors' recommended stance toward a possibly non-benign Phenomenon: "assume a war footing, at least until all the facts are in." Chapters: 5. Related: threat analysis, mutually assured protection.
+- **War of the currents / AC / DC / polyphase induction motor** — The struggle from ~1888 between Edison's DC and Westinghouse's AC; Tesla's polyphase induction motor tipped it to AC (declared the winner in 1892). Chapters: 6. Related: wireless transmission of power.
+- **War room / defense establishment** — The authors' shorthand for the Pentagon and DHS (not Congress, the courts, or the president) — "what... might be referred to as the war cabinet" — the sole current custodian of the Phenomenon. Chapters: 4, 5. Related: military-industrial complex, Plato's Bunker.
+- **Washington DC flap 1952** — The July 1952 UFO overflights of the Capitol and Monument, on radar and chased by jets; General Samford's July 29 press conference performed damage control and linked UFOs to spiritualism. Chapters: 7, 9, 10, 12, 16. Related: Project Blue Book, the Nine.
+- **Weaponization of the paranormal** — The Cold War military/intelligence interest (US, Russia, China) that funded serious paranormal research and treated it as interrelated with the UFO issue — hence the umbrella "the Phenomenon." Chapters: 5, 12. Related: remote viewing, somatic science.
+- **Weapons platform hypothesis** — The idea (examined via the Australian MoD report) that UFOs function partly as weapons systems deploying rays/beams for mapping, illumination, or disabling engines. Chapters: 15. Related: residual effects, operational analysis.
+- **Werewolves** — "Independently operating terror groups formed by the Nazis in the last months" of the war, with some stored weapons "but not much else." Chapters: 7. Related: Nazi Nation.
+- **Wewelsburg** — The SS castle indicating Himmler's serious preoccupation with occultism, Grail legends, and ritual magic. Chapters: 8. Related: Ahnenerbe.
+- **Willcutts Report** — The declassified report on Forrestal's death, showing depression, a sodium-amytal regimen, surveillance fears, and evidence "that could be construed as proof he was conspired against and pushed out the window," though nothing was proven. Chapters: 9, 19. Related: DSM-1.
+- **Wireless transmission of power** — Tesla's system (a rival to Marconi's radio) that J. P. Morgan invested in; Tesla diverted Astor's money to it, causing a years-long break. Chapters: 6. Related: war of the currents.
+- **X files** — The FBI's own early designation for its flying-disc reports; the August 1947 Wilcox memo on Maury Island is called one of the earliest genuine examples ("SM-X"). Chapters: 11. Related: Maury Island incident.
+- **Xenu / thetan / OT VIII** — Scientology's top level, where the "space-opera" secret is revealed: alien forces under "the great lord Xenu" descended to Earth and bonded with human bodies — the authors read it as the Gnostic descent of spirit into matter plus ancient-astronaut theory. Chapters: 7, 12. Related: Dianetics/Scientology, UFO religions.
+- **Ziegel Readings** — A biannual Moscow conference on paranormal phenomena/UFOs, named for astronomer Felix Ziegel, "the founder of Ufology in Russia." Chapters: 13. Related: biological fields.
+
+# People Index
+
+- **A. J. Hartley** — Novelist and DeLonge's collaborator on the Sekret Machines fiction; named in the acknowledgments and apropos of Roswell's novelistic density. Chapters: 3, 11.
+- **George Adamski** — 1950s contactee whose tall blond "Venusian" set the "Nordic" alien template and whose Royal Order of Tibet masked Prohibition winemaking; his testimony the authors treat as thin. Chapters: 10, 15, 18.
+- **Tom Agoston** — Journalist whose interviews with Škoda chairman Wilhelm Voss (Blunder!) underpin the book's Kammler thread. Chapters: 9, 18, 19.
+- **John B. Alexander** — Retired US Army colonel who probed whether a UFO "cabal" existed in the US government and witnessed Walt LaBerge's outburst; a To The Stars–adjacent source. Chapters: 11, 13.
+- **Carlos Allende / Carl M. Allen** — Author of the cryptic Allende letters to Jessup and the Varo-edition annotations; the human source behind the Philadelphia Experiment legend. Chapters: 11.
+- **Henry "Hap" Arnold** — Five-star general (Army and Air Force), Wright-brothers-trained aviator, Pan Am cofounder, whose Project RAND produced the 1946 satellite report. Chapters: 9.
+- **Kenneth Arnold** — Search-and-rescue pilot whose June 1947 sighting coined "flying saucers"; an unimpeached witness recruited by Ray Palmer into the Maury Island affair. Chapters: 7, 9, 11, 16, 18, 19.
+- **Roberto Assagioli** — Italian psychiatrist who developed psychosynthesis and worked for years with Alice Bailey. Chapters: 10, 19.
+- **John Jacob Astor IV** — Millionaire who invested in Tesla's fluorescent lighting and later fell out with him; died on the Titanic; father of Alice Bouverie. Chapters: 6.
+- **Ava Alice Muriel Astor (Alice Bouverie)** — Astor heiress and Round Table Foundation/Nine séance participant who connected Puharich to R. Gordon Wasson. Chapters: 6, 10.
+- **Roger Babson** — MIT-trained engineer, stock-forecaster, and Prohibition Party presidential candidate who founded the Gravity Research Foundation (1948) and Babson College. Chapters: 9.
+- **Alice Bailey** — Theosophist whose circle (Djwal Khul contact) included Joyce Borden Baloković; a channeled-instruction figure. Chapters: 10, 19.
+- **Zlatko & Joyce Borden Baloković** — Violinist (Tesla's friend, played at his funeral) and Borden dairy heiress/Theosophist who financed Puharich's Round Table Foundation. Chapters: 10.
+- **W. Guy Banister** — FBI agent who investigated Maury Island in 1947 and later ran the New Orleans office at the center of the JFK-assassination milieu (Ferrie, Martin, Oswald flyers). Chapters: 11.
+- **Mary Bancroft** — Best friend of Ruth Forbes Paine Young and mistress of Allen Dulles; a link in the Nine–assassination chain. Chapters: 10.
+- **Klaus Barbie** — Nazi war criminal who headed Bolivia's secret police and served Operation Condor; an exhibit of the postwar Nazi network. Chapters: 8.
+- **Gray Barker** — Ufologist who documented the Jessup case and to whom Allen admitted the Experiment was "based on reality." Chapters: 11, 18.
+- **Giuseppe Belluzzo** — Italian steam-turbine expert and ex-minister who publicly claimed (1950) to have helped design a Nazi flying-saucer prototype in 1942. Chapters: 8.
+- **Paul Bennewitz** — UFO researcher driven to breakdown and suicide after Richard Doty's AFOSI disinformation campaign; the emblem of officially sanctioned harm. Chapters: 11.
+- **Jeremy Bentham** — English philosopher who designed the 1791 panopticon prison, the Afterword's master metaphor. Chapters: 17.
+- **Henri Bergson** — Nobel-laureate philosopher (brother of Mina Mathers) whose "mechanics and mysticism," static/dynamic religion, and "machine for the making of gods" frame the Steampunk chapter. Chapters: 6.
+- **Annie Besant & C. W. Leadbeater** — Theosophists who in 1895 claimed to have clairvoyantly "seen" quarks, cited by Puharich. Chapters: 10.
+- **Carl Betz** — "Agent-investigator" at the Round Table Foundation Faraday-cage work and a Nine séance participant (per the authors, "probably not... the actor of the same name"). Chapters: 10.
+- **Helena Blavatsky (Madame Blavatsky)** — Founder of the Theosophical Society (1875) whose "Masters" and root-race doctrine seeded the secret-chiefs/space-visitor lineage and (the authors argue) later Nazi racial ideology. Chapters: 6, 10, 17.
+- **Frank Borman** — Apollo astronaut who told Jules Verne's grandson, "Jules Verne is one of the pioneers of the space age." Chapters: 6.
+- **Martin Bormann** — Hitler's secretary whose alleged postwar escape and fund transfers to South America (documented by Paul Manning) anchor the Nazi-Nation thread. Chapters: 9.
+- **Ray Bradbury** — Science-fiction author (met Parsons at 18) whose FBI file branded his work anti-capitalist; an example of Cold War suspicion of visionaries. Chapters: 7, 19.
+- **"Brian"** — Pseudonymous VXE-6 informant who told Linda Moulton Howe of restricted Antarctic airspace, an ice "hole," and silver disks over the Transantarctic Mountains. Chapters: 9.
+- **Frank M. Brown** — A-2 intelligence officer (with Davidson) killed in the August 1947 crash carrying Maury Island debris; his memo vouched for Arnold's integrity. Chapters: 11.
+- **Nick Bryant** — Author of The Franklin Scandal, cited on powerful figures and hard-to-prosecute abuse networks. Chapters: 17, 19.
+- **Earl S. Browning Jr.** — Major whose October 25, 1947 memo relayed Wright Field's opinion that "some sort of object, such as the flying saucer, did exist." Chapters: 7, 8.
+- **Tim Burchett** — Tennessee congressman who wanted to bypass a review board and simply declassify UFO documents but said the intelligence community blocked him. Chapters: 4.
+- **Richard Burton** — Victorian explorer/translator (Thousand and One Nights, Kama Sutra) cited among the furniture of Orientalism. Chapters: 12.
+- **William Burroughs** — Writer and orgone-accumulator investor, cited in the Reich material. Chapters: 11.
+- **Richard E. Byrd** — Admiral who organized Operation HIGHJUMP and whose mistranslated El Mercurio interview fed the Antarctic-UFO legend. Chapters: 7, 8, 9.
+- **C. P. Cabell** — General who decided to create Project Blue Book and later became a CIA director; the green-fireball correspondence went to him. Chapters: 9, 10.
+- **Ewen Cameron** — Psychiatrist whose CIA-contracted "depatterning" experiments in Canada model extraterritorial psychological operations. Chapters: 15.
+- **Grant Cameron** — Author of Managing Magic, theorizing a government-managed UFO disclosure plan. Chapters: 18.
+- **Marjorie Cameron** — Artist, Parsons's wife, whose spring-1946 cigar-shaped UFO she identified with the Book of the Law's "war-engine." Chapters: 7.
+- **Tucker Carlson** — Broadcaster who interviewed Garry Nolan on disclosure's destabilizing potential ("inherently destabilizing"). Chapters: 4.
+- **Danny Casolaro** — Journalist found dead investigating the "Octopus" conspiracy tied to Riconosciuto. Chapters: 19.
+- **Fidel Castro** — Cuban leader; target of CIA plots (McInerney/Maheu thread) and Operation Mongoose. Chapters: 7, 16.
+- **Iris Chang** — Author of Thread of the Silkworm, the Qian Xuesen biography. Chapters: 18.
+- **Winston Churchill** — Whose March 1946 "Iron Curtain" speech the authors mark as the Cold War's opening. Chapters: 8, 9, 16.
+- **Arthur C. Clarke** — Whose dictum that advanced technology is indistinguishable from magic frames UFOs as "spiritualized machines." Chapters: 6.
+- **Carl von Clausewitz** — Prussian theorist whose "trinity" and "war is a continuation of politics" the authors test against the Alien and invert. Chapters: 5, 11, 15, 16.
+- **Hillary Clinton** — Whose photo leaving with a UFO book (and whose campaign manager's hacked emails) figure in the disclosure and Pizzagate material. Chapters: 9, 13.
+- **Nick Cook** — Author of The Hunt for Zero Point (antigravity/tachyon) and a Kammler-thread researcher. Chapters: 8, 9.
+- **Edward Condon** — Physicist whose committee the authors say was "designed to discredit Ufology." Chapters: 11.
+- **Silvio Conte** — Massachusetts congressman who invoked "little green men" to discredit James McDonald at a hearing. Chapters: 11.
+- **Henry Corbin** — French Islamicist/philosopher who coined "imaginal" for the jinn's real-but-non-physical realm. Chapters: 17.
+- **Francis Crick** — Co-discoverer of DNA whose panspermia theory (code from Mars) the authors invoke. Chapters: 19.
+- **Fred Lee Crisman** — Maury Island figure who "managed" the story, a fact/fiction habitué later subpoenaed in Garrison's JFK probe. Chapters: 7, 11, 19.
+- **Aleister Crowley** — Occultist, head of the OTO, whose Thelema and secret-chief "Lam" (identical to the grey alien) shaped Parsons, Hubbard, and (the authors argue) the space program's occult roots. Chapters: 6, 7, 10.
+- **R. H. Cruzen** — Naval officer who commanded both Operation NANOOK and Operation HIGHJUMP. Chapters: 9.
+- **Harold Dahl** — Lumber-salvage worker whose June 1947 Maury Island sighting and man-in-black visit opened the affair. Chapters: 7, 11, 19.
+- **William Davidson** — A-2 intelligence officer killed with Brown in the August 1947 crash carrying Maury Island debris; "the first casualties of the modern UFO era." Chapters: 11.
+- **Alexandra David-Néel** — Explorer of Tibet cited among Orientalism's romanticizing figures. Chapters: 12.
+- **John Dee & Edward Kelley** — Elizabethan magicians who obtained the Enochian system Parsons used, with Hubbard "the Edward Kelley to Parsons's John Dee." Chapters: 7.
+- **Richard D. DeLauer** — Defense official who called Qian's expulsion "a tremendous loss for us, and a great gain for China." Chapters: 12.
+- **Tom DeLonge** — Musician, To The Stars founder, and co-author of the book; his claimed government insider sources frame the project. Chapters: 1–19.
+- **George de Mohrenschildt** — Ex-CIA contract agent who introduced Oswald to Ruth Paine and whose address book held both George H. W. Bush and R. Gordon Wasson; a Nine–assassination node. Chapters: 10.
+- **James DeMeo** — Reich scholar cited on "Wilhelm Reich's Persecution and Death." Chapters: 11, 18.
+- **Richard M. Dolan** — UFO historian whose "national security state" thesis the authors cite and partly reject. Chapters: 5, 13, 18.
+- **Walter Dornberger** — Peenemünde chief and unrepentant Nazi brought to Wright Field under Paperclip the same month as the Roswell debris; later a Bell VP. Chapters: 7, 8, 9.
+- **Jimmy Doolittle** — General/NACA chairman who visited Goddard's Roswell rocket lab. Chapters: 16.
+- **Richard Doty** — Ex-AFOSI agent linked to UFO disinformation (the Bennewitz case, MJ-12), whose real role the authors question. Chapters: 5, 11, 15, 19.
+- **Krunoslav Draganović** — Croatian monsignor who ran the Catholic "monastery route" ratline. Chapters: 8.
+- **Aleksandr Dugin** — Russian occultist-ideologue cited as a gadfly of Putin-era Orthodoxy. Chapters: 12.
+- **Allen Dulles** — CIA director and Warren Commission member who interrupted Ruth Paine's testimony as she neared the Youngs/Nine connection. Chapters: 10.
+- **George Dufek** — Rear admiral who credited Operation Deep Freeze sightings with his belief in UFOs. Chapters: 9.
+- **Marcella DuPont** — DuPont heiress and Nine séance participant who arranged a French Urantia Book translation. Chapters: 10.
+- **Raymond Duvall** — Co-author (with Wendt) of "Sovereignty and the UFO," on the presence-as-threat argument. Chapters: 14, 18.
+- **François "Papa Doc" Duvalier** — Haiti's dictator who claimed his voudon curse (plate "22") killed Kennedy; de Mohrenschildt's Haiti neighbor. Chapters: 10.
+- **Thomas Edison** — DC champion in the war of the currents, Tesla's early US employer. Chapters: 6.
+- **Adolf Eichmann** — Holocaust organizer who lived among CAPRI's Nazi émigrés in Tucumán, Argentina. Chapters: 8.
+- **Dwight D. Eisenhower** — President who named the "military-industrial complex" and refused Reich's pardon. Chapters: 4, 5, 9.
+- **Albert Einstein** — Whose relativity (light-speed cap) is "the single most formidable obstacle" to routine alien visitation, and who warned FDR of the Nazi bomb and protested Paperclip. Chapters: 5, 7, 9, 16.
+- **Lue Elizondo** — Ex-Pentagon counterintelligence officer who ran and revealed AATIP; a To The Stars figure and disclosure advocate. Chapters: 4, 19.
+- **Amira El-Zein** — Scholar of the jinn whose Islam, Arabs, and the Intelligent World of the Jinn grounds the Afterword's comparative discussion. Chapters: 17, 18.
+- **King Farouk** — Egyptian monarch, wartime Reich sympathizer, on whose Aswan Dam project Perl corresponded. Chapters: 9.
+- **Joseph Farrell** — Researcher (Reich of the Black Sun) on the Kammler/Nazi-superweapon thread. Chapters: 9, 18.
+- **David Ferrie** — New Orleans figure in Garrison's JFK probe, tied to fringe churches with Crisman-adjacent personnel. Chapters: 11.
+- **Leon Festinger, Henry Riecken & Stanley Schachter** — Psychologists whose infiltration of the Seekers produced When Prophecy Fails and the term "cognitive dissonance." Chapters: 10, 19.
+- **Ed Forman** — Parsons's boyhood rocketry partner and GALCIT/Suicide Squad cofounder. Chapters: 7, 9, 12.
+- **James Forrestal** — First Secretary of Defense who authorized HIGHJUMP; his 1949 fall from Bethesda is examined via the Willcutts Report. Chapters: 7, 9.
+- **Frederick Forsyth** — Novelist whose The ODESSA File gave the term ODESSA currency. Chapters: 8.
+- **Michel Foucault** — Philosopher whose panopticon and History of Sexuality supply the Afterword's interpretive frame. Chapters: 11, 17, 18, 19.
+- **Francisco Franco** — Spanish dictator whose "neutral" Spain stonewalled Safehaven and hosted an ODESSA transit node. Chapters: 8, 9.
+- **David Fravor** — Commander who led the 2004 Nimitz "Tic Tac" intercept; the book's decisive modern witness. Chapters: 9, 13, 16.
+- **Paulo Freire** — Author of Pedagogy of the Oppressed, whose epigraph frames domination as invasion. Chapters: 14, 18.
+- **Ludwig Freude** — Perón intimate and one of Latin America's richest men who funded Fuldner's CAPRI. Chapters: 8.
+- **Carlos Fuldner** — Argentine-born SS officer who ran the Spanish-route ratline and CAPRI. Chapters: 8.
+- **Jim Garrison** — New Orleans DA whose JFK probe subpoenaed Crisman and swept up the Maury Island/Banister milieu. Chapters: 7, 11.
+- **Eileen Garrett** — Medium tested at the Round Table Foundation. Chapters: 10.
+- **Reinhard Gehlen** — Ex-Nazi general whose anti-Soviet spy network (the Gehlen Organization) fed the CIA and became West Germany's BND. Chapters: 8, 9.
+- **Uri Geller** — Psychic later associated with Puharich; cited in the SRI/consciousness thread. Chapters: 10.
+- **Robert Goddard** — Rocketry pioneer ridiculed for Moon ambitions, who worked in secret at Roswell (1930–41); von Braun credited theft of his designs with saving the V2 years. Chapters: 6, 7, 16.
+- **Timothy Good** — UFO author cited in the disclosure literature. Chapters: 9.
+- **Nicholas Goodrick-Clarke** — Scholar of Nazi occultism (Occult Roots of Nazism). Chapters: 18.
+- **Joscelyn Godwin** — Scholar (Arktos) on polar-homeland Nazi survival myths. Chapters: 18.
+- **Sidney Gottlieb** — MK-ULTRA chief in whose "fevered imagination," the authors speculate, an abduction psychological-warfare "story" could have been cooked up. Chapters: 15.
+- **Mikhail Gorbachev** — Soviet leader whose glasnost allowed Voronezh's reporting; later deeply involved with Esalen. Chapters: 13, 19.
+- **Peter Graves** — Actor who played Chris Cronyn in Red Planet Mars. Chapters: 10.
+- **Andrei Goryev** — Soviet scientist said to have refined Levetzow's tachyon/antigravity theory. Chapters: 8.
+- **Christopher "Kit" Green** — Researcher into biological/neurological effects on close-encounter experiencers. Chapters: 19.
+- **David Greenglass** — Rosenberg-ring member told of US satellite/nuclear-aircraft plans that, the authors argue, could only have come via Perl. Chapters: 9.
+- **Kenneth Grant** — Crowley disciple whose epigraph ties the postwar "UFO flap" to extramundane concern over nuclear disturbances. Chapters: 7.
+- **Leslie Groves** — Manhattan Project general at whom Operation Alsos ("grove") winks. Chapters: 9.
+- **James Gunn** — Whose introduction to War of the Worlds calls the Martians "vampires." Chapters: 6.
+- **Kayla Guo** — NYT reporter on Congress ordering UFO records released while dropping broader disclosure (FY2024 NDAA). Chapters: 18, 19.
+- **Fritz Haber** — Chemist in von Kármán's Göttingen circle. Chapters: 9.
+- **Otto Hahn** — Nobel laureate who invented nuclear fission and worked for the Nazis. Chapters: 8.
+- **Stuart Hameroff** — Anesthesiologist who, with Penrose, proposed Orch OR quantum consciousness. Chapters: 18, 19.
+- **A. J. Hartley** — (see above).
+- **Stephen Hawking** — Cited as a Gravity Research Foundation prize recipient and a "blind man" touching the elephant. Chapters: 9, 16.
+- **Werner Heisenberg** — "Father of quantum mechanics" (uncertainty principle) who told Speer Germany could not build a bomb before 1945 and stayed in the Reich. Chapters: 5, 7, 8, 9.
+- **Robert Heinlein** — Science-fiction writer in the Parsons/OTO orbit. Chapters: 7.
+- **Richard Helms** — CIA official who testified the mind-control programs were "twenty years of pointless research." Chapters: 5.
+- **Hermann Hesse** — Whose novel The Journey to the East opens that chapter. Chapters: 12.
+- **Reinhard Heydrich** — SS leader in the Nazi apparatus. Chapters: 9.
+- **Roscoe Hillenkoetter** — First CIA director who later served as a NICAP governor. Chapters: 7.
+- **Barney & Betty Hill** — The first well-known abductees; Barney's hypnosis-session "German Nazi" abductor anchors the consciousness/Nazi-imagery discussion. Chapters: 8, 10.
+- **Heinrich Himmler** — SS chief whose Ahnenerbe, Wewelsburg, and racial-purity policy exemplify the SS science/occult fusion. Chapters: 7, 8, 17.
+- **Adolf Hitler** — Whose regime "provided the template and inspiration" for the US military-industrial complex and whose survival myth Zündel fictionalized. Chapters: 5, 7, 8.
+- **Guy Hix** — Godman AFB commander who scrambled the fighters in the Mantell incident; later transferred to San Antonio near Whitley Strieber. Chapters: 11.
+- **J. Edgar Hoover** — FBI director whose bureau investigated Maury Island and pursued Parsons's clearance case. Chapters: 7, 11, 12.
+- **Budd Hopkins** — Abduction researcher whose serial-abduction cases support the panopticon surveillance argument. Chapters: 17.
+- **Walter & Reimar Horten** — German ace pilot and inventor of the "flying wing" jet, interviewed under Paperclip; Reimar later built aircraft for Perón. Chapters: 7, 8, 9.
+- **Linda Moulton Howe** — Investigator to whom "Brian" reported the Antarctic sightings. Chapters: 9, 18.
+- **Hu Ning** — Von Kármán's Chinese doctoral student who helped build Communist China's physics program. Chapters: 9.
+- **L. Ron Hubbard** — Naval officer and Scientology founder who performed the Babalon Working with Parsons, swindled him, and built Scientology from OTO material. Chapters: 7, 10, 12.
+- **L. Ron Hubbard Jr. (Ron DeWolf)** — Whose memoir describes his father's Crowleyan beliefs (authenticity uncertain). Chapters: 19.
+- **Alois Hudal** — Vatican bishop and Nazi sympathizer who blessed the monastery-route ratline. Chapters: 8.
+- **Howard Hughes** — Aircraft magnate who hired Parsons at Hughes Aircraft; tied to the McInerney/Maheu/Castro thread. Chapters: 7.
+- **al-Husseini** — Pro-Nazi Grand Mufti of Jerusalem, linked to Farouk's Egypt in the Perl material. Chapters: 9.
+- **Peter Hurkos** — Psychic tested by Puharich and present when he met the Laugheads. Chapters: 10.
+- **Aldous & Laura Huxley** — Round Table Foundation backer and the healer whose 8 Hz EEG "entrainment" seeded Puharich's ELF work. Chapters: 10.
+- **J. Allen Hynek** — Astronomer who coined "close encounter of the third kind," managed Blue Book, and admitted suppressing possibly genuine cases; co-source of the sightings database. Chapters: 6, 11, 12, 13, 15.
+- **Carlos Ibáñez del Campo** — Winner of Chile's 1952 election, with both Nazi and Socialist ties. Chapters: 10.
+- **Hank & Georgianna Jackson** — Nine séance participants; Hank later a hospital administrator. Chapters: 10.
+- **David Jacobs** — Abduction researcher cited on serial abduction. Chapters: 10, 17.
+- **Sam Jaffe** — Actor whose Einstein-analog in The Day the Earth Stood Still is corrected by Klaatu. Chapters: 16.
+- **William James** — Philosopher moved by Bergson to abandon logic as reality's sole metric. Chapters: 6.
+- **Morris K. Jessup** — Astronomer-author whose immersion in the Allende material preceded his 1959 suicide; the Philadelphia Experiment's chronicler. Chapters: 11, 13, 18.
+- **Jiang Zemin** — Chinese president who ordered the Falun Gong crackdown, fearing Party infiltration. Chapters: 12.
+- **Dave Johnson** — Idaho Statesman aviation editor and Arnold-case witness. Chapters: 11.
+- **Hiram Johnson** — Senator credited with "The first casualty when war comes is truth," the Collateral Damage epigraph. Chapters: 11.
+- **Marc Edmund Jones** — Astrologer (Sabian Symbols) whose question sparked Arthur Young's theory of process. Chapters: 10.
+- **Antoine Henri de Jomini** — Military theorist whose "theater of war" the authors find inapplicable to the Alien. Chapters: 15.
+- **R. V. Jones** — British scientific-intelligence chief whose Most Secret War recounts disbelief in the V2, a mindset-parallel to UAP dismissal. Chapters: 8.
+- **William Q. Judge** — Blavatsky follower who founded the Aryan Theosophical Society (1883). Chapters: 17.
+- **Queen Juliana** — Dutch queen who gave Adamski a 1959 audience. Chapters: 10.
+- **Steve Justice** — Ex–Skunk Works engineer and To The Stars figure named as a source. Chapters: 3.
+- **Carl Jung** — Psychologist whose flying-saucer-as-mandala/individuation reading recurs across the book. Chapters: 5, 6, 8, 17.
+- **Hans Kammler** — SS general who controlled all Reich R&D (Mittelwerk, the Škoda think tank) and vanished at war's end, possibly "working for the Americans." Chapters: 9.
+- **Joseph Kaplan** — Scientist who, with von Kármán, reclassified the green fireballs as "upper atmosphere research" to "toe the party line." Chapters: 9.
+- **Theodore von Kármán** — Caltech aerodynamicist who administered GALCIT, effectively proposed the military-industrial complex, and sat at its center while his protégés were purged or spied; the Moon's von Kármán crater bears his name. Chapters: 7, 9, 12.
+- **Leslie Kean** — Journalist (UFOs: Generals, Pilots...) in the modern-disclosure spine. Chapters: 18.
+- **John Keel** — Ufologist who linked UFOs to the paranormal and claimed the Allende hoax's source was Varo/ONR. Chapters: 10, 11.
+- **John F. Kennedy** — Whose 1963 US–USSR space-cooperation initiatives (and 11/22 assassination) thread through the book's secrecy and Nine material. Chapters: 4, 5, 10.
+- **Carl Kellner** — Co-founder of the OTO. Chapters: 7.
+- **Donald Keyhoe** — NICAP cofounder and ex-Marine who publicly criticized the government's UFO handling. Chapters: 10.
+- **Dan Kimball** — Navy under secretary who refused to let Qian leave and called his expulsion "the stupidest thing this country ever did." Chapters: 12.
+- **Rudyard Kipling** — Whose "white man's burden" figures in the Orientalism inventory. Chapters: 12.
+- **Philip Klass** — UFO debunker who feuded with and smeared James McDonald. Chapters: 11.
+- **Klaatu** — The alien emissary of The Day the Earth Stood Still (played by Michael Rennie). Chapters: 16.
+- **George Knapp** — Journalist who interviewed Sokolov and Elizondo and asked about "stovepipes." Chapters: 4, 13, 19.
+- **Christian Knorr von Rosenroth** — Author of the Kabbala Denudata, translated in part by Mathers. Chapters: 6.
+- **Eugene B. Konecci** — NASA figure who predicted Soviet mind-to-mind communication on the Moon (1963). Chapters: 10.
+- **Stanley Krippner** — Parapsychologist who visited China (1981) in the CIA's PSI chronology. Chapters: 12.
+- **Jeffrey J. Kripal** — Historian of Esalen (Esalen: America and the Religion of No Religion). Chapters: 18, 19.
+- **Walt LaBerge** — Aerospace engineer and ex–Army under secretary who erupted at Alexander's Pentagon briefing: "That's what you learn when you die!" Chapters: 13.
+- **Irving Langmuir** — Scientist who assisted the debunking Project Grudge. Chapters: 9.
+- **Paul Lantz** — Tacoma newsman who filed the "Wrecked Bomber Carried Disc Secret" story and died ten days later, cause undetermined. Chapters: 11.
+- **Lincoln LaPaz** — Meteor expert who established the green fireballs were non-meteoric. Chapters: 9.
+- **Charles & Lillian Laughead** — Adamski-party contactees whose 1956 letters reproduced the Vinod séance's equation, deepening the Nine mystery; later Soulcraft/Williamson associates. Chapters: 10.
+- **Bob Lazar** — Area 51 whistleblower, one of whose ID badges bore the Bendix logo (in Levenda's disclosure). Chapters: 4.
+- **Richard Leghorn** — Founder of Itek, the CIA-front camera firm for the CORONA satellites. Chapters: 9.
+- **Desmond Leslie** — Adamski's co-author who read Vedic vimanas as alien spacecraft. Chapters: 10.
+- **Peter Levenda** — Historian of the occult and co-author; the book's first-person voice for the Bendix, Rhode Island MIB, and China anecdotes. Chapters: 1–19.
+- **Walter Levetzow** — German scientist whose gravity-shielding/antigravity theory underlies the Soviet-saucer rumor. Chapters: 8.
+- **Li Hongzhi** — Founder of Falun Gong, whose doctrine that aliens are invading the human mind makes it a "UFO religion"; later exiled, founder of the Epoch Times. Chapters: 12, 18, 19.
+- **Abraham Lincoln** — Whose assassination the authors set in the American conspiracy/grievance lineage. Chapters: 13.
+- **Charles Lindbergh** — Aviator and Keyhoe's friend, cited in the NICAP material. Chapters: 10.
+- **Guido von List & Lanz von Liebenfels** — Austrian ariosophist occultists in the Nazi-mysticism background. Chapters: 10.
+- **Liu Yicheng** — Chinese physicist who proposed "multi-state physics" for extraordinary human body functions. Chapters: 12, 18.
+- **Alfred Loedding** — Principal author of the suppressed "Estimate of the Situation" who later patented a flying-saucer-like aircraft. Chapters: 9.
+- **Lobsang Rampa** — Author of fabricated Tibet books cited in Orientalism. Chapters: 12.
+- **H. P. Lovecraft** — Writer whose "The Call of Cthulhu" describes an alien presence first sensed by artists and poets, anticipating ancient-astronaut ideas. Chapters: 6.
+- **Erich Ludendorff** — WWI general and "pagan mystic" credited with theorizing "total war." Chapters: 16.
+- **Lex Luthor** — Superman's nemesis, "the epitome of the military-industrial complex" in the authors' parable. Chapters: 13.
+- **Douglas MacArthur** — General whom Jack Sverdrup advised; context for the military-industrial network. Chapters: 9.
+- **Arthur Machen** — Golden Dawn member and weird-fiction writer. Chapters: 6.
+- **John Mack** — Harvard psychiatrist whose abduction research found genuine PTSD-like trauma and no other pathology in experiencers. Chapters: 5, 6, 15, 17.
+- **James Madole** — American Nazi (National Renaissance Party) consorted with by H. Keith Thompson. Chapters: 8.
+- **Robert Maheu** — Hughes operative linked to the CIA/Mafia Castro plots and (via McInerney) the Parsons case. Chapters: 7.
+- **Norman Mailer** — Writer and orgone-accumulator investor. Chapters: 11.
+- **Frank Malina** — Caltech grad student and GALCIT/JPL cofounder who fled to Europe under suspicion. Chapters: 7, 9, 12.
+- **Thomas Mallon** — Author of Mrs. Paine's Garage, source on the Paine–Oswald connections. Chapters: 10.
+- **Paul Manning** — Ex-CBS journalist who documented Bormann's fund transfers to South America. Chapters: 9.
+- **Thomas F. Mantell** — Air National Guard captain killed pursuing a UFO over Kentucky (January 1948). Chapters: 11.
+- **Marconi** — Radio inventor whose system rivaled Tesla's wireless-power scheme. Chapters: 6.
+- **Murrey Marder** — Washington Post writer on Qian's expulsion ("The Chinese Scientist We Expelled"). Chapters: 18.
+- **Dorothy Martin (Sister Thedra)** — Chicago channeler of "Sananda" whose failed 1954 prophecy became When Prophecy Fails. Chapters: 10.
+- **Jack Martin** — New Orleans figure in Garrison's probe, tied to the fringe-church network. Chapters: 11.
+- **James Edward Martin** — Author of Wilhelm Reich and the Cold War, on Reich's persecution. Chapters: 18.
+- **Marco Polo** — Cited as the earliest furniture of Western Orientalism. Chapters: 12.
+- **S. L. MacGregor Mathers** — Golden Dawn leader who claimed physical contact with the "secret chiefs" (October 1896), weeks before the first airship sighting; translator of key grimoires. Chapters: 6.
+- **Mina Bergson (Mathers)** — Mathers's wife (Henri Bergson's sister), practitioner of "dynamic religion." Chapters: 6.
+- **Joseph McCarthy** — Senator whose Red Scare drove the purge of Parsons, Qian, Malina, and Oppenheimer. Chapters: 12.
+- **H. M. McCoy** — Wright Field intelligence officer whose 1947 memoranda linked flying discs to the Horten design and the Soviets. Chapters: 9.
+- **James E. McDonald** — Atmospheric physicist who testified UFOs were probably extraterrestrial surveillance devices and, ridiculed, died by suicide (1971); his despair was realizing "science would always be secondary to politics." Chapters: 11, 13.
+- **James M. McInerney** — Assistant Attorney General involved in Parsons's clearance case and later the Maheu/Castro thread. Chapters: 7.
+- **Christopher (Chris) Mellon** — Former deputy assistant secretary of defense whose 2023 Debrief article on disclosure vs. national security opens the book; a recurring source who fears UAPs are invasion-testing probes. Chapters: 4, 11, 15, 18, 19.
+- **Josef Mengele** — Auschwitz doctor whose camp experimentation the authors directly parallel to the abduction scenario's "we mean you no harm." Chapters: 8, 17, 19.
+- **Robert Mercer** — Financier cited in the information-warfare/data context. Chapters: 13.
+- **Gerhard Mertins** — Skorzeny's Merex AG arms-trading partner and Colonia Dignidad fundraiser. Chapters: 8.
+- **Casey Michel** — Journalist ("Inside the KGB's Super Power Division") on Soviet psychic units. Chapters: 18, 19.
+- **Richard Miethe** — Doctor said (per France-Soir) to have built the V7 disk in 1944. Chapters: 8.
+- **Josef Mindszenty** — Cardinal whose 1949 show-trial confession prompted CIA Project Bluebird; the emblem of "brainwashing." Chapters: 12, 13.
+- **Marc A. Mitscher** — Admiral in the HIGHJUMP chain of command. Chapters: 9.
+- **Marina Oswald** — Lee Harvey Oswald's wife, hosted by Ruth Paine and niece of a Soviet military-intelligence officer. Chapters: 9, 10.
+- **William L. Moore** — Ufologist (co-author of The Philadelphia Experiment) later accused of being a disinformation agent, entangled with Doty and MJ-12. Chapters: 11, 19.
+- **J. P. Morgan** — Financier who forced Edison out of power distribution and invested in Tesla's wireless system. Chapters: 6.
+- **Ted Morello** — UP reporter who relayed the anonymous caller reciting Arnold's private hotel conversations. Chapters: 11.
+- **Robert S. Mueller III** — Whose report on Russian election interference is cited in the information-warfare material. Chapters: 18, 19.
+- **Talbot Mundy** — Author of "The Nine Unknown," cited for the "perfected beings who walk among us" motif. Chapters: 17.
+- **Mohamed Naguib** — Egyptian leader whose Nazi-staffed missile program Wilhelm Voss helped build. Chapters: 9.
+- **Gamal Abdel Nasser** — Egyptian leader who welcomed Nazi missile specialists (advised by Skorzeny), against whom Parsons's Israel deal was framed. Chapters: 7, 8.
+- **Captain Nemo** — Verne's anti-imperialist Nautilus captain, cited as a "living criticism" of colonialism. Chapters: 6.
+- **Garry Nolan** — Stanford scientist who argued disclosure would upend all religions ("who is their God?") and researches experiencer biology. Chapters: 4, 19.
+- **Helen Northrup** — Parsons's first wife, wooed under the pole-star motto ad astra per aspera. Chapters: 7.
+- **Sara "Betty" Northrup** — Helen's younger sister, Parsons's lover then Hubbard's wife, a "profound" influence on Scientology. Chapters: 7.
+- **Barack Obama** — Target of Tea Party birtherism in the panic lineage. Chapters: 13.
+- **Hermann Oberth** — Rocketry pioneer and ETH defender who nonetheless lent credence to the Soviet-antigravity rumors; never technically Paperclip. Chapters: 7, 8, 9.
+- **J. Robert Oppenheimer** — Manhattan Project scientific chief and quantum/Sanskrit master, hounded in the McCarthy era "while Paperclip Nazis worked unmolested." Chapters: 5, 7, 9, 12.
+- **Frank Oppenheimer** — His brother, an actual Communist Party member. Chapters: 7, 9.
+- **Ferdynand Ossendowski** — Adventurer who sought Agarttha, in the hidden-lands material. Chapters: 7.
+- **Lee Harvey Oswald** — Whose Texas job (via Ruth Paine), typewriter, and stored rifle place him within the Nine/Paine/Young milieu — "The poor bastard never had a chance." Chapters: 8, 9, 10.
+- **Marguerite Oswald** — His mother, for a time represented by publicity agent H. Keith Thompson. Chapters: 8.
+- **Sheila Ostrander & Lynn Schroeder** — Authors of Psychic Discoveries Behind the Iron Curtain, on Soviet parapsychology. Chapters: 13, 18.
+- **Michael Paine** — Bell Aerospace engineer (Ruth Forbes Young's son), Ruth Paine's husband. Chapters: 9, 10.
+- **Ruth Paine** — Hostess of Marina Oswald who got Lee his Depository job; her Warren Commission testimony was steered away from the Youngs/Nine. Chapters: 9, 10.
+- **Ruth Forbes Paine Young** — Arthur Young's wife, Forbes heiress, Nine séance participant, Mary Bancroft's best friend; a Nine–assassination link. Chapters: 10.
+- **Walter Cabot Paine** — Round Table Foundation associate in the Paine/Young network. Chapters: 10.
+- **Ray (Raymond) Palmer** — Amazing Stories editor who published the Shaver "Deros" and recruited Arnold into Maury Island. Chapters: 11, 18.
+- **Jack Parsons** — Rocket scientist, JPL/Aerojet cofounder, and OTO magus who performed the Babalon Working and died in a 1952 explosion; the "hinge figure" fusing rocketry, occultism, and the Phenomenon. Chapters: 5, 7, 9, 10, 12, 16.
+- **George S. Patton** — General overruled by Eisenhower on Prague, so the Škoda secrets went to the Soviets. Chapters: 9.
+- **Wolfgang Pauli** — Nobel-laureate physicist of the quantum era. Chapters: 7, 16.
+- **Louis Pauwels & Jacques Bergier** — Authors of The Morning of the Magicians, foundational Nazi-occultism source. Chapters: 11, 18.
+- **William Dudley Pelley** — American Nazi leader, UFO experiencer, and founder of Soulcraft. Chapters: 10.
+- **George Pendle** — Parsons biographer whose line on quantum physics "endorsing magic" opens the Quantum Magicians section. Chapters: 7.
+- **Roger Penrose** — Physicist behind (with Hameroff) Orch OR and a Gravity Research Foundation laureate. Chapters: 9, 18, 19.
+- **William Perl** — Von Kármán's protégé and Soviet spy ("Gnome"/"James"/"Brahms") who supplied 1,885 pages from the Columbia safe; convicted only of perjury to protect VENONA. Chapters: 5, 9.
+- **Juan Perón** — Argentine president who sheltered Nazi scientists and funded the Huemul Project. Chapters: 7, 8.
+- **Horst Pinkell** — Levetzow's student sent to the USSR to make the tachyon/antigravity concept workable. Chapters: 8.
+- **Max Planck** — Physicist in von Kármán's Göttingen circle. Chapters: 9.
+- **Plato** — Whose cave allegory (Republic VII) supplies the "Plato's Bunker" image. Chapters: 5, 14.
+- **Yulii Platov** — Soviet scientist who co-authored the dismissive "History of State UFO Research in the USSR." Chapters: 13, 18.
+- **John Podesta** — Clinton adviser and disclosure advocate whose hacked emails (a Russian operation) seeded Pizzagate and confirmed DeLonge's government contacts. Chapters: 9, 13.
+- **Pavel Poluyan** — Author of the Pravda.ru "American-made UFOs" article. Chapters: 18, 19.
+- **Ludwig Prandtl** — "Father of modern aerodynamics" and von Kármán's teacher. Chapters: 9.
+- **Walter Propheta** — Founder of an anti-Communist splinter church in the Garrison-probe network. Chapters: 11.
+- **Andrija Puharich** — Physician-parapsychologist who founded the Round Table Foundation, channeled "the Nine," briefed the Pentagon on weaponizing ESP, and pioneered ELF research. Chapters: 9, 10, 13, 19.
+- **Hal Puthoff** — Physicist (SRI remote viewing, tachyon interest) and To The Stars figure named as a source and touchstone of intersectional research. Chapters: 3, 4, 8, 12.
+- **Puyi** — China's last emperor, cited in the imperial-China background. Chapters: 12.
+- **Qian Xuesen (H. S. Tsien)** — Caltech/JPL rocket genius expelled in the Red Scare and traded to China (1955), where he built its missile/space programs and led military qigong/"somatic science" research — "China's Einstein." Chapters: 5, 9, 12, 19.
+- **George N. Raines** — Forrestal's Bethesda psychiatrist who also wrote the DSM-1 foreword. Chapters: 9.
+- **Roger M. Ramey** — General who debunked both the 1947 Roswell disk and the 1952 Washington overflights, reportedly troubled at telling a story "he knew wasn't the case." Chapters: 9, 10, 12.
+- **D. C. Ramsey** — Admiral in the HIGHJUMP command chain. Chapters: 9.
+- **P. B. Randolph** — Sexual-occult writer whose works fed the OTO's founding. Chapters: 7.
+- **Boris Ratnikov** — KGB/FSO general and Soviet/Russian psychic-research figure ("practically all the people who possessed supernatural capabilities were under the control of the KGB"). Chapters: 13, 19.
+- **Walter Rauff** — Nazi war criminal in the postwar network. Chapters: 8.
+- **Nick Redfern** — UFO author cited in the sources. Chapters: 19.
+- **Wilhelm Reich** — Psychoanalyst-turned-orgone-theorist who claimed to shoot down UFOs and died in a US federal prison after his books were burned; a case study of state suppression. Chapters: 5, 11, 18, 19.
+- **Harry Reid** — Nevada senator who "crack[ed] open the door once again in Congress" for official UFO investigation. Chapters: 5.
+- **Hanna Reitsch** — Nazi test pilot in the wartime-aviation background. Chapters: 8.
+- **Michael Rennie** — Actor who played Klaatu in The Day the Earth Stood Still. Chapters: 16.
+- **Theodor Reuss** — Co-founder of the OTO. Chapters: 7.
+- **Ronald Richter** — Physicist who ran Argentina's Huemul Project fusion attempt, jailed for fraud. Chapters: 8, 10.
+- **Michael Riconosciuto** — Figure of the "Octopus"/Casolaro affair (Inslaw/PROMIS, Iran-Contra), whose father's ad agency employed Crisman. Chapters: 11, 19.
+- **William Rhodes** — Photographer of the heel-shaped "lenticular" craft over Phoenix (1948) that prompted Project Sign. Chapters: 9.
+- **Rudolf Hess** — Nazi deputy and mysticism devotee whose flight to England preceded a ban on German occult societies. Chapters: 9, 12.
+- **William C. Rockefeller** — Obscure name in NASA's 1936-launch account, possibly Parsons's entrée to Hughes Aircraft. Chapters: 7, 19.
+- **Laurance Rockefeller** — Venture capitalist (Itek, PEAR) who ran a "Disclosure" project at the Clinton White House. Chapters: 9.
+- **Nicholas Roerich** — Artist-adventurer who sought Shambhala; died December 1947. Chapters: 7, 10.
+- **Eduard Roschmann** — "Butcher of Riga," basis for a Forsyth character in the ODESSA pop-culture material. Chapters: 8.
+- **Alfred Rosenberg** — Nazi ideologue who brought the Protocols to Hitler. Chapters: 13.
+- **Julius & Ethel Rosenberg** — Atomic spies whose ring photographed the documents Perl stole from von Kármán's safe. Chapters: 9, 12.
+- **Dane Rudhyar** — Astrologer in the Young/consciousness milieu. Chapters: 10.
+- **Arthur Rudolph** — Peenemünde/Paperclip engineer in the surrender-bargaining group. Chapters: 9.
+- **Hans-Ulrich Rudel** — Nazi ace who ran the Kameradenwerke network and consulted for the US government. Chapters: 8.
+- **Edward Ruppelt** — Blue Book chief whose books criticized the government's handling and who described the C.P. ("crackpot") filing rule. Chapters: 9, 10.
+- **Bertrand Russell** — Named in the Allende letters. Chapters: 11.
+- **Carl Sagan** — Astronomer whose Einstein-based dismissal of the ETH the authors rebut; his Contact links the Phenomenon to religion and Nazis. Chapters: 5, 8.
+- **Edward W. Said** — Author of Orientalism, the model for "Alienism." Chapters: 12, 18.
+- **Saladin** — Invoked in the OTO's legendary Catholic–Muslim esoteric exchange. Chapters: 7.
+- **John A. Samford** — General whose July 29, 1952 press conference linked UFOs to spiritualism and "Biblical times." Chapters: 9, 10.
+- **Ivan T. Sanderson** — Ex–British naval intelligence to whom Jessup gave his vanished annotated Varo copy. Chapters: 11, 18.
+- **Jimmy Savile** — Cited (with the Franklin scandal) as a hard-to-prosecute abuse case, posing the question of prosecuting non-human abductors. Chapters: 17.
+- **Hjalmar Schacht** — Hitler's ex-finance minister who consulted worldwide and urged an anti-Mao Islamic crescent. Chapters: 8, 9.
+- **Anatol J. Schneiderov** — Russian-born seismologist who taught a "flying saucers" class and claimed medieval Himalayan sightings. Chapters: 8.
+- **Armin Schoklitsch** — Nazi hydrologist and CAPRI resident at Tucumán. Chapters: 8.
+- **Eric Schroeder** — Author of Zodiac: An Analysis of Symbolic Degrees, introduced by Arthur Young. Chapters: 10.
+- **Carlos Schulz** — Runner of the Nordic-route ratline via the "Evangelical Escape Organization." Chapters: 8.
+- **Rudolf von Sebottendorf** — Thule Society leader who named it for the mythical Aryan homeland beneath the pole star. Chapters: 9.
+- **Jim Semivan** — Ex-CIA officer and To The Stars cofounder named as a source. Chapters: 3.
+- **Miguel Serrano** — Chilean "esoteric Hitlerist" who took Zündel's Nazi-UFO claims seriously. Chapters: 10.
+- **Richard Sharpe Shaver** — Pulp writer whose subterranean "Deros" Ray Palmer published as quasi-fact. Chapters: 11.
+- **Alexander Shcherbakov** — Co-author (with Vasin) of the 1970 hollow-Moon Sputnik article. Chapters: 8.
+- **Martin Shough** — Researcher whose "The Singular Adventure of Kenneth Arnold" surveys the sighting's explanations. Chapters: 19.
+- **August Siebrecht** — Chilean Nazi and Perón intimate who hired Richter and pushed Nazi-staffed aeronautics. Chapters: 8.
+- **Benjamin Simon** — Psychiatrist who hypnotized Barney Hill (the "German Nazi" abductor account). Chapters: 8.
+- **Zecharia Sitchin** — Ancient-astronaut author whose god-as-ET ideas Lovecraft is said to anticipate. Chapters: 6.
+- **Otto Skorzeny** — SS commando who ran Die Spinne, trained PLO fighters, advised Nasser, and co-founded Merex AG; "the more or less public face" of the Nazi network. Chapters: 8, 9.
+- **A. O. Smith / William Bollay / Carlos Wood** — GALCIT Rocket Research Group members at the 1936 Arroyo Seco launch. Chapters: 7.
+- **E. J. Smith** — United Airlines captain and Arnold-case corroborating witness. Chapters: 11.
+- **Wilfred T. Smith** — Agape Lodge master Parsons replaced, before whom Parsons took the Oath of the Abyss. Chapters: 7.
+- **Svetlana Smetanina** — Journalist whose article revealed Soviet UFO studies via General Yeremenko. Chapters: 13, 18.
+- **Morton Sobell** — Rosenberg-ring member who helped photograph the stolen documents. Chapters: 9.
+- **Boris Sokolov** — Soviet Ministry of Defense colonel who revealed (then recanted) a decade-long secret Soviet UFO study. Chapters: 13, 18.
+- **Albert Speer** — Armaments minister told by Heisenberg that Germany could not build a bomb before 1945. Chapters: 7.
+- **Joseph Stalin** — Soviet leader in the Osoaviakhim/Cold War background. Chapters: 8.
+- **Kirill Petrovich Stanyukovich** — Soviet astronomer (Tunguska, alternative gravity, the "Snowman" study) linked to Schneiderov and the hollow-Moon article. Chapters: 8, 18, 19.
+- **Max Steenbeck & Manfred von Ardenne** — German scientists (later on the Soviet bomb) with whom Ronald Richter had worked. Chapters: 8.
+- **Bram Stoker** — Author of Dracula (1897), whose structure the authors map onto later abduction reports. Chapters: 6.
+- **Whitley Strieber** — "The most famous alien abductee" (Communion), who grew up near Randolph AFB and wondered whether his memories were implanted; his epigraph frames the machine/consciousness theme. Chapters: 5, 8, 15, 18.
+- **Alfredo Stroessner** — Paraguayan dictator in the Nazi-refuge network. Chapters: 8.
+- **Hubertus Strughold** — Paperclip scientist responsible for camp experimentation who built the USAF aviation-medicine center at Randolph AFB. Chapters: 7, 8, 12.
+- **Sun Tzu** — Author of The Art of War, whose teaching on spies exposes humanity's zero intelligence on the Alien. Chapters: 9, 15, 16.
+- **Superman / Clark Kent** — The authors' parable of an Alien "in total control over how they appear," introduced months before WWII. Chapters: 13.
+- **Jack Sverdrup** — Engineer-CEO (Perl's Aswan Dam correspondent) who declined Truman's offer to be Secretary of Defense. Chapters: 9.
+- **Kurt Tank** — Focke-Wulf designer who entered Argentina on false papers and later helped India's space program. Chapters: 8.
+- **Nikola Tesla** — Inventor who believed he received planetary radio signals (1899) and anticipated the interspecific-communication problem; the "mad scientist" of the Steampunk chapter. Chapters: 6, 19.
+- **H. Keith Thompson** — HIGHJUMP participant, Nazi-underground player, and briefly Marguerite Oswald's agent. Chapters: 8.
+- **Thutmose III** — Pharaoh whose c. 1460 BCE stela records the earliest sighting (a hovering "star") intervening in war. Chapters: 5.
+- **Marshall Tito** — Yugoslav leader in the Adamski-era diplomatic background. Chapters: 10.
+- **Tituba** — Enslaved Arawak woman of the Salem trials, cited as an early panic figure and a colonized "Other." Chapters: 13, 16.
+- **Truman (Harry S.)** — President who demanded answers on the 1952 flap and fired Forrestal. Chapters: 9, 10.
+- **Donald Trump** — Whose 2016 campaign the Epoch Times supported; in the information-warfare context. Chapters: 12, 13.
+- **Marcello Truxxi** — Author of "China's Psychic Savants" (preserved in CIA files). Chapters: 18, 19.
+- **Neil deGrasse Tyson** — Astrophysicist who echoed the Mars-panspermia idea. Chapters: 19.
+- **Jacques Vallée** — Ufologist whose "control mechanism"/mind-game hypothesis, Voronezh verification, and Wonders in the Sky catalogue recur as a major source and interpretive touchstone. Chapters: 3, 5, 10, 11, 13, 14, 15, 18.
+- **Lee Van Atta** — Journalist of the Byrd El Mercurio interview that fed the Antarctic legend. Chapters: 9.
+- **Hoyt Vandenberg** — General who rejected the "Estimate of the Situation" and had it destroyed. Chapters: 9.
+- **A. E. van Vogt** — Science-fiction writer in the Parsons orbit. Chapters: 7.
+- **G. E. Valley** — Scientist who assisted Project Grudge. Chapters: 9.
+- **Michael Vasin** — Co-author of the 1970 hollow-Moon Sputnik article. Chapters: 8, 18.
+- **Jules Verne** — Novelist whose Nautilus and space-cannon anticipate the Great Airship mystery and inspired rocketeers. Chapters: 6.
+- **D. G. Vinod** — Indian scholar through whom "the Nine" were first channeled (December 31, 1952); his family said he was no trance medium. Chapters: 10.
+- **Erich von Däniken** — Ancient-astronaut author whom Lovecraft is said to anticipate; popularizer of the Nazca lines. Chapters: 6, 10.
+- **Wernher von Braun** — SS-officer rocket engineer whitewashed via Paperclip; his 1959 statement about "powers... far stronger than hitherto assumed" is cited. Chapters: 5, 7, 8, 9, 12.
+- **Elmer Vogel** — AP newsman who reported Mrs. Dahl's rage and called Dahl "a mental case." Chapters: 11.
+- **Wilhelm Voss** — Škoda-think-tank chairman who later helped Egypt build missiles, revealing the think tank's importance. Chapters: 9.
+- **Henry Wallace** — Ex–Vice President who visited the Round Table Foundation's Garrett experiments. Chapters: 10.
+- **Theodore "Teddy" Walkowicz** — Itek cofounder in the CIA-front satellite work. Chapters: 9.
+- **Stephen Ward** — Figure associated with occult goings-on at the Astors' Cliveden. Chapters: 10.
+- **George Washington** — Freemason who addressed the 1790s Illuminati rumors, in the panic lineage. Chapters: 13.
+- **R. Gordon Wasson** — Magic-mushroom pioneer and Puharich colleague found in de Mohrenschildt's address book, tying Oswald's world to the Nine. Chapters: 10.
+- **H. G. Wells** — Author of The War of the Worlds (1898), the earliest invasion-conditioning reference and the chapter's epigraph. Chapters: 5, 6, 14, 16.
+- **Orson Welles** — Whose 1938 War of the Worlds broadcast the authors cite for invasion panic. Chapters: 5.
+- **Alexander Wendt** — Political scientist, co-author of "Sovereignty and the UFO." Chapters: 14, 18.
+- **George Westinghouse** — AC champion in the war of the currents. Chapters: 6.
+- **Jack B. Wilcox** — FBI SAC whose August 1947 memo documented Maury Island and a witness's "biggest liar" threat. Chapters: 11, 19.
+- **George Hunt Williamson** — Pelley employee, racist theorist, and Martian-contact automatic-writer (The Saucers Speak) who became "Brother Philip." Chapters: 10.
+- **Jack Williamson** — Science-fiction writer (Parsons circle) who coined "terraforming." Chapters: 7.
+- **Robert Anton Wilson** — Whose Illuminatus! Trilogy supplies a Nazi-UFO epigraph. Chapters: 8.
+- **Ava Lowle Willing** — Astor's first wife who urged his investment in Tesla. Chapters: 6.
+- **Vasiliy Yeremenko** — KGB major general who described the Astrakhan "summoning" experiment and the "avoid provoking a UFO" protocol. Chapters: 13.
+- **W. B. Yeats** — Nobel-laureate poet and Golden Dawn member. Chapters: 6.
+- **Arthur Young** — Bell-helicopter inventor turned consciousness researcher; a Nine séance participant and hub of the Paine/Oswald connection. Chapters: 7, 9, 10.
+- **Felix Ziegel** — Astronomer, "the founder of Ufology in Russia," namesake of the Ziegel Readings. Chapters: 13.
+- **Charles Zimmerman** — Designer of the disk-shaped "Flying Pancake"/"Flying Flapjack" behind the Pravda "American UFO" claim. Chapters: 13.
+- **Ernst Zündel** — Holocaust-denier who invented the Hitler-Antarctic-saucer story as fundraising "fiction," later taken seriously. Chapters: 8, 9, 10.
+- **Fritz Zwicky** — Caltech astronomer (coiner of "supernova," predictor of dark matter) who served as translator in the von Braun/Dornberger interrogations. Chapters: 9.
+
+## Institutions & organizations as actors
+
+- **To The Stars (Academy of Arts & Science)** — DeLonge's organization whose position is that the Phenomenon exceeds science and national security; its ex-government founders bring the "threat analysis" frame. Chapters: 4, 5, 16.
+- **CIA** — Created by the 1947 National Security Act; ran Bluebird/Artichoke/MK-ULTRA, used UFOs as cover for spy-plane testing (its 1997 admission), and (barred from domestic ops) is theorized to work through AFOSI. Chapters: 5, 7, 9, 12, 15, 16.
+- **AFOSI (Air Force Office of Special Investigations)** — The Air Force investigative body (not domestically restricted like the CIA) alleged to have run UFO disinformation via Doty against researchers like Bennewitz. Chapters: 5, 11, 15, 16.
+- **FBI** — Kept "X" files on flying discs, investigated Maury Island (and Crisman's background), and its Rosenberg file records Perl's correspondence. Chapters: 8, 9, 11, 19.
+- **Jet Propulsion Laboratory (JPL) / GALCIT / Aerojet** — The Caltech-born space-engineering institutions Parsons cofounded; JPL suspended him in 1948 over the OTO and suspected Communist links. Chapters: 7, 9, 12.
+- **NICAP** — The leading civilian UFO-investigation body, with ex–CIA director Hillenkoetter as an early governor. Chapters: 7, 10.
+- **Ordo Templi Orientis (OTO) / Hermetic Order of the Golden Dawn** — The magical orders (headed/joined by Crowley) whose secret-chief doctrine and Thelemic teaching shaped Parsons, Hubbard, and the book's occult-of-the-space-age thesis. Chapters: 6, 7, 10.
+- **Theosophical Society / Round Table Foundation** — Blavatsky's society (source of the ascended-masters lineage) and Puharich's Maine institute where the Nine were channeled. Chapters: 6, 10, 17.
+- **Church of Scientology / Sea Org** — Hubbard's religion and its inner intelligence corps, presented as OTO- and secret-military-templated "UFO religion." Chapters: 7, 12.
+- **Falun Gong / China Qigong Research Society / 507 Institute (ISME)** — Li Hongzhi's banned movement, the state qigong body it broke from, and the military institute that filmed PK research. Chapters: 12.
+- **PLA (People's Liberation Army)** — Sponsor of Chinese "somatic science," supersoldier, and UFO-tracking programs. Chapters: 12.
+- **KGB / FSB / FSO / NKVD** — Soviet/Russian security organs that controlled paranormal "supernaturals," ran Osoaviakhim, and collated UFO reports. Chapters: 7, 8, 13.
+- **Gehlen Organization / ODESSA / Die Spinne** — The postwar Nazi intelligence and escape networks that seeded a stateless "Nazi Nation." Chapters: 8, 9.
+- **Varo Manufacturing** — The Garland, Texas firm that mimeographed the annotated Jessup ("Varo edition") for the Office of Naval Research. Chapters: 11.
+- **Itek Corporation** — The CIA-front company building CORONA spy-satellite cameras, an example of civilians unknowingly employed by the defense establishment. Chapters: 9.
+- **Bendix Corporation** — Defense contractor Levenda worked for (1970s), whose logo appeared on a Bob Lazar Area 51 badge. Chapters: 4.
+- **Epoch Times / Shen Yun** — Li Hongzhi's US media organ and performance company, tied to far-right conspiracy culture. Chapters: 12.
+- **False Memory Syndrome Foundation** — Est. 1992 to counter recovered-memory claims, arguing therapists could implant memories. Chapters: 5.
+- **Gravity Research Foundation** — Babson's 1948 foundation seeking to defeat gravity, still awarding prizes without producing antigravity. Chapters: 9.
+- **RAND Corporation** — Hap Arnold's think tank whose 1946 report proposed satellites years before Sputnik. Chapters: 9.
+- **Australian Ministry of Defense** — Whose declassified 1970s report categorized UFO "weapon" effects from the Vallée–Hynek database before Australia dropped serious study. Chapters: 15.
