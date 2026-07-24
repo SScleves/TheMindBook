@@ -1,3 +1,5 @@
+> **Live site (open from any browser):** https://sscleves.github.io/TheMindBook/
+
 # TheMindBook
 
 A personal knowledge base built from books about mind, consciousness and reality.
