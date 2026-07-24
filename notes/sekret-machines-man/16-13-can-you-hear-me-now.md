@@ -1,0 +1,241 @@
+---
+book: sekret-machines-man
+chapter: 16
+title: "Can You Hear Me Now?"
+part: "Section Three: Human-Machine Symbiosis"
+concepts: [parapsychology, psi, extrasensory-perception, telepathy, clairvoyance, psychokinesis, telekinesis, precognition, remote-viewing, psychoenergetics, spiritualism, occultism, hypnotism, theosophy, brainwashing, mind-control, set-and-setting, ritual-space, emotional-context, emergent-psi, classical-physics, quantum-mechanics, quantum-biology, quantum-consciousness, zener-cards, magnetometer-perturbation, out-of-body-state, special-access-program, scanate, gondola-wish, grill-flame, center-lane, sun-streak, star-gate, extended-remote-viewing, coordinate-remote-viewing, written-remote-viewing, dowsing, psychometry, eeg-asynchronicity, synchronicity, acausal-connecting-principle, entanglement, nonlocality, time-reversibility, information-theory, negentropy, scientists-and-mystics, shamanic-initiation, anomalous-experience, psychiatric-continuum, night-doctors, cultural-artifact, trauma, post-traumatic-stress-disorder, bridging-neuron, context-dependent-memory, brain-rewiring, brain-computer-interface, silent-computer-control, machine-psi, medium-is-the-message, telepathic-alien, psychic-physical-integration, matter-manipulation]
+people: [Ingo Swann, Aimé Michel, Jacques Vallée, William James, Henri Bergson, Helena Blavatsky, Sven Hedin, L. A. Waddell, Alexandra David-Neel, Harry Houdini, Arthur Conan Doyle, James Randi, Joseph Rhine, Louisa Rhine, Hal Puthoff, Russell Targ, Cleve Backster, Pat Price, Joseph McMoneagle, Uri Geller, Andrija Puharich, Arthur Koestler, Wolfgang Pauli, Carl Jung, F. David Peat, David Bohm, Olivier Costa de Beauregard, Mircea Eliade, John Mack, Budd Hopkins, Isaac Newton, Albert Einstein, Max Knoll, Ernst Ruska, Marshall McLuhan, Luis Elizondo]
+---
+# Can You Hear Me Now?
+
+## In one paragraph
+DeLonge and Levenda trace laboratory parapsychology from the Society for Psychical Research and the Rhine laboratory through Cold War mind-control fears and the CIA-, DIA-, and military-sponsored remote-viewing work at SRI. The chapter preserves both sides of that record: named experiments, contracts, selection batteries, declassified definitions, and more than twenty-five years of programs coexist with mixed civilian findings, fraud concerns, unsuitable testing contexts, and a 1974 CIA observer's conclusion that no adequate physical theory of paranormal perception existed. Quantum mechanics, synchronicity, time reversibility, and information theory are presented as possible scaffolding rather than settled mechanisms, while cultural and psychiatric comparisons ask whether anomalous experience is illness, trauma, shamanic initiation, rumor, or response to real abuse. The communications thread culminates in three different mechanisms: reported information acquisition without ordinary senses, a terrestrial MIT device for thought-based computer control, and trauma-driven neural rewiring involving hippocampal, infralimbic, amygdala, and memory systems. The authors then move beyond established technology and research: if conscious machines develop Psi, reported Grays could be telepathic machines; if information can reverse in time, alien communication may imply time travel; and UFO and abductee movement may use one unknown matter-manipulation science—none of which the chapter experimentally demonstrates.
+
+## Core claims
+- Parapsychology developed alongside scientific research into consciousness, genetics, quantum mechanics, and AI, but like serious UFO/UAP analysis it often operated in obscurity or secrecy.
+- Reductionist investigation of ESP, clairvoyance, and telekinesis began around the late-nineteenth-century Airship Sightings.
+- Airships were not uniformly interpreted as extraterrestrial; some observers proposed secret human inventions from hidden laboratories or workshops.
+- The same era saw renewed spiritualism, communication with the dead, and occultism. An overt UFO-paranormal connection did not emerge until well into the twentieth century.
+- Science's later practice of grouping phenomena that resisted rational reduction linked Ufology, paranormal claims, and mysticism by “guilt by association.” The authors say this association was not entirely mistaken because the subjects eventually converged.
+- The late-nineteenth-century laboratory impulse began partly with skeptics testing spiritualist mediums for fraud or genuine anomalous capacity.
+- The London Society for Psychical Research (SPR), founded in 1882, and the American Society for Psychical Research (ASPR), founded three years later, investigated telepathy, hypnosis, séances, spiritualism, and related claims scientifically.
+- William James, author of *The Varieties of Religious Experience*, and Henri Bergson were among the SPR's many scientific and philosophical members, which also included several unnamed Nobel laureates. James was a major influence on the ASPR's creation.
+- The Theosophical Society, founded in 1875 around Helena Blavatsky's work, offered a spiritual reaction to Darwinism by incorporating evolution while maintaining spirituality.
+- Blavatsky claimed or portrayed herself as receiving secret teachings from incarnate and disincarnate entities. *Isis Unveiled* (1877) and *The Secret Doctrine* (1888) attempted to bridge Western mysticism and Asian, especially Indian, religion.
+- European travel by Sven Hedin, L. A. Waddell, Alexandra David-Neel, and Blavatsky contributed to an Orientalist idea that Central Asian and Tibetan practitioners possessed methods for expanding consciousness, controlling nature, and communicating with an invisible world.
+- A century later, the authors say those same ambitions informed scientific inquiry into quantum consciousness and AI.
+- Harry Houdini and Arthur Conan Doyle collaborated after World War I to expose fraudulent mediums and potentially identify genuine ones.
+- Houdini regarded all mediumship as fraud; the authors call him a philosophical predecessor of James “Amazing” Randi. Doyle remained receptive after believing he had received a message from his son who died in the war.
+- Their partnership ended after a séance Doyle interpreted as contact between Houdini and his deceased mother, which Houdini vehemently rejected.
+- In the 1930s, researchers proposed “Psi,” from the first Greek letter of *psyche* or soul, as a factor in mind or world responsible for paranormal abilities.
+- The more austere term *parapsychology* displaced “psychic phenomena” as Joseph and Louisa Rhine established an ESP laboratory at Duke University.
+- The Duke work produced mixed results, and the chapter later notes that the university severed its relationship with the center, which continued independently.
+- A concerted American military and intelligence effort began in the 1970s after recognition that Soviet and Chinese programs were exploring ESP, telekinesis, and related phenomena for military use.
+- Postwar advances in cybernetics, AI, computer science, and robotics encouraged the thought that Psi might be a missing component in models of mind and machine.
+- Civilian Duke trials using student volunteers were inconsistent, but US agencies reasoned that focused classified programs might perform better.
+- Soviet and Chinese interest carried persuasive weight because officially atheist states were presumed unlikely to fund mere religion or occultism. The authors reconstruct the national-security fear that Psi could become as transformative and lethal as the atomic bomb.
+- Korean War prisoners shown denouncing the United States and praising Chinese and Korean governments helped popularize “brainwashing” in 1950.
+- American fear combined racist and Orientalist fantasy about Asian mental power with genuine observations of prisoner behavior, contributing to CIA and military mind-control programs.
+- Bluebird, Artichoke, and MKULTRA used hypnosis and drugs, especially hallucinogens; agencies also explored the paranormal in case mystics or shamans had discovered techniques that released latent abilities.
+- Mainstream scientists generally doubted that decades of parapsychology had produced repeatable, verifiable effects, citing weak protocols, fraud opportunities, near-chance results, anecdotal reports, and psychological explanations.
+- Standard ESP testing assumed a stable “psychic” trait should appear through repetitive Zener-card or symbol trials under laboratory control.
+- The authors argue this format created a trap: refusing an artificial regimen implied fraud, but submitting to exhausting repetitive trials and cheating from frustration also implied fraud.
+- Emotional and situational context may be necessary for spontaneous telepathy, PK, or remote viewing, especially in reports where relatives sense accidents or violence affecting loved ones.
+- Such emergencies cannot ethically be reproduced by kidnapping or harming family members, and a staged event would not reproduce the original context.
+- Sterile controlled laboratories create their own stress and differ from normal environments, so conventional test formats may be unsuitable for an “extrasensory” capacity that does not use ordinary sense organs.
+- If consciousness emerges from the brain, Psi might also be an emergent property. The authors therefore insist that the subject's complex conscious state belongs in the test design.
+- LSD researchers' “set and setting” and shamans' or ritual magicians' ritual space are compared as contextual systems that alter consciousness.
+- Sensory deprivation or invariance can cause hallucinations, as the preceding chapter described, yet in some cultures such altered settings are also treated as prerequisites for paranormal development.
+- The authors say laboratory parapsychologists have not, as far as they know, reproduced the full ritual approach because it appears superstitious or occult, even though the capacity under test occupies adjacent conceptual territory.
+- Classical physics recognizes electromagnetism, strong nuclear force, weak nuclear force, and gravity; the authors ask which could mediate mind-only movement of an object without violating Newtonian energy laws.
+- Naming an unknown force Psi does not prove it, and it remained elusive even in Rhine's laboratory.
+- US agencies nevertheless considered adversary research because Russia's multidisciplinary success in reaching space warned against dismissing unconventional work prematurely.
+- SRI became the institutional center for a classified American effort to investigate and operationalize Psi.
+- Hal Puthoff and Russell Targ were laser physicists formerly employed at different Sperry Gyroscope sites. Their interest in quantum biology and Psi, encouraged by the CIA, brought them together with Ingo Swann and other claimed psychics.
+- Puthoff had served in naval intelligence and worked as an NSA civilian, linking his scientific position to the national-security community.
+- The SRI circle also included retired police officer Pat Price and intelligence officer Joseph McMoneagle, alongside the more famous Uri Geller.
+- Swann's claimed perturbation and remote description of shielded magnetometer equipment prompted CIA testing and an eight-month SRI contract worth nearly $50,000.
+- The chapter reports Swann's Jupiter-ring prediction as a successful remote-viewing result later confirmed by Pioneer 10, while supplying no protocol, timing details beyond the narrative, or alternative analysis.
+- Uri Geller's association with Andrija Puharich linked SRI-era psychic testing with claims of an extraterrestrial intelligence called Spectra or “The Nine.” The chapter reports those contact beliefs without validating them.
+- Government programs aimed not merely to test but to expand and weaponize Psi for intelligence work.
+- Funding conditions mattered: laboratory space, equipment, salaries, and travel made military, intelligence, or defense-contract sources among the few viable patrons for sustained Psi research.
+- Declassifications in 1995, 2001, and later exposed thousands of pages on government parapsychology, including testing and operational uses such as locating missing politicians or observing remote military facilities.
+- Ingo Swann was the first psychic tested in the SRI government program and eventually received a top-secret clearance.
+- A 1973 CIA memo announced Puthoff and Targ's final report on Swann and Geller, including procedures, data, and conclusions.
+- Swann's relatively consistent results helped validate continued SRI work and led agencies to ask whether Psi could be trained at scale, what psychological and physical traits mattered, and how quickly cleared remote-viewing teams could become operational.
+- Researchers faced a basic inversion of normal engineering: they were expected to train and deploy a capacity whose mechanism they could neither describe nor predict.
+- The 1970s lacked the later consciousness theories needed as scaffolding. Quantum mechanics was attractive as an explanation for Psi, but the authors acknowledge it was highly hypothetical then and remains hypothetical.
+- At the 1974 Geneva conference on Quantum Physics and Parapsychology, ESP's reality was accepted by participants, but an anonymous CIA observer concluded that there was no adequate physical theory of paranormal perception.
+- The observer described existing theories as speculative, incomplete, and poorly substantiated, though potentially suggestive for future investigation.
+- The same observer divided the field between researchers seeking an extension or synthesis of science and those calling for a philosophical, mystical, or spiritual revolution.
+- Puthoff and Targ represented the scientific school; Ingo Swann's institutional-reorganization claim is associated with the mystic side.
+- The observer said belief in Puthoff and Targ's results depended on confidence in their integrity and skill; if valid, the results established phenomena and began pattern-finding. The conditional qualification is central.
+- Olivier Costa de Beauregard received the observer's strongest praise for treating ESP as information and proposing information theory as a bridge to quantum mechanics.
+- DeLonge and Levenda emphasize that the initial SRI work led to multiple special-access programs under changing agencies, names, clients, and funding mechanisms for more than twenty-five years.
+- A probably 1994 DIA report defined psychoenergetics, PK, ESP/telepathy, remote viewing, and remote viewer in operational language while also naming extended, coordinate, and written remote viewing, dowsing, psychometry, and clairvoyance.
+- Candidate selection combined personality inventories, blood work, waking and sleeping EEGs, and other examinations.
+- Officials rejected people with unreasonable enthusiasm, occult fanaticism, or mystical zealotry.
+- At the same time, the chapter reports that promising psychics were thought more likely to show EEG imbalance between hemispheres, minor seizure or hyperactivity patterns, intense dissociation, high IQ, and social nonconformity while remaining functional and emotionally healthy.
+- Research linking paranormal reports with psychotic symptoms risks collapsing unusual but nonpathological experience into mental illness.
+- The cited psychopathology discussion says psychiatric disorders lie on continua with ordinary functioning, making a simple ill “them” versus healthy “us” division misleading.
+- A 1991 Gallup result—one quarter believing in ghosts and roughly one in seven saying they had seen a UFO—is used in the cited paper to associate UFO testimony with allegedly irrational supernatural belief.
+- Reports of paranormal experience may correlate with psychological symptoms, while people with mental illness may hold unusually strong beliefs in supernatural forces; correlation does not settle causation or the reality of any reported event.
+- Mircea Eliade's shaman is a “sick man who has been cured”: initiation is a crisis and cure that yields healing, divination, or access to an invisible world.
+- John Mack argued that UFO and abduction reports belong among anomalies including clairvoyance, telepathy, remote viewing, PK, nonlocality, and prayer and expose how limited ordinary reality models are.
+- Mack initially studied abductees because they might be mentally or psychologically disordered, but the chapter says he concluded their reaction reflected real trauma not attributable to neurological imbalance, drugs, hypnosis, or hysteria.
+- A trauma can reorder a worldview so drastically that an average observer cannot easily distinguish its survivor from a person with mental illness.
+- Cultural interpretation matters: a Siberian shaman, a white abductee in New Hampshire or Arizona, and an African American account of “night doctors” arise from materially different histories.
+- The “night doctors” rumor involved kidnappers arriving for surgery and may have been used by southern whites to deter Black workers from leaving the region.
+- The rumor was credible within real terror from white segregationists such as the Ku Klux Klan, lynching and murder, and medical abuse including the Tuskegee syphilis program into the 1970s.
+- The authors distinguish the rumor from abductee reports by saying no one returned from a night-doctor session, whereas abductees report an actual experience and bodily or life interference.
+- They also ask whether “deep state” actors might similarly use frightening UFO-abduction stories to justify space-based military programs and expenditure; this is posed as a possibility without evidence.
+- Work by Mack, Budd Hopkins, and others made serious consideration of abduction reports and accompanying telepathy more culturally possible.
+- Ingo Swann combined government remote-viewing work, security clearance, UFO experience, and no reported mental disturbance, challenging a simple equation between paranormal/UFO claims and illness.
+- Quantum mechanics inspired scientists with mystical interests to seek a scientific model for Psi and thereby potentially expose both paranormal and UFO phenomena to accepted inquiry.
+- Carl Jung and Wolfgang Pauli treated UFOs as projections of unconscious anxiety, while Puthoff combined interest in UFOs and remote viewing.
+- Max Knoll urged Pauli to make Jung deny objective UFO existence, arguing that radar sightings were no more decisive than visual ones without expert-reviewed radar photographs or films.
+- The chapter notes Knoll's authority as electron-microscope co-inventor and brain researcher while also noting that he and Ernst Ruska continued research in Nazi Germany with Siemens funding.
+- The emotional divide between scientific and mystical approaches signals, for the authors, a broader cultural change in which mechanistic science confronts a “paranormal machine” it cannot yet dismantle.
+- Arthur Koestler held mind to be an emergent property of brain and therefore not an independent ghost, while allowing that Psi might likewise emerge from bodily organization.
+- The authors extend this reasoning conditionally: if sufficiently powerful AI develops consciousness, it should also develop Psi; failure might imply mind is not purely bodily, while success could permit machine aliens to possess ESP, PK, precognition, or unknown capacities.
+- Costa de Beauregard's proposals about time reversibility and information lead the authors to speculate that abductee telepathy might indicate time travel. The chapter does not report an alien or human time-travel test.
+- The effortless fact of reported telepathic exchange may be more important than message content: applying Marshall McLuhan, the medium itself signifies a transformed relation to language and information.
+- Ingo Swann criticized Ufology for studying extraterrestrial hardware while avoiding extraterrestrial mental processes and Psi, though some abduction psychologists had begun noticing telepathy.
+- An MIT device is described as enabling thought-only computer control with a goal of communicating with a smartphone without looking at or touching it.
+- The authors extrapolate from a user silently addressing their own phone to another user communicating with your smartphone and from there with your brain; the source supplies no demonstrated brain-to-brain or hostile neural-access result.
+- A February 2018 *Nature Neuroscience* study by an international team is said to show trauma-dependent brain rewiring.
+- New “bridging neurons” connect the hippocampus with the infralimbic region of the prefrontal cortex; the amygdala grows; and context-dependent pathways regulate memory retrieval.
+- This restructuring may explain why PTSD memories reappear outside the clinical context despite temporary improvement during therapy or drug treatment.
+- Applying that research to abductees, the authors argue that a traumatic contact narrative can physically change the brain and perhaps illuminate reports of modification or implants.
+- The chapter says Mack identified abductees as displaying a form of PTSD and treats that as evidence of genuine trauma; it does not establish the identity of the traumatic cause or validate extraterrestrial agency.
+- Abduction narratives compound kidnapping and sexual abuse with reported nonhuman confrontation, levitation, telepathy, and other paranormal events; the authors reason that such a context could produce especially extensive adaptation regardless of what readers believe about its ontological reality.
+- The final quoted statement calls the UFO Phenomenon physical but integrated with psychic function and says contact is possible but irreversible.
+- The authors extend psychic-physical integration from craft to occupants: if a UFO can perform maneuvers beyond Newtonian expectations and allegedly anticipate an F-18 Hornet's future position, perhaps the same science moves abductees through walls or levitates them.
+- Luis Elizondo, identified as former AATIP director, is cited through interviews for the claim about predicting the aircraft's location.
+- The claim that craft movement and abductee movement are one process is the chapter's final speculative synthesis, not a mechanism demonstrated by the documented SRI, MIT, PTSD, or DIA work.
+
+## Concepts
+- **Parapsychology** — the scientific-style study of anomalous capacities such as ESP, telepathy, clairvoyance, precognition, PK, and remote viewing, distinguished terminologically from older “psychic phenomena.”
+- **Psi** — a proposed factor in the mind or world responsible for paranormal abilities; named from Greek *psyche* but not explained or proven merely by naming it.
+- **Extrasensory perception / telepathy** — acquisition or exchange of information that cannot be explained by known sensory means; telepathy focuses on mind-to-mind communication.
+- **Clairvoyance** — anomalous perception beyond ordinary sensory access, listed even in the DIA report among secondary methods.
+- **Psychokinesis / telekinesis** — physical action or perturbation produced mentally without an explanation in known physical mechanisms.
+- **Precognition** — information about an event before its ordinary occurrence, included among the capacities studied or inferred in the government programs.
+- **Remote viewing** — mental acquisition and description of target information blocked by distance, shielding, or time.
+- **Psychoenergetics** — DIA's umbrella term for mentally perceiving, communicating with, or perturbing a designated target, person, or event remote in space or time.
+- **Set and setting / ritual space** — the subject's mental state and environmental, emotional, and cultural context, proposed as constitutive of paranormal performance rather than noise to be removed.
+- **Emergent Psi** — if consciousness emerges from brain organization, paranormal capacities may also emerge and require state-sensitive rather than ordinary perception tests.
+- **Zener cards** — five-symbol cards used for repetitive laboratory Psi trials; the chapter treats them as a potentially artificial, stressful measure rather than a neutral universal test.
+- **Classical-physics constraint** — no identified one of the four named forces explains mind-only object movement, and Newtonian energy accounting appears to prohibit it.
+- **Quantum-mechanical scaffolding** — entanglement, nonlocality, reversibility, and other quantum ideas considered as possible analogies or foundations for Psi without constituting an accepted complete theory.
+- **Magnetometer perturbation** — the SRI trial in which Swann allegedly affected a heavily shielded detector from floors above and sketched its unpublished physical arrangement.
+- **Special-access Psi program** — classified or restricted government research intended to select, train, test, and operationally use psychics for national security.
+- **SCANATE / GONDOLA WISH / GRILL FLAME / CENTER LANE / SUN STREAK / STAR GATE** — successive code names given in the chapter for iterations of the government remote-viewing effort between 1970 and 1991.
+- **Extended Remote Viewing (ERV)** — a DIA-listed form designed to achieve an “Altered View of Reality.”
+- **Coordinate Remote Viewing (CRV)** — a named remote-viewing method in the DIA document; the chapter does not define its procedure further.
+- **Written Remote Viewing (WRV)** — another DIA-listed variant without further procedural description in the chapter.
+- **Dowsing / psychometry / clairvoyance** — “Secondary Methodologies” included in the government report, demonstrating the breadth of officially catalogued anomalous techniques.
+- **EEG asynchronicity** — abnormal imbalance in electrical activity between cerebral hemispheres, reportedly associated by selectors with promising psychics as well as minor seizures or hyperactivity.
+- **Synchronicity** — Jung and Pauli's “acausal connecting principle,” linking events outside ordinary cause and effect and compared with quantum entanglement and nonlocality.
+- **Information theory of ESP** — Costa de Beauregard's proposal that whatever else ESP may be, it concerns information and could be situated within a broad informational and quantum framework.
+- **Negentropy / time reversibility** — informational reversibility and non-arrowlike causal possibilities used by Costa de Beauregard to support openness toward paranormal claims.
+- **Scientists and mystics** — the CIA observer's division between extending existing science and requiring a philosophical or spiritual revolution to understand Psi.
+- **Shamanic initiation as cure** — Eliade's model in which a person passes through sickness, solitude, danger, and visionary horror and returns healed and able to heal or perceive hidden realities.
+- **Psychiatric continuum** — anomalous and ordinary mental function, as well as illness and health, vary continuously rather than separating neatly into “them” and “us.”
+- **Cultural artifact** — a report shaped by historical experience and social power, such as night-doctor rumors within racist violence; cultural shaping does not by itself settle whether a different reported event occurred.
+- **Trauma versus psychosis** — an encounter survivor can display radically reorganized thought because of real trauma rather than an endogenous mental disorder, though outward behavior may be hard to distinguish.
+- **Bridging neuron** — a trauma-associated neuron described as linking the hippocampus to the infralimbic prefrontal cortex and participating in context-dependent memory retrieval.
+- **Context-dependent memory** — traumatic recall regulated by neural pathways and environmental context, helping explain why relief in therapy may not persist outside the clinic.
+- **Thought-based computer control** — the MIT device's reported ability to receive user intention without visible or physical interaction, a technological analogue to silent communication but not demonstrated telepathy between people.
+- **Machine Psi** — the authors' conditional prediction that a machine consciousness should develop paranormal capacity if both consciousness and Psi emerge from sufficient physical computation.
+- **Medium is the message** — McLuhan's phrase applied to alien telepathy: use of direct mental information exchange may itself reveal more than the content communicated.
+- **Psychic-physical integration** — the closing hypothesis that UFO hardware, occupant consciousness, telepathic contact, levitation, wall passage, and unusual motion may belong to one physical process incorporating psychic function.
+
+## Experiments, examples & case studies
+- **Ingo Swann epigraph** — Swann says that if telepathy exists, its importance would require reorganization of all Earth institutions. The conditional “IF” is part of the statement.
+- **Aimé Michel through Jacques Vallée** — the second epigraph says UFO knowledge requires a biological change to the human brain, not merely spiritual or psychic change. It frames the chapter's final neuroplasticity discussion.
+- **Airship Sightings, late nineteenth century** — observers debated whether mysterious craft were secret human inventions rather than visitors from other planets. Paranormal interpretation was not yet an overt part of the airship discussion.
+- **Society for Psychical Research, London, 1882** — formed to test telepathy, hypnotism, séances, and spiritualist claims with scientific methods; William James, Henri Bergson, and unnamed Nobel laureates were members.
+- **American Society for Psychical Research, 1885** — established three years after the SPR, largely through William James's influence, with a similar scientific mission.
+- **Theosophical Society, 1875** — Helena Blavatsky's movement integrated evolution into spirituality and claimed teachings from incarnate and disincarnate entities. *Isis Unveiled* appeared in 1877 and *The Secret Doctrine* in 1888.
+- **Central Asian and Tibetan exploration** — Sven Hedin, L. A. Waddell, Alexandra David-Neel, and Blavatsky exemplify the era's European search for allegedly secret consciousness, nature-control, and invisible-world techniques. The authors identify the framing as romantic and Orientalist.
+- **Houdini and Doyle after World War I** — the magician and Sherlock Holmes author jointly examined mediums. Doyle believed his dead son had communicated; Houdini denied a later séance had connected him with his mother, ending their collaboration.
+- **Joseph and Louisa Rhine at Duke, 1930s onward** — their ESP laboratory became the best-known center for controlled parapsychology. Results with student volunteers were mixed; Duke eventually ended the affiliation and the center continued autonomously.
+- **Zener-card trials** — five symbols were repeatedly guessed under laboratory conditions. The chapter argues that fatigue, stress, frustration, context removal, and accusations attached to refusal or cheating complicated the design.
+- **Family-emergency reports** — relatives are said to have sensed traffic accidents, violence, or other crises affecting loved ones. Such cases are described as well documented but necessarily anecdotal because ethical exact replication is impossible.
+- **Four-force challenge** — electromagnetism, strong nuclear force, weak nuclear force, and gravity provide no accepted channel in the chapter for moving an object mentally, making Psi physically unexplained.
+- **Korean War brainwashing, 1950** — televised US prisoners denounced their country and praised Chinese and Korean regimes, introducing “brainwashing” and motivating American Bluebird, Artichoke, and MKULTRA efforts involving hypnosis and hallucinogens.
+- **SRI institutional history** — founded in 1946 within Stanford University, it became an independent nonprofit by the time of government work in 1970. Early clients included the Department of Agriculture and new US Air Force; later names included Walt Disney, Bank of America, and Technicolor. Its work included AI, robotics, the first computer mouse, and ARPANET.
+- **SRI divestment, 1970** — antiwar pressure over military-industrial ties caused Stanford to separate from SRI. The extraordinary national-security Psi project began two years later.
+- **Puthoff, Targ, and Sperry Gyroscope** — both were laser physicists from different Sperry locations. Quantum-biology interests and CIA encouragement brought them into parapsychology.
+- **Additional SRI viewers** — Puthoff and Targ became acquainted with retired police officer Pat Price and intelligence officer Joseph McMoneagle as well as Uri Geller. The chapter does not detail Price's or McMoneagle's specific trials in this unit.
+- **Cleve Backster's plant work** — Backster attached polygraph equipment to plants to test reactions to stimuli and held Puthoff's proposal on whether physical theory could describe life processes. Swann contacted Puthoff through this connection.
+- **Swann's City College claim** — Swann said he had performed successful PK laboratory work at City College, leading Puthoff to invite him to Menlo Park.
+- **Shielded magnetometer experiment** — from several stories above a heavily shielded Stanford magnetometer, Swann reportedly perturbed the instrument and sketched its complex unpublished equipment. A CIA visit and more testing followed.
+- **Initial CIA contract** — the agency awarded SRI an eight-month contract worth almost $50,000; Russell Targ then joined, and the remote-viewing program began.
+- **Swann's Jupiter viewing** — Swann psychically explored the Moon, Jupiter, and UFOs according to *Penetration*. He reported a Jupiter ring like Saturn's; astronomers dismissed it until NASA's Pioneer 10 flyby allegedly confirmed it in the chapter's account.
+- **Uri Geller** — best known for claimed mental spoon bending, he worked with inventor and physician Andrija Puharich and was tested at SRI.
+- **Puharich, Spectra, and The Nine, 1952–53** — séances at Puharich's Maine home reportedly contacted “The Nine,” another name for Spectra, described as intelligence on a near-Earth spacecraft using selected humans to inspire or cause radical change. The source treats this as a claim and defers fuller discussion to Book Three.
+- **Funding and agency network** — sponsors included CIA, DIA, Air Force, Army INSCOM, Department of the Navy, and military-linked contractors such as SRI. Psi research required laboratories, equipment, salaries, and travel.
+- **Declassifications, 1995 and 2001 onward** — thousands of pages documented experiments and tasks, including searching for missing politicians and spying on distant military installations.
+- **Swann at ASPR, April 26, 1972** — at his New York art reception, reports said he was extensively participating in out-of-body experiments. He began at SRI that June and later received top-secret clearance.
+- **CIA briefing memo, September 10, 1973** — at 1000 hours in the East Building conference room, Puthoff and Targ were scheduled to present procedures, data, conclusions, and results for Uri Geller and Ingo Swann.
+- **Scaling questions** — officials asked whether anyone could learn Psi, which physical or psychological traits predicted it, how much and what kind of training was required, and how fast cleared teams could deploy.
+- **Geneva conference, August 1974** — the 23rd Annual International Conference of the Parapsychology Foundation focused on “Quantum Physics and Parapsychology,” inspired by Arthur Koestler's bestselling *The Roots of Coincidence*.
+- **Anonymous CIA conference report, October 28, 1974** — the redacted author accepted that participants treated ESP as real but found no adequate physical theory and called proposed explanations speculative, incomplete, and poorly supported.
+- **Jung and Pauli synchronicity** — Nobel laureate Wolfgang Pauli and Carl Jung developed an acausal-connection model; their correspondence entered the canon. F. David Peat and David Bohm are named as later contributors.
+- **Puthoff and Targ conference papers** — “Physics, Entropy and Psychokinesis” and “Remote Viewing of Natural Targets” represented the scientific school. The CIA observer said their validity depended on experimental integrity and skill.
+- **Olivier Costa de Beauregard** — his “Quantum Paradoxes and Aristotle's Twofold Information Concept” was praised by the CIA observer for placing ESP in information theory and possibly linking it to quantum mechanics. His epigraph invokes negentropy, relativity's extended time, and EPR's arrowless causality.
+- **Program succession over twenty-five-plus years** — SCANATE (1970), GONDOLA WISH (1977), GRILL FLAME (1978), CENTER LANE (1983), SUN STREAK (1985), and STAR GATE (1991) are listed as iterations of the original SRI project.
+- **Probable 1994 DIA definitions** — psychoenergetics means mental perception, communication, or perturbation of remote targets across space or time; PK means unexplained mental physical action; ESP/telepathy means perception outside known senses; remote viewing means mentally describing information hidden by distance, shielding, or time; remote viewer is the person performing those acts. The printed definition once says “Designed Target,” preserved here only as a source wording issue rather than silently corrected fact.
+- **DIA method catalog** — ERV seeks an altered reality; CRV and WRV are named; secondary methods include dowsing, psychometry, and clairvoyance. The system also included sample reports, questionnaires, and other requirements.
+- **Candidate test battery** — Minnesota Multiphasic Personality Inventory, Gordon Personal Profile Inventory, Fundamental Interpersonal Relations Orientation–Behavior (FIRO-B), California Psychological Inventory, Edwards Personal Preference Schedule, Personal Orientation Summary, eight blood tests, waking EEG, sleeping EEG, and additional examinations.
+- **Candidate exclusion** — unreasonable enthusiasm for psychoenergetics, occult fanatics, and mystical zealots were rejected from final selection.
+- **Preferred-profile paradox** — quoted selection commentary associates strong psychics with EEG asynchronicity, minor seizure or hyperactivity disorders, intense dissociation, high IQ, and not fitting the world, while describing many as unusually functional and healthy.
+- **“Research into Psychotic Symptoms”** — the cited paper notes statistical associations between paranormal experiences and psychological symptoms and stresses that psychiatric disorder lies on continua with normal function.
+- **1991 Gallup poll** — roughly 25 percent believed in ghosts and about one in seven reported seeing a UFO. The paper's use of those figures illustrates how UFO experience becomes bundled with allegedly irrational belief.
+- **Mircea Eliade's shaman** — the epigraph says the magician or shaman is not simply sick but cured through initiation and therefore able to heal. The chapter compares wilderness ordeals and visions with abduction trauma followed by apocalyptic vision.
+- **John Mack** — the Harvard psychiatrist took abductee accounts seriously, first approaching them as possible disorder and later treating them as trauma without an identified neurological, drug, hypnosis, or hysteria cause.
+- **Mack's anomaly list** — clairvoyance, telepathy, remote viewing, PK, nonlocality, and prayer are named alongside abduction as challenges to ordinary reality models.
+- **Night doctors** — African American rumor described nighttime surgical kidnappers. One explanation says southern whites spread it to keep laborers from leaving; the background included Ku Klux Klan terror, lynching, murder, and Tuskegee medical experimentation through the 1970s.
+- **Deep-state counter-hypothesis** — the authors ask whether officials might manufacture UFO-abduction fear to support space weapons and budgets. No actor, document, program, or outcome is supplied.
+- **John Mack and Budd Hopkins** — their serious engagement with abductees helped normalize consideration of associated telepathy and other anomalous effects.
+- **Puthoff, Jung, and Pauli divergence** — Puthoff studied both remote viewing and UFOs; Jung and Pauli regarded UFOs as unconscious projections. The contrast demonstrates that interest in consciousness did not yield one UFO interpretation.
+- **Max Knoll letter** — Knoll urged Pauli to have Jung deny objective UFO reality, including radar sightings absent expert-reviewed radar photographs or film. Knoll co-invented the electron microscope with Ernst Ruska, remained in Nazi Germany with Ruska under Siemens funding, and was studying brainwaves and electrical brain stimulation when he wrote.
+- **Arthur Koestler's emergent mind** — mind is an emergent brain property rather than an independent ghost; Koestler nevertheless allowed Psi to be another emergent bodily property.
+- **Machine-Psi test** — DeLonge and Levenda reason that a human-equivalent artificial brain should develop consciousness and Psi under the emergence model. Either outcome would bear on whether mind depends wholly on physical organization, but no such test result is reported.
+- **Costa de Beauregard alien extrapolation** — reversible time in information theory is used to suggest alien telepathy may imply time travel. This is explicitly an inference several steps beyond the conference theory.
+- **Ingo Swann on Ufology** — Swann says UFO researchers study extraterrestrial equipment while avoiding extraterrestrial mental processes and Psi, though abduction psychologists had begun noticing telepathy.
+- **MIT thought-control device** — researchers had developed a device for controlling a computer with thoughts, intended to permit smartphone communication without looking at or physically manipulating it. The authors imagine another user communicating with your smartphone and, through the phone, with your brain.
+- **International trauma study, February 2018** — published in *Nature Neuroscience*, it found new bridging neurons from hippocampus to infralimbic prefrontal cortex, amygdala growth, and context-dependent memory-retrieval connections after trauma.
+- **PTSD treatment implication** — therapy focused on confronting or suppressing memory can provide clinic-specific relief while the memory returns in everyday contexts because trauma has been incorporated into a redesigned neural system.
+- **Abductee application** — Mack's PTSD description and the new research are used to explain reported brain modification and perhaps implant narratives. Genuine neural trauma is not, by itself, evidence for extraterrestrial abduction.
+- **Luis Elizondo and the F-18** — the former AATIP director is reported to have said a UFO could predict where an F-18 Hornet would be in the future. The authors connect this with extreme craft maneuverability, wall passage, levitation, and movement of abductees.
+- **One-process hypothesis** — UFO movement through space and abductee movement through space may be two manifestations of one science integrating matter and psychic function. No mechanism or controlled result is supplied.
+
+## Key quotes
+- “IF telepathy exists” — Swann's essential qualification before institutional consequences.
+- “changing man's brain” — Aimé Michel's condition for progress on UFOs.
+- “eight-month contract worth nearly fifty thousand dollars” — the scale of the first CIA SRI agreement.
+- “there exists at present no adequate theory of paranormal perception” — the CIA observer's 1974 conclusion.
+- “speculative, incomplete, at best poorly substantiated” — the same observer on physical theories of Psi.
+- “ESP does deal with information” — the reason Costa de Beauregard's framework impressed the observer.
+- “occult fanatics” and “mystical zealots” — candidates excluded from government selection.
+- “a sick man who has been cured” — Eliade's shaman as a model of crisis transformed into capacity.
+- “the medium is the message” — the chapter's interpretation of telepathy as evidence beyond content.
+- “telepathic aliens don't seem so incredible” — the authors' move from MIT thought control to Visitors.
+- “the phenomenon is physical, but it integrates psychic functioning” — the closing model.
+- “It may all be the same science” — the final matter-and-consciousness speculation.
+
+## Thread
+Chapter 13 supplies the institutional and experimental history promised by the Section Three introduction. Its strongest source-grounded conclusion is not that Psi has been proven, but that prestigious societies, laboratories, physicists, intelligence agencies, and military organizations repeatedly investigated, classified, trained, and operationally defined it while never establishing an adequate physical theory. The chapter then places anomalous communication inside context: repetitive cards may miss emotional conditions; psychiatric symptoms may reflect illness, trauma, or culturally organized initiation; and trauma can physically redesign memory circuits. This supports a cautious claim that unusual experience can have measurable consequences without settling its cause. The authors nevertheless make a final series of conditional leaps—from emergent mind to machine Psi, from information reversibility to alien time travel, from silent computer control to alien telepathy, and from UFO motion to bodily levitation—which are imaginative applications of the terrestrial record rather than results of it.
+
+## Connections
+- **Explicit connection to the Section Three introduction:** The chapter provides the promised people, institutions, and programs behind ESP, PK, telepathy, and panpsychic or neurobiological approaches to contact.
+- **Explicit connection to Chapter 12:** Set and setting, sensory invariance, hypnosis, dissociation, brain control, and direct nonverbal communication develop the cyborg chapter's space-program mechanisms into parapsychology and intelligence work.
+- **Explicit connection to Chapter 11:** If intelligence differs from consciousness, and Psi is an emergent feature of consciousness, then machine performance alone cannot establish telepathic capacity; the chapter uses that uncertainty to frame artificial Grays.
+- **Explicit connection to Chapters 1–3:** Abductee telepathy, implants, bodily manipulation, wall passage, levitation, Gray muteness, and image transmission return here as communication and information problems.
+- **Explicit connection to Chapter 10:** Quantum mechanics, entanglement, nonlocality, time, consciousness, and the limits of classical reduction supply the proposed theoretical background.
+- **Explicit forward connection:** The chapter's concern with altered brains, alien anatomy, telepathic communication, and cross-cultural interpretation prepares the section's closing analysis of Grays and house-guest encounter traditions.
+- **Explicit trilogy connection:** Airship sightings, the US Air Force's historical UFO setting, Andrija Puharich/Spectra, and national-security programs are repeatedly deferred to the next or third volume.
+- **Source-bounded critical connection:** The documented facts in the chapter establish organizations, contracts, declassified terminology, candidate tests, conferences, terrestrial interfaces, and trauma neurobiology. Swann's extraordinary results are reported claims; alien machine Psi, telepathic time travel, brain access from smartphones, and one shared UFO-abductee propulsion process are speculative extensions, not established mechanisms.
