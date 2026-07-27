@@ -40,7 +40,9 @@
     color: var(--ink);
     background-color: var(--paper);
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath d='M0 23.5H24M23.5 0V24' fill='none' stroke='%232b3557' stroke-width='.45' opacity='.5'/%3E%3C/svg%3E");
-    font: 17px/1.68 var(--body);
+    font: 18px/1.74 var(--body);
+    letter-spacing: .008em;
+    -webkit-font-smoothing: antialiased;
   }
   body::before {
     content: "";
@@ -481,12 +483,29 @@
   mark { padding: 0 2px; color: var(--ink); background: #f4d86e; }
   .mechanism {
     margin: 2.2em 0;
-    border: 1px solid var(--ink);
+    border: 1px solid var(--line-dark);
     border-radius: 6px;
-    background: #f8f5ed;
-    box-shadow: 5px 5px 0 var(--paper-deep);
+    background: var(--sheet);
+    box-shadow: var(--shadow);
   }
-  .mechanism-head { padding: 15px 17px; border-bottom: 1px solid var(--ink); background: var(--paper-deep); }
+  .mechanism-head { padding: 15px 17px; border-bottom: 1px solid var(--line-dark); background: var(--paper-deep); }
+  .mechanism.proposal { border-color: var(--violet); }
+  .mechanism.proposal .mechanism-head { background: var(--violet-soft); border-bottom-color: var(--violet); }
+  .mechanism.proposal .visual-stage { background-color: rgba(157, 140, 255, .045); }
+  .proposal-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    margin: 0 0 8px;
+    padding: 3px 9px;
+    border: 1px solid var(--violet);
+    border-radius: 3px;
+    color: var(--violet);
+    font: 700 11px/1.3 var(--utility);
+    letter-spacing: .07em;
+    text-transform: uppercase;
+  }
+  .proposal-tag::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: var(--violet); }
   .mechanism-head h3 { margin: 0; color: var(--ink); font: 700 20px/1.25 var(--display); }
   .notice { margin: 5px 0 0; color: var(--ink-soft); font: 13px/1.4 var(--utility); }
   .visual-stage {
@@ -1364,8 +1383,12 @@ function renderSearch(query) {
   focusMain();
 }
 
-function visualFrame(host, title, notice, label) {
-  host.innerHTML = `<section class="mechanism" role="group" aria-label="${esc(label)}"><header class="mechanism-head"><h3>${esc(title)}</h3><p class="notice"><strong>What to notice:</strong> ${esc(notice)}</p></header><div class="visual-stage"></div><div class="visual-controls"></div><p class="sr-only">${esc(label)}</p></section>`;
+const proposalVisuals = new Set(["holographic-universe", "wolfram-emergence", "holographic-meanings"]);
+
+function visualFrame(host, title, notice, label, key) {
+  const proposal = proposalVisuals.has(key);
+  const tag = proposal ? '<p class="proposal-tag">Proposal, not established mechanism</p>' : "";
+  host.innerHTML = `<section class="mechanism${proposal ? " proposal" : ""}" role="group" aria-label="${esc(label)}"><header class="mechanism-head">${tag}<h3>${esc(title)}</h3><p class="notice"><strong>What to notice:</strong> ${esc(notice)}</p></header><div class="visual-stage"></div><div class="visual-controls"></div><p class="sr-only">${esc(label)}</p></section>`;
   return { stage: host.querySelector(".visual-stage"), controls: host.querySelector(".visual-controls") };
 }
 
@@ -1395,7 +1418,7 @@ function mountVisuals() {
     const id = host.dataset.visual;
     const meta = visualMeta[id];
     if (!meta) { host.innerHTML = `<div class="empty">Visual unavailable: ${esc(id)}</div>`; return; }
-    const parts = visualFrame(host, ...meta);
+    const parts = visualFrame(host, ...meta, id);
     visualBuilders[id](parts.stage, parts.controls);
   });
 }

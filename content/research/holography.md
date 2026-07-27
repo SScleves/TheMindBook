@@ -286,7 +286,6 @@ This is not a minor footnote. Aperture is part of the information available to a
 
 <!-- visual:hologram-fragment -->
 
-<!-- visual:hologram-grid -->
 
 ## What this establishes / What it does not establish
 
