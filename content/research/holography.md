@@ -213,6 +213,8 @@ Use a different reconstruction wavelength and the diffraction angles change. Use
 
 <!-- visual:hologram-reconstruction -->
 
+<!-- visual:hologram-whole -->
+
 ## Why the image appears to occupy space
 
 Suppose the regenerated rays reaching the viewer diverge in exactly the pattern that the original object produced. The eye has no optical test that distinguishes "rays from the object" from "rays rebuilt to match those from the object." Its lens focuses the rays on the retina in the usual way, and the visual system interprets their directions as locations in space.
@@ -284,6 +286,8 @@ This is not a minor footnote. Aperture is part of the information available to a
 
 <!-- visual:hologram-fragment -->
 
+<!-- visual:hologram-grid -->
+
 ## What this establishes / What it does not establish
 
 ### What this establishes
@@ -309,6 +313,8 @@ An optical mechanism can inspire a model elsewhere. Inspiration transfers a patt
 ## Five different meanings of "holographic"
 
 <!-- visual:holographic-meanings -->
+
+<!-- visual:holographic-universe -->
 
 The same word now appears in optics, neuroscience, philosophy of physics, quantum gravity, and popular simulation arguments. These uses are related by analogy, not by one continuous chain of evidence.
 

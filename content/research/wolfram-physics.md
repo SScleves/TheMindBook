@@ -440,3 +440,6 @@ The chain is coherent. The final identification is still a hypothesis.
 - Rizwan Virk, *The Simulation Hypothesis*, as represented in the source-verified local chapter notes, especially chapters 8, 14, and the FAQ. Virk treats Wolfram as evidence for a computational universe and then makes the additional simulation inference.
 - Thomas Campbell, *My Big TOE*, as represented in the source-verified local notes. Campbell proposes a consciousness-first rendering system and probable-state databases, not Wolfram's relation-first physics.
 - Michael Talbot, *The Holographic Universe*, as represented in the source-verified local notes. Talbot's Bohm-Pribram synthesis is distinct from both Wolfram hypergraphs and the modern holographic principle.
+
+
+<!-- visual:wolfram-emergence -->
