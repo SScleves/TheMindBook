@@ -7,26 +7,27 @@
 <title>TheMindBook Knowledge Atlas</title>
 <style>
   :root {
-    --paper: #f4efe4;
-    --paper-deep: #e9e1d2;
-    --sheet: #fffdf7;
-    --ink: #171a18;
-    --ink-soft: #4d514d;
-    --line: #bdb5a6;
-    --line-dark: #77756f;
-    --red: #963a31;
-    --red-soft: #f0d8d1;
-    --teal: #087b78;
-    --teal-soft: #d4e8e4;
-    --cyan: #2d91a1;
-    --cyan-soft: #d8ebef;
-    --green: #3f6c4f;
-    --green-soft: #dce8dc;
-    --yellow: #a77818;
-    --yellow-soft: #f1e4bb;
-    --violet: #6a5891;
-    --violet-soft: #e5dff0;
-    --shadow: 0 10px 24px rgba(23, 26, 24, .08);
+    /* Deep Space palette: near-black indigo base, starlight text, holographic accents */
+    --paper: #0b0e1a;
+    --paper-deep: #1b2238;
+    --sheet: #141b2e;
+    --ink: #eaedf8;
+    --ink-soft: #99a2c2;
+    --line: #2a3350;
+    --line-dark: #3b466b;
+    --red: #ff6b6b;
+    --red-soft: #2e1a1e;
+    --teal: #3fe0d0;
+    --teal-soft: #0f2a28;
+    --cyan: #46d6ff;
+    --cyan-soft: #102630;
+    --green: #4fe08a;
+    --green-soft: #12261a;
+    --yellow: #ffcf5c;
+    --yellow-soft: #2a2513;
+    --violet: #9d8cff;
+    --violet-soft: #1e1a37;
+    --shadow: 0 14px 40px rgba(0, 0, 0, .55);
     --display: Baskerville, "Palatino Linotype", Palatino, "Bookman Old Style", serif;
     --body: "Palatino Linotype", Palatino, Bookman, serif;
     --utility: Aptos, "Segoe UI", sans-serif;
@@ -38,7 +39,7 @@
     min-width: 320px;
     color: var(--ink);
     background-color: var(--paper);
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath d='M0 23.5H24M23.5 0V24' fill='none' stroke='%23d4cbbb' stroke-width='.45' opacity='.55'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath d='M0 23.5H24M23.5 0V24' fill='none' stroke='%232b3557' stroke-width='.45' opacity='.5'/%3E%3C/svg%3E");
     font: 17px/1.68 var(--body);
   }
   body::before {
@@ -76,7 +77,7 @@
     min-height: 72px;
     padding: 11px clamp(18px, 4vw, 58px);
     border-bottom: 1px solid var(--line-dark);
-    background: rgba(244, 239, 228, .96);
+    background: rgba(11, 14, 26, .92);
     backdrop-filter: blur(8px);
   }
   .brand {
@@ -173,8 +174,8 @@
     border-radius: 5px;
     background: var(--sheet);
   }
-  .track-intro.practice { border-left-color: var(--yellow); background: #fffaf0; }
-  .track-intro.bridge { border-left-color: var(--violet); background: #f4f1fa; }
+  .track-intro.practice { border-left-color: var(--yellow); background: var(--yellow-soft); }
+  .track-intro.bridge { border-left-color: var(--violet); background: var(--violet-soft); }
   .track-intro h2 { margin: 0; font: 700 27px/1.2 var(--display); }
   .track-intro p { max-width: 880px; margin: 7px 0 0; color: var(--ink-soft); }
   .track-badge {
@@ -381,7 +382,7 @@
     padding: 18px;
     border: 1px solid var(--yellow);
     border-radius: 5px;
-    background: #fffaf0;
+    background: var(--yellow-soft);
   }
   .practice-bridge h3 { margin: 6px 0 0; font: 700 20px/1.25 var(--display); }
   .practice-bridge p { margin: 0 0 12px; color: var(--ink-soft); }
@@ -495,7 +496,7 @@
     overflow: hidden;
     padding: 18px;
     background-color: var(--sheet);
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18'%3E%3Cpath d='M0 17.5H18M17.5 0V18' fill='none' stroke='%23e3dccf' stroke-width='.5'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18'%3E%3Cpath d='M0 17.5H18M17.5 0V18' fill='none' stroke='%232b3557' stroke-width='.5'/%3E%3C/svg%3E");
   }
   .visual-stage svg, .visual-stage canvas { display: block; width: 100%; height: 270px; }
   .visual-controls {
@@ -684,6 +685,11 @@
     html { scroll-behavior: auto; }
     *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
   }
+  /* Quick-win enhancements (audit pass): reading measure, card affordance, section rhythm */
+  .markdown p, .page-deck, .position-copy p, .concept-question { max-width: 68ch; }
+  .hub-card, .book-card, .dossier-card { transition: transform .16s ease, box-shadow .16s ease; }
+  .hub-card:hover, .dossier-card:hover, .book-card:hover { transform: translateY(-2px); box-shadow: 5px 8px 0 var(--paper-deep); }
+  .hub-grid + .track-intro { margin-top: 46px; }
 </style>
 </head>
 <body>
@@ -983,29 +989,37 @@ function setMode(mode) {
 }
 
 function systemMap() {
-  const positions = [
-    [80, 50], [300, 50], [520, 50], [80, 165], [520, 165],
-    [80, 280], [300, 280], [520, 280], [190, 380], [410, 380]
-  ];
-  const centerX = 300;
-  const centerY = 176;
-  const links = positions.map(([x, y]) => `<line class="map-link" x1="${centerX}" y1="${centerY}" x2="${x}" y2="${y}"></line>`).join("");
+  // Two-section field map: Reality & Physics (left) and Mind & Meaning (right),
+  // with the three bridge hubs seated in the overlap. Position + zone encode section
+  // and bridge membership; no spokes or line-weights, so nothing implies link strength.
+  const POS = {
+    "reality": [150, 130], "evidence": [150, 215], "information-computation": [150, 300],
+    "consciousness": [320, 128], "perception": [320, 215], "anomalous-experience": [320, 300],
+    "self-ego": [490, 108], "belief-control": [490, 188], "suffering-growth": [490, 268], "purpose-ethics": [490, 348]
+  };
   const mapLabels = {
     "consciousness": ["Consciousness"], "reality": ["Reality"], "perception": ["Perception"],
     "self-ego": ["The Self"], "evidence": ["Evidence"], "anomalous-experience": ["Anomalous", "Experience"],
     "information-computation": ["Information"], "belief-control": ["Belief"],
     "suffering-growth": ["Suffering", "& Growth"], "purpose-ethics": ["Purpose"]
   };
-  const nodes = DATA.atlas.map((hub, index) => {
-    const [x, y] = positions[index];
+  const zones = `<ellipse cx="190" cy="220" rx="205" ry="196" style="fill:#087b78;fill-opacity:.06;stroke:#087b78;stroke-opacity:.32;stroke-width:1.5"></ellipse>`
+    + `<ellipse cx="450" cy="220" rx="200" ry="196" style="fill:#a77818;fill-opacity:.06;stroke:#a77818;stroke-opacity:.32;stroke-width:1.5"></ellipse>`
+    + `<rect x="259" y="70" width="122" height="300" rx="22" style="fill:#6a5891;fill-opacity:.06;stroke:#6a5891;stroke-opacity:.45;stroke-width:1.4;stroke-dasharray:6 5"></rect>`
+    + `<text x="150" y="36" text-anchor="middle" style="fill:#0a5f5c;font:800 13px var(--utility);letter-spacing:1px">REALITY &amp; PHYSICS</text>`
+    + `<text x="492" y="36" text-anchor="middle" style="fill:#76520f;font:800 13px var(--utility);letter-spacing:1px">MIND &amp; MEANING</text>`
+    + `<text x="320" y="60" text-anchor="middle" style="fill:#6a5891;font:800 11px var(--utility);letter-spacing:1px">BRIDGES</text>`
+    + `<text x="320" y="388" text-anchor="middle" style="fill:#6a5891;font:italic 10px var(--utility)">in both at once</text>`;
+  const nodes = DATA.atlas.map(hub => {
+    const [x, y] = POS[hub.id] || [320, 215];
     const lines = mapLabels[hub.id] || [hub.title.replace(/\?$/, "")];
     const label = lines.length > 1
-      ? `<text x="${x}" y="${y - 3}" text-anchor="middle">${esc(lines[0])}</text><text x="${x}" y="${y + 13}" text-anchor="middle">${esc(lines[1])}</text>`
+      ? `<text x="${x}" y="${y - 3}" text-anchor="middle">${esc(lines[0])}</text><text x="${x}" y="${y + 14}" text-anchor="middle">${esc(lines[1])}</text>`
       : `<text x="${x}" y="${y + 4}" text-anchor="middle">${esc(lines[0])}</text>`;
     const nodeClass = isBridgeHub(hub) ? "bridge" : (hubSection(hub) === "mind" ? "practice" : "");
-    return `<a href="#concept/${encodeURIComponent(hub.id)}" aria-label="Open ${esc(hub.title)}"><rect class="map-node ${nodeClass}" x="${x - 66}" y="${y - 25}" width="132" height="50" rx="4"></rect>${label}</a>`;
+    return `<a href="#concept/${encodeURIComponent(hub.id)}" aria-label="Open ${esc(hub.title)}"><rect class="map-node ${nodeClass}" x="${x - 61}" y="${y - 22}" width="122" height="44" rx="5"></rect>${label}</a>`;
   }).join("");
-  return `<div class="system-map"><svg viewBox="0 0 600 420" role="img" aria-label="System map connecting ten questions about mind, reality, evidence, and purpose"><title>Ten concept routes around mind and reality</title>${links}<rect class="map-node core" x="225" y="137" width="150" height="78" rx="4"></rect><text class="core" x="300" y="170" text-anchor="middle">MIND / REALITY</text><text class="core" x="300" y="191" text-anchor="middle">FIELD MAP</text>${nodes}</svg></div>`;
+  return `<div class="system-map"><svg viewBox="0 0 640 430" role="img" aria-label="Field map: Reality and Physics hubs at left, Mind and Meaning hubs at right, and three bridge hubs in the overlap between them"><title>Two-section field map with a bridge overlap</title>${zones}${nodes}</svg></div>`;
 }
 
 function renderExplore() {
@@ -1055,15 +1069,22 @@ function renderConnections() {
     `<article class="connection bridge"><span class="context">${esc(hubLabel(b.fromHub))} ↔ ${esc(hubLabel(b.toHub))}</span><span class="type-label">speculative bridge</span><h3>${esc(b.title)}</h3><p>${esc(b.claim)}</p><p class="disclosure"><strong>Disclosure</strong> ${esc(b.disclosure)}</p><div class="provenance">${b.sourceDocs.map(sourceLink).join("")}</div></article>`);
   const rel = edges.concat(bridges).join("");
 
+  const counts = { all: 0, agreement: 0, tension: 0, citation: 0, reframe: 0, bridge: 0 };
+  DATA.atlas.forEach(hub => (hub.connections || []).forEach(c => { counts[connectionClass(c.type)]++; counts.all++; }));
+  counts.bridge += (DATA.bridges || []).length; counts.all += (DATA.bridges || []).length;
   const filters = [["all", "All"], ["agreement", "Agreements"], ["tension", "Tensions"], ["citation", "Citations"], ["reframe", "Reframes"], ["bridge", "Bridges"]];
-  const controls = filters.map(([f, label], i) => `<button class="control" data-filter="${f}" aria-pressed="${i === 0 ? "true" : "false"}">${esc(label)}</button>`).join("");
+  const controls = filters.map(([f, label], i) => `<button class="control" data-filter="${f}" aria-pressed="${i === 0 ? "true" : "false"}">${esc(label)} <span aria-hidden="true" style="opacity:.6;font-weight:600;">${counts[f]}</span></button>`).join("");
 
-  main.innerHTML = `<section class="page"><p class="eyebrow">Where the books meet</p><h1 class="page-title">Connections</h1><p class="page-deck">The atlas does not hide its own arguments. Below are the debates where different books reach the same conclusion by different roads, every typed link between them, and the disclosed bridges that cross from mind to reality.</p><div class="section-head"><h2>Key debates</h2><span>Same question, incompatible answers</span></div><div class="debate-grid">${debates}</div><div class="section-head"><h2>Every typed link</h2><span>Color marks the relationship, not evidentiary strength</span></div><div class="rel-controls" role="group" aria-label="Filter relationships">${controls}</div><div class="connections rel-list" data-filter="all">${rel}</div></section>`;
+  main.innerHTML = `<section class="page"><p class="eyebrow">Where the books meet</p><h1 class="page-title">Connections</h1><p class="page-deck">The atlas does not hide its own arguments. Below are the debates where different books reach the same conclusion by different roads, every typed link between them, and the disclosed bridges that cross from mind to reality.</p><div class="section-head"><h2>Key debates</h2><span>Same question, incompatible answers</span></div><div class="debate-grid">${debates}</div><div class="section-head"><h2>Every typed link</h2><span>Color marks the relationship, not evidentiary strength</span></div><div class="rel-controls" role="group" aria-label="Filter relationships">${controls}</div><div class="connections rel-list" data-filter="all">${rel}</div><p class="rel-empty" hidden style="padding:16px 2px;color:var(--ink-soft);font:14px var(--utility);">No links of this type in the atlas yet.</p></section>`;
 
   document.querySelectorAll(".rel-controls .control").forEach(btn => btn.addEventListener("click", () => {
     document.querySelectorAll(".rel-controls .control").forEach(b => b.setAttribute("aria-pressed", "false"));
     btn.setAttribute("aria-pressed", "true");
-    document.querySelector(".rel-list").dataset.filter = btn.dataset.filter;
+    const list = document.querySelector(".rel-list");
+    list.dataset.filter = btn.dataset.filter;
+    const shown = [...list.querySelectorAll(".connection")].some(el => getComputedStyle(el).display !== "none");
+    const empty = document.querySelector(".rel-empty");
+    if (empty) empty.hidden = shown;
   }));
   focusMain();
 }
@@ -1349,11 +1370,15 @@ function visualFrame(host, title, notice, label) {
 }
 
 const visualMeta = {
-  "hologram-vs-photo": ["Photograph versus hologram", "The photograph keeps one projection; the reconstructed field changes perspective with the viewer.", "Interactive comparison of a fixed photograph and a parallax-producing hologram"],
-  "hologram-recording": ["The two-pass hologram machine", "Recording converts phase difference into fringes; reconstruction uses those fringes to redirect a new beam.", "Interactive recording and reconstruction optical path"],
-  "wave-interference": ["Phase becomes fringes", "Changing relative phase moves the bright and dark interference pattern without changing either wave's frequency.", "Interactive wave interference with phase controls"],
-  "hologram-reconstruction": ["Diffraction rebuilds direction", "Wavelength and incident angle alter the outgoing rays, so the virtual image moves or distorts.", "Interactive hologram reconstruction geometry"],
-  "hologram-fragment": ["The whole scene, smaller aperture", "A fragment can retain the scene while brightness, resolution, and viewing range deteriorate.", "Interactive hologram aperture fragment demonstration"],
+  "hologram-vs-photo": ["A photograph stores brightness; a hologram stores direction", "One point sends one brightness in every direction (photo) or a different brightness per direction (hologram) \u2014 so only the hologram's picture changes as you move.", "Interactive comparison: one surface point's output and what the eye sees, for a photograph versus a hologram"],
+    "hologram-recording": ["Two waves meet and freeze a pattern", "One laser is split into a reference beam and an object beam; where they overlap they interfere, and that interference is recorded as fringes \u2014 the code the plate later replays.", "Interactive recording bench: laser, beam splitter, object and reference beams, and the interference pattern forming on the plate"],
+    "wave-interference": ["Phase becomes fringes", "Changing relative phase moves the bright and dark interference pattern without changing either wave's frequency.", "Interactive wave interference with phase controls"],
+  "hologram-reconstruction": ["One flat surface holds every angle at once", "Nothing here is animated: a static plate sends light out in a whole fan of directions, so several viewers see the object at the same instant, each from their own angle. Move your head and you shift through that fan; the card never moves.", "Interactive top-down view of a static hologram plate serving a fan of viewing angles, beside a live 3-D view of the reconstructed object"],
+    "hologram-fragment": ["Cut a photo, or cut a hologram", "A photograph is a mosaic \u2014 each part stores one patch, so a fragment keeps only that patch. A hologram is a window \u2014 every part carries the whole scene, so a fragment still shows all of it, only dimmer and over a narrower range of angles.", "Interactive side-by-side: a window cut from a photograph reveals only a local patch, while the same window cut from a hologram still shows the whole object"],
+    "hologram-grid": ["One piece per cell, or the whole set in every cell", "A photograph stores one piece per grid cell, so a fragment loses the rest; a hologram stores the whole set in every cell, so any surviving piece rebuilds the entire scene, only fainter.", "Interactive nine-cell grid comparing how a photograph and a hologram distribute a picture, and what each can rebuild after part is cut away"],
+  "hologram-whole": ["The picture isn't on the glass \u2014 your eye assembles it", "Under a magnifier a hologram shows only fringes, a code, never a miniature picture; the image forms on your retina from light gathered off the whole surface, so covering part dims it but keeps it whole.", "Interactive figure: a magnifier reveals only fringes on the surface, while the eye focuses light from across the whole plate into a single image"],
+  "holographic-universe": ["A flat order, read out as a solid world", "Talbot borrows Bohm's enfolded implicate order and Pribram's brain-as-reader: a flat, frequency-like layer unfolds into the 3-D world we experience. A claim ladder keeps it honest \u2014 established optics inspires the metaphor; the leap to brain and universe is unproven.", "Interactive figure morphing a flat enfolded order into a three-dimensional world, beside a ladder rating how well established each idea is"],
+  "wolfram-emergence": ["Everything from one small rule, run over and over", "Wolfram's picture: the universe is a network of relations updated by one tiny local rule, applied again and again \u2014 space and matter are not put in, they emerge as patterns in the growing network. An active, unconfirmed research program.", "Interactive figure: one rewrite rule applied repeatedly until a smooth two-dimensional space emerges from pure relations"],
   "holographic-meanings": ["Five meanings of holographic", "The shared word carries different mechanisms and very different evidentiary status.", "Interactive comparison of five uses of the word holographic"],
   "simple-rule": ["One local rewrite", "A short rule can keep creating structure; simplicity belongs to the instruction, not necessarily the outcome.", "Interactive hypergraph rewrite rule"],
   "hypergraph-space": ["Connectivity before coordinates", "Distance and effective dimension can be measured from relation steps without a background grid.", "Interactive hypergraph neighborhood and distance model"],
@@ -1415,30 +1440,117 @@ const visualBuilders = {
     draw(); sync();
   },
   "hologram-vs-photo"(stage, controls) {
-    stage.innerHTML = '<div class="compare-panels"><div class="compare-panel photo-scene"><b>PHOTOGRAPH</b><div class="view-window"></div><i class="scene-object far"></i><i class="scene-object near"></i></div><div class="compare-panel hologram-scene"><b>REBUILT FIELD</b><div class="view-window"></div><i class="scene-object far"></i><i class="scene-object near"></i></div></div>';
-    controls.innerHTML = '<label>Viewer position <input type="range" min="-1" max="1" value="0" step=".05" aria-label="Move viewer left and right"></label><output>center</output>';
-    const input = controls.querySelector("input");
-    const output = controls.querySelector("output");
-    const far = stage.querySelector(".hologram-scene .far");
-    const near = stage.querySelector(".hologram-scene .near");
-    input.addEventListener("input", () => {
-      far.style.transform = `translateX(calc(-50% + ${Number(input.value) * -22}px))`;
-      near.style.transform = `translateX(${Number(input.value) * 32}px)`;
-      output.textContent = Number(input.value) < -.2 ? "left view" : Number(input.value) > .2 ? "right view" : "center";
-    });
-  },
-  "hologram-recording"(stage, controls) {
-    let mode = "record";
+    let mode = "photo", eye = 0.2;
+    stage.innerHTML = '<canvas aria-label="One point of a photograph versus a hologram, and what your eye sees" style="height:300px"></canvas><p class="notice hv-cap" style="margin-top:9px"></p>';
+    controls.innerHTML = '<button class="control" data-m="photo" aria-pressed="true">A photograph</button><button class="control" data-m="holo" aria-pressed="false">A hologram</button><label>Move your eye <input type="range" min="-1" max="1" step=".01" value="0.2" aria-label="Move your eye to look from a new direction"></label>';
+    const cv = stage.querySelector("canvas"), ctx = cv.getContext("2d"), cap = stage.querySelector(".hv-cap"), input = controls.querySelector("input");
     const draw = () => {
-      const recording = mode === "record";
-      stage.innerHTML = `<svg viewBox="0 0 640 270" role="img" aria-label="${recording ? "Recording paths from laser through object and reference beams to a plate" : "Reconstruction beam diffracting from plate toward a viewer"}"><defs><marker id="arrow-r" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#963a31"/></marker></defs>${recording ? '<rect x="35" y="105" width="80" height="42" fill="#171a18"/><text x="75" y="131" text-anchor="middle" fill="#fff">LASER</text><rect x="205" y="102" width="62" height="48" fill="#f1e4bb" stroke="#171a18"/><text x="236" y="130" text-anchor="middle">SPLIT</text><circle cx="435" cy="67" r="35" fill="#2d91a1" stroke="#171a18"/><text x="435" y="72" text-anchor="middle">OBJECT</text><rect x="520" y="180" width="16" height="68" fill="#d4e8e4" stroke="#171a18"/><text x="549" y="219">PLATE</text><path d="M115 126H205M267 118L400 74M267 135L520 210M463 83L520 194" fill="none" stroke="#963a31" stroke-width="4" marker-end="url(#arrow-r)"/><text x="345" y="151">reference</text><text x="446" y="130">object field</text>' : '<rect x="270" y="65" width="18" height="140" fill="#d4e8e4" stroke="#171a18"/><text x="245" y="48">FRINGE PLATE</text><path d="M40 135H270" fill="none" stroke="#963a31" stroke-width="5" marker-end="url(#arrow-r)"/><text x="105" y="118">matching beam</text><path d="M288 100L500 42M288 135L500 135M288 170L500 228" fill="none" stroke="#087b78" stroke-width="4" marker-end="url(#arrow-r)"/><circle cx="555" cy="135" r="36" fill="#f0d8d1" stroke="#171a18"/><text x="555" y="140" text-anchor="middle">VIEWER</text><path d="M500 42L548 115M500 135L519 135M500 228L548 155" fill="none" stroke="#77756f" stroke-dasharray="5 5"/><text x="355" y="242">diffracted object field</text>'}</svg>`;
-      controls.querySelectorAll("button").forEach(button => button.setAttribute("aria-pressed", String(button.dataset.mode === mode)));
+      const dpr = Math.min(devicePixelRatio || 1, 2), W = cv.clientWidth, H = cv.clientHeight;
+      if (cv.width !== Math.round(W * dpr) || cv.height !== Math.round(H * dpr)) { cv.width = Math.round(W * dpr); cv.height = Math.round(H * dpr); }
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0); ctx.clearRect(0, 0, W, H);
+      const holo = mode === "holo", sans = "Aptos,'Segoe UI',sans-serif", divX = Math.round(W * 0.42);
+      const ink = "#eaedf8", inkSoft = "#99a2c2", line = "#2a3350", teal = [63, 224, 208], dim = [110, 120, 155], red = "#ff6b6b";
+      ctx.strokeStyle = line; ctx.lineWidth = 1; ctx.beginPath(); ctx.moveTo(divX, 14); ctx.lineTo(divX, H - 14); ctx.stroke();
+      ctx.textAlign = "left"; ctx.fillStyle = ink; ctx.font = "700 11px " + sans; ctx.fillText("WHAT ONE POINT STORES", 14, 22);
+      const px = divX * 0.42, py = H * 0.46, A = Math.PI * 0.42, reach = Math.min(divX, H) * 0.34;
+      const value = (a) => holo ? 0.5 + 0.46 * Math.sin(a * 3.1) : 0.62;
+      for (let r = 0; r < 15; r++) {
+        const a = -A + (2 * A) * r / 14, v = value(a), len = reach * (holo ? 0.45 + 0.55 * v : 0.8);
+        const ex = px + Math.cos(a) * len, ey = py + Math.sin(a) * len, col = holo ? teal : dim;
+        ctx.strokeStyle = "rgba(" + col[0] + "," + col[1] + "," + col[2] + "," + (holo ? 0.25 + 0.6 * v : 0.5).toFixed(3) + ")";
+        ctx.lineWidth = holo ? 1 + 3 * v : 1.6;
+        ctx.beginPath(); ctx.moveTo(px, py); ctx.lineTo(ex, ey); ctx.stroke();
+      }
+      ctx.fillStyle = ink; ctx.beginPath(); ctx.arc(px, py, 5, 0, Math.PI * 2); ctx.fill();
+      const eyeA = eye * A, ev = value(eyeA), hx = px + Math.cos(eyeA) * reach, hy = py + Math.sin(eyeA) * reach;
+      ctx.strokeStyle = holo ? "#3fe0d0" : red; ctx.lineWidth = 3; ctx.setLineDash([2, 3]); ctx.beginPath(); ctx.moveTo(px, py); ctx.lineTo(hx, hy); ctx.stroke(); ctx.setLineDash([]);
+      ctx.fillStyle = inkSoft; ctx.font = "11px " + sans; ctx.textAlign = "center"; ctx.fillText("brightness your eye reads", px, H - 40);
+      const g = ev, sw = 46;
+      ctx.fillStyle = holo ? "rgb(" + Math.round(20 + g * 50) + "," + Math.round(120 + g * 110) + "," + Math.round(110 + g * 110) + ")" : "rgb(" + Math.round(80 + g * 90) + "," + Math.round(88 + g * 92) + "," + Math.round(115 + g * 105) + ")";
+      ctx.fillRect(px - sw / 2, H - 34, sw, 16); ctx.strokeStyle = line; ctx.lineWidth = 1; ctx.strokeRect(px - sw / 2, H - 34, sw, 16);
+      ctx.fillStyle = holo ? "#3fe0d0" : inkSoft; ctx.font = "italic 11px 'Palatino Linotype',Palatino,serif"; ctx.fillText(holo ? "changes with direction" : "same in every direction", px, H - 10);
+      const rx = divX + 18, ry = 32, rw = W - rx - 12, rh = H - ry - 14;
+      ctx.textAlign = "left"; ctx.fillStyle = ink; ctx.font = "700 11px " + sans; ctx.fillText("WHAT YOUR EYE SEES", rx, 22);
+      ctx.save(); ctx.beginPath(); ctx.rect(rx, ry, rw, rh); ctx.clip();
+      ctx.fillStyle = "#0b0e1a"; ctx.fillRect(rx, ry, rw, rh);
+      const scx = rx + rw / 2, scy = ry + rh / 2, farR = Math.min(rw, rh) * 0.16;
+      ctx.strokeStyle = red; ctx.lineWidth = 4; ctx.beginPath(); ctx.arc(scx, scy, farR, 0, Math.PI * 2); ctx.stroke();
+      ctx.beginPath(); ctx.moveTo(scx - farR * 0.6, scy - farR * 0.6); ctx.lineTo(scx + farR * 0.6, scy + farR * 0.6); ctx.moveTo(scx + farR * 0.6, scy - farR * 0.6); ctx.lineTo(scx - farR * 0.6, scy + farR * 0.6); ctx.stroke();
+      ctx.fillStyle = red; ctx.font = "10px " + sans; ctx.textAlign = "center"; ctx.fillText("far mark", scx, scy - farR - 6);
+      const offset = holo ? eye * rw * 0.26 : 0, ncx = scx + offset, ncy = scy + (holo ? eye * 8 : 0), nR = Math.min(rw, rh) * 0.2;
+      ctx.fillStyle = "rgba(0,0,0,.35)"; ctx.beginPath(); ctx.ellipse(ncx + 5, ncy + nR + 8, nR * 0.8, 7, 0, 0, Math.PI * 2); ctx.fill();
+      const grd = ctx.createRadialGradient(ncx - nR * 0.3, ncy - nR * 0.3, nR * 0.2, ncx, ncy, nR); grd.addColorStop(0, "#6cf0e0"); grd.addColorStop(1, "#2bbfae");
+      ctx.fillStyle = grd; ctx.beginPath(); ctx.arc(ncx, ncy, nR, 0, Math.PI * 2); ctx.fill(); ctx.strokeStyle = "#8ff5e8"; ctx.lineWidth = 1.5; ctx.stroke();
+      ctx.fillStyle = "#052a27"; ctx.font = "10px " + sans; ctx.fillText("near", ncx, ncy + 3); ctx.restore();
+      ctx.strokeStyle = line; ctx.lineWidth = 1; ctx.strokeRect(rx, ry, rw, rh);
+      const revealed = holo && Math.abs(offset) > nR + farR * 0.4;
+      ctx.textAlign = "center"; ctx.font = "italic 12px 'Palatino Linotype',Palatino,serif"; ctx.fillStyle = holo ? "#3fe0d0" : inkSoft;
+      ctx.fillText(holo ? (revealed ? "you can see behind it \u2713" : "move further \u2014 peek behind the near disc") : "frozen \u2014 the mark stays hidden", scx, ry + rh - 10);
+      cap.innerHTML = holo ? "<strong>Hologram:</strong> every direction gets its own brightness, all stored at once \u2014 so the picture shifts as you move and you can see behind the near disc." : "<strong>Photograph:</strong> one brightness sent everywhere \u2014 move your eye and nothing changes; the near disc hides the mark from every angle.";
+      controls.querySelectorAll("button").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.m === mode)));
     };
-    controls.innerHTML = '<button class="control" data-mode="record">Recording</button><button class="control" data-mode="rebuild">Reconstruction</button>';
-    controls.querySelectorAll("button").forEach(button => button.addEventListener("click", () => { mode = button.dataset.mode; draw(); }));
-    draw();
+    controls.querySelectorAll("button").forEach(b => b.addEventListener("click", () => { mode = b.dataset.m; draw(); }));
+    input.addEventListener("input", () => { eye = +input.value; draw(); });
+    addEventListener("resize", draw); draw();
   },
-  "wave-interference"(stage, controls) {
+    "hologram-recording"(stage, controls) {
+    let angle = 14, coherent = true;
+    const reduced = matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches;
+    stage.innerHTML = '<canvas aria-label="Recording bench: a laser split into reference and object beams interfering into fringes on a plate" style="height:310px"></canvas><p class="notice hr-cap" style="margin-top:9px"></p>';
+    controls.innerHTML = '<label>Reference beam angle <input type="range" min="-26" max="26" step="1" value="14" aria-label="Reference beam angle, which sets the fringe spacing"></label><button class="control" id="hr-coh" aria-pressed="true">Coherent light: on</button>';
+    const cv = stage.querySelector("canvas"), ctx = cv.getContext("2d"), cap = stage.querySelector(".hr-cap");
+    const input = controls.querySelector("input"), cohBtn = controls.querySelector("#hr-coh");
+    let buf, bctx, img, t0 = performance.now(), raf = 0;
+    const draw = (t) => {
+      const dpr = Math.min(devicePixelRatio || 1, 2), W = cv.clientWidth, H = cv.clientHeight;
+      if (cv.width !== Math.round(W * dpr) || cv.height !== Math.round(H * dpr)) { cv.width = Math.round(W * dpr); cv.height = Math.round(H * dpr); }
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0); ctx.clearRect(0, 0, W, H);
+      const sans = "Aptos,'Segoe UI',sans-serif", ink = "#eaedf8", inkSoft = "#99a2c2", line = "#2a3350";
+      const laser = [W*0.05,H*0.52], split = [W*0.24,H*0.52], mirror = [W*0.24,H*0.2];
+      const obj = [W*0.48,H*0.66], plateX = W*0.9, pTop = H*0.14, pBot = H*0.9;
+      const zx = W*0.6, zw = plateX - zx, zy = pTop, zh = pBot - pTop;
+      const th = angle*Math.PI/180, k=0.285, w=2*Math.PI*0.55, coh=coherent;
+      const jitter = coh ? 0 : Math.sin(t*40)*3 + Math.sin(t*71)*2;
+      const scl=4, bw=Math.max(2,Math.floor(zw/scl)), bh=Math.max(2,Math.floor(zh/scl));
+      if (!buf || buf.width!==bw || buf.height!==bh) { buf=document.createElement("canvas"); buf.width=bw; buf.height=bh; bctx=buf.getContext("2d"); img=bctx.createImageData(bw,bh); }
+      const d = img.data;
+      for (let j=0;j<bh;j++) for (let i=0;i<bw;i++) {
+        const x=zx+(i/bw)*zw, y=zy+(j/bh)*zh, rO=Math.hypot(x-obj[0],y-obj[1]);
+        const pO=Math.sin(k*rO-w*t), pR=Math.sin(k*(x*Math.cos(th)+y*Math.sin(th))-w*t+(coh?0:jitter));
+        let f=(pO+pR)*0.5*0.9, idx=(j*bw+i)*4, r,g,b;
+        if (f>=0){ r=11+(63-11)*f; g=14+(224-14)*f; b=26+(208-26)*f; } else { const a=-f; r=11+(157-11)*a; g=14+(124-14)*a; b=26+(255-26)*a; }
+        d[idx]=r; d[idx+1]=g; d[idx+2]=b; d[idx+3]=255;
+      }
+      bctx.putImageData(img,0,0);
+      ctx.save(); ctx.imageSmoothingEnabled=true; ctx.drawImage(buf,zx,zy,zw,zh);
+      ctx.strokeStyle=line; ctx.lineWidth=1; ctx.strokeRect(zx,zy,zw,zh); ctx.restore();
+      ctx.fillStyle=inkSoft; ctx.font="italic 11px 'Palatino Linotype',Palatino,serif"; ctx.textAlign="center";
+      ctx.fillText("recording zone \u2014 the waves overlap here", zx+zw/2, zy-8);
+      const arrow=(a,b,col,wd)=>{ ctx.strokeStyle=col; ctx.lineWidth=wd; ctx.beginPath(); ctx.moveTo(a[0],a[1]); ctx.lineTo(b[0],b[1]); ctx.stroke(); const ang=Math.atan2(b[1]-a[1],b[0]-a[0]); ctx.fillStyle=col; ctx.beginPath(); ctx.moveTo(b[0],b[1]); ctx.lineTo(b[0]-9*Math.cos(ang-0.4),b[1]-9*Math.sin(ang-0.4)); ctx.lineTo(b[0]-9*Math.cos(ang+0.4),b[1]-9*Math.sin(ang+0.4)); ctx.fill(); };
+      arrow(laser,split,"#ff6b6b",4); arrow(split,mirror,"#ff6b6b",3); arrow(mirror,[zx+zw*0.5,zy+6],"#ff6b6b",3); arrow(split,obj,"#3fe0d0",3);
+      ctx.strokeStyle="rgba(63,224,208,.6)"; ctx.lineWidth=1.6;
+      [pTop+(pBot-pTop)*0.3,(pTop+pBot)/2,pBot-(pBot-pTop)*0.3].forEach(py=>{ ctx.beginPath(); ctx.moveTo(obj[0],obj[1]); ctx.lineTo(plateX-6,py); ctx.stroke(); });
+      const box=(c,wd,hd,label,fill,lc)=>{ ctx.fillStyle=fill; ctx.strokeStyle=ink; ctx.lineWidth=1.5; ctx.fillRect(c[0]-wd/2,c[1]-hd/2,wd,hd); ctx.strokeRect(c[0]-wd/2,c[1]-hd/2,wd,hd); ctx.fillStyle=lc; ctx.font="700 10px "+sans; ctx.textAlign="center"; ctx.fillText(label,c[0],c[1]+3); };
+      box(laser,54,30,"LASER","#ff6b6b","#160709");
+      ctx.strokeStyle="#46d6ff"; ctx.lineWidth=4; ctx.beginPath(); ctx.moveTo(split[0]-13,split[1]+13); ctx.lineTo(split[0]+13,split[1]-13); ctx.stroke();
+      ctx.strokeStyle="#8a93b5"; ctx.lineWidth=4; ctx.beginPath(); ctx.moveTo(mirror[0]-13,mirror[1]-10); ctx.lineTo(mirror[0]+13,mirror[1]+10); ctx.stroke();
+      ctx.fillStyle="#3fe0d0"; ctx.strokeStyle="#0f9b90"; ctx.lineWidth=1.5;
+      ctx.beginPath(); const R=15; for(let i=0;i<6;i++){ const a=i/6*Math.PI*2-0.3; const px=obj[0]+Math.cos(a)*R, py=obj[1]+Math.sin(a)*R*0.9; i?ctx.lineTo(px,py):ctx.moveTo(px,py);} ctx.closePath(); ctx.fill(); ctx.stroke();
+      ctx.fillStyle="#141b2e"; ctx.strokeStyle=ink; ctx.lineWidth=2; ctx.fillRect(plateX-5,pTop,10,pBot-pTop); ctx.strokeRect(plateX-5,pTop,10,pBot-pTop);
+      for(let y=pTop+2;y<pBot;y+=2){ const rO=Math.hypot(plateX-obj[0],y-obj[1]); const phaseDiff=k*rO-k*(plateX*Math.cos(th)+y*Math.sin(th)); const I=0.5+0.5*Math.cos(phaseDiff)*(coh?1:0.12); ctx.strokeStyle="rgba(234,237,248,"+(0.12+0.7*I).toFixed(3)+")"; ctx.lineWidth=1; ctx.beginPath(); ctx.moveTo(plateX-4,y); ctx.lineTo(plateX+4,y); ctx.stroke(); }
+      ctx.fillStyle=inkSoft; ctx.font="11px "+sans; ctx.textAlign="center";
+      ctx.fillText("beam splitter",split[0],split[1]+30); ctx.fillText("mirror",mirror[0]-2,mirror[1]-18);
+      ctx.fillStyle="#3fe0d0"; ctx.fillText("object",obj[0],obj[1]+30);
+      ctx.fillStyle="#ff6b6b"; ctx.fillText("reference beam",W*0.42,mirror[1]-10);
+      ctx.fillStyle=inkSoft; ctx.fillText("recording plate",plateX,pBot+20);
+      cap.innerHTML = coherent ? "<strong>Coherent light:</strong> crest meets crest \u2192 bright, crest meets trough \u2192 dark. That standing pattern is frozen into the plate as fringes \u2014 tilt the reference to change their spacing." : "<strong>Incoherent light:</strong> the two waves lose a steady phase, the pattern jitters and averages to grey \u2014 nothing stable records. Holography needs a laser.";
+    };
+    const loop = () => { if (!cv.isConnected) return; const t=(performance.now()-t0)/1000; draw(t); if (!reduced) raf=requestAnimationFrame(loop); };
+    input.addEventListener("input", ()=>{ angle=+input.value; if(reduced) draw((performance.now()-t0)/1000); });
+    cohBtn.addEventListener("click", ()=>{ coherent=!coherent; cohBtn.setAttribute("aria-pressed",String(coherent)); cohBtn.textContent="Coherent light: "+(coherent?"on":"off"); if(reduced) draw((performance.now()-t0)/1000); });
+    if (reduced) draw(0); else loop();
+  },
+    "wave-interference"(stage, controls) {
     stage.innerHTML = '<canvas aria-label="Two waves and their interference sum"></canvas>';
     controls.innerHTML = '<label>Relative phase <input type="range" min="0" max="6.28" value="0" step=".05"></label><label>Angle <input type="range" min="1" max="8" value="4" step=".1"></label><output></output>';
     const canvas = stage.querySelector("canvas");
@@ -1448,9 +1560,9 @@ const visualBuilders = {
       const width = Math.max(320, canvas.clientWidth); const height = 270; const ratio = devicePixelRatio || 1;
       canvas.width = width * ratio; canvas.height = height * ratio;
       const context = canvas.getContext("2d"); context.scale(ratio, ratio); context.clearRect(0, 0, width, height);
-      context.fillStyle = "#fffdf7"; context.fillRect(0, 0, width, height);
+      context.fillStyle = "#141b2e"; context.fillRect(0, 0, width, height);
       const p = Number(phase.value); const frequency = Number(angle.value);
-      [[55, "#963a31", 0], [125, "#2d91a1", p], [210, "#087b78", p / 2]].forEach(([mid, color, offset], series) => {
+      [[55, "#ff6b6b", 0], [125, "#46d6ff", p], [210, "#3fe0d0", p / 2]].forEach(([mid, color, offset], series) => {
         context.beginPath(); context.strokeStyle = color; context.lineWidth = series === 2 ? 4 : 2;
         for (let x = 0; x < width; x++) {
           const first = Math.sin(x / width * Math.PI * frequency * 2);
@@ -1467,23 +1579,258 @@ const visualBuilders = {
     phase.addEventListener("input", draw); angle.addEventListener("input", draw); draw();
   },
   "hologram-reconstruction"(stage, controls) {
-    controls.innerHTML = '<label>Wavelength <input type="range" min="-35" max="35" value="0"></label><label>Beam angle <input type="range" min="-25" max="25" value="0"></label><output></output>';
-    const [wavelength, angle] = controls.querySelectorAll("input");
-    const output = controls.querySelector("output");
-    const draw = () => {
-      const shift = Number(wavelength.value) + Number(angle.value) * 1.4;
-      const imageX = 485 + shift;
-      stage.innerHTML = `<svg viewBox="0 0 640 270" role="img" aria-label="Reconstruction rays and virtual image"><rect x="265" y="35" width="18" height="200" fill="#d4e8e4" stroke="#171a18"/><g stroke="#963a31" stroke-width="4"><path d="M30 ${125 - Number(angle.value)}L265 110"/><path d="M30 ${155 - Number(angle.value)}L265 150"/></g><g stroke="#087b78" stroke-width="3"><path d="M283 110L610 48"/><path d="M283 150L610 215"/></g><g stroke="#77756f" stroke-width="2" stroke-dasharray="6 5"><path d="M283 110L${imageX} 145"/><path d="M283 150L${imageX} 145"/></g><circle cx="${imageX}" cy="145" r="25" fill="#2d91a1" stroke="#171a18"/><text x="${imageX}" y="150" text-anchor="middle">IMAGE</text><text x="180" y="28">reconstruction beam</text><text x="350" y="245">diffracted rays</text></svg>`;
-      output.textContent = shift < -12 ? "image shifts left" : shift > 12 ? "image shifts right" : "matched reconstruction";
+    const EYES=[-0.85,-0.42,0,0.42,0.85];
+    let head=0,width=100;
+    stage.innerHTML='<div style="display:flex;flex-wrap:wrap;gap:0;align-items:stretch"><div style="flex:1 1 250px;position:relative;border-right:1px solid #2a3350"><canvas class="hrc-diagram" style="width:100%;height:300px"></canvas><span style="position:absolute;top:8px;left:10px;padding:2px 6px;font:9px Aptos,sans-serif;letter-spacing:.06em;color:#0b0e1a;background:#eaedf8;text-transform:uppercase">Top-down · all viewers at once</span></div><div style="flex:1.2 1 270px;position:relative"><canvas class="hrc-scene" style="width:100%;height:300px"></canvas><span style="position:absolute;top:8px;left:10px;padding:2px 6px;font:9px Aptos,sans-serif;letter-spacing:.06em;color:#0b0e1a;background:#3fe0d0;text-transform:uppercase">What your eye sees</span></div></div>';
+    controls.innerHTML='<label>Your head position <input class="hrc-head" type="range" min="-1" max="1" step=".01" value="0" aria-label="Your head position; the card itself does not move"></label><label>Plate width <input class="hrc-width" type="range" min="30" max="100" step="1" value="100" aria-label="Plate width; how wide the fan of stored angles is"></label>';
+    const sceneEl=stage.querySelector(".hrc-scene"),diagram=stage.querySelector(".hrc-diagram"),dctx=diagram.getContext("2d");
+    const headI=controls.querySelector(".hrc-head"),widthI=controls.querySelector(".hrc-width");
+    let gl,glCanvas,g,b,pFace,pGlow,pVig,L;
+    const fan=()=>0.16+0.42*(width/100);
+    const persp=(f,a,n,fa)=>{const gg=1/Math.tan(f/2),d=1/(n-fa);return[gg/a,0,0,0,0,gg,0,0,0,0,(n+fa)*d,-1,0,0,2*n*fa*d,0];};
+    const mul=(a,bb)=>{const o=new Array(16);for(let c=0;c<4;c++)for(let r=0;r<4;r++)o[c*4+r]=a[r]*bb[c*4]+a[4+r]*bb[c*4+1]+a[8+r]*bb[c*4+2]+a[12+r]*bb[c*4+3];return o;};
+    const lookAt=(e,c,up)=>{let z=[e[0]-c[0],e[1]-c[1],e[2]-c[2]];let l=Math.hypot(z[0],z[1],z[2]);z=[z[0]/l,z[1]/l,z[2]/l];let x=[up[1]*z[2]-up[2]*z[1],up[2]*z[0]-up[0]*z[2],up[0]*z[1]-up[1]*z[0]];l=Math.hypot(x[0],x[1],x[2])||1;x=[x[0]/l,x[1]/l,x[2]/l];const y=[z[1]*x[2]-z[2]*x[1],z[2]*x[0]-z[0]*x[2],z[0]*x[1]-z[1]*x[0]];return[x[0],y[0],z[0],0,x[1],y[1],z[1],0,x[2],y[2],z[2],0,-(x[0]*e[0]+x[1]*e[1]+x[2]*e[2]),-(y[0]*e[0]+y[1]*e[1]+y[2]*e[2]),-(z[0]*e[0]+z[1]*e[1]+z[2]*e[2]),1];};
+    const model=(spin,tilt,s)=>{const cy=Math.cos(spin),sy=Math.sin(spin),cx=Math.cos(tilt),sx=Math.sin(tilt);const ry=[cy,0,-sy,0,0,1,0,0,sy,0,cy,0,0,0,0,1];const rx=[1,0,0,0,0,cx,sx,0,0,-sx,cx,0,0,0,0,1];const sc=[s,0,0,0,0,s,0,0,0,0,s,0,0,0,0,1];return mul(sc,mul(rx,ry));};
+    const icosa=()=>{const t=(1+Math.sqrt(5))/2;const v=[[-1,t,0],[1,t,0],[-1,-t,0],[1,-t,0],[0,-1,t],[0,1,t],[0,-1,-t],[0,1,-t],[t,0,-1],[t,0,1],[-t,0,-1],[-t,0,1]].map(p=>{const l=Math.hypot(p[0],p[1],p[2]);return[p[0]/l,p[1]/l,p[2]/l];});const f=[[0,11,5],[0,5,1],[0,1,7],[0,7,10],[0,10,11],[1,5,9],[5,11,4],[11,10,2],[10,7,6],[7,1,8],[3,9,4],[3,4,2],[3,2,6],[3,6,8],[3,8,9],[4,9,5],[2,4,11],[6,2,10],[8,6,7],[9,8,1]];return {v,f};};
+    const setupGL=(el)=>{gl=el.getContext("webgl",{antialias:true,alpha:false,preserveDrawingBuffer:true});if(!gl)return;glCanvas=el;
+      const G=icosa();const pos=[],nrm=[],seen={},edges=[];
+      G.f.forEach(fc=>{const A=G.v[fc[0]],B=G.v[fc[1]],C=G.v[fc[2]];const u=[B[0]-A[0],B[1]-A[1],B[2]-A[2]],w=[C[0]-A[0],C[1]-A[1],C[2]-A[2]];let n=[u[1]*w[2]-u[2]*w[1],u[2]*w[0]-u[0]*w[2],u[0]*w[1]-u[1]*w[0]];const l=Math.hypot(n[0],n[1],n[2]);n=[n[0]/l,n[1]/l,n[2]/l];[A,B,C].forEach(P=>{pos.push(P[0],P[1],P[2]);nrm.push(n[0],n[1],n[2]);});[[fc[0],fc[1]],[fc[1],fc[2]],[fc[2],fc[0]]].forEach(pr=>{const kk=Math.min(pr[0],pr[1])+"-"+Math.max(pr[0],pr[1]);if(!seen[kk]){seen[kk]=1;edges.push(G.v[pr[0]][0],G.v[pr[0]][1],G.v[pr[0]][2],G.v[pr[1]][0],G.v[pr[1]][1],G.v[pr[1]][2]);}});});
+      g={triCount:pos.length/3,edgeCount:edges.length/3,ptCount:G.v.length};
+      const mk=(d)=>{const bb=gl.createBuffer();gl.bindBuffer(gl.ARRAY_BUFFER,bb);gl.bufferData(gl.ARRAY_BUFFER,d,gl.STATIC_DRAW);return bb;};
+      const flat=[];G.v.forEach(p=>{flat.push(p[0],p[1],p[2]);});
+      b={pos:mk(new Float32Array(pos)),nrm:mk(new Float32Array(nrm)),edges:mk(new Float32Array(edges)),points:mk(new Float32Array(flat)),quad:mk(new Float32Array([-1,-1,1,-1,-1,1,1,1]))};
+      const cc=(t,s)=>{const sh=gl.createShader(t);gl.shaderSource(sh,s);gl.compileShader(sh);return sh;};
+      const prog=(vs,fs)=>{const p=gl.createProgram();gl.attachShader(p,cc(gl.VERTEX_SHADER,vs));gl.attachShader(p,cc(gl.FRAGMENT_SHADER,fs));gl.linkProgram(p);return p;};
+      pFace=prog("attribute vec3 aPos,aNormal;uniform mat4 uMVP,uModel;varying vec3 vN,vW;void main(){vec4 w=uModel*vec4(aPos,1.);vW=w.xyz;vN=mat3(uModel)*aNormal;gl_Position=uMVP*vec4(aPos,1.);}","precision mediump float;varying vec3 vN,vW;uniform vec3 uEye;void main(){vec3 N=normalize(vN),V=normalize(uEye-vW);float f=pow(1.-abs(dot(N,V)),2.4);vec3 c=mix(vec3(.02,.40,.39),vec3(.30,.90,.82),f);float a=.10+.72*f;gl_FragColor=vec4(c*a,1.);}");
+      pGlow=prog("attribute vec3 aPos;uniform mat4 uMVP;uniform float uPS;void main(){gl_Position=uMVP*vec4(aPos,1.);gl_PointSize=uPS;}","precision mediump float;uniform vec3 uColor;uniform float uAlpha;uniform bool uPt;void main(){float g=1.;if(uPt){float d=length(gl_PointCoord-vec2(.5));if(d>.5)discard;g=smoothstep(.5,0.,d);}gl_FragColor=vec4(uColor*uAlpha*g,1.);}");
+      pVig=prog("attribute vec2 aPos;varying vec2 vUv;void main(){vUv=aPos*.5+.5;gl_Position=vec4(aPos,0.,1.);}","precision mediump float;varying vec2 vUv;void main(){vec2 c=vUv-.5;float d=length(c*vec2(1.1,1.25));gl_FragColor=vec4(mix(vec3(.10,.14,.24),vec3(.043,.055,.102),smoothstep(.02,.95,d)),1.);}");
+      L={f:{aPos:gl.getAttribLocation(pFace,"aPos"),aN:gl.getAttribLocation(pFace,"aNormal"),uMVP:gl.getUniformLocation(pFace,"uMVP"),uModel:gl.getUniformLocation(pFace,"uModel"),uEye:gl.getUniformLocation(pFace,"uEye")},glow:{aPos:gl.getAttribLocation(pGlow,"aPos"),uMVP:gl.getUniformLocation(pGlow,"uMVP"),uPS:gl.getUniformLocation(pGlow,"uPS"),uColor:gl.getUniformLocation(pGlow,"uColor"),uAlpha:gl.getUniformLocation(pGlow,"uAlpha"),uPt:gl.getUniformLocation(pGlow,"uPt")},vig:{aPos:gl.getAttribLocation(pVig,"aPos")}};
     };
-    wavelength.addEventListener("input", draw); angle.addEventListener("input", draw); draw();
+    const render3d=()=>{const el=sceneEl;if(glCanvas!==el||!gl)setupGL(el);if(!gl)return;const dpr=Math.min(devicePixelRatio||1,2);const W=el.clientWidth,H=el.clientHeight;if(el.width!==Math.round(W*dpr)||el.height!==Math.round(H*dpr)){el.width=Math.round(W*dpr);el.height=Math.round(H*dpr);}
+      gl.viewport(0,0,el.width,el.height);gl.clearColor(0.043,0.055,0.102,1);gl.clear(gl.COLOR_BUFFER_BIT);gl.disable(gl.DEPTH_TEST);gl.disable(gl.BLEND);
+      gl.useProgram(pVig);gl.bindBuffer(gl.ARRAY_BUFFER,b.quad);gl.enableVertexAttribArray(L.vig.aPos);gl.vertexAttribPointer(L.vig.aPos,2,gl.FLOAT,false,0,0);gl.drawArrays(gl.TRIANGLE_STRIP,0,4);
+      gl.enable(gl.BLEND);gl.blendFunc(gl.ONE,gl.ONE);
+      const az=head*fan();const R=4.4;const eye=[Math.sin(az)*R,0.5,Math.cos(az)*R];const proj=persp(0.72,el.width/el.height,0.1,100);const view=lookAt(eye,[0,0,0],[0,1,0]);const mdl=model(0.6,-0.42,1.05);const mvp=mul(proj,mul(view,mdl));
+      gl.useProgram(pFace);gl.uniformMatrix4fv(L.f.uMVP,false,mvp);gl.uniformMatrix4fv(L.f.uModel,false,mdl);gl.uniform3fv(L.f.uEye,eye);
+      gl.bindBuffer(gl.ARRAY_BUFFER,b.pos);gl.enableVertexAttribArray(L.f.aPos);gl.vertexAttribPointer(L.f.aPos,3,gl.FLOAT,false,0,0);
+      gl.bindBuffer(gl.ARRAY_BUFFER,b.nrm);gl.enableVertexAttribArray(L.f.aN);gl.vertexAttribPointer(L.f.aN,3,gl.FLOAT,false,0,0);
+      gl.drawArrays(gl.TRIANGLES,0,g.triCount);
+      gl.useProgram(pGlow);gl.uniformMatrix4fv(L.glow.uMVP,false,mvp);
+      gl.uniform3fv(L.glow.uColor,[0.16,0.72,0.68]);gl.uniform1f(L.glow.uAlpha,0.6);gl.uniform1i(L.glow.uPt,0);gl.uniform1f(L.glow.uPS,1);
+      gl.bindBuffer(gl.ARRAY_BUFFER,b.edges);gl.enableVertexAttribArray(L.glow.aPos);gl.vertexAttribPointer(L.glow.aPos,3,gl.FLOAT,false,0,0);gl.drawArrays(gl.LINES,0,g.edgeCount);
+      gl.uniform3fv(L.glow.uColor,[0.55,0.95,0.9]);gl.uniform1f(L.glow.uAlpha,0.9);gl.uniform1i(L.glow.uPt,1);gl.uniform1f(L.glow.uPS,7*dpr);
+      gl.bindBuffer(gl.ARRAY_BUFFER,b.points);gl.vertexAttribPointer(L.glow.aPos,3,gl.FLOAT,false,0,0);gl.drawArrays(gl.POINTS,0,g.ptCount);
+    };
+    const renderPlan=()=>{const cv=diagram,ctx=dctx;const dpr=Math.min(devicePixelRatio||1,2);const W=cv.clientWidth,H=cv.clientHeight;if(cv.width!==Math.round(W*dpr)||cv.height!==Math.round(H*dpr)){cv.width=Math.round(W*dpr);cv.height=Math.round(H*dpr);}ctx.setTransform(dpr,0,0,dpr,0,0);ctx.clearRect(0,0,W,H);
+      const sans="Aptos,'Segoe UI',sans-serif";const cyc=H/2,objX=W*0.15,plateX=W*0.42,D=W*0.46;const f=fan(),plateH=(H*0.62)*(width/100);const pTop=cyc-plateH/2,pBot=cyc+plateH/2;
+      ctx.strokeStyle="rgba(120,130,165,.35)";ctx.lineWidth=1;for(let i=0;i<=6;i++){const y=pTop+(pBot-pTop)*i/6;ctx.beginPath();ctx.moveTo(objX,cyc);ctx.lineTo(plateX,y);ctx.stroke();}
+      ctx.beginPath();ctx.moveTo(plateX,cyc);ctx.lineTo(plateX+Math.cos(-f)*D,cyc+Math.sin(-f)*D);ctx.lineTo(plateX+Math.cos(f)*D,cyc+Math.sin(f)*D);ctx.closePath();ctx.fillStyle="rgba(63,224,208,.09)";ctx.fill();
+      ctx.fillStyle="#3fe0d0";ctx.strokeStyle="#3fe0d0";ctx.lineWidth=1.5;ctx.beginPath();const rr=13;for(let i=0;i<6;i++){const a=i/6*Math.PI*2;const px=objX+Math.cos(a)*rr,py=cyc+Math.sin(a)*rr*0.8;i?ctx.lineTo(px,py):ctx.moveTo(px,py);}ctx.closePath();ctx.globalAlpha=.22;ctx.fill();ctx.globalAlpha=1;ctx.stroke();
+      ctx.fillStyle="#141b2e";ctx.strokeStyle="#eaedf8";ctx.lineWidth=2;ctx.fillRect(plateX-4,pTop,8,pBot-pTop);ctx.strokeRect(plateX-4,pTop,8,pBot-pTop);
+      ctx.strokeStyle="rgba(234,237,248,.5)";ctx.lineWidth=1;for(let y=pTop+3;y<pBot;y+=3){ctx.globalAlpha=.25+.3*Math.sin(y*0.7);ctx.beginPath();ctx.moveTo(plateX-3,y);ctx.lineTo(plateX+3,y);ctx.stroke();}ctx.globalAlpha=1;
+      const headA=head*f;
+      EYES.forEach(slot=>{const a=slot*f,ex=plateX+Math.cos(a)*D,ey=cyc+Math.sin(a)*D;const near=Math.abs(a-headA)<0.06;ctx.strokeStyle=near?"rgba(255,107,107,.9)":"rgba(63,224,208,.4)";ctx.lineWidth=near?2:1;ctx.beginPath();ctx.moveTo(plateX,pTop+6);ctx.lineTo(ex,ey);ctx.moveTo(plateX,pBot-6);ctx.lineTo(ex,ey);ctx.stroke();ctx.setLineDash([4,4]);ctx.strokeStyle="rgba(120,130,165,.55)";ctx.lineWidth=1;ctx.beginPath();ctx.moveTo(ex,ey);ctx.lineTo(objX,cyc);ctx.stroke();ctx.setLineDash([]);ctx.fillStyle=near?"#ff6b6b":"#3fe0d0";ctx.beginPath();ctx.arc(ex,ey,near?9:6,0,Math.PI*2);ctx.fill();ctx.fillStyle="#0b0e1a";ctx.beginPath();ctx.arc(ex-2,ey,near?3:2,0,Math.PI*2);ctx.fill();});
+      const yx=plateX+Math.cos(headA)*D,yy=cyc+Math.sin(headA)*D;ctx.fillStyle="#ff6b6b";ctx.font="700 11px "+sans;ctx.textAlign="center";ctx.fillText("you",yx,yy+22);
+      ctx.fillStyle="#99a2c2";ctx.font="11px "+sans;ctx.textAlign="center";ctx.fillText("object (fixed)",objX,cyc+30);ctx.fillText("static plate",plateX,pTop-8);ctx.fillStyle="#3fe0d0";ctx.fillText("fan of angles — all at once",plateX+D*0.5,cyc-plateH*0.5-14);ctx.textAlign="left";
+    };
+    const draw=()=>{render3d();renderPlan();};
+    headI.addEventListener("input",()=>{head=+headI.value;draw();});
+    widthI.addEventListener("input",()=>{width=+widthI.value;draw();});
+    addEventListener("resize",draw);requestAnimationFrame(draw);
   },
-  "hologram-fragment"(stage, controls) {
-    stage.innerHTML = '<div class="fragment-demo"><div class="fragment-aperture"><div class="fragment-image"></div></div></div>';
-    controls.innerHTML = '<label>Plate retained <input type="range" min="18" max="100" value="100"></label><output>whole plate</output>';
-    const input = controls.querySelector("input"); const output = controls.querySelector("output"); const aperture = stage.querySelector(".fragment-aperture");
-    const update = () => { const value = Number(input.value); aperture.style.setProperty("--aperture", `${Math.max(18, value)}%`); aperture.style.setProperty("--brightness", String(.35 + value / 155)); aperture.style.setProperty("--blur", `${(100 - value) / 24}px`); output.textContent = value > 82 ? "whole scene, full aperture" : value > 45 ? "whole scene, reduced detail" : "fragment: dim, blurred, narrow view"; };
-    input.addEventListener("input", update); update();
+    "hologram-fragment"(stage, controls) {
+    let size=100,pos=0;
+    stage.innerHTML='<div style="display:flex;flex-wrap:wrap;gap:0;align-items:stretch"><div style="flex:1 1 235px;position:relative;border-right:1px solid #2a3350"><canvas class="hf-photo" style="width:100%;height:280px"></canvas><span style="position:absolute;top:8px;left:10px;padding:2px 6px;font:9px Aptos,sans-serif;letter-spacing:.06em;color:#0b0e1a;background:#ff6b6b;text-transform:uppercase">Photograph · a mosaic</span></div><div style="flex:1 1 235px;position:relative"><canvas class="hf-holo" style="width:100%;height:280px"></canvas><span style="position:absolute;top:8px;left:10px;padding:2px 6px;font:9px Aptos,sans-serif;letter-spacing:.06em;color:#0b0e1a;background:#3fe0d0;text-transform:uppercase">Hologram · a window</span></div></div><p class="notice hf-cap" style="margin-top:9px"></p>';
+    controls.innerHTML='<label>Fragment size <input class="hf-size" type="range" min="16" max="100" step="1" value="100" aria-label="Fragment size, how much of the plate you keep"></label><label>Fragment position <input class="hf-pos" type="range" min="-1" max="1" step=".01" value="0" aria-label="Which piece of the plate you cut out"></label>';
+    const photo=stage.querySelector(".hf-photo"),pctx=photo.getContext("2d"),holoEl=stage.querySelector(".hf-holo"),cap=stage.querySelector(".hf-cap");
+    const sizeI=controls.querySelector(".hf-size"),posI=controls.querySelector(".hf-pos");
+    let gl,glCanvas,g,b,pFace,pGlow,L;
+    const icosa=()=>{const t=(1+Math.sqrt(5))/2;const v=[[-1,t,0],[1,t,0],[-1,-t,0],[1,-t,0],[0,-1,t],[0,1,t],[0,-1,-t],[0,1,-t],[t,0,-1],[t,0,1],[-t,0,-1],[-t,0,1]].map(p=>{const l=Math.hypot(p[0],p[1],p[2]);return[p[0]/l,p[1]/l,p[2]/l];});const f=[[0,11,5],[0,5,1],[0,1,7],[0,7,10],[0,10,11],[1,5,9],[5,11,4],[11,10,2],[10,7,6],[7,1,8],[3,9,4],[3,4,2],[3,2,6],[3,6,8],[3,8,9],[4,9,5],[2,4,11],[6,2,10],[8,6,7],[9,8,1]];return {v,f};};
+    const persp=(fov,a,n,f)=>{const gg=1/Math.tan(fov/2),d=1/(n-f);return[gg/a,0,0,0,0,gg,0,0,0,0,(n+f)*d,-1,0,0,2*n*f*d,0];};
+    const mul=(a,bb)=>{const o=new Array(16);for(let c=0;c<4;c++)for(let r=0;r<4;r++)o[c*4+r]=a[r]*bb[c*4]+a[4+r]*bb[c*4+1]+a[8+r]*bb[c*4+2]+a[12+r]*bb[c*4+3];return o;};
+    const lookAt=(e,c,up)=>{let z=[e[0]-c[0],e[1]-c[1],e[2]-c[2]];let l=Math.hypot(z[0],z[1],z[2]);z=[z[0]/l,z[1]/l,z[2]/l];let x=[up[1]*z[2]-up[2]*z[1],up[2]*z[0]-up[0]*z[2],up[0]*z[1]-up[1]*z[0]];l=Math.hypot(x[0],x[1],x[2])||1;x=[x[0]/l,x[1]/l,x[2]/l];const y=[z[1]*x[2]-z[2]*x[1],z[2]*x[0]-z[0]*x[2],z[0]*x[1]-z[1]*x[0]];return[x[0],y[0],z[0],0,x[1],y[1],z[1],0,x[2],y[2],z[2],0,-(x[0]*e[0]+x[1]*e[1]+x[2]*e[2]),-(y[0]*e[0]+y[1]*e[1]+y[2]*e[2]),-(z[0]*e[0]+z[1]*e[1]+z[2]*e[2]),1];};
+    const model=(spin,tilt,s)=>{const cy=Math.cos(spin),sy=Math.sin(spin),cx=Math.cos(tilt),sx=Math.sin(tilt);const ry=[cy,0,-sy,0,0,1,0,0,sy,0,cy,0,0,0,0,1];const rx=[1,0,0,0,0,cx,sx,0,0,-sx,cx,0,0,0,0,1];const sc=[s,0,0,0,0,s,0,0,0,0,s,0,0,0,0,1];return mul(sc,mul(rx,ry));};
+    const windowRect=(W,H)=>{const f=size/100;const ww=W*(0.24+0.76*f),wh=H*(0.24+0.76*f);const wx=(W-ww)/2+pos*(W-ww)/2;const wy=(H-wh)/2;return {wx,wy,ww,wh,f};};
+    const setupGL=(el)=>{gl=el.getContext("webgl",{antialias:true,alpha:false,preserveDrawingBuffer:true});if(!gl)return;glCanvas=el;
+      const G=icosa();const pos2=[],nrm=[],seen={},edges=[];
+      G.f.forEach(fc=>{const A=G.v[fc[0]],B=G.v[fc[1]],C=G.v[fc[2]];const u=[B[0]-A[0],B[1]-A[1],B[2]-A[2]],w=[C[0]-A[0],C[1]-A[1],C[2]-A[2]];let n=[u[1]*w[2]-u[2]*w[1],u[2]*w[0]-u[0]*w[2],u[0]*w[1]-u[1]*w[0]];const l=Math.hypot(n[0],n[1],n[2]);n=[n[0]/l,n[1]/l,n[2]/l];[A,B,C].forEach(P=>{pos2.push(P[0],P[1],P[2]);nrm.push(n[0],n[1],n[2]);});[[fc[0],fc[1]],[fc[1],fc[2]],[fc[2],fc[0]]].forEach(pr=>{const kk=Math.min(pr[0],pr[1])+"-"+Math.max(pr[0],pr[1]);if(!seen[kk]){seen[kk]=1;edges.push(G.v[pr[0]][0],G.v[pr[0]][1],G.v[pr[0]][2],G.v[pr[1]][0],G.v[pr[1]][1],G.v[pr[1]][2]);}});});
+      g={triCount:pos2.length/3,edgeCount:edges.length/3,ptCount:G.v.length};
+      const flat=[];G.v.forEach(p=>{flat.push(p[0],p[1],p[2]);});
+      const mk=(d)=>{const bb=gl.createBuffer();gl.bindBuffer(gl.ARRAY_BUFFER,bb);gl.bufferData(gl.ARRAY_BUFFER,d,gl.STATIC_DRAW);return bb;};
+      b={pos:mk(new Float32Array(pos2)),nrm:mk(new Float32Array(nrm)),edges:mk(new Float32Array(edges)),points:mk(new Float32Array(flat))};
+      const cc=(t,s)=>{const sh=gl.createShader(t);gl.shaderSource(sh,s);gl.compileShader(sh);return sh;};
+      const prog=(vs,fs)=>{const p=gl.createProgram();gl.attachShader(p,cc(gl.VERTEX_SHADER,vs));gl.attachShader(p,cc(gl.FRAGMENT_SHADER,fs));gl.linkProgram(p);return p;};
+      pFace=prog("attribute vec3 aPos,aNormal;uniform mat4 uMVP,uModel;uniform vec3 uEye;varying vec3 vN,vW;void main(){vec4 w=uModel*vec4(aPos,1.);vW=w.xyz;vN=mat3(uModel)*aNormal;gl_Position=uMVP*vec4(aPos,1.);}","precision mediump float;varying vec3 vN,vW;uniform vec3 uEye;uniform float uDim;void main(){vec3 N=normalize(vN),V=normalize(uEye-vW);float f=pow(1.-abs(dot(N,V)),2.4);vec3 c=mix(vec3(.02,.40,.39),vec3(.30,.90,.82),f);float a=(.09+.72*f)*uDim;gl_FragColor=vec4(c*a,1.);}");
+      pGlow=prog("attribute vec3 aPos;uniform mat4 uMVP;uniform float uPS;void main(){gl_Position=uMVP*vec4(aPos,1.);gl_PointSize=uPS;}","precision mediump float;uniform vec3 uColor;uniform float uAlpha;uniform bool uPt;void main(){float g=1.;if(uPt){float d=length(gl_PointCoord-vec2(.5));if(d>.5)discard;g=smoothstep(.5,0.,d);}gl_FragColor=vec4(uColor*uAlpha*g,1.);}");
+      L={f:{aPos:gl.getAttribLocation(pFace,"aPos"),aN:gl.getAttribLocation(pFace,"aNormal"),uMVP:gl.getUniformLocation(pFace,"uMVP"),uModel:gl.getUniformLocation(pFace,"uModel"),uEye:gl.getUniformLocation(pFace,"uEye"),uDim:gl.getUniformLocation(pFace,"uDim")},g:{aPos:gl.getAttribLocation(pGlow,"aPos"),uMVP:gl.getUniformLocation(pGlow,"uMVP"),uPS:gl.getUniformLocation(pGlow,"uPS"),uColor:gl.getUniformLocation(pGlow,"uColor"),uAlpha:gl.getUniformLocation(pGlow,"uAlpha"),uPt:gl.getUniformLocation(pGlow,"uPt")}};
+    };
+    const drawHolo=()=>{const el=holoEl;if(glCanvas!==el||!gl)setupGL(el);if(!gl)return;const dpr=Math.min(devicePixelRatio||1,2);const W=el.clientWidth,H=el.clientHeight;if(el.width!==Math.round(W*dpr)||el.height!==Math.round(H*dpr)){el.width=Math.round(W*dpr);el.height=Math.round(H*dpr);}
+      gl.disable(gl.SCISSOR_TEST);gl.viewport(0,0,el.width,el.height);gl.clearColor(0.08,0.10,0.17,1);gl.clear(gl.COLOR_BUFFER_BIT);
+      const wr=windowRect(W,H);const gx=Math.round(wr.wx*dpr),gy=Math.round((H-wr.wy-wr.wh)*dpr),gw=Math.round(wr.ww*dpr),gh=Math.round(wr.wh*dpr);
+      gl.enable(gl.SCISSOR_TEST);gl.scissor(gx,gy,gw,gh);gl.viewport(gx,gy,gw,gh);gl.clearColor(0.04,0.05,0.10,1);gl.clear(gl.COLOR_BUFFER_BIT);
+      gl.enable(gl.BLEND);gl.blendFunc(gl.ONE,gl.ONE);gl.disable(gl.DEPTH_TEST);
+      const az=pos*0.6,R=4.4,eye=[Math.sin(az)*R,0.5,Math.cos(az)*R];const proj=persp(0.72,gw/gh,0.1,100);const view=lookAt(eye,[0,0,0],[0,1,0]);const mdl=model(0.6,-0.42,1.05);const mvp=mul(proj,mul(view,mdl));
+      const dim=0.32+0.68*wr.f,jitter=(1-wr.f)*2.2*dpr;const passes=jitter>0.4?[[-jitter,0],[jitter,0],[0,-jitter],[0,jitter],[0,0]]:[[0,0]];
+      passes.forEach(off=>{gl.viewport(gx+off[0],gy+off[1],gw,gh);const pd=dim/(passes.length>1?passes.length*0.7:1);
+        gl.useProgram(pFace);gl.uniformMatrix4fv(L.f.uMVP,false,mvp);gl.uniformMatrix4fv(L.f.uModel,false,mdl);gl.uniform3fv(L.f.uEye,eye);gl.uniform1f(L.f.uDim,pd);
+        gl.bindBuffer(gl.ARRAY_BUFFER,b.pos);gl.enableVertexAttribArray(L.f.aPos);gl.vertexAttribPointer(L.f.aPos,3,gl.FLOAT,false,0,0);
+        gl.bindBuffer(gl.ARRAY_BUFFER,b.nrm);gl.enableVertexAttribArray(L.f.aN);gl.vertexAttribPointer(L.f.aN,3,gl.FLOAT,false,0,0);
+        gl.drawArrays(gl.TRIANGLES,0,g.triCount);
+        gl.useProgram(pGlow);gl.uniformMatrix4fv(L.g.uMVP,false,mvp);
+        gl.uniform3fv(L.g.uColor,[0.16,0.72,0.68]);gl.uniform1f(L.g.uAlpha,0.55*pd/dim);gl.uniform1i(L.g.uPt,0);gl.uniform1f(L.g.uPS,1);
+        gl.bindBuffer(gl.ARRAY_BUFFER,b.edges);gl.enableVertexAttribArray(L.g.aPos);gl.vertexAttribPointer(L.g.aPos,3,gl.FLOAT,false,0,0);gl.drawArrays(gl.LINES,0,g.edgeCount);
+        gl.uniform3fv(L.g.uColor,[0.55,0.95,0.9]);gl.uniform1f(L.g.uAlpha,0.85*pd/dim);gl.uniform1i(L.g.uPt,1);gl.uniform1f(L.g.uPS,6*dpr*wr.f);
+        gl.bindBuffer(gl.ARRAY_BUFFER,b.points);gl.vertexAttribPointer(L.g.aPos,3,gl.FLOAT,false,0,0);gl.drawArrays(gl.POINTS,0,g.ptCount);});
+      gl.disable(gl.SCISSOR_TEST);
+    };
+    const drawPicture=(ctx,W,H)=>{ctx.fillStyle="#131a2c";ctx.fillRect(0,0,W,H);const G=icosa();const cx=W/2,cy=H/2,rad=Math.min(W,H)*0.34;const ry=0.6,rx=-0.42,cyr=Math.cos(ry),syr=Math.sin(ry),cxr=Math.cos(rx),sxr=Math.sin(rx);let Lv=[0.32,0.42,0.85];const ll=Math.hypot(Lv[0],Lv[1],Lv[2]);Lv=[Lv[0]/ll,Lv[1]/ll,Lv[2]/ll];
+      const proj=(p)=>{const x=p[0]*cyr-p[2]*syr,z=p[0]*syr+p[2]*cyr,y=p[1];const y2=y*cxr-z*sxr,z2=y*sxr+z*cxr;return [cx+x*rad,cy-y2*rad,z2,[x,y2,z2]];};
+      const P=G.v.map(proj);
+      const faces=G.f.map(fc=>{const za=(P[fc[0]][2]+P[fc[1]][2]+P[fc[2]][2])/3;const A=P[fc[0]][3],B=P[fc[1]][3],C=P[fc[2]][3];const u=[B[0]-A[0],B[1]-A[1],B[2]-A[2]],w=[C[0]-A[0],C[1]-A[1],C[2]-A[2]];let n=[u[1]*w[2]-u[2]*w[1],u[2]*w[0]-u[0]*w[2],u[0]*w[1]-u[1]*w[0]];const nl=Math.hypot(n[0],n[1],n[2])||1;n=[n[0]/nl,n[1]/nl,n[2]/nl];const sh=Math.max(0,n[0]*Lv[0]+n[1]*Lv[1]+n[2]*Lv[2]);return {a:fc[0],b:fc[1],c:fc[2],za,sh};}).sort((m,n)=>m.za-n.za);
+      faces.forEach(fc=>{const gg=0.30+0.70*fc.sh;ctx.fillStyle="rgb("+Math.round(20+gg*50)+","+Math.round(110+gg*120)+","+Math.round(100+gg*110)+")";ctx.strokeStyle="rgba(6,10,22,.55)";ctx.lineWidth=1;ctx.beginPath();ctx.moveTo(P[fc.a][0],P[fc.a][1]);ctx.lineTo(P[fc.b][0],P[fc.b][1]);ctx.lineTo(P[fc.c][0],P[fc.c][1]);ctx.closePath();ctx.fill();ctx.stroke();});
+    };
+    const drawPhoto=()=>{const cv=photo,ctx=pctx;const dpr=Math.min(devicePixelRatio||1,2);const W=cv.clientWidth,H=cv.clientHeight;if(cv.width!==Math.round(W*dpr)||cv.height!==Math.round(H*dpr)){cv.width=Math.round(W*dpr);cv.height=Math.round(H*dpr);}ctx.setTransform(dpr,0,0,dpr,0,0);ctx.clearRect(0,0,W,H);
+      ctx.fillStyle="#1b2238";ctx.fillRect(0,0,W,H);const wr=windowRect(W,H);ctx.save();ctx.beginPath();ctx.rect(wr.wx,wr.wy,wr.ww,wr.wh);ctx.clip();drawPicture(ctx,W,H);ctx.restore();ctx.strokeStyle="#eaedf8";ctx.lineWidth=2;ctx.strokeRect(wr.wx,wr.wy,wr.ww,wr.wh);};
+    const draw=()=>{drawHolo();drawPhoto();const s=size;cap.innerHTML=s>82?"<strong>Whole plate:</strong> both look complete.":s>45?"<strong>Half cut away:</strong> the photo has lost half its picture; the hologram is whole, just dimmer and softer.":"<strong>A small fragment:</strong> the photo keeps only a scrap \u2014 the hologram still holds the entire scene, only dim, low-res and narrow.";};
+    sizeI.addEventListener("input",()=>{size=+sizeI.value;draw();});
+    posI.addEventListener("input",()=>{pos=+posI.value;draw();});
+    addEventListener("resize",draw);requestAnimationFrame(draw);
+  },
+    "hologram-grid"(stage, controls) {
+    let mode="photo",keep=9;
+    stage.innerHTML='<canvas aria-label="A photograph stores one piece per grid cell; a hologram stores the whole set in every cell" style="width:100%;height:300px"></canvas>';
+    controls.innerHTML='<button class="control" data-m="photo" aria-pressed="true">A photograph</button><button class="control" data-m="holo" aria-pressed="false">A hologram</button><label>How much you keep <input type="range" min="1" max="9" step="1" value="9" aria-label="How many of the nine cells you keep"></label><span class="hg-cap notice" style="flex:1 1 100%"></span>';
+    const cv=stage.querySelector("canvas"),ctx=cv.getContext("2d"),input=controls.querySelector("input"),cap=controls.querySelector(".hg-cap");
+    const draw=()=>{
+      const dpr=Math.min(devicePixelRatio||1,2),W=cv.clientWidth,H=cv.clientHeight;
+      if(cv.width!==Math.round(W*dpr)||cv.height!==Math.round(H*dpr)){cv.width=Math.round(W*dpr);cv.height=Math.round(H*dpr);}
+      ctx.setTransform(dpr,0,0,dpr,0,0);ctx.clearRect(0,0,W,H);
+      const holo=mode==="holo",sans="Aptos,'Segoe UI',sans-serif",ink="#eaedf8",teal="#3fe0d0";
+      const gap=8,lx=16,ly=44,side=Math.min(W*0.44-lx,H-ly-24),cell=(side-gap*2)/3;
+      ctx.textAlign="left";ctx.fillStyle=ink;ctx.font="700 11px "+sans;ctx.fillText("THE SURFACE, CUT INTO A GRID",lx,26);
+      for(let i=0;i<9;i++){const r=Math.floor(i/3),c=i%3,x=lx+c*(cell+gap),y=ly+r*(cell+gap),kept=i<keep;
+        ctx.fillStyle=kept?"#141b2e":"#0e1424";ctx.strokeStyle=kept?ink:"#3b466b";ctx.lineWidth=kept?1.5:1;ctx.beginPath();ctx.rect(x,y,cell,cell);ctx.fill();ctx.stroke();
+        if(!kept){ctx.strokeStyle="#3b466b";ctx.lineWidth=1;ctx.beginPath();ctx.moveTo(x+6,y+6);ctx.lineTo(x+cell-6,y+cell-6);ctx.moveTo(x+cell-6,y+6);ctx.lineTo(x+6,y+cell-6);ctx.stroke();continue;}
+        if(!holo){ctx.fillStyle=ink;ctx.font="700 "+Math.round(cell*0.5)+"px 'Palatino Linotype',Palatino,serif";ctx.textAlign="center";ctx.textBaseline="middle";ctx.fillText(String(i+1),x+cell/2,y+cell/2+1);}
+        else{const sub=cell/3.4,ox=x+(cell-sub*3)/2,oy=y+(cell-sub*3)/2;ctx.font=Math.round(sub*0.62)+"px 'Palatino Linotype',Palatino,serif";ctx.textAlign="center";ctx.textBaseline="middle";for(let dd=0;dd<9;dd++){const val=((dd+i)%9)+1,rr=Math.floor(dd/3),cc=dd%3;ctx.fillStyle="rgba(63,224,208,"+(val===((0+i)%9)+1?0.95:0.55)+")";ctx.fillText(String(val),ox+cc*sub+sub/2,oy+rr*sub+sub/2);}}
+        ctx.textBaseline="alphabetic";
+      }
+      const rx=W*0.52,ry=44,rside=Math.min(W-rx-16,H-ly-24),rcell=(rside-gap*2)/3;
+      ctx.textAlign="left";ctx.fillStyle=ink;ctx.font="700 11px "+sans;ctx.fillText("WHAT YOU CAN REBUILD",rx,26);
+      const alpha=holo?0.25+0.75*(keep/9):1;
+      for(let i=0;i<9;i++){const r=Math.floor(i/3),c=i%3,x=rx+c*(rcell+gap),y=ry+r*(rcell+gap),have=holo?keep>=1:i<keep;
+        ctx.fillStyle=have?(holo?"#0f2a28":"#141b2e"):"#0e1424";ctx.strokeStyle=have?ink:"#3b466b";ctx.lineWidth=have?1.5:1;
+        if(!have)ctx.setLineDash([3,3]);ctx.beginPath();ctx.rect(x,y,rcell,rcell);ctx.fill();ctx.stroke();ctx.setLineDash([]);
+        if(have){ctx.globalAlpha=alpha;ctx.fillStyle=holo?teal:ink;ctx.font="700 "+Math.round(rcell*0.5)+"px 'Palatino Linotype',Palatino,serif";ctx.textAlign="center";ctx.textBaseline="middle";ctx.fillText(String(i+1),x+rcell/2,y+rcell/2+1);ctx.globalAlpha=1;ctx.textBaseline="alphabetic";}
+        else{ctx.fillStyle="#5a6488";ctx.textAlign="center";ctx.textBaseline="middle";ctx.font=Math.round(rcell*0.34)+"px "+sans;ctx.fillText("lost",x+rcell/2,y+rcell/2);ctx.textBaseline="alphabetic";}
+      }
+      ctx.textAlign="left";ctx.font="italic 12px 'Palatino Linotype',Palatino,serif";ctx.fillStyle=holo?teal:"#99a2c2";
+      const msg=holo?("all 9 recovered \u00b7 "+keep+" cop"+(keep===1?"y":"ies")+" \u00b7 "+(keep<4?"faint":"bright")):(keep+" of 9 recovered \u00b7 "+(9-keep)+" lost");
+      ctx.fillText(msg,rx,ry+rside+22);
+      cap.innerHTML=holo?"<strong>Hologram:</strong> every cell holds the whole set of nine \u2014 keep even one and all nine rebuild, just fainter with fewer copies.":"<strong>Photograph:</strong> one piece per cell \u2014 keep "+keep+" of 9 and you rebuild only those; cut a cell and that piece is gone.";
+      controls.querySelectorAll("button").forEach(bb=>bb.setAttribute("aria-pressed",String(bb.dataset.m===mode)));
+    };
+    controls.querySelectorAll("button").forEach(bb=>bb.addEventListener("click",()=>{mode=bb.dataset.m;draw();}));
+    input.addEventListener("input",()=>{keep=+input.value;draw();});
+    addEventListener("resize",draw);requestAnimationFrame(draw);
+  },
+  "hologram-whole"(stage, controls) {
+    let mag=0,cover=100;
+    stage.innerHTML='<canvas aria-label="A magnifier shows only fringes; your eye assembles the whole image from light off the surface" style="width:100%;height:300px"></canvas>';
+    controls.innerHTML='<label>Magnifier position <input class="hw-mag" type="range" min="-1" max="1" step=".01" value="0" aria-label="Move the magnifier across the surface"></label><label>Surface uncovered <input class="hw-cov" type="range" min="20" max="100" step="1" value="100" aria-label="How much of the surface is uncovered"></label><span class="hw-cap notice" style="flex:1 1 100%"></span>';
+    const cv=stage.querySelector("canvas"),ctx=cv.getContext("2d"),magI=controls.querySelector(".hw-mag"),covI=controls.querySelector(".hw-cov"),cap=controls.querySelector(".hw-cap");
+    const fringe=(x,y,w,h,spacing,amp,wl,alpha)=>{ctx.strokeStyle="rgba(63,224,208,"+alpha+")";ctx.lineWidth=1;for(let lx=x;lx<x+w;lx+=spacing){ctx.beginPath();for(let yy=y;yy<=y+h;yy+=3){const xx=lx+Math.sin((yy-y)/wl+lx*0.15)*amp;yy===y?ctx.moveTo(xx,yy):ctx.lineTo(xx,yy);}ctx.stroke();}};
+    const draw=()=>{
+      const dpr=Math.min(devicePixelRatio||1,2),W=cv.clientWidth,H=cv.clientHeight;
+      if(cv.width!==Math.round(W*dpr)||cv.height!==Math.round(H*dpr)){cv.width=Math.round(W*dpr);cv.height=Math.round(H*dpr);}
+      ctx.setTransform(dpr,0,0,dpr,0,0);ctx.clearRect(0,0,W,H);
+      const sans="Aptos,'Segoe UI',sans-serif",ink="#eaedf8",teal="#3fe0d0";
+      const divX=Math.round(W*0.46);ctx.strokeStyle="#2a3350";ctx.lineWidth=1;ctx.beginPath();ctx.moveTo(divX,14);ctx.lineTo(divX,H-14);ctx.stroke();
+      ctx.textAlign="left";ctx.fillStyle=ink;ctx.font="700 11px "+sans;ctx.fillText("UNDER A MAGNIFYING GLASS",18,24);
+      const px=18,py=40,pw=divX-38,ph=H-py-30;
+      ctx.fillStyle="#131a2c";ctx.fillRect(px,py,pw,ph);
+      ctx.save();ctx.beginPath();ctx.rect(px,py,pw,ph);ctx.clip();fringe(px,py,pw,ph,5,2,9,0.4);ctx.restore();
+      ctx.strokeStyle="#2a3350";ctx.lineWidth=1.5;ctx.strokeRect(px,py,pw,ph);
+      ctx.fillStyle="#99a2c2";ctx.font="11px "+sans;ctx.textAlign="center";ctx.fillText("the hologram surface (looks like a patterned card)",px+pw/2,py+ph+20);
+      const mx=px+pw*(0.5+mag*0.42),my=py+ph*0.5,mr=Math.min(pw,ph)*0.3;
+      ctx.save();ctx.beginPath();ctx.arc(mx,my,mr,0,Math.PI*2);ctx.clip();ctx.fillStyle="#0b0e1a";ctx.fillRect(mx-mr,my-mr,mr*2,mr*2);fringe(mx-mr,my-mr,mr*2,mr*2+4,20,8,26,0.9);ctx.restore();
+      ctx.strokeStyle="#eaedf8";ctx.lineWidth=4;ctx.beginPath();ctx.arc(mx,my,mr,0,Math.PI*2);ctx.stroke();
+      ctx.strokeStyle="#8a93b5";ctx.lineWidth=7;ctx.beginPath();ctx.moveTo(mx+mr*0.7,my+mr*0.7);ctx.lineTo(mx+mr*1.25,my+mr*1.25);ctx.stroke();
+      ctx.fillStyle=teal;ctx.font="italic 12px 'Palatino Linotype',Palatino,serif";ctx.textAlign="center";ctx.fillText("fringes \u2014 a code, not a picture",mx,my-mr-8);
+      const rx=divX+20,ry=40,rw=W-rx-18,rh=H-ry-30;
+      ctx.textAlign="left";ctx.fillStyle=ink;ctx.font="700 11px "+sans;ctx.fillText("HOW YOUR EYE MAKES IT WHOLE",rx,24);
+      const plateX=rx+rw*0.12,pTop=ry+rh*0.12,pBot=ry+rh*0.88,pcy=(pTop+pBot)/2,cov=cover/100;
+      ctx.fillStyle="#141b2e";ctx.strokeStyle="#eaedf8";ctx.lineWidth=2;ctx.fillRect(plateX-4,pTop,8,pBot-pTop);ctx.strokeRect(plateX-4,pTop,8,pBot-pTop);
+      const eyeX=rx+rw*0.82,eyeY=pcy,eyeR=Math.min(rw,rh)*0.13,N=9;
+      for(let i=0;i<N;i++){const t=(i+0.5)/N,y=pTop+(pBot-pTop)*t,active=t<=cov;if(active){ctx.strokeStyle="rgba(63,224,208,.55)";ctx.lineWidth=1.4;ctx.beginPath();ctx.moveTo(plateX+4,y);ctx.lineTo(eyeX-eyeR,eyeY);ctx.stroke();}else{ctx.fillStyle="#3b466b";ctx.fillRect(plateX-5,y-(pBot-pTop)/N/2,10,(pBot-pTop)/N);}}
+      ctx.fillStyle="#f0d8d1";ctx.strokeStyle="#eaedf8";ctx.lineWidth=1.5;ctx.beginPath();ctx.ellipse(eyeX,eyeY,eyeR,eyeR*1.15,0,0,Math.PI*2);ctx.fill();ctx.stroke();
+      const retX=eyeX+eyeR*0.7,retY=eyeY;ctx.strokeStyle="rgba(63,224,208,.5)";ctx.lineWidth=1;[-0.7,0,0.7].forEach(o=>{ctx.beginPath();ctx.moveTo(eyeX-eyeR,eyeY+o*eyeR);ctx.lineTo(retX,retY);ctx.stroke();});
+      ctx.globalAlpha=0.35+0.65*cov;const grd=ctx.createRadialGradient(retX-3,retY-3,1,retX,retY,9);grd.addColorStop(0,"#6cf0e0");grd.addColorStop(1,"#2bbfae");ctx.fillStyle=grd;ctx.beginPath();ctx.arc(retX,retY,8,0,Math.PI*2);ctx.fill();ctx.globalAlpha=1;
+      ctx.fillStyle="#99a2c2";ctx.font="11px "+sans;ctx.textAlign="center";ctx.fillText("whole surface",plateX,pTop-10);ctx.fillText("your eye's lens",eyeX,pBot+20);
+      ctx.fillStyle=teal;ctx.font="italic 12px 'Palatino Linotype',Palatino,serif";ctx.fillText("one whole image on the retina",eyeX,eyeY-eyeR*1.15-8);
+      cap.innerHTML="Wherever the magnifier lands you find only fringes \u2014 a code, never a little photo. The picture is assembled on your retina from light off the whole surface. At "+cover+"% uncovered the image is "+(cover>85?"full brightness":cover>55?"a bit dimmer":"faint")+", but still the whole scene \u2014 no brain trick, just your lens gathering and focusing.";
+    };
+    magI.addEventListener("input",()=>{mag=+magI.value;draw();});
+    covI.addEventListener("input",()=>{cover=+covI.value;draw();});
+    addEventListener("resize",draw);requestAnimationFrame(draw);
+  },
+  "holographic-universe"(stage, controls) {
+    let unfold=0.15;const GX=20,GY=12;
+    const dots=(n)=>{let s="";for(let i=0;i<5;i++)s+='<span style="width:11px;height:11px;border:1px solid #3b466b;background:'+(i<n?"#3fe0d0":"#0e1424")+';display:inline-block;border-radius:2px"></span>';return s;};
+    const row=(t,d,n)=>'<div style="display:flex;justify-content:space-between;align-items:center;gap:12px;padding:5px 0"><span style="font:13px Aptos,sans-serif;color:#eaedf8"><strong>'+t+'</strong> <span style="color:#99a2c2">\u2014 '+d+'</span></span><span style="display:flex;gap:3px;flex:0 0 auto">'+dots(n)+'</span></div>';
+    stage.innerHTML='<canvas aria-label="A flat enfolded order unfolding into the three-dimensional world we experience" style="width:100%;height:250px"></canvas><div style="margin-top:10px;border-top:1px solid #2a3350;padding-top:10px"><p style="margin:0 0 4px;font:800 10px Aptos,sans-serif;letter-spacing:.06em;text-transform:uppercase;color:#ff6b6b">Read the claim honestly</p>'+row("Optical holography","established engineering",5)+row("Pribram\u2019s holonomic brain","influential, unconfirmed model",2)+row("Bohm\u2019s implicate order","a physical\u2013philosophical interpretation",2)+row("Talbot\u2019s synthesis &amp; paranormal claims","speculative extension",1)+'<p style="margin:6px 0 0;font:12px/1.5 Aptos,sans-serif;color:#99a2c2">The hologram is a real, established mechanism. Using it as a metaphor for the brain or universe is an interpretation, not a proof \u2014 and the paranormal leaps further still.</p></div>';
+    controls.innerHTML='<span style="font-weight:700;color:#9d8cff">Enfolded</span><input class="hu-u" type="range" min="0" max="1" step=".01" value="0.15" aria-label="Read out from the enfolded order to the unfolded world" style="flex:1 1 190px;accent-color:#3fe0d0"><span style="font-weight:700;color:#3fe0d0">Unfolded</span><span class="hu-cap notice" style="flex:1 1 100%"></span>';
+    const cv=stage.querySelector("canvas"),ctx=cv.getContext("2d"),input=controls.querySelector(".hu-u"),cap=controls.querySelector(".hu-cap");
+    const draw=()=>{
+      const dpr=Math.min(devicePixelRatio||1,2),W=cv.clientWidth,H=cv.clientHeight;
+      if(cv.width!==Math.round(W*dpr)||cv.height!==Math.round(H*dpr)){cv.width=Math.round(W*dpr);cv.height=Math.round(H*dpr);}
+      ctx.setTransform(dpr,0,0,dpr,0,0);ctx.clearRect(0,0,W,H);
+      const grd=ctx.createRadialGradient(W/2,H/2,40,W/2,H/2,Math.max(W,H)*0.6);grd.addColorStop(0,"#12172a");grd.addColorStop(1,"#0b0e1a");ctx.fillStyle=grd;ctx.fillRect(0,0,W,H);
+      const u=unfold;const mx=W*0.1,my=H*0.16,pw=W*0.8,ph=H*0.66;
+      const ay=u*0.6,ax=u*0.4,cyv=Math.cos(ay),syv=Math.sin(ay),cxv=Math.cos(ax),sxv=Math.sin(ax);const cxp=W/2,cyp=H*0.52,f=3.0;
+      const pts=[];
+      for(let j=0;j<GY;j++)for(let i=0;i<GX;i++){const nx=i/(GX-1),ny=j/(GY-1);const flatX=mx+nx*pw,flatY=my+ny*ph;const X=(nx-0.5)*2.4,Y=(ny-0.5)*1.4,Z=Math.sin(nx*6.2+ny*3.1)*0.55;const x1=X*cyv-Z*syv,z1=X*syv+Z*cyv,y1=Y*cxv-z1*sxv,z2=Y*sxv+z1*cxv;const pr=f/(f+z2+1.6);const projX=cxp+x1*pr*(pw*0.42),projY=cyp+y1*pr*(ph*0.5);const px=flatX+(projX-flatX)*u,py=flatY+(projY-flatY)*u;const fr=0.5+0.5*Math.sin(nx*46);const dep=0.5+0.5*(z2/1.1);pts.push({px,py,bright:fr+(dep-fr)*u});}
+      if(u>0.25){ctx.strokeStyle="rgba(63,224,208,"+(0.2*(u-0.25)).toFixed(3)+")";ctx.lineWidth=1;for(let j=0;j<GY;j++){ctx.beginPath();for(let i=0;i<GX;i++){const p=pts[j*GX+i];i?ctx.lineTo(p.px,p.py):ctx.moveTo(p.px,p.py);}ctx.stroke();}}
+      pts.forEach(p=>{const g=Math.max(0,Math.min(1,p.bright));ctx.fillStyle="rgba("+Math.round(30+g*50)+","+Math.round(120+g*130)+","+Math.round(110+g*120)+","+(0.5+0.5*g).toFixed(3)+")";const r=1.8+2.2*g;ctx.beginPath();ctx.arc(p.px,p.py,r,0,Math.PI*2);ctx.fill();});
+      ctx.fillStyle="#9d8cff";ctx.font="italic 12px 'Palatino Linotype',Palatino,serif";ctx.textAlign="left";ctx.globalAlpha=1-u;ctx.fillText("implicate order \u2014 enfolded, whole in every part",mx,my-4);ctx.globalAlpha=1;
+      ctx.fillStyle="#3fe0d0";ctx.textAlign="right";ctx.globalAlpha=u;ctx.fillText("explicate order \u2014 the world we experience",W-mx,H-8);ctx.globalAlpha=1;ctx.textAlign="left";
+      cap.textContent=u<0.16?"The implicate order (Bohm): a flat, frequency-like layer where the whole is enfolded in every part. Nothing here looks like the world.":u>0.85?"The explicate order: the solid 3-D world we experience. Talbot's claim is that the brain (Pribram) reads the flat order out into this.":"Reading out: the enfolded order lifts and unfolds into the world of experience.";
+    };
+    input.addEventListener("input",()=>{unfold=+input.value;draw();});
+    addEventListener("resize",draw);requestAnimationFrame(draw);
+  },
+  "wolfram-emergence"(stage, controls) {
+    let step=1;
+    const dots=(n)=>{let s="";for(let i=0;i<5;i++)s+='<span style="width:11px;height:11px;border:1px solid #3b466b;background:'+(i<n?"#3fe0d0":"#0e1424")+';display:inline-block;border-radius:2px"></span>';return s;};
+    stage.innerHTML='<canvas aria-label="One rewrite rule applied repeatedly to a network of relations, and a space emerging from it" style="width:100%;height:300px"></canvas>';
+    controls.innerHTML='<button class="control" id="wf-apply">Apply the rule \u25b8</button><button class="control" id="wf-reset">Reset</button><span class="wf-out" style="font:12px Aptos,sans-serif;color:#99a2c2"></span><span style="display:flex;gap:3px;margin-left:auto;align-items:center">'+dots(2)+'<span style="font:11px Aptos,sans-serif;color:#99a2c2;margin-left:6px">unconfirmed program</span></span>';
+    const cv=stage.querySelector("canvas"),ctx=cv.getContext("2d"),out=controls.querySelector(".wf-out");
+    const subdivide=(tris)=>{const o=[];tris.forEach(tr=>{const a=tr[0],b=tr[1],c=tr[2];const ab=[(a[0]+b[0])/2,(a[1]+b[1])/2],bc=[(b[0]+c[0])/2,(b[1]+c[1])/2],ca=[(c[0]+a[0])/2,(c[1]+a[1])/2];o.push([a,ab,ca],[ab,b,bc],[ca,bc,c],[ab,bc,ca]);});return o;};
+    const mesh=(seed,st)=>{let t=[seed];for(let i=0;i<st;i++)t=subdivide(t);return t;};
+    const draw=()=>{
+      const dpr=Math.min(devicePixelRatio||1,2),W=cv.clientWidth,H=cv.clientHeight;
+      if(cv.width!==Math.round(W*dpr)||cv.height!==Math.round(H*dpr)){cv.width=Math.round(W*dpr);cv.height=Math.round(H*dpr);}
+      ctx.setTransform(dpr,0,0,dpr,0,0);ctx.clearRect(0,0,W,H);ctx.fillStyle="#0b0e1a";ctx.fillRect(0,0,W,H);
+      const sans="Aptos,'Segoe UI',sans-serif",teal="#3fe0d0",ink="#eaedf8";
+      const divX=Math.round(W*0.34);ctx.strokeStyle="#2a3350";ctx.lineWidth=1;ctx.beginPath();ctx.moveTo(divX,16);ctx.lineTo(divX,H-16);ctx.stroke();
+      ctx.fillStyle=ink;ctx.font="700 11px "+sans;ctx.textAlign="left";ctx.fillText("THE RULE",18,28);
+      const drawTri=(cx,cy,r,subs)=>{const seed=[[cx,cy-r],[cx-r*0.87,cy+r*0.5],[cx+r*0.87,cy+r*0.5]];const tris=subs?subdivide([seed]):[seed];tris.forEach(tr=>{const a=tr[0],b=tr[1],c=tr[2];ctx.strokeStyle=teal;ctx.lineWidth=1.6;ctx.fillStyle="rgba(63,224,208,.08)";ctx.beginPath();ctx.moveTo(a[0],a[1]);ctx.lineTo(b[0],b[1]);ctx.lineTo(c[0],c[1]);ctx.closePath();ctx.fill();ctx.stroke();[a,b,c].forEach(p=>{ctx.fillStyle=ink;ctx.beginPath();ctx.arc(p[0],p[1],3,0,Math.PI*2);ctx.fill();});});};
+      const ry=H*0.42,rr=Math.min(divX,H)*0.19;drawTri(divX*0.34,ry,rr,false);drawTri(divX*0.74,ry,rr,true);
+      ctx.strokeStyle=ink;ctx.lineWidth=2;ctx.beginPath();ctx.moveTo(divX*0.50,ry);ctx.lineTo(divX*0.58,ry);ctx.stroke();ctx.fillStyle=ink;ctx.beginPath();ctx.moveTo(divX*0.58,ry);ctx.lineTo(divX*0.54,ry-4);ctx.lineTo(divX*0.54,ry+4);ctx.fill();
+      ctx.fillStyle="#99a2c2";ctx.font="italic 11px 'Palatino Linotype',Palatino,serif";ctx.textAlign="center";ctx.fillText("one region of relations",divX*0.5,ry+rr+26);ctx.fillText("becomes four",divX*0.5,ry+rr+42);
+      ctx.fillStyle=ink;ctx.font="700 11px "+sans;ctx.textAlign="left";ctx.fillText("THE UNIVERSE (RUN THE RULE)",divX+20,28);
+      const rx=divX+20,rry=48,rw=W-rx-22,rh=H-rry-28;const S=Math.min(rw,rh)*0.92,ox=rx+(rw-S)/2,oy=rry+(rh-S*0.87)/2;
+      const seed=[[ox+S/2,oy],[ox,oy+S*0.87],[ox+S,oy+S*0.87]];const tris=mesh(seed,step);
+      const seen={};ctx.strokeStyle="rgba(63,224,208,.5)";ctx.lineWidth=step>=3?0.8:1.3;
+      tris.forEach(t=>{for(let i=0;i<3;i++){const a=t[i],b=t[(i+1)%3];const k=[a.map(Math.round).join(","),b.map(Math.round).join(",")].sort().join("|");if(seen[k])continue;seen[k]=1;ctx.beginPath();ctx.moveTo(a[0],a[1]);ctx.lineTo(b[0],b[1]);ctx.stroke();}});
+      const nodes={};tris.forEach(t=>t.forEach(p=>{nodes[p.map(Math.round).join(",")]=p;}));const nr=step>=3?1.6:step===2?2.4:3.2;
+      Object.keys(nodes).forEach(kk=>{const p=nodes[kk];ctx.fillStyle="#3fe0d0";ctx.beginPath();ctx.arc(p[0],p[1],nr,0,Math.PI*2);ctx.fill();});
+      ctx.fillStyle=step>=3?"#3fe0d0":"#99a2c2";ctx.font="italic 12px 'Palatino Linotype',Palatino,serif";ctx.textAlign="center";ctx.fillText(step>=3?"a space has emerged":"relations updating\u2026",rx+rw/2,H-10);
+      const tri=Math.pow(4,step);out.textContent=step+" rule pass"+(step===1?"":"es")+" \u00b7 "+tri+" region"+(tri===1?"":"s")+" of space";
+    };
+    controls.querySelector("#wf-apply").addEventListener("click",()=>{step=Math.min(4,step+1);draw();});
+    controls.querySelector("#wf-reset").addEventListener("click",()=>{step=0;draw();});
+    addEventListener("resize",draw);requestAnimationFrame(draw);
   },
   "holographic-meanings"(stage, controls) {
     const meanings = [
