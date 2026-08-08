@@ -21,6 +21,8 @@ $bookMeta = @{
     'sekret-machines-war' = @{ title = 'Sekret Machines 3: War'; author = 'DeLonge & Levenda'; year = '2024'; shelf = 'reality'; section = 'reality'; bridge = $true }
     'sekret-machines-gods' = @{ title = 'Sekret Machines 1: Gods'; author = 'DeLonge & Levenda'; year = '2017'; shelf = 'reality'; section = 'reality'; bridge = $true }
     'sekret-machines-man' = @{ title = 'Sekret Machines 2: Man'; author = 'DeLonge & Levenda'; year = '2018'; shelf = 'reality'; section = 'reality'; bridge = $true }
+    'messengers-of-deception' = @{ title = 'Messengers of Deception'; author = 'Jacques Vallee'; year = '1979'; shelf = 'reality'; section = 'reality'; bridge = $true }
+    'ufos-the-psychic-solution' = @{ title = 'UFOs: The Psychic Solution'; author = 'Jacques Vallee'; year = '1975'; shelf = 'reality'; section = 'reality'; bridge = $true }
 }
 
 function Parse-Note([string]$path) {
