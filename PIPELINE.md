@@ -70,16 +70,38 @@ Hard-won additions (from the Satan + COMETA runs, ~50 verified units):
   the full text by searching for its title/author/signature. (Satan: most of
   31 splits were mis-bounded; near-duplicate essay titles broke the splitter.)
 - **"Unrecoverable" must be proven, not assumed.** Before recording a lacuna,
-  render the actual scan page (pdftotext drops ink-underlined lines that are
-  perfectly legible on the page image). One "lost passage" was fabricated this
-  way; two others were fully recovered from the image.
+  render the actual scan page (pdftotext drops ink-underlined lines, bold
+  section heads, and small-caps blocks that are perfectly legible on the page
+  image). One "lost passage" was fabricated this way; several others were
+  fully recovered from the image.
+- **Any claim about the printed page needs the page image**, not just the text
+  layer — chapter titles, running heads, section heads, contents layout. The
+  text layer silently drops and re-orders these. Real cases: a chapter title
+  invented from a different chapter's section heading; a "missing" section
+  head that is bold and legible on the page; a telegram whose clauses the OCR
+  transposed into the opposite meaning. Contents pages are the *worst* offender
+  because chapter and subsection entries interleave unpredictably.
+- **Never wrap paraphrase in quotation marks.** Quote marks mean verbatim. One
+  note put the author's narration in quotes in eleven places, silently
+  promoting summary to evidence. Quote the fragments that are genuinely the
+  source's; attribute the rest as paraphrase.
 - **OCR flags quote the garble only.** Never propose a reading ("probably
   2611") unless the evidence for it is stated inline. A guessed number inside
   a flag is still an invented number.
 - **No real-world imports, including "obvious" ones**: no expanded first
   names, no aircraft/army facts, no acronym expansions absent from the text,
   no identifying an unnamed referent (e.g. a "1938 Orson Welles broadcast"
-  stays unnamed if the book doesn't name it).
+  stays unnamed if the book doesn't name it). **Frontmatter is not exempt** —
+  `people:` and `concepts:` leak most often, because expanding "Major White"
+  to "Robert White" or "M. Soun" to a full name feels like tidying. It isn't.
+  Names take the form the unit prints, even when a sibling chapter prints
+  another.
+- **Allegations about real people stay attributed to whoever made them.** In
+  books that document forgeries, hoaxes, cons or diagnoses of named
+  individuals, the note never adjudicates in its own voice: it records that
+  *this author* concluded it, *on this evidence*, and records any denial the
+  source reports. Capture the evidence in full — the evidence is what makes
+  the attribution responsible rather than defamatory.
 - **Multi-voice texts: map the voices first.** Anthologies, appended notes,
   and long quotations blur into the host author silently (Maquart's Tonquédec
   quotes; a three-voice dossier). List every voice before writing; label each
