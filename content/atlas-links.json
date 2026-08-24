@@ -27,7 +27,7 @@
       "id": "reading-contact",
       "hub": "anomalous-experience",
       "title": "What kind of event is a contact report?",
-      "crux": "When someone reports contact, abduction, or impossible perception, is it literal, psychological, cultural, or something the current categories can't hold? The books read the same reports very differently. Vallee appears twice, four years apart, and the two entries are one researcher's position moving rather than two books agreeing; the 1951 Satan anthology answers this question about possession, not about UFOs.",
+      "crux": "When someone reports contact, abduction, or impossible perception, is it literal, psychological, cultural, or something the current categories can't hold? The books read the same reports very differently. Vallee appears twice, four years apart, and the two entries are one researcher's position moving rather than two books agreeing; the 1951 Satan anthology answers this question about possession, not about UFOs. COMETA and Peebles enter as a matched pair on the same body of reports: one asks the ground trace what the object was, the other asks the account where its details came from.",
       "positions": [
         { "book": "american-cosmic", "stance": "Real-and-imaginary at once — bracket the ultimate cause and study how the experience becomes socially real." },
         { "book": "sekret-machines-man", "stance": "Treat the experience as a datum — survey abduction accounts while holding the interpretation open." },
@@ -35,21 +35,25 @@
         { "book": "my-big-toe", "stance": "A valid data stream from the larger consciousness system, read through its own model." },
         { "book": "ufos-the-psychic-solution", "stance": "Neither spacecraft nor hoax — an event staged by a control system whose absurdity is a working feature, with the origin left undecided." },
         { "book": "messengers-of-deception", "stance": "A staged appearance: an image projected to alter belief, with human manipulators the suspects Vallee ends on — stated as suspicion, not proof." },
-        { "book": "satan", "stance": "Asked of possession, not UFOs — mostly illness, with a residual class an exorcist may judge only on a concordant whole of signs." }
+        { "book": "satan", "stance": "Asked of possession, not UFOs — mostly illness, with a residual class an exorcist may judge only on a concordant whole of signs." },
+        { "book": "cometa-report", "stance": "An encounter with a machine — the load is carried by the ground imprint, the altered plant chemistry and the paralysis, with the occupants recorded and the experience itself left unanalyzed." },
+        { "book": "watch-the-skies", "stance": "A narrative with datable sources — the gray body, the missing time and the medical exam enter the myth after the films and the hypnosis sessions that supplied them." }
       ]
     },
     {
       "id": "what-counts-as-evidence",
       "hub": "evidence",
       "title": "What counts when the subject resists verification?",
-      "crux": "With a subject that dodges ordinary proof, which evidence should weigh most — first-person experience, documents and testimony, participant observation, or patterns in anomalies?",
+      "crux": "With a subject that dodges ordinary proof, which evidence should weigh most — first-person experience, documents and testimony, participant observation, or patterns in anomalies? The two 1990s entries answer from opposite ends of one archive: COMETA admits only what state investigators worked and could not close, while Peebles reads the same official file as evidence that there was nothing to close.",
       "positions": [
         { "book": "my-big-toe", "stance": "First-person experiment: run the protocol yourself; third-person proof was never the point." },
         { "book": "sekret-machines-gods", "stance": "Documents, testimony, and insider disclosure, read the way an intelligence analyst reads sources." },
         { "book": "american-cosmic", "stance": "Participant-observation ethnography — study the believers and the effects, not only the claim." },
         { "book": "holographic-universe", "stance": "Catalogs of anomalies a materialist model cannot absorb, offered as pressure on the model." },
         { "book": "satan", "stance": "Criteriology — admit only documents and eyewitnesses, and reject the marvellous only once a natural explanation is shown credible in fact, not merely possible." },
-        { "book": "messengers-of-deception", "stance": "If the data may be designed, audit the sources first: this is counterintelligence work, not science." }
+        { "book": "messengers-of-deception", "stance": "If the data may be designed, audit the sources first: this is counterintelligence work, not science." },
+        { "book": "cometa-report", "stance": "Official investigation as the filter — admit cases a state body investigated and could not identify, rank radar/visual corroboration and laboratory residue highest, and grade the result as strong presumptions, explicitly not proof." },
+        { "book": "watch-the-skies", "stance": "Documentary source-criticism, with the myth as the object — set the believer literature beside the declassified file, and leave the burden of proof on the sighter." }
       ]
     },
     {
@@ -60,6 +64,31 @@
       "positions": [
         { "book": "power-of-now", "stance": "Step out of compulsive thought into the Now; the ego is a pain-body sustained by identification." },
         { "book": "zen-motorcycle", "stance": "Recover Quality — the pre-intellectual event before subject and object divide — through care and attention." }
+      ]
+    },
+    {
+      "id": "roswell-1947",
+      "hub": "evidence",
+      "title": "Roswell, 1947: what does the record support?",
+      "crux": "Four books in the collection treat the same July 1947 episode and reach four incompatible readings of it, which makes it the closest thing the shelf has to a controlled comparison of method. Three of them argue over one record — the base press release, Ramey's office, the later affidavits and the destroyed files — and can therefore be checked against each other line by line. Pasulka is the outlier by design: she declines the question the other three are answering.",
+      "positions": [
+        { "book": "cometa-report", "stance": "Concealment of something real — destroyed base records, shortened affidavits and a weather-balloon substitution are read as simplified and enhanced disinformation, while the report concedes it holds no material proof." },
+        { "book": "watch-the-skies", "stance": "A radar-target balloon plus a retrofitted story — the disk-shaped craft, the dead crew and the cover-up are all elements that postdate 1947, so the tale's features derive from the later myth rather than from the debris." },
+        { "book": "sekret-machines-war", "stance": "Man-made, of Nazi design — an unnamed source's claim the authors flag as their source's and stress-test rather than assert, and then qualify: built by human beings, but from technology they infer derives from a nonhuman source." },
+        { "book": "american-cosmic", "stance": "Not a question about wreckage at all — Roswell studied as a sacred site with a museum, a festival and a pilgrimage economy, with the truth of the event deliberately bracketed." }
+      ]
+    },
+    {
+      "id": "belief-as-object",
+      "hub": "belief-control",
+      "title": "Is the belief downstream of the phenomenon, or is the belief the phenomenon?",
+      "crux": "Every book in this hub agrees that UFO belief is shaped by media, institutions and interested parties. They divide on what sits upstream of it. Vallee appears twice, four years apart, and those two entries are one researcher's position moving rather than two books agreeing.",
+      "positions": [
+        { "book": "watch-the-skies", "stance": "The belief is the whole object — reports are misidentifications, and the myth's history is driven by believers fighting each other and by a government whose handling produced what it meant to prevent." },
+        { "book": "cometa-report", "stance": "The belief environment is managed to protect something real — truncation for those who will not accept the hypothesis, spectacle and ridicule for everyone else." },
+        { "book": "messengers-of-deception", "stance": "Not the phenomenon but the belief it created is what human groups manipulate — with the Manipulators offered as a hypothesis Vallee says he cannot prove." },
+        { "book": "ufos-the-psychic-solution", "stance": "Belief is the regulated quantity of a control system whose origin — natural, artificial, or a law not yet found — Vallee explicitly leaves undetermined." },
+        { "book": "american-cosmic", "stance": "Bracket the upstream question as unanswerable by her methods and study belief-formation itself, which media, institutions and researchers can be observed doing." }
       ]
     }
   ],
@@ -113,6 +142,18 @@
         "notes/ufos-the-psychic-solution/02-the-triple-coverup.md",
         "notes/messengers-of-deception/03-the-deception.md",
         "notes/satan/00-introduction.md"
+      ]
+    },
+    {
+      "id": "bennewitz-episode",
+      "fromHub": "belief-control",
+      "toHub": "anomalous-experience",
+      "title": "One deception ↔ the content of the reports that followed",
+      "claim": "Two books that agree on almost nothing describe the same episode in almost the same terms: an Albuquerque physicist recording signals near Kirtland Air Force Base, an Air Force Office of Special Investigations agent named Doty, and an output of implants, abducted humans, underground bases and treaties with beings called EBEs. COMETA's Appendix 5 presents it as its template case of enhanced disinformation, claiming the inflation protected microwave research at Kirtland and aircraft at Groom Lake. Peebles presents the same man as the origin point of the alien myth that runs on through Moore, the MJ-12 papers, Lear, Lazar and Cooper. The overlap worth reading is narrow and real: a deliberate act by a named official is said, by both, to have produced beliefs that were afterwards reported as experience.",
+      "disclosure": "This is not independent confirmation. Both accounts draw on the same body of ufological literature, both concern living and named people, and each is its own author's reconstruction of a contested episode — COMETA prints the physicist's name as 'Bennewicz' and Peebles as 'Bennewitz'. The agreement covers the act, not its purpose: COMETA's claim that a genuine secret was being shielded is precisely what Peebles denies. Read the pair as a caution that a documented deception and the origin of a myth can be the same event described by opposed frameworks, not as support for either framework.",
+      "sourceDocs": [
+        "notes/cometa-report/17-appendices-4-7.md",
+        "notes/watch-the-skies/17-aliens-among-us.md"
       ]
     }
   ]

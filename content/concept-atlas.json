@@ -433,6 +433,26 @@
           "notes/satan/16-confessions-of-jeanne-fery.md",
           "notes/satan/20-church-and-witchcraft.md"
         ]
+      },
+      {
+        "book": "cometa-report",
+        "position": "COMETA argues from what official institutions did about the phenomenon rather than from the phenomenon itself. Its foreign cases are selected on the stated criterion that each 'was the subject of an investigation by the authorities of the countries in question'; its witnesses are drawn almost entirely from the aeronautical professions, on the warrant that such testimony 'can be evaluated better' because it arrives with radar tapes, recordings, controllers and standing reporting channels; and radar/visual corroboration, including cases where object and echo are lost at the same instant, is treated as the evidential ceiling. Lebeau's front matter supplies the epistemology: where experiment is impossible, collective and simultaneous observation is meant to do the work reproducibility does elsewhere, on the model of Biot's 1803 field investigation at Laigle, and 'the very existence of a strong irrational environment is another reason to apply the precepts of this method.' The report grades its own conclusions in two steps, 'almost certain physical reality' for the objects and 'strong presumptions,' explicitly not proof, for their extraterrestrial origin, and it deliberately includes a chapter of cases the same investigators did solve as a demonstration of that rigor. The notes record that the grading does not hold across the document: a hypothesis carefully hedged in Part 2 is written into flight doctrine and political analysis as a working premise by Part 3.",
+        "sourceDocs": [
+          "notes/cometa-report/00-front-matter.md",
+          "notes/cometa-report/02-aeronautical-cases-worldwide.md",
+          "notes/cometa-report/05-counterexamples-explained-phenomena.md",
+          "notes/cometa-report/15-conclusion-and-recommendations.md"
+        ]
+      },
+      {
+        "book": "watch-the-skies",
+        "position": "Peebles works four seams, declassified government documents, the believer literature read as a primary source about the myth rather than about saucers, case-by-case reconstruction in which the mundane explanation is argued at the length the sighting was, and an endnote apparatus that carries much of the adjudication. His signature move is comparative: because the classified CIA and Air Force record says what the unclassified statements said, the cover-up thesis loses its central support, while the same documents become the believers' evidence that a cover-up existed. He adopts the Robertson Panel's principle that the burden of proof is on the sighter, and states what a real case would have looked like by contrasting a will-o'-the-wisp with the crash-recovered hardware available on the V-weapons problem by June 1944; against the field's instruments he sets Travis Walton's failed polygraph, which neither APRO nor the National Enquirer mentioned publicly, and the Lawson imaginary-abductee experiment and the Kagan session as evidence that hypnosis manufactures abduction narratives rather than recovering them. The notes flag the counter-pressure: mundane explanations are sometimes reported as settled where the underlying material is an Air Force conclusion or a single investigator's reconstruction, and Peebles relies on pseudonymous informants while making anonymous sourcing a standing charge against believers.",
+        "sourceDocs": [
+          "notes/watch-the-skies/00-introduction.md",
+          "notes/watch-the-skies/06-the-robertson-panel.md",
+          "notes/watch-the-skies/15-abductions-and-abductionists.md",
+          "notes/watch-the-skies/16-cosmic-debris.md"
+        ]
       }
     ],
     "connections": [
@@ -600,6 +620,24 @@
           "notes/satan/12-demoniacs-in-the-gospel.md",
           "notes/satan/14-aspects-of-possession.md",
           "notes/satan/19-pseudo-possession.md"
+        ]
+      },
+      {
+        "book": "cometa-report",
+        "position": "COMETA reads close-encounter reports as encounters with physical machines and puts residue above narrative. Its four French cases are introduced by the body that investigated them rather than by the witness, and they escalate from occupants and paralysis at Valensole and Cussac to laboratory work at Trans-en-Provence, where chlorophyll and amino-acid concentrations varied with distance from a crown-shaped ground imprint and decayed to nothing over two years. GEPAN's A/B/C/D scheme then manufactures the object the report argues about, category D being unidentifiable despite abundant and good data and priced at 4 to 5 percent of cases, and the modelling chapter offers microwave and charged-particle mechanisms for stopped car engines and witness paralysis under its own disclaimer that these are 'only a positive indication, but not proof of their existence.' What the report never does is treat the experience itself as the thing to be explained: testimony establishes that something happened, material evidence is asked to determine what, and where material evidence fails the report says so, conceding that it has no irrefutable tangible proof in the form of material, whole or fragmentary.",
+        "sourceDocs": [
+          "notes/cometa-report/03-sightings-from-the-ground.md",
+          "notes/cometa-report/04-close-encounters-in-france.md",
+          "notes/cometa-report/06-research-organization-and-gepan-sepra.md"
+        ]
+      },
+      {
+        "book": "watch-the-skies",
+        "position": "Peebles reads contact and abduction reports as cultural products with datable sources, and narrates each in the believers' own terms before locating where the account came from. The contactee era opens with Adamski's Venusian in November 1952 and is answered by Moseley's 1955 expose, in which Adamski's own witnesses swear they saw no spaceman and describe the contact as preplanned; the Hill case reaches the reader through Benjamin Simon's verdict that Betty's abduction was a dream rather than a repressed memory; and the modern abduction template, he argues, was supplied by two films, NBC's The UFO Incident in 1975, which triggered a wave of retroactive missing-time claims, and Close Encounters of the Third Kind in 1977, which fixed the gray, slant-eyed body that later reports would describe. Kottmeyer's catalogue of science-fiction precedents for supposedly alien details closes the argument. The notes flag that he is uneven about when he speaks in his own voice: with Walton he reports Klass's hoax finding rather than pronouncing one, while he closes Socorro in his own name with the implication that the landing was staged for tourist dollars.",
+        "sourceDocs": [
+          "notes/watch-the-skies/07-the-contactee-era.md",
+          "notes/watch-the-skies/11-the-sixties.md",
+          "notes/watch-the-skies/15-abductions-and-abductionists.md"
         ]
       }
     ],
@@ -862,6 +900,24 @@
           "notes/satan/00-introduction.md",
           "notes/satan/20-church-and-witchcraft.md",
           "notes/satan/30-satan-in-our-day.md"
+        ]
+      },
+      {
+        "book": "cometa-report",
+        "position": "COMETA treats the information environment around the subject as managed rather than merely confused, and its case study is Roswell. Appendix 5 distinguishes 'simplified' disinformation, which trims testimony and affidavits until the debris fits a Mogul balloon, from 'enhanced' disinformation, which inflates a case with spectacular but questionable material, the 1995 'alien autopsy' broadcast being its exhibit, until the subject collapses into ridicule and sober testimony is lost behind it; it dates the intensification of the first to the CIA's Robertson Committee of December 1952, names the Bennewicz episode and AFOSI agent Doty as the template of the second, and claims the enhancement protected microwave research at Kirtland and aircraft at Groom Lake. Appendix 7 supplies a motive, arguing that elite resistance is interest rather than irrationality and that research spill-overs in propulsion, materials and stealth make cover-up 'an absolute necessity,' while the media chapter treats the press as structurally mismatched to the subject, since scoops 'generally are not characterized by scientific precision.' The charges against named people and named Air Force reports are COMETA's own, the report itself cautions that ufological excess may be a spill-over effect rather than a plant, and Appendix 7 states at its head that its diagnosis applies primarily to the United States.",
+        "sourceDocs": [
+          "notes/cometa-report/14-media-implications.md",
+          "notes/cometa-report/17-appendices-4-7.md"
+        ]
+      },
+      {
+        "book": "watch-the-skies",
+        "position": "For Peebles the belief system is the object of study, 'the system of beliefs that have developed around the idea that alien spacecraft are being seen in Earth's skies,' and he tracks it as an edit history, halting the narrative at intervals to print what the myth consisted of at that date under headings that separate basic beliefs from beliefs not fully accepted and, from 1952, beliefs discredited, so that individual items can be watched migrating between the columns. He argues the myth was defined by method rather than by evidence, dating that to True editor Ken Purdy's 1949 commission of Donald Keyhoe on a premise already fixed, after which 'every comment, every action, every rumor was fitted into this preexisting belief.' His account of government is that the interaction was perverse and self-defeating: the Robertson Panel's 'training and debunking' recommendation, AFR 200-2 and JANAP-146 handed believers the persecution narrative they used for two decades, so official handling 'both fed the flying saucer myth and brought about the very things the government sought to avoid.' The closing positive explanation, that flaps track ill-defined rather than clearly defined social crises, is credited to a single Otto Billig study whose method, sample and measure the book does not give, and Peebles concedes that after 1973 there are ill-defined crises and no flaps.",
+        "sourceDocs": [
+          "notes/watch-the-skies/00-introduction.md",
+          "notes/watch-the-skies/04-the-myth-defined.md",
+          "notes/watch-the-skies/06-the-robertson-panel.md",
+          "notes/watch-the-skies/18-the-real-aliens.md"
         ]
       }
     ],

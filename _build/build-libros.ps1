@@ -24,6 +24,8 @@ $bookMeta = @{
     'messengers-of-deception' = @{ title = 'Messengers of Deception'; author = 'Jacques Vallee'; year = '1979'; shelf = 'reality'; section = 'reality'; bridge = $true }
     'ufos-the-psychic-solution' = @{ title = 'UFOs: The Psychic Solution'; author = 'Jacques Vallee'; year = '1975'; shelf = 'reality'; section = 'reality'; bridge = $true }
     'satan' = @{ title = 'Satan'; author = 'ed. Bruno de Jesus-Marie'; year = '1951'; shelf = 'reality'; section = 'reality'; bridge = $true }
+    'cometa-report' = @{ title = 'The COMETA Report'; author = 'COMETA (chaired by Denis Letty)'; year = '1999'; shelf = 'reality'; section = 'reality'; bridge = $true }
+    'watch-the-skies' = @{ title = 'Watch the Skies!'; author = 'Curtis Peebles'; year = '1994'; shelf = 'reality'; section = 'reality'; bridge = $true }
 }
 
 function Parse-Note([string]$path) {
