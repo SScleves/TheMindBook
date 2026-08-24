@@ -27,12 +27,15 @@
       "id": "reading-contact",
       "hub": "anomalous-experience",
       "title": "What kind of event is a contact report?",
-      "crux": "When someone reports contact, abduction, or impossible perception, is it literal, psychological, cultural, or something the current categories can't hold? The books read the same reports very differently.",
+      "crux": "When someone reports contact, abduction, or impossible perception, is it literal, psychological, cultural, or something the current categories can't hold? The books read the same reports very differently. Vallee appears twice, four years apart, and the two entries are one researcher's position moving rather than two books agreeing; the 1951 Satan anthology answers this question about possession, not about UFOs.",
       "positions": [
         { "book": "american-cosmic", "stance": "Real-and-imaginary at once — bracket the ultimate cause and study how the experience becomes socially real." },
         { "book": "sekret-machines-man", "stance": "Treat the experience as a datum — survey abduction accounts while holding the interpretation open." },
         { "book": "holographic-universe", "stance": "A transpersonal event — the psyche reaching a deeper order the ordinary senses don't reach." },
-        { "book": "my-big-toe", "stance": "A valid data stream from the larger consciousness system, read through its own model." }
+        { "book": "my-big-toe", "stance": "A valid data stream from the larger consciousness system, read through its own model." },
+        { "book": "ufos-the-psychic-solution", "stance": "Neither spacecraft nor hoax — an event staged by a control system whose absurdity is a working feature, with the origin left undecided." },
+        { "book": "messengers-of-deception", "stance": "A staged appearance: an image projected to alter belief, with human manipulators the suspects Vallee ends on — stated as suspicion, not proof." },
+        { "book": "satan", "stance": "Asked of possession, not UFOs — mostly illness, with a residual class an exorcist may judge only on a concordant whole of signs." }
       ]
     },
     {
@@ -44,7 +47,9 @@
         { "book": "my-big-toe", "stance": "First-person experiment: run the protocol yourself; third-person proof was never the point." },
         { "book": "sekret-machines-gods", "stance": "Documents, testimony, and insider disclosure, read the way an intelligence analyst reads sources." },
         { "book": "american-cosmic", "stance": "Participant-observation ethnography — study the believers and the effects, not only the claim." },
-        { "book": "holographic-universe", "stance": "Catalogs of anomalies a materialist model cannot absorb, offered as pressure on the model." }
+        { "book": "holographic-universe", "stance": "Catalogs of anomalies a materialist model cannot absorb, offered as pressure on the model." },
+        { "book": "satan", "stance": "Criteriology — admit only documents and eyewitnesses, and reject the marvellous only once a natural explanation is shown credible in fact, not merely possible." },
+        { "book": "messengers-of-deception", "stance": "If the data may be designed, audit the sources first: this is counterintelligence work, not science." }
       ]
     },
     {
@@ -95,6 +100,19 @@
       "sourceDocs": [
         "notes/sekret-machines-gods/03-foreword-by-jacques-vall-e.md",
         "notes/american-cosmic/08-real-and-imaginary.md"
+      ]
+    },
+    {
+      "id": "absurdity-as-signature",
+      "fromHub": "anomalous-experience",
+      "toHub": "evidence",
+      "title": "Absurdity as signature ↔ the frame that cannot lose",
+      "claim": "Two projects with nothing else in common convert the incoherence of their own case material into a mark of the agency they argue for. Vallee renames absurdity 'meta-logic' and treats the phenomenon's self-cancelling quality as its silencing mechanism ('The phenomenon negates itself'; 'when the Establishment is rational, absurdity is dynamite'). Moeller argues that because the devil reaches only the sensible, which is 'the seed-bed of ambiguity', the inconclusiveness of the volume's own medical dossiers is what his method predicts rather than evidence against him.",
+      "disclosure": "A parallel between two argument shapes, not between two phenomena, and no suggestion that a 1970s UFO thesis and a 1951 Catholic anthology describe anything related. Both books' notes flag this as the point where a failure of evidence is converted into evidence of design, and neither supplies a criterion for what would count against the claim. Read it as a warning about a form of reasoning, not as support for either side of it.",
+      "sourceDocs": [
+        "notes/ufos-the-psychic-solution/02-the-triple-coverup.md",
+        "notes/messengers-of-deception/03-the-deception.md",
+        "notes/satan/00-introduction.md"
       ]
     }
   ]

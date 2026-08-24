@@ -29,7 +29,21 @@ continue the project from this document alone (plus the repo contents).
    evidentiary strategy, critical-reading section), `90-glossary.md` (merged
    deduplicated concept glossary + people index, chapter pointers),
    `91-qa.md` (50-70 Q&A pairs, every answer with chapter pointers).
-6. **Builds + publish**: `_build/build-libros.ps1` (site → libros.html +
+6. **Atlas integration** — one subagent, **effort: xhigh**, after synthesis.
+   The site's cross-book fabric lives in `content/concept-atlas.json` (10 hub
+   pages, each with per-book `bookPositions` + `sourceDocs`) and
+   `content/atlas-links.json` (debates + bridges). A book that skips this
+   stage appears on the shelf but is invisible to the hubs (this happened to
+   four books before the stage existed). Rules: add the book ONLY to hubs
+   where its own verified notes genuinely speak to the hub question — 2-4
+   hubs is typical, all 10 is a red flag; position statements follow the
+   existing voice (attributed, hedged, resemblance-is-not-evidence);
+   `sourceDocs` must point at real note files that carry the cited material;
+   prefer extending an existing debate with a new position over inventing a
+   new debate; every addition needs a source anchor a verifier could check.
+   Also register the book in `$bookMeta` in `_build/build-libros.ps1` at this
+   stage if not done earlier.
+7. **Builds + publish**: `_build/build-libros.ps1` (site → libros.html +
    index.html), `_build/build-agent-kit.ps1` (agent-kit/ refresh), then
    commit + push. GitHub Pages auto-redeploys https://sscleves.github.io/TheMindBook/
    from main within ~1 minute.
@@ -49,6 +63,42 @@ continue the project from this document alone (plus the repo contents).
   historically wrong, the note records what the book says.
 - Model: Fable-class for everything that touches book text. Effort: high for
   notes + verification, xhigh for synthesis (set per-agent, not session).
+
+Hard-won additions (from the Satan + COMETA runs, ~50 verified units):
+
+- **Never trust pre-cut chapter files.** Re-locate every unit's boundaries in
+  the full text by searching for its title/author/signature. (Satan: most of
+  31 splits were mis-bounded; near-duplicate essay titles broke the splitter.)
+- **"Unrecoverable" must be proven, not assumed.** Before recording a lacuna,
+  render the actual scan page (pdftotext drops ink-underlined lines that are
+  perfectly legible on the page image). One "lost passage" was fabricated this
+  way; two others were fully recovered from the image.
+- **OCR flags quote the garble only.** Never propose a reading ("probably
+  2611") unless the evidence for it is stated inline. A guessed number inside
+  a flag is still an invented number.
+- **No real-world imports, including "obvious" ones**: no expanded first
+  names, no aircraft/army facts, no acronym expansions absent from the text,
+  no identifying an unnamed referent (e.g. a "1938 Orson Welles broadcast"
+  stays unnamed if the book doesn't name it).
+- **Multi-voice texts: map the voices first.** Anthologies, appended notes,
+  and long quotations blur into the host author silently (Maquart's Tonquédec
+  quotes; a three-voice dossier). List every voice before writing; label each
+  claim's speaker.
+- **Grep-verify every cross-reference before asserting it.** "Chapter X also
+  cites Y" claims were repeatedly false. If the target text can't be found,
+  the connection isn't written.
+- **No time-dependent statements in notes** ("sibling notes don't exist
+  yet") — they go stale and read as errors later.
+- **Reconstructions carry their evidence inline** (rebuilt section numbers,
+  repaired footnote maps): state what survives in the scan and why the
+  reading follows, in the note itself.
+- **Interrupted-run protocol:** before redoing any unit, check the file's
+  current state (mtime, content) — finish what's missing, don't redo what
+  landed. Verifiers resuming a killed pass audit fresh but skip re-fixing
+  what's already fixed.
+- **Post-write lint:** exact template headers (agents rename "Experiments,
+  examples & case studies" to fit the subject — rename it back), no tool-call
+  artifacts at EOF, frontmatter book-id matches the folder name.
 
 ## Chapter-note template (stage 3)
 

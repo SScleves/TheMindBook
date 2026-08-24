@@ -260,7 +260,7 @@
     "track": "practice",
     "title": "Who Is the Self?",
     "question": "Is the self an enduring agent, a useful interface, a divided narrative, or an ego built from fear and identification?",
-    "orientation": "Practice track: this hub asks how models of self and ego change day-to-day observation, conduct, relationship, and self-protection. Tolle contributes introspective practice rather than evidence for consciousness-first physics; Pirsig contributes philosophy and lived integration rather than a physical Theory of Everything; Campbell is an explicit bridge because his cosmology also prescribes conduct.",
+    "orientation": "Practice track: this hub asks how models of self and ego change day-to-day observation, conduct, relationship, and self-protection. Tolle contributes introspective practice rather than evidence for consciousness-first physics; Pirsig contributes philosophy and lived integration rather than a physical Theory of Everything; Campbell is an explicit bridge because his cosmology also prescribes conduct. The Satan anthology enters here as description rather than practice: its 1951 clinical and doctrinal accounts of a divided self are offered as diagnosis and dogma, prescribe nothing for ordinary conduct, and do not support the other positions' ontologies.",
     "bookPositions": [
       {
         "book": "power-of-now",
@@ -287,6 +287,15 @@
           "notes/zen-motorcycle/28-chapter-27.md",
           "notes/zen-motorcycle/32-chapter-31.md",
           "notes/zen-motorcycle/33-chapter-32.md"
+        ]
+      },
+      {
+        "book": "satan",
+        "position": "The volume's clinicians describe a divisible self, and its theologians deny one. Vinchon reads possession as an occupation of the personality by an agency assembled out of the subject's own history, prepared by obsessions of moral solitude and inferiority and determined by guilt, and pictures its devils as 'not new guests, but as old guests' who end by being 'masters of the house'; his Loudun pair, Surin and Jeanne des Anges, share a split personality and a spirit of contrariety that attacks whatever formed the subject's own complexes. Lhermitte's lucid demonopathic patients keep consciousness fully clear while describing an invading influence in self-aware detail. Against both, Catherinet and Moeller hold that intellect and will remain inaccessible, so an inviolable core of the self is asserted in the same volume whose case material dissolves its edges.",
+        "sourceDocs": [
+          "notes/satan/12-demoniacs-in-the-gospel.md",
+          "notes/satan/14-aspects-of-possession.md",
+          "notes/satan/19-pseudo-possession.md"
         ]
       }
     ],
@@ -394,6 +403,35 @@
           "notes/sekret-machines-man/02-1-the-succubus-in-the-saucer.md",
           "notes/sekret-machines-man/05-4-gods-genes-and-genocide.md",
           "notes/sekret-machines-man/19-appendix-galileo-s-revenge-science-versus-spirituality.md"
+        ]
+      },
+      {
+        "book": "messengers-of-deception",
+        "position": "Vallee argues that scientific method fails on this subject by construction, because it assumes the phenomena fed into it are natural and spontaneous; if they are designed, then in the words of his intelligence-officer informant 'the study of it doesn't belong in science. It belongs in Intelligence.' He therefore treats source integrity as the prior problem, describing organized UFO groups as infiltrated and biased at the source, and downgrades the field's standard instruments by citing Lawson's imaginary-abductee experiments against hypnotic regression and the Department of Justice's objections against the polygraph. What he offers in place of a new standard of proof is individual field documentation outside any group, which leaves his own strongest claims resting on interviews and inference he marks as such.",
+        "sourceDocs": [
+          "notes/messengers-of-deception/01-the-case-against-the-spacecraft.md",
+          "notes/messengers-of-deception/03-the-deception.md",
+          "notes/messengers-of-deception/11-the-stratagem-theories.md",
+          "notes/messengers-of-deception/12-conclusion-epilogue-appendix.md"
+        ]
+      },
+      {
+        "book": "ufos-the-psychic-solution",
+        "position": "Vallee borrows Cynthia Nelson's descriptive phenomenology so that whether an apparition is 'really real' can be bracketed, and offers his Seven Categories of Strangeness and Hilltop Theory as an account of why the evidence looks as it does, since 'the type of data collected by an investigator is a function of his image (the beliefs about him) among his audience.' Against contact dossiers he applies one deflationary rule, that 'nothing that is within the power of any one of the participants is beyond the power of the alleged entity,' which dissolves the SPECTRA, AFFA and automatic-writing material while leaving the physical traces standing. The notes record that he applies that rule unevenly, and that his central reinforcement-schedule exhibit is a single graph of his own construction whose curve does not survive in the source.",
+        "sourceDocs": [
+          "notes/ufos-the-psychic-solution/00-introduction.md",
+          "notes/ufos-the-psychic-solution/03-memorandum-for-archives.md",
+          "notes/ufos-the-psychic-solution/05-the-confrontation.md"
+        ]
+      },
+      {
+        "book": "satan",
+        "position": "The anthology's Part III makes criteriology its own genre, and its contributors are hardest on their own side. Maquart treats the exorcist's decision as a practical judgment requiring an objective examination, spends much of his essay attacking the credulity of his own clergy, and corrects the principle of economy: a natural explanation must be shown credible in fact, not merely metaphysically possible. Thurston applies documentary source-criticism to the Church's record, admitting only 'the record of official documents or the testimony of eye-witnesses' and dismissing the circulating witch-trial figures as guesses, while Debongnie prints a full exorcism dossier, exposes its staging, and still declines a verdict. Moeller's Introduction then supplies the frame that absorbs the resulting inconclusiveness, arguing that because the devil reaches only the sensible no case can be proved 'in the sense of a geometrical demonstration.'",
+        "sourceDocs": [
+          "notes/satan/00-introduction.md",
+          "notes/satan/13-exorcism-and-diabolical-manifestation.md",
+          "notes/satan/16-confessions-of-jeanne-fery.md",
+          "notes/satan/20-church-and-witchcraft.md"
         ]
       }
     ],
@@ -536,6 +574,33 @@
           "notes/sekret-machines-man/12-10-utter-chaos.md",
           "notes/sekret-machines-man/17-14-gray-anatomy.md"
         ]
+      },
+      {
+        "book": "messengers-of-deception",
+        "position": "Vallee accepts witness sincerity and rejects the spacecraft reading together, arguing from a landing-rate extrapolation and from objects that fade, shrink and merge that 'their appearances are staged' and that what witnesses report behaves like an image or a projection rather than a machine. He proposes a psychotronic technology acting on consciousness rather than on the body, and suspects that no contactee, the Hills included, was ever physically aboard anything. His two long contactee studies, the H.I.M. group and Jacques Bordas, are presented as evidence about what belief in contact does to believers rather than about what the objects are.",
+        "sourceDocs": [
+          "notes/messengers-of-deception/01-the-case-against-the-spacecraft.md",
+          "notes/messengers-of-deception/03-the-deception.md",
+          "notes/messengers-of-deception/04-why-do-they-keep-staring-at-the-walls.md"
+        ]
+      },
+      {
+        "book": "ufos-the-psychic-solution",
+        "position": "Vallee sets one non-negotiable test for any theory, that it account for the reported psychic effects, and rejects the extraterrestrial and the misidentification readings together. He renames absurdity 'meta-logic' and treats contradictions as constructed meaning rather than noise, and he matches the morphology of Fatima, Lourdes, Guadalupe and the Mormon founding vision against UFO landing reports parameter by parameter, deriving from both a common mechanism he calls revelation as isolation. That comparison is morphological rather than metrical: it pairs verbal descriptions with verbal descriptions and hands the identification to the reader, and his own operational definition of a miracle as an event 'real or imagined, or even faked' is designed to make the truth question unnecessary.",
+        "sourceDocs": [
+          "notes/ufos-the-psychic-solution/01-the-psychic-component.md",
+          "notes/ufos-the-psychic-solution/07-a-morphology-of-miracles.md",
+          "notes/ufos-the-psychic-solution/09-the-control-system.md"
+        ]
+      },
+      {
+        "book": "satan",
+        "position": "The anthology's Part III asks the analogous question about possession, and its contributors are its own severest critics. Catherinet asks why Gospel possession always arrives dressed in the clinical signs of nervous disease, and answers with a faculty psychology in which the devil, barred from intellect and will, can act only at the junction of soul and nervous system, so the concomitance is expected rather than embarrassing. Vinchon anatomises possession 'from a purely natural point of view' while expressly reserving the preternatural as a real but separate category he declines to treat, and Lhermitte's neurological typology of pseudo-possession concedes the authentic category only once, in passing. Moeller's editorial claim that the assembled medical evidence 'leaves no doubt' therefore goes further than these contributors' own texts do.",
+        "sourceDocs": [
+          "notes/satan/12-demoniacs-in-the-gospel.md",
+          "notes/satan/14-aspects-of-possession.md",
+          "notes/satan/19-pseudo-possession.md"
+        ]
       }
     ],
     "connections": [
@@ -598,6 +663,17 @@
         "sourceDocs": [
           "notes/american-cosmic/08-real-and-imaginary.md",
           "notes/holographic-universe/08-traveling-in-the-superhologram.md"
+        ]
+      },
+      {
+        "from": "ufos-the-psychic-solution",
+        "to": "american-cosmic",
+        "type": "direct-citation",
+        "summary": "Pasulka names Vallee the key theorist of the phenomenon and works from this book, which she knows under its American title The Invisible College and which Vallee gave her after a 2014 seminar; the Fatima-as-UFO-morphology and the schedule-of-reinforcement reading pass into her account directly. Influence runs Vallee to Pasulka and never the reverse, and her sympathetic model of experiencers receiving downloads is close to the claim Vallee tests and rejects when he audits contact dossiers.",
+        "sourceDocs": [
+          "notes/ufos-the-psychic-solution/07-a-morphology-of-miracles.md",
+          "notes/ufos-the-psychic-solution/03-memorandum-for-archives.md",
+          "notes/american-cosmic/06-the-material-code.md"
         ]
       }
     ],
@@ -759,6 +835,34 @@
           "notes/sekret-machines-gods/04-prologue.md",
           "notes/sekret-machines-gods/06-the-gate-of-the-gods.md"
         ]
+      },
+      {
+        "book": "messengers-of-deception",
+        "position": "Vallee argues that what is manipulated is not the phenomenon but the belief it has produced: 'it is not the phenomenon itself, but the belief it has created, which is manipulated by human groups with their own objectives.' From participant work inside contactee sects and occult orders he catalogues the political cargo their channeled messages carry, naming intellectual abdication, higher-race doctrines, technical impotence and dictatorial utopia as recurring themes, and argues that absurdity is what makes the material effective, since a maintained threshold of ridicule keeps qualified scientists away. The Manipulators are a hypothesis he states as one, and he concedes he has no proof that a single group is responsible.",
+        "sourceDocs": [
+          "notes/messengers-of-deception/02-the-bandwagon-from-outer-space.md",
+          "notes/messengers-of-deception/05-the-political-overtones.md",
+          "notes/messengers-of-deception/08-the-puppets.md",
+          "notes/messengers-of-deception/11-the-stratagem-theories.md"
+        ]
+      },
+      {
+        "book": "ufos-the-psychic-solution",
+        "position": "Vallee proposes that UFOs may constitute a control system whose regulated quantity is belief, using a household thermostat as the model and Ferster and Skinner's schedules of reinforcement as the mechanism: 'it is human belief that is being controlled and conditioned.' He treats the phenomenon's absurdity and its built-in silencing of witnesses as operating features rather than noise, and accepts the corollary that a process teaching a society must also mislead it. He states explicitly that he has not determined whether such a system is natural and spontaneous, artificial, or simply governed by laws not yet discovered, and disclaims both the paranoid and the theological readings.",
+        "sourceDocs": [
+          "notes/ufos-the-psychic-solution/01-the-psychic-component.md",
+          "notes/ufos-the-psychic-solution/02-the-triple-coverup.md",
+          "notes/ufos-the-psychic-solution/09-the-control-system.md"
+        ]
+      },
+      {
+        "book": "satan",
+        "position": "The anthology's editorial frame makes concealment the method rather than a side effect: Moeller's Introduction argues that falsity is the more essentially satanic of Satan's two scriptural marks, so that 'the devil's trump card is his anonymity: his chef-d'oeuvre is the belief that he does not exist.' Mager's closing essay applies the same criterion to National Socialism, treating the systemic lie as a diagnostic sign, since 'lying is not error: it is more. It is the conscious reversal of truth.' Thurston argues the opposite direction of causation for the witch trials, that an atmosphere of suspicion and terror manufactures its own evidence, so that wherever persecution and sensation occurred witches 'began to be manufactured and to multiply.' Moeller's frame is an apologetic device as much as an argument, because it makes inconclusive evidence consistent with the claim.",
+        "sourceDocs": [
+          "notes/satan/00-introduction.md",
+          "notes/satan/20-church-and-witchcraft.md",
+          "notes/satan/30-satan-in-our-day.md"
+        ]
       }
     ],
     "connections": [
@@ -781,6 +885,16 @@
           "notes/american-cosmic/06-the-material-code.md",
           "notes/sekret-machines-war/11-collateral-damage.md",
           "notes/sekret-machines-war/13-the-russia-house-ufos-nukes-and-information-warfare.md"
+        ]
+      },
+      {
+        "from": "ufos-the-psychic-solution",
+        "to": "messengers-of-deception",
+        "type": "reframes",
+        "summary": "The same author four years apart. In 1975 Vallee leaves the control system's origin undetermined, refusing to decide between human consciousness and alien intervention; in 1979 he keeps the phenomenon and relocates the manipulation, arguing that human groups exploit the belief it generates. This is one researcher's position hardening, not two books independently reaching a conclusion.",
+        "sourceDocs": [
+          "notes/ufos-the-psychic-solution/09-the-control-system.md",
+          "notes/messengers-of-deception/11-the-stratagem-theories.md"
         ]
       }
     ],
