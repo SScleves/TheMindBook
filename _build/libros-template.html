@@ -376,6 +376,14 @@
   .rel-list[data-filter="bridge"] .connection:not(.bridge) { display: none; }
   .book-card.appendix { border-left: 4px solid var(--violet); }
   .book-card.appendix p { color: var(--ink-soft); }
+  .atlas-presence { margin-top: 34px; }
+  .presence-list { display: grid; gap: 10px; margin: 0; padding: 0; }
+  .presence-list li { list-style: none; display: grid; gap: 4px; padding: 12px 14px; border: 1px solid var(--line); background: var(--paper); }
+  .presence-list li strong { font: 700 15px/1.3 var(--utility); }
+  .presence-list li span { color: var(--ink-soft); font-size: 14.5px; line-height: 1.5; }
+  .presence-list .debate-with { display: block; margin-top: 4px; font-style: normal; font: 600 12.5px var(--utility); color: var(--ink); opacity: .75; }
+  .presence-list .bridge-note { color: var(--violet); }
+  .debate-pos li span .provenance { display: block; margin-top: 6px; }
   .practice-bridges { display: grid; gap: 12px; }
   .practice-bridge {
     display: grid;
@@ -1073,7 +1081,8 @@ function renderConnections() {
     const hub = hubsById[d.hub];
     const positions = d.positions.map(p => {
       const book = booksById[p.book] || { title: p.book };
-      return `<li><strong>${esc(book.title)}</strong><span>${esc(p.stance)}</span></li>`;
+      const provenance = (p.sourceDocs || []).map(sourceLink).join("");
+      return `<li><strong><a href="#book/${encodeURIComponent(p.book)}">${esc(book.title)}</a></strong><span>${esc(p.stance)}${provenance ? `<span class="provenance">${provenance}</span>` : ""}</span></li>`;
     }).join("");
     return `<article class="debate"><p class="eyebrow">${esc(hubLabel(d.hub))}</p><h3>${esc(d.title)}</h3><p>${esc(d.crux)}</p><ul class="debate-pos">${positions}</ul>${hub ? `<a class="card-link" href="#concept/${encodeURIComponent(d.hub)}">Open the ${esc(hubLabel(d.hub))} hub</a>` : ""}</article>`;
   }).join("");
@@ -1222,11 +1231,39 @@ function renderBook(bookId, docSlug) {
   focusMain();
 }
 
+function bookAtlasPresence(bookId) {
+  const prefix = `notes/${bookId}/`;
+  const hubs = DATA.atlas.filter(hub => (hub.bookPositions || []).some(p => p.book === bookId));
+  const debates = (DATA.debates || []).filter(d => (d.positions || []).some(p => p.book === bookId));
+  const bridges = (DATA.bridges || []).filter(b => (b.sourceDocs || []).some(doc => doc.startsWith(prefix)));
+  return { hubs, debates, bridges };
+}
+
+function bookAtlasSection(book) {
+  const { hubs, debates, bridges } = bookAtlasPresence(book.id);
+  if (!hubs.length && !debates.length && !bridges.length) return "";
+  const hubItems = hubs.map(hub => {
+    const pos = hub.bookPositions.find(p => p.book === book.id);
+    const summary = pos && pos.position ? esc(pos.position) : "";
+    return `<li><strong><a href="#concept/${encodeURIComponent(hub.id)}">${esc(hub.title)}</a></strong><span>${summary}</span></li>`;
+  }).join("");
+  const debateItems = debates.map(d => {
+    const pos = d.positions.find(p => p.book === book.id);
+    const others = d.positions.filter(p => p.book !== book.id).map(p => (booksById[p.book] || { title: p.book }).title);
+    const withLine = others.length ? `<em class="debate-with">In debate with ${others.map(esc).join(" · ")}</em>` : "";
+    return `<li><strong><a href="#connections">${esc(d.title)}</a></strong><span>${esc(pos.stance)} ${withLine}</span></li>`;
+  }).join("");
+  const bridgeItems = bridges.map(b =>
+    `<li><strong><a href="#connections">${esc(b.title)}</a></strong><span class="bridge-note">Disclosed bridge · ${esc((hubsById[b.fromHub] || { title: b.fromHub }).title)} ↔ ${esc((hubsById[b.toHub] || { title: b.toHub }).title)}</span></li>`
+  ).join("");
+  return `<div class="atlas-presence"><div class="section-head"><h2>Where this book stands</h2><span>Positions stay attributed; links open the atlas.</span></div><ul class="presence-list">${hubItems}${debateItems}${bridgeItems}</ul></div>`;
+}
+
 function renderBookOverview(book) {
   const progress = bookProgress(book);
   const lastDoc = store.bookState(book.id).lastDoc;
   const resume = lastDoc && docsById[lastDoc] ? docsById[lastDoc] : (book.docs.find(doc => doc.type === "map") || book.docs[0]);
-  main.innerHTML = `<section class="page"><nav class="crumbs"><a href="#library">Library</a> / ${esc(book.title)}</nav><div class="book-shell"><aside class="book-summary"><p class="eyebrow">${esc(book.year)} · ${book.docs.length} notes</p><h1>${esc(book.title)}</h1><p class="book-meta">${esc(book.author)}</p><div class="progress-bar"><span style="width:${progress.percent}%"></span></div><div class="statline"><span>${progress.visited}/${progress.total} notes opened</span><span>${progress.mastered}/${progress.cards} cards mastered</span></div><a class="btn primary" href="${routeForDoc(resume)}">Resume reading</a><a class="btn" href="#cards/${encodeURIComponent(book.id)}">Flashcards</a><a class="btn" href="#quiz/${encodeURIComponent(book.id)}">Quiz</a></aside><div class="reader"><p class="eyebrow">Table of contents</p><h2 style="margin-top:0;font:700 32px var(--display)">Choose a note</h2>${bookContents(book, "")}</div></div></section>`;
+  main.innerHTML = `<section class="page"><nav class="crumbs"><a href="#library">Library</a> / ${esc(book.title)}</nav><div class="book-shell"><aside class="book-summary"><p class="eyebrow">${esc(book.year)} · ${book.docs.length} notes</p><h1>${esc(book.title)}</h1><p class="book-meta">${esc(book.author)}</p><div class="progress-bar"><span style="width:${progress.percent}%"></span></div><div class="statline"><span>${progress.visited}/${progress.total} notes opened</span><span>${progress.mastered}/${progress.cards} cards mastered</span></div><a class="btn primary" href="${routeForDoc(resume)}">Resume reading</a><a class="btn" href="#cards/${encodeURIComponent(book.id)}">Flashcards</a><a class="btn" href="#quiz/${encodeURIComponent(book.id)}">Quiz</a></aside><div class="reader"><p class="eyebrow">Table of contents</p><h2 style="margin-top:0;font:700 32px var(--display)">Choose a note</h2>${bookContents(book, "")}${bookAtlasSection(book)}</div></div></section>`;
   focusMain();
 }
 
