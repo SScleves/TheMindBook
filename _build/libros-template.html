@@ -1,9 +1,9 @@
-<!doctype html>
-<html lang="en">
-<head>
+<!DOCTYPE html>
+<html lang="en"><head>
+
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light">
+<meta name="color-scheme" content="dark">
 <title>TheMindBook Knowledge Atlas</title>
 <style>
   :root {
@@ -28,9 +28,35 @@
     --violet: #9d8cff;
     --violet-soft: #1e1a37;
     --shadow: 0 14px 40px rgba(0, 0, 0, .55);
-    --display: Baskerville, "Palatino Linotype", Palatino, "Bookman Old Style", serif;
+    --display: Baskerville, "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
     --body: "Palatino Linotype", Palatino, Bookman, serif;
-    --utility: Aptos, "Segoe UI", sans-serif;
+    --utility: Aptos, "Segoe UI", system-ui, sans-serif;
+    --appbar: rgba(11, 14, 26, .92);
+    --grid: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath d='M0 23.5H24M23.5 0V24' fill='none' stroke='%232b3557' stroke-width='.45' opacity='.5'/%3E%3C/svg%3E");
+  }
+  :root[data-theme="light"] {
+    --paper: #faf7f0;
+    --paper-deep: #efe8da;
+    --sheet: #fffdf7;
+    --ink: #171a18;
+    --ink-soft: #5c6360;
+    --line: #e6dfd0;
+    --line-dark: #c8c2b7;
+    --red: #963a31;
+    --red-soft: #f6e2de;
+    --teal: #087b78;
+    --teal-soft: #ddefec;
+    --cyan: #1f7f8e;
+    --cyan-soft: #ddedf2;
+    --green: #2e7d4f;
+    --green-soft: #e0efe4;
+    --yellow: #8a6512;
+    --yellow-soft: #f5ecd4;
+    --violet: #6a5891;
+    --violet-soft: #ebe6f4;
+    --shadow: 0 14px 40px rgba(23, 26, 24, .14);
+    --appbar: rgba(250, 247, 240, .92);
+    --grid: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath d='M0 23.5H24M23.5 0V24' fill='none' stroke='%23ded6c4' stroke-width='.45' opacity='.5'/%3E%3C/svg%3E");
   }
   * { box-sizing: border-box; }
   html { scroll-behavior: smooth; }
@@ -39,7 +65,7 @@
     min-width: 320px;
     color: var(--ink);
     background-color: var(--paper);
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath d='M0 23.5H24M23.5 0V24' fill='none' stroke='%232b3557' stroke-width='.45' opacity='.5'/%3E%3C/svg%3E");
+    background-image: var(--grid);
     font: 18px/1.74 var(--body);
     letter-spacing: .008em;
     -webkit-font-smoothing: antialiased;
@@ -73,13 +99,13 @@
     top: 0;
     z-index: 15;
     display: grid;
-    grid-template-columns: auto minmax(370px, 1fr) minmax(210px, 320px);
+    grid-template-columns: auto minmax(370px, 1fr) minmax(210px, 320px) auto;
     align-items: center;
     gap: 24px;
     min-height: 72px;
     padding: 11px clamp(18px, 4vw, 58px);
     border-bottom: 1px solid var(--line-dark);
-    background: rgba(11, 14, 26, .92);
+    background: var(--appbar);
     backdrop-filter: blur(8px);
   }
   .brand {
@@ -107,7 +133,7 @@
   }
   .mode-nav a:hover { color: var(--ink); border-bottom-color: var(--line-dark); }
   .mode-nav a[aria-current="page"] { color: var(--red); border-bottom-color: var(--red); }
-  .search-form { display: flex; min-width: 0; }
+  .search-form { display: flex; min-width: 0; position: relative; }
   .search-form input {
     width: 100%;
     min-width: 0;
@@ -192,8 +218,33 @@
     letter-spacing: .1em;
     text-transform: uppercase;
   }
-  .track-badge.practice { border-color: var(--yellow); color: #76520f; background: var(--yellow-soft); }
+  .track-badge.practice { border-color: var(--yellow); color: var(--yellow); background: var(--yellow-soft); }
   .track-badge.bridge { border-color: var(--violet); color: var(--violet); background: var(--violet-soft); }
+  .hero-mind {
+    position: relative;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(280px, 420px);
+    align-items: center;
+    gap: 24px;
+    min-height: 260px;
+    margin-bottom: 28px;
+    overflow: hidden;
+    border: 1px solid var(--line-dark);
+    border-radius: 6px;
+    background: var(--sheet);
+    box-shadow: var(--shadow);
+  }
+  #mind-hero-canvas { display: block; width: 100%; height: 260px; }
+  .hero-copy { position: relative; z-index: 1; padding: 0 8px 0 clamp(18px, 3vw, 40px); }
+  .hero-copy .eyebrow { margin-bottom: 10px; }
+  .hero-copy h1 { margin: 0; font: 700 clamp(30px, 4.4vw, 46px)/1.05 var(--display); }
+  .hero-copy p { max-width: 46ch; margin: 14px 0 0; color: var(--ink-soft); font-size: 16px; line-height: 1.55; }
+  .hero-copy .btn.primary { display: inline-flex; margin-top: 18px; text-decoration: none; }
+  @media (max-width: 760px) {
+    .hero-mind { grid-template-columns: 1fr; }
+    #mind-hero-canvas { height: 170px; }
+    .hero-copy { padding: 0 18px 20px; }
+  }
   .atlas-overview {
     display: grid;
     grid-template-columns: minmax(0, 1.18fr) minmax(300px, .82fr);
@@ -257,18 +308,28 @@
     border-radius: 6px;
     background: var(--sheet);
     box-shadow: 3px 3px 0 var(--paper-deep);
+    overflow: hidden;
   }
   .hub-card::before, .dossier-card::before {
     content: "";
     position: absolute;
-    top: -1px;
-    left: -1px;
-    width: 7px;
-    height: calc(100% + 2px);
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
     background: var(--teal);
   }
-  .hub-card:nth-child(3n)::before { background: var(--red); }
-  .hub-card:nth-child(3n + 2)::before { background: var(--cyan); }
+  .hub-card.practice::before { background: var(--yellow); }
+  .hub-card.bridge::before { background: var(--violet); }
+  .hub-card .hub-num {
+    position: absolute;
+    right: 16px;
+    top: 12px;
+    font: 700 58px/1 var(--display);
+    color: var(--ink);
+    opacity: .08;
+    pointer-events: none;
+  }
   .hub-card h3, .book-card h2, .dossier-card h2 { margin: 0; font: 700 24px/1.15 var(--display); }
   .hub-card p, .dossier-card p { margin: 10px 0 15px; color: var(--ink-soft); }
   .card-link {
@@ -347,8 +408,8 @@
   .type-label { color: var(--ink); background: var(--paper-deep); text-transform: uppercase; letter-spacing: .08em; }
   .connection.agreement .type-label { border-color: var(--green); color: var(--green); background: var(--green-soft); }
   .connection.tension .type-label { border-color: var(--red); color: var(--red); background: var(--red-soft); }
-  .connection.citation .type-label { border-color: var(--cyan); color: #176d79; background: var(--cyan-soft); }
-  .connection.reframe .type-label { border-color: var(--yellow); color: #76520f; background: var(--yellow-soft); }
+  .connection.citation .type-label { border-color: var(--cyan); color: var(--cyan); background: var(--cyan-soft); }
+  .connection.reframe .type-label { border-color: var(--yellow); color: var(--yellow); background: var(--yellow-soft); }
   .connection.bridge { border-top-color: var(--violet); border-top-style: dashed; }
   .connection.bridge .type-label { border-color: var(--violet); color: var(--violet); background: var(--violet-soft); }
   .connection .context { display: block; margin: 0 0 4px; color: var(--ink-soft); font: 700 11px var(--utility); text-transform: uppercase; letter-spacing: .06em; }
@@ -374,7 +435,7 @@
   .rel-list[data-filter="citation"] .connection:not(.citation),
   .rel-list[data-filter="reframe"] .connection:not(.reframe),
   .rel-list[data-filter="bridge"] .connection:not(.bridge) { display: none; }
-  .book-card.appendix { border-left: 4px solid var(--violet); }
+  .book-card.appendix { border-left: 4px solid var(--violet); padding: 20px; }
   .book-card.appendix p { color: var(--ink-soft); }
   .atlas-presence { margin-top: 34px; }
   .presence-list { display: grid; gap: 10px; margin: 0; padding: 0; }
@@ -396,7 +457,7 @@
   }
   .practice-bridge h3 { margin: 6px 0 0; font: 700 20px/1.25 var(--display); }
   .practice-bridge p { margin: 0 0 12px; color: var(--ink-soft); }
-  .practice-bridge .type-label { border-color: var(--yellow); color: #76520f; background: var(--yellow-soft); }
+  .practice-bridge .type-label { border-color: var(--yellow); color: var(--yellow); background: var(--yellow-soft); }
   .dossier-layout {
     display: grid;
     grid-template-columns: 235px minmax(0, 790px);
@@ -411,7 +472,7 @@
     overflow: auto;
     padding: 14px;
     border-left: 3px solid var(--red);
-    background: rgba(255, 253, 247, .9);
+    background: var(--paper-deep);
     font: 12px/1.35 var(--utility);
   }
   .toc strong { display: block; margin-bottom: 9px; color: var(--ink); text-transform: uppercase; letter-spacing: .1em; }
@@ -444,7 +505,7 @@
     padding: 12px 18px;
     border-left: 5px solid var(--teal);
     background: var(--teal-soft);
-    color: #2c4642;
+    color: var(--ink);
   }
   .markdown blockquote p:last-child { margin-bottom: 0; }
   .markdown hr { margin: 2.2em 0; border: 0; border-top: 1px solid var(--line-dark); }
@@ -488,7 +549,7 @@
   .markdown th, .markdown td { padding: 10px 12px; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; }
   .markdown th { color: var(--sheet); background: var(--ink); }
   .markdown tr:last-child td { border-bottom: 0; }
-  mark { padding: 0 2px; color: var(--ink); background: #f4d86e; }
+  mark { padding: 0 2px; color: #1a1608; background: #f4d86e; }
   .mechanism {
     margin: 2.2em 0;
     border: 1px solid var(--line-dark);
@@ -499,7 +560,7 @@
   .mechanism-head { padding: 15px 17px; border-bottom: 1px solid var(--line-dark); background: var(--paper-deep); }
   .mechanism.proposal { border-color: var(--violet); }
   .mechanism.proposal .mechanism-head { background: var(--violet-soft); border-bottom-color: var(--violet); }
-  .mechanism.proposal .visual-stage { background-color: rgba(157, 140, 255, .045); }
+  .mechanism.proposal .visual-stage { background-color: #171531; }
   .proposal-tag {
     display: inline-flex;
     align-items: center;
@@ -522,7 +583,7 @@
     min-height: 300px;
     overflow: hidden;
     padding: 18px;
-    background-color: var(--sheet);
+    background-color: #10182b;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18'%3E%3Cpath d='M0 17.5H18M17.5 0V18' fill='none' stroke='%232b3557' stroke-width='.5'/%3E%3C/svg%3E");
   }
   .visual-stage svg, .visual-stage canvas { display: block; width: 100%; height: 270px; }
@@ -577,8 +638,12 @@
   .theory-focus th, .theory-focus td { padding: 9px; border: 1px solid var(--line); text-align: left; vertical-align: top; }
   .theory-focus th { color: var(--sheet); background: var(--ink); }
   .library-intro { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 24px; align-items: end; margin-bottom: 24px; }
-  .book-card { display: flex; flex-direction: column; min-height: 255px; border-top: 6px solid var(--red); }
-  .book-card:nth-child(even) { border-top-color: var(--teal); }
+  .book-card { display: flex; flex-direction: column; min-height: 255px; padding: 0; }
+  .book-cover { position: relative; padding: 20px 20px 14px; border-left: 7px solid var(--teal); background: linear-gradient(160deg, var(--teal-soft), var(--sheet) 75%); }
+  .book-card.mind .book-cover { border-left-color: var(--yellow); background: linear-gradient(160deg, var(--yellow-soft), var(--sheet) 75%); }
+  .book-cover .book-meta { margin: 7px 0 0; }
+  .book-body { display: flex; flex-direction: column; flex: 1; padding: 12px 20px 18px; }
+  .book-body .card-link { margin-top: auto; }
   .book-meta { margin: 7px 0 18px; color: var(--ink-soft); font: 13px var(--utility); }
   .book-card .card-link { margin-top: auto; }
   .progress-bar { height: 7px; margin: 16px 0 7px; overflow: hidden; border: 1px solid var(--line-dark); background: var(--paper-deep); }
@@ -717,6 +782,76 @@
   .hub-card, .book-card, .dossier-card { transition: transform .16s ease, box-shadow .16s ease; }
   .hub-card:hover, .dossier-card:hover, .book-card:hover { transform: translateY(-2px); box-shadow: 5px 8px 0 var(--paper-deep); }
   .hub-grid + .track-intro { margin-top: 46px; }
+  /* v2 additions: theme toggle, resume strip, instant search, cross-book study */
+  .theme-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    border: 1px solid var(--line-dark);
+    border-radius: 5px;
+    color: var(--ink);
+    background: var(--sheet);
+    cursor: pointer;
+  }
+  .theme-toggle:hover { border-color: var(--teal); color: var(--teal); }
+  .search-suggest {
+    position: absolute;
+    top: calc(100% + 6px);
+    left: 0;
+    right: 0;
+    z-index: 40;
+    max-height: 62vh;
+    overflow: auto;
+    border: 1px solid var(--line-dark);
+    border-radius: 6px;
+    background: var(--sheet);
+    box-shadow: var(--shadow);
+  }
+  .search-suggest a {
+    display: flex;
+    gap: 10px;
+    align-items: baseline;
+    padding: 10px 12px;
+    border-top: 1px solid var(--line);
+    color: var(--ink);
+    text-decoration: none;
+    font: 14px/1.35 var(--utility);
+  }
+  .search-suggest a:first-child { border-top: 0; }
+  .search-suggest a:hover { background: var(--paper-deep); color: var(--ink); }
+  .search-suggest .result-type { flex: 0 0 auto; }
+  .search-suggest .see-all { color: var(--teal); font-weight: 700; }
+  .resume-strip {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px 16px;
+    margin: 0 0 26px;
+    padding: 13px 16px;
+    border: 1px solid var(--line-dark);
+    border-left: 7px solid var(--red);
+    border-radius: 6px;
+    background: var(--sheet);
+  }
+  .resume-strip .resume-label { color: var(--red); font: 800 11px var(--utility); letter-spacing: .1em; text-transform: uppercase; }
+  .resume-strip .resume-main { display: flex; flex-direction: column; gap: 2px; color: var(--ink); text-decoration: none; font: 700 15px/1.3 var(--utility); }
+  .resume-strip .resume-main span { color: var(--ink-soft); font-weight: 400; font-size: 13px; }
+  .resume-strip .resume-main:hover strong { color: var(--red); }
+  .resume-more { display: flex; flex-wrap: wrap; gap: 7px; margin-left: auto; }
+  .study-all { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+  .study-all .btn, .book-summary .btn { text-decoration: none; }
+  .rel-controls { position: sticky; top: 84px; z-index: 5; margin: 0 0 16px; padding: 10px 0; background: var(--paper); }
+  .visual-stage { color: #eaedf8; }
+  .theory-focus td { background: var(--sheet); color: var(--ink); }
+  @media (max-width: 980px) { .appbar { grid-template-columns: auto 1fr auto; } .theme-toggle { grid-column: 3; grid-row: 1; } .search-form { grid-column: 1 / 3; } }
+  @media (max-width: 760px) {
+    .appbar { position: relative; }
+    .theme-toggle { position: absolute; top: 12px; right: 12px; }
+    .rel-controls { position: static; padding: 0; }
+    .resume-more { display: none; }
+  }
 </style>
 </head>
 <body>
@@ -734,7 +869,9 @@
     <label class="sr-only" for="global-query">Search books, dossiers, and atlas</label>
     <input id="global-query" type="search" placeholder="Search the atlas" autocomplete="off">
     <button type="submit" aria-label="Run search">Find</button>
+    <div class="search-suggest" id="search-suggest" hidden=""></div>
   </form>
+  <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch between dark and light theme" title="Switch theme"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18zm0 2v14a7 7 0 0 1 0-14z" fill="currentColor"></path></svg></button>
 </header>
 <main id="main" tabindex="-1"></main>
 <script id="data" type="application/json">/*__DATA__*/</script>
@@ -798,6 +935,7 @@ const store = {
     state[bookId].lastDoc = docId;
     state[bookId].visited = state[bookId].visited || [];
     if (!state[bookId].visited.includes(docId)) state[bookId].visited.push(docId);
+    state._recent = [docId].concat((state._recent || []).filter(id => id !== docId)).slice(0, 8);
     this.write(state);
   },
   bookState(bookId) { return this.read()[bookId] || {}; }
@@ -1008,6 +1146,14 @@ function bookProgress(book) {
   return { cards: cards.length, mastered, visited, total: book.docs.length, percent: Math.round(100 * visited / Math.max(1, book.docs.length)) };
 }
 
+function resumeStrip() {
+  const recent = (store.read()._recent || []).map(id => docsById[id]).filter(Boolean);
+  if (!recent.length) return "";
+  const doc = recent[0];
+  const more = recent.slice(1, 3).map(d => `<a class="source-link" href="${routeForDoc(d)}">${esc(d.book.title)} · ${esc(docLabel(d))}</a>`).join("");
+  return `<div class="resume-strip"><span class="resume-label">Continue</span><a class="resume-main" href="${routeForDoc(doc)}"><strong>${esc(doc.book.title)}</strong><span>${esc(docLabel(doc))}</span></a>${more ? `<span class="resume-more">${more}</span>` : ""}</div>`;
+}
+
 function setMode(mode) {
   document.querySelectorAll("[data-mode]").forEach(link => {
     if (link.dataset.mode === mode) link.setAttribute("aria-current", "page");
@@ -1030,13 +1176,13 @@ function systemMap() {
     "information-computation": ["Information"], "belief-control": ["Belief"],
     "suffering-growth": ["Suffering", "& Growth"], "purpose-ethics": ["Purpose"]
   };
-  const zones = `<ellipse cx="190" cy="220" rx="205" ry="196" style="fill:#087b78;fill-opacity:.06;stroke:#087b78;stroke-opacity:.32;stroke-width:1.5"></ellipse>`
-    + `<ellipse cx="450" cy="220" rx="200" ry="196" style="fill:#a77818;fill-opacity:.06;stroke:#a77818;stroke-opacity:.32;stroke-width:1.5"></ellipse>`
-    + `<rect x="259" y="70" width="122" height="300" rx="22" style="fill:#6a5891;fill-opacity:.06;stroke:#6a5891;stroke-opacity:.45;stroke-width:1.4;stroke-dasharray:6 5"></rect>`
-    + `<text x="150" y="36" text-anchor="middle" style="fill:#0a5f5c;font:800 13px var(--utility);letter-spacing:1px">REALITY &amp; PHYSICS</text>`
-    + `<text x="492" y="36" text-anchor="middle" style="fill:#76520f;font:800 13px var(--utility);letter-spacing:1px">MIND &amp; MEANING</text>`
-    + `<text x="320" y="60" text-anchor="middle" style="fill:#6a5891;font:800 11px var(--utility);letter-spacing:1px">BRIDGES</text>`
-    + `<text x="320" y="388" text-anchor="middle" style="fill:#6a5891;font:italic 10px var(--utility)">in both at once</text>`;
+  const zones = `<ellipse cx="190" cy="220" rx="205" ry="196" style="fill:var(--teal);fill-opacity:.07;stroke:var(--teal);stroke-opacity:.4;stroke-width:1.5"></ellipse>`
+    + `<ellipse cx="450" cy="220" rx="200" ry="196" style="fill:var(--yellow);fill-opacity:.07;stroke:var(--yellow);stroke-opacity:.4;stroke-width:1.5"></ellipse>`
+    + `<rect x="259" y="70" width="122" height="300" rx="22" style="fill:var(--violet);fill-opacity:.07;stroke:var(--violet);stroke-opacity:.5;stroke-width:1.4;stroke-dasharray:6 5"></rect>`
+    + `<text x="150" y="36" text-anchor="middle" style="fill:var(--teal);font:800 13px var(--utility);letter-spacing:1px">REALITY &amp; PHYSICS</text>`
+    + `<text x="492" y="36" text-anchor="middle" style="fill:var(--yellow);font:800 13px var(--utility);letter-spacing:1px">MIND &amp; MEANING</text>`
+    + `<text x="320" y="60" text-anchor="middle" style="fill:var(--violet);font:800 11px var(--utility);letter-spacing:1px">BRIDGES</text>`
+    + `<text x="320" y="388" text-anchor="middle" style="fill:var(--violet);font:italic 10px var(--utility)">in both at once</text>`;
   const nodes = DATA.atlas.map(hub => {
     const [x, y] = POS[hub.id] || [320, 215];
     const lines = mapLabels[hub.id] || [hub.title.replace(/\?$/, "")];
@@ -1047,6 +1193,59 @@ function systemMap() {
     return `<a href="#concept/${encodeURIComponent(hub.id)}" aria-label="Open ${esc(hub.title)}"><rect class="map-node ${nodeClass}" x="${x - 61}" y="${y - 22}" width="122" height="44" rx="5"></rect>${label}</a>`;
   }).join("");
   return `<div class="system-map"><svg viewBox="0 0 640 430" role="img" aria-label="Field map: Reality and Physics hubs at left, Mind and Meaning hubs at right, and three bridge hubs in the overlap between them"><title>Two-section field map with a bridge overlap</title>${zones}${nodes}</svg></div>`;
+}
+
+function mountMindHero(canvas) {
+  const ctx = canvas.getContext("2d");
+  const reduced = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const styles = getComputedStyle(document.documentElement);
+  const teal = styles.getPropertyValue("--teal").trim() || "#3fe0d0";
+  const violet = styles.getPropertyValue("--violet").trim() || "#9d8cff";
+  const ink = styles.getPropertyValue("--ink").trim() || "#eaedf8";
+  const N = 26;
+  const nodes = Array.from({ length: N }, () => ({
+    x: Math.random(), y: Math.random(),
+    vx: (Math.random() - 0.5) * 0.00028, vy: (Math.random() - 0.5) * 0.00028,
+    r: 1.4 + Math.random() * 2.2
+  }));
+  let raf = 0;
+  function frame() {
+    if (!canvas.isConnected) { cancelAnimationFrame(raf); return; }
+    const dpr = Math.min(devicePixelRatio || 1, 2);
+    const w = canvas.clientWidth, h = canvas.clientHeight;
+    if (canvas.width !== Math.round(w * dpr) || canvas.height !== Math.round(h * dpr)) {
+      canvas.width = Math.round(w * dpr); canvas.height = Math.round(h * dpr);
+    }
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    ctx.clearRect(0, 0, w, h);
+    if (!reduced) nodes.forEach(node => {
+      node.x += node.vx; node.y += node.vy;
+      if (node.x < 0 || node.x > 1) node.vx *= -1;
+      if (node.y < 0 || node.y > 1) node.vy *= -1;
+    });
+    for (let i = 0; i < nodes.length; i++) {
+      for (let j = i + 1; j < nodes.length; j++) {
+        const a = nodes[i], b = nodes[j];
+        const dx = (a.x - b.x) * w, dy = (a.y - b.y) * h;
+        const dist = Math.hypot(dx, dy);
+        const reach = Math.min(w, h) * 0.32;
+        if (dist < reach) {
+          ctx.strokeStyle = `rgba(63,224,208,${(0.22 * (1 - dist / reach)).toFixed(3)})`;
+          ctx.lineWidth = 1;
+          ctx.beginPath(); ctx.moveTo(a.x * w, a.y * h); ctx.lineTo(b.x * w, b.y * h); ctx.stroke();
+        }
+      }
+    }
+    nodes.forEach((node, index) => {
+      ctx.fillStyle = index % 5 === 0 ? violet : (index % 2 === 0 ? teal : ink);
+      ctx.globalAlpha = index % 5 === 0 ? 0.75 : 0.5;
+      ctx.beginPath(); ctx.arc(node.x * w, node.y * h, node.r, 0, Math.PI * 2); ctx.fill();
+    });
+    ctx.globalAlpha = 1;
+    if (!reduced) raf = requestAnimationFrame(frame);
+  }
+  frame();
+  if (reduced) addEventListener("resize", frame);
 }
 
 function renderExplore() {
@@ -1061,9 +1260,11 @@ function renderExplore() {
     const bridge = isBridgeHub(hub);
     const badge = bridge ? "bridge" : (hubSection(hub) === "mind" ? "mind & meaning" : "reality & physics");
     const n = DATA.atlas.indexOf(hub) + 1;
-    return `<article class="hub-card"><span class="track-badge ${keyClass(hub)}">${badge}</span><p class="eyebrow">Route ${String(n).padStart(2, "0")} · ${hub.bookPositions.length} core books</p><h3>${esc(hub.title)}</h3><p>${esc(hub.question)}</p><a class="card-link" href="#concept/${encodeURIComponent(hub.id)}">Trace this question</a></article>`;
+    return `<article class="hub-card ${keyClass(hub)}"><span class="hub-num" aria-hidden="true">${String(n).padStart(2, "0")}</span><span class="track-badge ${keyClass(hub)}">${badge}</span><p class="eyebrow">Route ${String(n).padStart(2, "0")} · ${hub.bookPositions.length} core books</p><h3>${esc(hub.title)}</h3><p>${esc(hub.question)}</p><a class="card-link" href="#concept/${encodeURIComponent(hub.id)}">Trace this question</a></article>`;
   }).join("");
-  main.innerHTML = `<section class="page"><div class="atlas-overview">${systemMap()}<div class="map-key"><h2>Direct routes</h2>${key}</div></div><div class="track-intro"><span class="track-badge">Reality &amp; Physics</span><h2>What is the world made of?</h2><p>Cosmology, computation, information, and the discipline of evidence. These books can disagree sharply even where they agree that matter is not the whole story.</p></div><div class="hub-grid">${cards(realityHubs)}</div><div class="track-intro bridge"><span class="track-badge bridge">Bridges</span><h2>Where the two halves touch</h2><p>Consciousness, perception, and anomalous experience sit in both worlds at once. Any link that crosses between mind and reality is marked as a disclosed bridge — a parallel offered as a question, never as proof. The <a href="#connections">Connections</a> view collects every one.</p></div><div class="hub-grid">${cards(bridgeHubs)}</div><div class="track-intro practice"><span class="track-badge practice">Mind &amp; Meaning</span><h2>Attention, self, suffering, and belief</h2><p>Psychology and philosophy: how the self is built, how belief is shaped, and what turns pain into growth. These books are useful on their own terms — usefulness is not evidence for a physical model.</p></div><div class="hub-grid">${cards(mindHubs)}</div></section>`;
+  main.innerHTML = `<section class="page"><div class="hero-mind"><canvas id="mind-hero-canvas" aria-hidden="true"></canvas><div class="hero-copy"><p class="eyebrow">Ten books, one atlas</p><h1>What is mind?<br>What is real?</h1><p>A source-verified knowledge base built from books on consciousness, simulation theory, and the nature of reality — every claim traced back to its chapter.</p><a class="btn primary" href="#library">Enter the library →</a></div></div>${resumeStrip()}<div class="atlas-overview">${systemMap()}<div class="map-key"><h2>Direct routes</h2>${key}</div></div><div class="track-intro"><span class="track-badge">Reality &amp; Physics</span><h2>What is the world made of?</h2><p>Cosmology, computation, information, and the discipline of evidence. These books can disagree sharply even where they agree that matter is not the whole story.</p></div><div class="hub-grid">${cards(realityHubs)}</div><div class="track-intro bridge"><span class="track-badge bridge">Bridges</span><h2>Where the two halves touch</h2><p>Consciousness, perception, and anomalous experience sit in both worlds at once. Any link that crosses between mind and reality is marked as a disclosed bridge — a parallel offered as a question, never as proof. The <a href="#connections">Connections</a> view collects every one.</p></div><div class="hub-grid">${cards(bridgeHubs)}</div><div class="track-intro practice"><span class="track-badge practice">Mind &amp; Meaning</span><h2>Attention, self, suffering, and belief</h2><p>Psychology and philosophy: how the self is built, how belief is shaped, and what turns pain into growth. These books are useful on their own terms — usefulness is not evidence for a physical model.</p></div><div class="hub-grid">${cards(mindHubs)}</div></section>`;
+  const heroCanvas = document.getElementById("mind-hero-canvas");
+  if (heroCanvas) mountMindHero(heroCanvas);
   focusMain();
 }
 
@@ -1186,13 +1387,13 @@ function renderLibrary() {
   const cards = books => books.map(book => {
     const progress = bookProgress(book);
     const map = book.docs.find(doc => doc.type === "map") || book.docs[0];
-    return `<article class="book-card"><p class="eyebrow">${book.docs.length} notes · ${esc(book.year)}</p><h2>${esc(book.title)}</h2><p class="book-meta">${esc(book.author)}</p><div class="statline"><span><strong>${progress.visited}</strong> notes opened</span><span><strong>${progress.mastered}/${progress.cards}</strong> cards mastered</span></div><div class="progress-bar" aria-label="${progress.percent}% of notes opened"><span style="width:${progress.percent}%"></span></div><a class="card-link" href="#book/${encodeURIComponent(book.id)}">Open book contents</a><a class="source-link" href="${routeForDoc(map)}">Resume at book map</a></article>`;
+    return `<article class="book-card ${esc(book.section)}"><div class="book-cover"><p class="eyebrow">${book.docs.length} notes · ${esc(book.year)}</p><h2>${esc(book.title)}</h2><p class="book-meta">${esc(book.author)}</p></div><div class="book-body"><div class="statline"><span><strong>${progress.visited}</strong> notes opened</span><span><strong>${progress.mastered}/${progress.cards}</strong> cards mastered</span></div><div class="progress-bar" aria-label="${progress.percent}% of notes opened"><span style="width:${progress.percent}%"></span></div><a class="card-link" href="#book/${encodeURIComponent(book.id)}">Open book contents</a><a class="source-link" href="${routeForDoc(map)}">Resume at book map</a></div></article>`;
   }).join("");
   const reality = DATA.books.filter(book => book.section === "reality");
   const mind = DATA.books.filter(book => book.section === "mind");
   const appendix = (DATA.appendix || []).map(item => `<article class="book-card appendix"><p class="eyebrow">Appendix · ${esc(item.year)}</p><h2>${esc(item.title)}</h2><p class="book-meta">${esc(item.author)}</p><p>${esc(item.summary)}</p><a class="card-link" href="#appendix/${encodeURIComponent(item.id)}">Read the summary</a></article>`).join("");
   const appendixBlock = appendix ? `<div class="track-intro bridge"><span class="track-badge bridge">Appendix</span><h2>Kept as a summary, not a shelf book</h2><p>A tactics manual rather than an inquiry into mind or reality. It stays as a condensed reference for the question of how belief is shaped — see the <a href="#concept/belief-control">Who Shapes Belief?</a> hub.</p></div><div class="book-grid">${appendix}</div>` : "";
-  main.innerHTML = `<section class="page"><div class="library-intro"><div><p class="eyebrow">Source-verified reading notes</p><h1 class="page-title">Library</h1><p class="page-deck">Choose a book first. Its map, chapters, glossary, questions, flashcards, and quiz stay together.</p></div><div class="statline"><span><strong>${DATA.books.length}</strong> books</span><span><strong>${Object.keys(docsById).length}</strong> documents</span></div></div><div class="track-intro"><span class="track-badge">Reality &amp; Physics</span><h2>What might the world be made of?</h2><p>Cosmology, computation, consciousness models, anomalous experience, and the phenomenon. These books can still disagree sharply.</p></div><div class="book-grid">${cards(reality)}</div><div class="track-intro practice"><span class="track-badge practice">Mind &amp; Meaning</span><h2>Attention, self, and how to live</h2><p>Psychology and philosophy: attention, ego, care, suffering, and conduct. Kept because they can change how you observe and live, not because they prove a Theory of Everything.</p></div><div class="book-grid">${cards(mind)}</div>${appendixBlock}</section>`;
+  main.innerHTML = `<section class="page">${resumeStrip()}<div class="library-intro"><div><p class="eyebrow">Source-verified reading notes</p><h1 class="page-title">Library</h1><p class="page-deck">Choose a book first. Its map, chapters, glossary, questions, flashcards, and quiz stay together.</p></div><div class="statline"><span><strong>${DATA.books.length}</strong> books</span><span><strong>${Object.keys(docsById).length}</strong> documents</span></div><div class="study-all"><a class="btn" href="#cards/all">All-book flashcards</a><a class="btn" href="#quiz/all">Cross-book quiz</a></div></div><div class="track-intro"><span class="track-badge">Reality &amp; Physics</span><h2>What might the world be made of?</h2><p>Cosmology, computation, consciousness models, anomalous experience, and the phenomenon. These books can still disagree sharply.</p></div><div class="book-grid">${cards(reality)}</div><div class="track-intro practice"><span class="track-badge practice">Mind &amp; Meaning</span><h2>Attention, self, and how to live</h2><p>Psychology and philosophy: attention, ego, care, suffering, and conduct. Kept because they can change how you observe and live, not because they prove a Theory of Everything.</p></div><div class="book-grid">${cards(mind)}</div>${appendixBlock}</section>`;
   focusMain();
 }
 
@@ -1226,7 +1427,7 @@ function renderBook(bookId, docSlug) {
   const next = docs[currentIndex + 1];
   const rendered = renderMarkdown(doc.body);
   const chips = (doc.concepts || []).map(concept => `<a class="concept-chip" href="${conceptRoute(concept, doc)}">${esc(concept.replace(/-/g, " "))}</a>`).join("");
-  main.innerHTML = `<section class="page"><nav class="crumbs" aria-label="Breadcrumb"><a href="#library">Library</a> / <a href="#book/${encodeURIComponent(book.id)}">${esc(book.title)}</a> / ${esc(docLabel(doc))}</nav><div class="book-shell"><aside class="book-summary"><p class="eyebrow">${esc(book.year)} · ${book.docs.length} notes</p><h1>${esc(book.title)}</h1><p class="book-meta">${esc(book.author)}</p><a class="btn" href="#cards/${encodeURIComponent(book.id)}">Flashcards</a><a class="btn" href="#quiz/${encodeURIComponent(book.id)}">Quiz</a>${bookContents(book, doc.id)}</aside><article class="reader"><details class="chapter-drawer"><summary>Chapter drawer · ${esc(docLabel(doc))}</summary>${bookContents(book, doc.id)}</details><div class="reader-tools"><span>${esc(docLabel(doc))}</span><a href="#book/${encodeURIComponent(book.id)}">Full contents</a></div>${chips ? `<div class="chips" aria-label="Concepts in this note">${chips}</div>` : ""}<div class="markdown">${rendered.html}</div><nav class="chapter-nav" aria-label="Chapter navigation">${previous ? `<a href="${routeForDoc(previous)}">← ${esc(docLabel(previous))}</a>` : "<span></span>"}${next ? `<a href="${routeForDoc(next)}">${esc(docLabel(next))} →</a>` : "<span></span>"}</nav></article></div></section>`;
+  main.innerHTML = `<section class="page"><nav class="crumbs" aria-label="Breadcrumb"><a href="#library">Library</a> / <a href="#book/${encodeURIComponent(book.id)}">${esc(book.title)}</a> / ${esc(docLabel(doc))}</nav><div class="book-shell"><aside class="book-summary"><p class="eyebrow">${esc(book.year)} · ${book.docs.length} notes</p><h1>${esc(book.title)}</h1><p class="book-meta">${esc(book.author)}</p><a class="btn" href="#cards/${encodeURIComponent(book.id)}">Flashcards</a><a class="btn" href="#quiz/${encodeURIComponent(book.id)}">Quiz</a>${bookContents(book, doc.id)}</aside><article class="reader"><details class="chapter-drawer"><summary>Chapter drawer · ${esc(docLabel(doc))}</summary>${bookContents(book, doc.id)}</details><div class="reader-tools"><span>${esc(docLabel(doc))}</span><a href="#book/${encodeURIComponent(book.id)}">Full contents</a></div>${chips ? `<div class="chips" aria-label="Concepts in this note">${chips}</div>` : ""}<div class="markdown">${rendered.html}</div><nav class="chapter-nav" aria-label="Chapter navigation">${previous ? `<a data-nav="prev" href="${routeForDoc(previous)}">← ${esc(docLabel(previous))}</a>` : "<span></span>"}${next ? `<a data-nav="next" href="${routeForDoc(next)}">${esc(docLabel(next))} →</a>` : "<span></span>"}</nav></article></div></section>`;
   bindNoteLinks(book.id);
   focusMain();
 }
@@ -1284,17 +1485,19 @@ function bindNoteLinks(currentBookId) {
 
 let cardState = null;
 function renderCards(bookId, deckFilter) {
-  const book = booksById[bookId];
+  const isAll = bookId === "all";
+  const book = isAll ? { id: "all", title: "All books" } : booksById[bookId];
   if (!book) return renderNotFound("Flashcard deck not found");
   setMode("library");
-  const all = parseCards(book);
+  const all = isAll ? DATA.books.flatMap(b => parseCards(b).map(card => Object.assign({}, card, { bookId: b.id, bookTitle: b.title }))) : parseCards(book);
+  const crumbBook = isAll ? esc(book.title) : '<a href="#book/' + encodeURIComponent(book.id) + '">' + esc(book.title) + "</a>";
   if (!cardState || cardState.bookId !== bookId || deckFilter !== undefined) {
     const selectedDeck = deckFilter === undefined ? null : deckFilter;
     const deck = selectedDeck ? all.filter(card => card.deck === selectedDeck) : all;
     cardState = {
       bookId,
       deck: selectedDeck,
-      queue: shuffle(deck.filter(card => store.cardLevel(bookId, card.term) < 2)).concat(shuffle(deck.filter(card => store.cardLevel(bookId, card.term) >= 2))),
+      queue: shuffle(deck.filter(card => store.cardLevel(card.bookId || bookId, card.term) < 2)).concat(shuffle(deck.filter(card => store.cardLevel(card.bookId || bookId, card.term) >= 2))),
       index: 0,
       revealed: false,
       done: 0,
@@ -1302,7 +1505,7 @@ function renderCards(bookId, deckFilter) {
     };
   }
   const state = cardState;
-  const mastered = all.filter(card => store.cardLevel(bookId, card.term) >= 2).length;
+  const mastered = all.filter(card => store.cardLevel(card.bookId || bookId, card.term) >= 2).length;
   const decks = [...new Set(all.map(card => card.deck))];
   const tabs = ["All", ...decks].map(deck => `<button class="control" data-deck="${esc(deck)}" aria-pressed="${(deck === "All" && !state.deck) || state.deck === deck}">${esc(deck)}</button>`).join("");
   let content;
@@ -1310,20 +1513,20 @@ function renderCards(bookId, deckFilter) {
   else if (state.index >= state.queue.length) content = `<div class="done-message"><h2>Deck complete</h2><p>${state.done} cards reviewed in this session.</p><button class="btn primary" id="cards-again">Study again</button></div>`;
   else {
     const card = state.queue[state.index];
-    const level = store.cardLevel(bookId, card.term);
-    content = `<div class="bigcard"><div class="qtag">${esc(card.deck)}${level >= 2 ? " · mastered" : ""}</div><div class="front">${esc(card.term)}</div>${state.revealed ? `<div class="back">${inlineMarkdown(card.definition)}</div>${card.chapters ? `<div class="meta">Chapters ${esc(card.chapters)}</div>` : ""}` : ""}</div><div class="actions">${state.revealed ? '<button class="btn bad" id="card-again">Again</button><button class="btn good" id="card-got">Got it</button>' : '<button class="btn primary" id="card-reveal">Reveal</button>'}</div>`;
+    const level = store.cardLevel(card.bookId || bookId, card.term);
+    content = `<div class="bigcard"><div class="qtag">${esc(card.deck)}${card.bookTitle ? " · " + esc(card.bookTitle) : ""}${level >= 2 ? " · mastered" : ""}</div><div class="front">${esc(card.term)}</div>${state.revealed ? `<div class="back">${inlineMarkdown(card.definition)}</div>${card.chapters ? `<div class="meta">Chapters ${esc(card.chapters)}</div>` : ""}` : ""}</div><div class="actions">${state.revealed ? '<button class="btn bad" id="card-again">Again</button><button class="btn good" id="card-got">Got it</button>' : '<button class="btn primary" id="card-reveal">Reveal</button>'}</div>`;
   }
-  main.innerHTML = `<section class="study-shell"><nav class="crumbs"><a href="#library">Library</a> / <a href="#book/${encodeURIComponent(book.id)}">${esc(book.title)}</a> / Flashcards</nav><header class="study-head"><p class="eyebrow">Active recall</p><h1>${esc(book.title)}</h1><div class="meter"><span>Mastered <b>${mastered}/${all.length}</b></span><span>This session <b>${state.done}</b></span><span>To retry <b>${state.retry}</b></span></div><div class="study-tabs" aria-label="Card decks">${tabs}</div></header>${content}</section>`;
+  main.innerHTML = `<section class="study-shell"><nav class="crumbs"><a href="#library">Library</a> / ${crumbBook} / Flashcards</nav><header class="study-head"><p class="eyebrow">Active recall</p><h1>${esc(book.title)}</h1><div class="meter"><span>Mastered <b>${mastered}/${all.length}</b></span><span>This session <b>${state.done}</b></span><span>To retry <b>${state.retry}</b></span></div><div class="study-tabs" aria-label="Card decks">${tabs}</div></header>${content}</section>`;
   main.querySelectorAll("[data-deck]").forEach(button => button.addEventListener("click", () => renderCards(bookId, button.dataset.deck === "All" ? null : button.dataset.deck)));
   document.getElementById("card-reveal")?.addEventListener("click", () => { state.revealed = true; renderCards(bookId); });
   document.getElementById("card-got")?.addEventListener("click", () => {
     const card = state.queue[state.index];
-    store.setCard(bookId, card.term, store.cardLevel(bookId, card.term) + 1);
+    store.setCard(card.bookId || bookId, card.term, store.cardLevel(card.bookId || bookId, card.term) + 1);
     state.done++; state.index++; state.revealed = false; renderCards(bookId);
   });
   document.getElementById("card-again")?.addEventListener("click", () => {
     const card = state.queue[state.index];
-    store.setCard(bookId, card.term, 0);
+    store.setCard(card.bookId || bookId, card.term, 0);
     state.retry++;
     state.queue.splice(Math.min(state.index + 5, state.queue.length), 0, card);
     state.index++; state.revealed = false; renderCards(bookId);
@@ -1334,10 +1537,12 @@ function renderCards(bookId, deckFilter) {
 
 let quizState = null;
 function renderQuiz(bookId, groupFilter) {
-  const book = booksById[bookId];
+  const isAll = bookId === "all";
+  const book = isAll ? { id: "all", title: "All books" } : booksById[bookId];
   if (!book) return renderNotFound("Quiz not found");
   setMode("library");
-  const all = parseQuiz(book);
+  const all = isAll ? DATA.books.flatMap(b => parseQuiz(b).map(item => Object.assign({}, item, { group: b.title }))) : parseQuiz(book);
+  const crumbBook = isAll ? esc(book.title) : '<a href="#book/' + encodeURIComponent(book.id) + '">' + esc(book.title) + "</a>";
   if (!quizState || quizState.bookId !== bookId || groupFilter !== undefined) {
     const selectedGroup = groupFilter === undefined ? null : groupFilter;
     quizState = { bookId, group: selectedGroup, items: shuffle(selectedGroup ? all.filter(item => item.group === selectedGroup) : all), index: 0, revealed: false, right: 0, wrong: 0, streak: 0, retry: [] };
@@ -1356,7 +1561,7 @@ function renderQuiz(bookId, groupFilter) {
     const item = state.items[state.index];
     content = `<div class="bigcard"><div class="qtag">${esc(item.group)}</div><div class="front">${esc(item.question)}</div>${state.revealed ? `<div class="back">${inlineMarkdown(item.answer)}</div>` : ""}</div><div class="actions">${state.revealed ? '<button class="btn bad" id="quiz-wrong">I was wrong</button><button class="btn good" id="quiz-right">I was right</button>' : '<button class="btn primary" id="quiz-reveal">Reveal answer</button>'}</div>`;
   }
-  main.innerHTML = `<section class="study-shell"><nav class="crumbs"><a href="#library">Library</a> / <a href="#book/${encodeURIComponent(book.id)}">${esc(book.title)}</a> / Quiz</nav><header class="study-head"><p class="eyebrow">Self-graded quiz</p><h1>${esc(book.title)}</h1><div class="meter"><span>Score <b>${state.right}/${state.right + state.wrong}</b></span><span>Streak <b>${state.streak}</b></span><span>Best <b>${stat.best}</b></span></div><div class="quiz-progress"><span style="width:${Math.round(100 * state.index / Math.max(1, state.items.length))}%"></span></div><div class="study-tabs" aria-label="Quiz sections">${tabs}</div></header>${content}</section>`;
+  main.innerHTML = `<section class="study-shell"><nav class="crumbs"><a href="#library">Library</a> / ${crumbBook} / Quiz</nav><header class="study-head"><p class="eyebrow">Self-graded quiz</p><h1>${esc(book.title)}</h1><div class="meter"><span>Score <b>${state.right}/${state.right + state.wrong}</b></span><span>Streak <b>${state.streak}</b></span><span>Best <b>${stat.best}</b></span></div><div class="quiz-progress"><span style="width:${Math.round(100 * state.index / Math.max(1, state.items.length))}%"></span></div><div class="study-tabs" aria-label="Quiz sections">${tabs}</div></header>${content}</section>`;
   main.querySelectorAll("[data-group]").forEach(button => button.addEventListener("click", () => renderQuiz(bookId, button.dataset.group === "All" ? null : button.dataset.group)));
   document.getElementById("quiz-reveal")?.addEventListener("click", () => { state.revealed = true; renderQuiz(bookId); });
   document.getElementById("quiz-right")?.addEventListener("click", () => {
@@ -1632,7 +1837,7 @@ const visualBuilders = {
         }
         context.stroke();
       });
-      context.fillStyle = "#171a18"; context.font = "12px Aptos, Segoe UI";
+      context.fillStyle = "#eaedf8"; context.font = "12px Aptos, Segoe UI";
       context.fillText("object wave", 10, 24); context.fillText("reference wave", 10, 94); context.fillText("recorded sum", 10, 177);
       output.textContent = `phase ${(p / Math.PI).toFixed(2)}π`;
     };
@@ -1911,8 +2116,8 @@ const visualBuilders = {
     controls.innerHTML = '<button class="control" id="rule-step">Apply rule</button><button class="control" id="rule-reset">Reset</button><output></output>';
     const draw = () => {
       const nodes = Array.from({ length: 3 + step }, (unused, index) => ({ x: 75 + index * Math.min(85, 480 / Math.max(1, 2 + step)), y: index % 2 ? 165 : 95 }));
-      const edges = nodes.slice(1).map((node, index) => `<line x1="${nodes[index].x}" y1="${nodes[index].y}" x2="${node.x}" y2="${node.y}" stroke="#087b78" stroke-width="5"/>`).join("");
-      stage.innerHTML = `<svg viewBox="0 0 640 270" role="img" aria-label="Hypergraph after ${step} rewrite steps"><text x="24" y="28">{{x,y},{y,z}} → {{x,y},{y,w},{w,z}}</text>${edges}${nodes.map((node, index) => `<circle cx="${node.x}" cy="${node.y}" r="21" fill="${index >= 3 ? "#f1e4bb" : "#d4e8e4"}" stroke="#171a18" stroke-width="2"/><text x="${node.x}" y="${node.y + 5}" text-anchor="middle">${index < 3 ? ["x","y","z"][index] : `w${index - 2}`}</text>`).join("")}</svg>`;
+      const edges = nodes.slice(1).map((node, index) => `<line x1="${nodes[index].x}" y1="${nodes[index].y}" x2="${node.x}" y2="${node.y}" stroke="#3fe0d0" stroke-width="5"/>`).join("");
+      stage.innerHTML = `<svg viewBox="0 0 640 270" role="img" aria-label="Hypergraph after ${step} rewrite steps"><text x="24" y="28" fill="#eaedf8">{{x,y},{y,z}} → {{x,y},{y,w},{w,z}}</text>${edges}${nodes.map((node, index) => `<circle cx="${node.x}" cy="${node.y}" r="21" fill="${index >= 3 ? "#f1e4bb" : "#d4e8e4"}" stroke="#171a18" stroke-width="2"/><text x="${node.x}" y="${node.y + 5}" text-anchor="middle">${index < 3 ? ["x","y","z"][index] : `w${index - 2}`}</text>`).join("")}</svg>`;
       controls.querySelector("output").textContent = `${step} update event${step === 1 ? "" : "s"}`;
     };
     controls.querySelector("#rule-step").addEventListener("click", () => { step = Math.min(5, step + 1); draw(); });
@@ -1922,25 +2127,25 @@ const visualBuilders = {
     controls.innerHTML = '<label>Neighborhood radius <input type="range" min="1" max="4" value="1"></label><button class="control" aria-pressed="true" id="hyper-kind">Hyperedges</button><output></output>';
     const radius = controls.querySelector("input"); const kind = controls.querySelector("#hyper-kind"); let hyper = true;
     const points = [[320,135],[240,82],[400,82],[210,180],[430,180],[130,70],[510,65],[115,215],[525,220],[320,235]];
-    const draw = () => { const r = Number(radius.value); stage.innerHTML = `<svg viewBox="0 0 640 270" role="img" aria-label="Connectivity neighborhoods through radius ${r}">${hyper ? '<path d="M320 135L240 82L400 82Z" fill="#d4e8e4" stroke="#087b78" stroke-width="4"/><path d="M240 82L210 180L130 70Z" fill="#f1e4bb" stroke="#a77818" stroke-width="3"/><path d="M400 82L430 180L510 65Z" fill="#d8ebef" stroke="#2d91a1" stroke-width="3"/>' : '<g stroke="#087b78" stroke-width="3"><path d="M320 135L240 82M320 135L400 82M240 82L210 180M400 82L430 180M210 180L115 215M430 180L525 220M240 82L130 70M400 82L510 65M320 135L320 235"/></g>'}${points.map((point, index) => `<circle cx="${point[0]}" cy="${point[1]}" r="${index === 0 ? 17 : 12}" fill="${index <= r * 2 ? "#963a31" : "#fffdf7"}" stroke="#171a18"/><text x="${point[0]}" y="${point[1] + 4}" text-anchor="middle" fill="${index <= r * 2 ? "#fff" : "#171a18"}">${index}</text>`).join("")}</svg>`; controls.querySelector("output").textContent = `V${r}(X): ${Math.min(points.length, 1 + r * 2)} nodes reached`; };
+    const draw = () => { const r = Number(radius.value); stage.innerHTML = `<svg viewBox="0 0 640 270" role="img" aria-label="Connectivity neighborhoods through radius ${r}">${hyper ? '<path d="M320 135L240 82L400 82Z" fill="#d4e8e4" stroke="#3fe0d0" stroke-width="4"/><path d="M240 82L210 180L130 70Z" fill="#f1e4bb" stroke="#a77818" stroke-width="3"/><path d="M400 82L430 180L510 65Z" fill="#d8ebef" stroke="#2d91a1" stroke-width="3"/>' : '<g stroke="#3fe0d0" stroke-width="3"><path d="M320 135L240 82M320 135L400 82M240 82L210 180M400 82L430 180M210 180L115 215M430 180L525 220M240 82L130 70M400 82L510 65M320 135L320 235"/></g>'}${points.map((point, index) => `<circle cx="${point[0]}" cy="${point[1]}" r="${index === 0 ? 17 : 12}" fill="${index <= r * 2 ? "#963a31" : "#fffdf7"}" stroke="#171a18"/><text x="${point[0]}" y="${point[1] + 4}" text-anchor="middle" fill="${index <= r * 2 ? "#fff" : "#171a18"}">${index}</text>`).join("")}</svg>`; controls.querySelector("output").textContent = `V${r}(X): ${Math.min(points.length, 1 + r * 2)} nodes reached`; };
     radius.addEventListener("input", draw); kind.addEventListener("click", () => { hyper = !hyper; kind.textContent = hyper ? "Hyperedges" : "Binary edges"; kind.setAttribute("aria-pressed", String(hyper)); draw(); }); draw();
   },
   "multiway-system"(stage, controls) {
     let all = true;
     controls.innerHTML = '<button class="control" id="multi-toggle" aria-pressed="true">Show all legal paths</button><output></output>';
-    const draw = () => { stage.innerHTML = `<svg viewBox="0 0 640 270" role="img" aria-label="${all ? "All branching and merging update histories" : "One selected update history"}"><g fill="none" stroke-width="5"><path d="M70 135L220 65L390 65L555 135" stroke="#087b78"/><path d="M70 135L220 205L390 205L555 135" stroke="${all ? "#963a31" : "#c8c2b7"}" opacity="${all ? 1 : .28}"/><path d="M220 65L390 205" stroke="${all ? "#a77818" : "#c8c2b7"}" stroke-dasharray="6 6" opacity="${all ? 1 : .2}"/></g>${[[70,135,"A"],[220,65,"B"],[220,205,"C"],[390,65,"D"],[390,205,"E"],[555,135,"F"]].map(([x,y,label]) => `<circle cx="${x}" cy="${y}" r="24" fill="#fffdf7" stroke="#171a18" stroke-width="2"/><text x="${x}" y="${y + 5}" text-anchor="middle">${label}</text>`).join("")}<text x="70" y="185" text-anchor="middle">fork</text><text x="555" y="185" text-anchor="middle">join</text></svg>`; controls.querySelector("output").textContent = all ? "3 histories visible; state F is shared" : "1 history followed; alternatives still legal"; };
+    const draw = () => { stage.innerHTML = `<svg viewBox="0 0 640 270" role="img" aria-label="${all ? "All branching and merging update histories" : "One selected update history"}"><g fill="none" stroke-width="5"><path d="M70 135L220 65L390 65L555 135" stroke="#3fe0d0"/><path d="M70 135L220 205L390 205L555 135" stroke="${all ? "#963a31" : "#c8c2b7"}" opacity="${all ? 1 : .28}"/><path d="M220 65L390 205" stroke="${all ? "#a77818" : "#c8c2b7"}" stroke-dasharray="6 6" opacity="${all ? 1 : .2}"/></g>${[[70,135,"A"],[220,65,"B"],[220,205,"C"],[390,65,"D"],[390,205,"E"],[555,135,"F"]].map(([x,y,label]) => `<circle cx="${x}" cy="${y}" r="24" fill="#fffdf7" stroke="#171a18" stroke-width="2"/><text x="${x}" y="${y + 5}" text-anchor="middle">${label}</text>`).join("")}<text x="70" y="185" text-anchor="middle" fill="#eaedf8">fork</text><text x="555" y="185" text-anchor="middle" fill="#eaedf8">join</text></svg>`; controls.querySelector("output").textContent = all ? "3 histories visible; state F is shared" : "1 history followed; alternatives still legal"; };
     controls.querySelector("button").addEventListener("click", event => { all = !all; event.currentTarget.setAttribute("aria-pressed", String(all)); event.currentTarget.textContent = all ? "Show all legal paths" : "Following one path"; draw(); }); draw();
   },
   "causal-foliation"(stage, controls) {
     controls.innerHTML = '<label>Foliation tilt <input type="range" min="-28" max="28" value="0"></label><output></output>';
     const input = controls.querySelector("input"); const output = controls.querySelector("output");
-    const draw = () => { const tilt = Number(input.value); const slices = [65,135,205].map(y => `<line x1="55" y1="${y - tilt}" x2="585" y2="${y + tilt}" stroke="#963a31" stroke-width="3" stroke-dasharray="10 7"/>`).join(""); stage.innerHTML = `<svg viewBox="0 0 640 270" role="img" aria-label="Fixed causal graph with foliation tilt ${tilt} degrees"><defs><marker id="ca" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#171a18"/></marker></defs><g stroke="#171a18" stroke-width="3" marker-end="url(#ca)"><path d="M160 55L270 115"/><path d="M160 55L390 115"/><path d="M270 115L320 205"/><path d="M390 115L320 205"/><path d="M390 115L500 205"/></g>${slices}${[[160,55,"A"],[270,115,"B"],[390,115,"C"],[320,205,"D"],[500,205,"E"]].map(([x,y,label]) => `<circle cx="${x}" cy="${y}" r="19" fill="#d4e8e4" stroke="#171a18"/><text x="${x}" y="${y + 5}" text-anchor="middle">${label}</text>`).join("")}</svg>`; output.textContent = tilt < -8 ? "observer frame tilts left" : tilt > 8 ? "observer frame tilts right" : "reference foliation"; };
+    const draw = () => { const tilt = Number(input.value); const slices = [65,135,205].map(y => `<line x1="55" y1="${y - tilt}" x2="585" y2="${y + tilt}" stroke="#963a31" stroke-width="3" stroke-dasharray="10 7"/>`).join(""); stage.innerHTML = `<svg viewBox="0 0 640 270" role="img" aria-label="Fixed causal graph with foliation tilt ${tilt} degrees"><defs><marker id="ca" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#99a2c2"/></marker></defs><g stroke="#99a2c2" stroke-width="3" marker-end="url(#ca)"><path d="M160 55L270 115"/><path d="M160 55L390 115"/><path d="M270 115L320 205"/><path d="M390 115L320 205"/><path d="M390 115L500 205"/></g>${slices}${[[160,55,"A"],[270,115,"B"],[390,115,"C"],[320,205,"D"],[500,205,"E"]].map(([x,y,label]) => `<circle cx="${x}" cy="${y}" r="19" fill="#d4e8e4" stroke="#171a18"/><text x="${x}" y="${y + 5}" text-anchor="middle">${label}</text>`).join("")}</svg>`; output.textContent = tilt < -8 ? "observer frame tilts left" : tilt > 8 ? "observer frame tilts right" : "reference foliation"; };
     input.addEventListener("input", draw); draw();
   },
   "branchial-space"(stage, controls) {
     controls.innerHTML = '<label>History divergence <input type="range" min="0" max="100" value="35"></label><output></output>';
     const input = controls.querySelector("input"); const output = controls.querySelector("output");
-    const draw = () => { const divergence = Number(input.value); const spread = 55 + divergence * 1.8; const left = 320 - spread; const right = 320 + spread; const opacity = Math.max(.12, 1 - divergence / 110); stage.innerHTML = `<svg viewBox="0 0 640 270" role="img" aria-label="Branchial states separated by divergence ${divergence}"><path d="M320 45L${left} 130M320 45L${right} 130" stroke="#171a18" stroke-width="4"/><path d="M${left} 130L${left - 45} 220M${right} 130L${right + 45} 220" stroke="#087b78" stroke-width="4"/><line x1="${left}" y1="130" x2="${right}" y2="130" stroke="#963a31" stroke-width="7" opacity="${opacity}"/><circle cx="320" cy="45" r="20" fill="#f1e4bb" stroke="#171a18"/><circle cx="${left}" cy="130" r="23" fill="#d4e8e4" stroke="#171a18"/><circle cx="${right}" cy="130" r="23" fill="#d8ebef" stroke="#171a18"/><text x="320" y="22" text-anchor="middle">common ancestor</text><text x="${left}" y="135" text-anchor="middle">state L</text><text x="${right}" y="135" text-anchor="middle">state R</text><text x="320" y="165" text-anchor="middle">branchial relation</text></svg>`; output.textContent = divergence < 30 ? "nearby: strongly shared history" : divergence < 70 ? "separating alternatives" : "distant branches: weak relation"; };
+    const draw = () => { const divergence = Number(input.value); const spread = 55 + divergence * 1.8; const left = 320 - spread; const right = 320 + spread; const opacity = Math.max(.12, 1 - divergence / 110); stage.innerHTML = `<svg viewBox="0 0 640 270" role="img" aria-label="Branchial states separated by divergence ${divergence}"><path d="M320 45L${left} 130M320 45L${right} 130" stroke="#99a2c2" stroke-width="4"/><path d="M${left} 130L${left - 45} 220M${right} 130L${right + 45} 220" stroke="#3fe0d0" stroke-width="4"/><line x1="${left}" y1="130" x2="${right}" y2="130" stroke="#963a31" stroke-width="7" opacity="${opacity}"/><circle cx="320" cy="45" r="20" fill="#f1e4bb" stroke="#171a18"/><circle cx="${left}" cy="130" r="23" fill="#d4e8e4" stroke="#171a18"/><circle cx="${right}" cy="130" r="23" fill="#d8ebef" stroke="#171a18"/><text x="320" y="22" text-anchor="middle" fill="#eaedf8">common ancestor</text><text x="${left}" y="135" text-anchor="middle">state L</text><text x="${right}" y="135" text-anchor="middle">state R</text><text x="320" y="165" text-anchor="middle" fill="#eaedf8">branchial relation</text></svg>`; output.textContent = divergence < 30 ? "nearby: strongly shared history" : divergence < 70 ? "separating alternatives" : "distant branches: weak relation"; };
     input.addEventListener("input", draw); draw();
   },
   "theory-comparison"(stage, controls) {
@@ -2003,6 +2208,64 @@ function renderRoute() {
   }
 }
 
+const THEME_KEY = "themindbook-theme";
+function applyTheme(value) {
+  if (value === "light") document.documentElement.setAttribute("data-theme", "light");
+  else document.documentElement.removeAttribute("data-theme");
+  const meta = document.querySelector('meta[name="color-scheme"]');
+  if (meta) meta.setAttribute("content", value === "light" ? "light" : "dark");
+}
+let themeSetting = "dark";
+try { themeSetting = localStorage.getItem(THEME_KEY) === "light" ? "light" : "dark"; } catch { themeSetting = "dark"; }
+applyTheme(themeSetting);
+document.getElementById("theme-toggle").addEventListener("click", () => {
+  themeSetting = themeSetting === "light" ? "dark" : "light";
+  try { localStorage.setItem(THEME_KEY, themeSetting); } catch {}
+  applyTheme(themeSetting);
+});
+
+const suggestBox = document.getElementById("search-suggest");
+function quickSearch(query) {
+  const needle = query.toLowerCase();
+  const out = [];
+  const push = (type, title, route) => { if (out.length < 9 && !out.some(item => item.route === route)) out.push({ type, title, route }); };
+  DATA.atlas.forEach(hub => { if (hub.title.toLowerCase().includes(needle)) push("Hub", hub.title, `#concept/${encodeURIComponent(hub.id)}`); });
+  DATA.books.forEach(book => { if (`${book.title} ${book.author}`.toLowerCase().includes(needle)) push("Book", `${book.title} — ${book.author}`, `#book/${encodeURIComponent(book.id)}`); });
+  DATA.dossiers.forEach(dossier => { if (dossier.title.toLowerCase().includes(needle)) push("Dossier", dossier.title, `#research/${encodeURIComponent(dossier.id)}`); });
+  DATA.books.forEach(book => book.docs.forEach(doc => {
+    const hay = `${doc.title} ${(doc.concepts || []).join(" ")} ${(doc.people || []).join(" ")}`.toLowerCase();
+    if (hay.includes(needle)) push("Note", `${book.title} · ${docLabel(doc)}`, routeForDoc(doc));
+  }));
+  return out;
+}
+function hideSuggest() { suggestBox.hidden = true; }
+let suggestTimer = 0;
+globalQuery.addEventListener("input", () => {
+  clearTimeout(suggestTimer);
+  suggestTimer = setTimeout(() => {
+    const query = globalQuery.value.trim();
+    if (query.length < 2) { hideSuggest(); return; }
+    const hits = quickSearch(query);
+    suggestBox.innerHTML = hits.map(hit => `<a href="${hit.route}"><span class="result-type">${esc(hit.type)}</span><span>${esc(hit.title)}</span></a>`).join("") + `<a class="see-all" href="#search/${encodeURIComponent(query)}">All results for “${esc(query)}” →</a>`;
+    suggestBox.hidden = false;
+  }, 130);
+});
+globalQuery.addEventListener("keydown", event => { if (event.key === "Escape") hideSuggest(); });
+document.addEventListener("click", event => { if (!event.target.closest(".search-form")) hideSuggest(); });
+window.addEventListener("hashchange", hideSuggest);
+
+addEventListener("keydown", event => {
+  if (event.metaKey || event.ctrlKey || event.altKey) return;
+  const target = event.target;
+  const typing = target && (target.tagName === "INPUT" || target.tagName === "TEXTAREA" || target.tagName === "SELECT" || target.isContentEditable);
+  if (event.key === "/" && !typing) { event.preventDefault(); globalQuery.focus(); globalQuery.select(); return; }
+  if (typing) return;
+  if (event.key === "ArrowLeft" || event.key === "ArrowRight") {
+    const link = main.querySelector('.chapter-nav a[data-nav="' + (event.key === "ArrowLeft" ? "prev" : "next") + '"]');
+    if (link) location.hash = link.getAttribute("href");
+  }
+});
+
 document.getElementById("global-search").addEventListener("submit", event => {
   event.preventDefault();
   location.hash = `#search/${encodeURIComponent(globalQuery.value.trim())}`;
@@ -2010,5 +2273,6 @@ document.getElementById("global-search").addEventListener("submit", event => {
 window.addEventListener("hashchange", renderRoute);
 renderRoute();
 </script>
-</body>
-</html>
+
+
+</body></html>
