@@ -66,6 +66,15 @@ continue the project from this document alone (plus the repo contents).
 
 Hard-won additions (from the Satan + COMETA runs, ~50 verified units):
 
+- **Guard the unit's far boundary, not just its start.** Writers read past the
+  end for context and silently absorb it. Verifiers must re-derive both edges
+  and then test every concept, person and voice-claim in the note against the
+  unit's own range — anything sourced from the next unit is leakage even
+  though it is true of the book. Real case: a concept, a named person and a
+  claim about whose voice appears all belonged to the following unit. The
+  reciprocal check matters too: material that straddles the boundary (a text
+  opening in one unit and concluding in the next) must be handled by one unit
+  and cross-referenced from the other, never duplicated or dropped by both.
 - **Never trust pre-cut chapter files.** Re-locate every unit's boundaries in
   the full text by searching for its title/author/signature. (Satan: most of
   31 splits were mis-bounded; near-duplicate essay titles broke the splitter.)
@@ -74,6 +83,41 @@ Hard-won additions (from the Satan + COMETA runs, ~50 verified units):
   section heads, and small-caps blocks that are perfectly legible on the page
   image). One "lost passage" was fabricated this way; several others were
   fully recovered from the image.
+- **Know the two recovery techniques before you flag anything as lost.** Across
+  the Books of the Dead, eight pages were recorded as destroyed; seven were
+  recoverable and one was genuinely lost. Flagging is not the safe default —
+  it silently deletes teaching from the note.
+  1. **Phantom-tag recovery (EPUB/HTML sources).** An unclosed `<` in the OCR
+     swallows the rest of the page into tag attributes. `full.txt` drops it;
+     the per-page `page_NNN.html` still holds it. Derive the page-file offset
+     first (it is rarely 1:1 — one book's was `page_N` = printed p. N−94), then
+     test the specific page. **Recovery quality is uneven, and which kind you
+     got decides whether you may quote it:**
+     - Swallowed into a **processing instruction** (`<? … ?>`): capitalisation
+       and punctuation survive intact. Quotable as a transcript, with the
+       recovery disclosed.
+     - Swallowed into **tag attributes**: word order survives but duplicate
+       words are dropped and case is flattened. This is a **reading, never a
+       transcript** — label it a reconstruction, cite the file, and never set
+       it in quotation marks.
+     Say which kind you have at every point of use. This recovered three of six
+     bardos in one unit, a colophon in another, and — in a section written off
+     as destroyed — the most concrete piece of evidence it contained.
+  2. **The photograph-spread test (illustrated editions).** A low
+     OCR-accuracy warning usually marks a picture, not lost prose. Prove it
+     with the edition's own "(Opposite)" / "(Previous spread)" /
+     "(Following spread)" captions plus a prose-join check across the gap.
+     Every such warning tested so far has been a plate.
+  Sweep the whole unit for both defects, not only the places already flagged —
+  that is how you learn whether a fourth recovery exists, and how you catch
+  damage that is footnote debris rather than body-text loss.
+- **Recovery must not become licence to guess.** The same passes that recovered
+  real text also slipped in invented completions — a lost noun finished to
+  `Wind of [Karma]`, a garbled fish-name "corrected" to a form that appears
+  nowhere in the volume, with a fabricated claim that it did. Quote the garble
+  only. A reading is permitted solely when its evidence is stated inline (e.g.
+  strict sequential position between two intact numerals), and it must be
+  labelled an inference rather than a reading of the page.
 - **Any claim about the printed page needs the page image**, not just the text
   layer — chapter titles, running heads, section heads, contents layout. The
   text layer silently drops and re-orders these. Real cases: a chapter title

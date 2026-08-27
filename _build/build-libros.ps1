@@ -26,6 +26,8 @@ $bookMeta = @{
     'satan' = @{ title = 'Satan'; author = 'ed. Bruno de Jesus-Marie'; year = '1951'; shelf = 'reality'; section = 'reality'; bridge = $true }
     'cometa-report' = @{ title = 'The COMETA Report'; author = 'COMETA (chaired by Denis Letty)'; year = '1999'; shelf = 'reality'; section = 'reality'; bridge = $true }
     'watch-the-skies' = @{ title = 'Watch the Skies!'; author = 'Curtis Peebles'; year = '1994'; shelf = 'reality'; section = 'reality'; bridge = $true }
+    'tibetan-book-of-the-dead' = @{ title = 'The Tibetan Book of the Dead'; author = 'ed. W. Y. Evans-Wentz, trans. Kazi Dawa-Samdup'; year = '1957'; shelf = 'practice'; section = 'mind'; bridge = $true }
+    'egyptian-book-of-the-dead' = @{ title = 'The Ancient Egyptian Book of the Dead'; author = 'trans. E. A. Wallis Budge; intro. Epiphanius Wilson'; year = '2016'; shelf = 'practice'; section = 'mind'; bridge = $true }
 }
 
 function Parse-Note([string]$path) {
