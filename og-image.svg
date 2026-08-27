@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="Georgia, 'Palatino Linotype', serif">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#43e8d6" stop-opacity=".9"/>
+      <stop offset="45%" stop-color="#43e8d6" stop-opacity=".18"/>
+      <stop offset="100%" stop-color="#43e8d6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="amb" cx="18%" cy="0%" r="90%">
+      <stop offset="0%" stop-color="#141c34" stop-opacity=".9"/>
+      <stop offset="100%" stop-color="#05070e" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse">
+      <path d="M26 0H0V26" fill="none" stroke="#2b3557" stroke-width="1" opacity=".5"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#05070e"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <rect width="1200" height="630" fill="url(#amb)"/>
+  <rect x="0" y="0" width="1200" height="6" fill="#ff6b6b"/>
+
+  <!-- constellation -->
+  <g transform="translate(915 315)">
+    <ellipse cx="0" cy="0" rx="235" ry="235" fill="url(#glow)"/>
+    <g fill="none" stroke="#a996ff" stroke-opacity=".38" stroke-width="2">
+      <polygon points="0,-170 147,-85 147,85 0,170 -147,85 -147,-85"/>
+    </g>
+    <g fill="none" stroke="#43e8d6" stroke-opacity=".42" stroke-width="2">
+      <polygon points="0,-110 95,-55 95,55 0,110 -95,55 -95,-55"/>
+    </g>
+    <g stroke="#43e8d6" stroke-opacity=".33" stroke-width="1.5">
+      <line x1="0" y1="0" x2="-150" y2="-120"/><line x1="0" y1="0" x2="150" y2="-120"/>
+      <line x1="0" y1="0" x2="-185" y2="30"/><line x1="0" y1="0" x2="185" y2="35"/>
+      <line x1="0" y1="0" x2="-110" y2="150"/><line x1="0" y1="0" x2="120" y2="150"/>
+      <line x1="0" y1="0" x2="0" y2="-185"/><line x1="0" y1="0" x2="0" y2="185"/>
+    </g>
+    <g>
+      <circle cx="-150" cy="-120" r="9" fill="#43e8d6"/><circle cx="150" cy="-120" r="9" fill="#ffcf5c"/>
+      <circle cx="-185" cy="30" r="9" fill="#43e8d6"/><circle cx="185" cy="35" r="9" fill="#ffcf5c"/>
+      <circle cx="-110" cy="150" r="9" fill="#58d8ff"/><circle cx="120" cy="150" r="9" fill="#a996ff"/>
+      <circle cx="0" cy="-185" r="9" fill="#a996ff"/><circle cx="0" cy="185" r="9" fill="#58d8ff"/>
+    </g>
+    <circle cx="0" cy="0" r="17" fill="#eef1fb"/>
+  </g>
+
+  <!-- wordmark -->
+  <text x="90" y="250" fill="#eef1fb" font-size="96" font-weight="700">TheMindBook</text>
+  <rect x="94" y="286" width="132" height="4" fill="#ff6b6b"/>
+  <text x="92" y="342" fill="#b4bcda" font-size="34" font-family="'Segoe UI', system-ui, sans-serif">A source-verified atlas of mind &amp; reality</text>
+  <text x="92" y="392" fill="#99a2c2" font-size="25" font-family="'Segoe UI', system-ui, sans-serif">Consciousness · simulation · the nature of reality —</text>
+  <text x="92" y="426" fill="#99a2c2" font-size="25" font-family="'Segoe UI', system-ui, sans-serif">every claim traced to its chapter.</text>
+</svg>
