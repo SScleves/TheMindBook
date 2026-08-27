@@ -20,7 +20,8 @@
         { "book": "holographic-universe", "stance": "Fundamental and participatory — a distributed, holographic process inside an undivided whole." },
         { "book": "my-big-toe", "stance": "The primary substrate: matter and brains are virtual constructs within consciousness." },
         { "book": "sekret-machines-man", "stance": "Science's black box — surveyed as brain-generated, DNA-encoded, or radio-received, landing on a DNA inference the authors flag as their own." },
-        { "book": "simulation-hypothesis", "stance": "Possibly a player outside the render operating a body inside it — kept open as a bet, not a result." }
+        { "book": "simulation-hypothesis", "stance": "Possibly a player outside the render operating a body inside it — kept open as a bet, not a result." },
+        { "book": "tibetan-book-of-the-dead", "stance": "Fundamental and unproduced — the liturgy has every sentient being glimpse the Clear Light, 'the Infallible Mind of the Dharma-Kaya,' at the instant of death, and treats recognizing it as one's own consciousness as the whole of what is required." }
       ]
     },
     {
@@ -64,6 +65,17 @@
       "positions": [
         { "book": "power-of-now", "stance": "Step out of compulsive thought into the Now; the ego is a pain-body sustained by identification." },
         { "book": "zen-motorcycle", "stance": "Recover Quality — the pre-intellectual event before subject and object divide — through care and attention." }
+      ]
+    },
+    {
+      "id": "where-the-judge-stands",
+      "hub": "self-ego",
+      "title": "Is the judge inside the person or outside?",
+      "crux": "Three books stage a tribunal over a life and disagree about where it stands, and the disagreement decides the remedy: mastery, recognition, or resistance. What is compared is each book's own answer about the location of the judge, not the shared scenery — a weighing, an accuser, an underworld — which is resemblance and evidence of nothing. The two Books of the Dead answer from inside their own funerary liturgies; the 1951 Satan anthology answers about possession and temptation rather than about death, and it does not answer with one voice.",
+      "positions": [
+        { "book": "egyptian-book-of-the-dead", "stance": "Both, and the inside half is the dangerous one — the court is external, but the heart is a witness that could convict its owner, so a spell is recited over it while it hangs in the Balance." },
+        { "book": "tibetan-book-of-the-dead", "stance": "Wholly inside — the Lord of Death, the two pebble-counting geniuses and the Mirror of Karma are staged in full and then declared the hearer's own hallucinations, with nothing of the kind existing outside oneself." },
+        { "book": "satan", "stance": "Doctrinally outside, an accuser who 'stood accusing them in God's presence' before a self whose intellect and will stay inaccessible — while the same volume's clinicians describe devils that are 'not new guests, but as old guests' assembled from the subject's own history." }
       ]
     },
     {
@@ -154,6 +166,33 @@
       "sourceDocs": [
         "notes/cometa-report/17-appendices-4-7.md",
         "notes/watch-the-skies/17-aliens-among-us.md"
+      ]
+    },
+    {
+      "id": "two-books-of-the-dead",
+      "fromHub": "self-ego",
+      "toHub": "evidence",
+      "title": "One volume draws the comparison ↔ what a resemblance can carry",
+      "claim": "The link between the two Books of the Dead on this shelf is not the reader's: the Tibetan volume draws it, by name, and extends an argument begun earlier in the same Introduction. Section IX itemizes the two Judgement Scenes point for point — Dharma-Rāja against Osiris, black and white pebbles against heart and feather, monkey-headed Shinje against ape-headed Thoth, the Mirror of Karma against Thoth's record-board, a jury of part-animal-headed deities in both — and concludes they are alike enough 'in essentials' to suggest a common prehistoric origin 'at present unknown.' The Egyptian notes are therefore where that claim can be tested rather than repeated, and two findings cut across it. First, a convergence Evans-Wentz never claims: neither book threatens endless torment. Budge's chapter on Osiris as judge states that 'there was no eternal punishment for men, for the wicked were annihilated quickly and completely,' and the Tibetan liturgy's worst outcome is a birth — the hell-world is one of the six lokas karma can blow the deceased into, not a final sentence. Second, both locate part of the tribunal inside the person and then escape it in opposite directions: the Egyptian by mastery, reciting a spell over his own heart so it will not testify against him, and the Tibetan by recognition, told that the Lord of Death has no existence outside oneself.",
+      "disclosure": "The comparison is one editor's, made in one direction, and it hardens as it travels — a resemblance offered as suggestion earlier in his Introduction is an established common origin by Section IX, with the Mirror of Karma assigned as a later Indian addition to a prehistoric original nobody has produced. Nothing reciprocates from the Egyptian side: that volume's own notes record that no genuine cross-book link runs outward from its units, and that a weighing of souls, an accuser and an underworld journey are exactly the motif-matching this project excludes. 'Shinje' belongs to the editorial apparatus; the translated liturgy names the judge only as the Lord of Death. Read this as a documented claim by a named editor, plus one convergence about what is at stake that either side can be checked on, and not as evidence that the two corpora are related.",
+      "sourceDocs": [
+        "notes/tibetan-book-of-the-dead/06-intro-judgement-and-rebirth.md",
+        "notes/tibetan-book-of-the-dead/11-book2-after-death-world.md",
+        "notes/egyptian-book-of-the-dead/03-osiris-judge-of-the-dead.md",
+        "notes/egyptian-book-of-the-dead/04-the-judgment-of-osiris.md"
+      ]
+    },
+    {
+      "id": "chaldon-judgement-painting",
+      "fromHub": "purpose-ethics",
+      "toHub": "evidence",
+      "title": "A Surrey parish wall-painting ↔ what an image-by-image match proves",
+      "claim": "The Tibetan volume's strongest concrete comparison is pictorial rather than textual, and it is the one place where its editor sets an image against an image instead of a theme against a theme. In the Addenda, Evans-Wentz reads a Judgement wall-painting in Chaldon Church, Surrey, against a Tibetan Judgement painting and matches them item for item: in both, the dead are judged in an intermediate state with a heaven-world above and a hell-world below; in the Christianized version St. Michael stands where the Tibetan judge stands and holds the scales, but souls are weighed instead of karmic actions; the six karmic pathways to the lokas have become a single ladder to heaven, at the top of which Christ waits in place of the Buddhas of the lokas, with the sun at his right hand and the moon at his left as though he were a Buddha; and the hell-world below carries the same cauldron and the same spikes. The differences are the part worth carrying, because they are differences about what a life is judged on — a soul rather than a record of acts, one destination rather than six.",
+      "disclosure": "Two cautions travel with this and must not be dropped. First, the passage survives in this edition only as recovery from swallowed markup, which flattens capitalisation, drops repeated words and loses punctuation: the wording above is a reading of recovered evidence and not a transcript, nothing from it should be presented as the editor's exact words, and none of it may be set in quotation marks. Second, the parallel is the editor's own, drawn between an English parish painting and a Tibetan Judgement painting made to monastic order at Gangtok in 1919, and it is the evidence his closing inference rests on — that Christian and Jewish symbolism is largely adapted from Egyptian and Eastern religions, and that the nations of mankind are 'mentally and spiritually one.' A matched image is a stronger comparison than a matched theme; it is still resemblance, and this volume's habit is to convert resemblance into descent. 'Shinje', the name the Addenda give the figure St. Michael replaces, is the apparatus's and not the liturgy's, which names the judge only as the Lord of Death.",
+      "sourceDocs": [
+        "notes/tibetan-book-of-the-dead/14-addenda.md",
+        "notes/tibetan-book-of-the-dead/06-intro-judgement-and-rebirth.md",
+        "notes/tibetan-book-of-the-dead/11-book2-after-death-world.md"
       ]
     }
   ]

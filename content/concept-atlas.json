@@ -39,6 +39,15 @@
           "notes/sekret-machines-man/09-7-the-hard-problem.md",
           "notes/sekret-machines-man/11-9-the-evolution-of-consciousness.md"
         ]
+      },
+      {
+        "book": "tibetan-book-of-the-dead",
+        "position": "The translated liturgy treats consciousness as prior and unproduced. At the instant of death \"the first [glimpsing] of the Bardo of the Clear Light of Reality, which is the Infallible Mind of the Dharma-Kaya, is experienced by all sentient beings\" — everyone, not only adepts — and the officiant's whole task is to have the dying recognize it as their own: \"Thine own consciousness, shining, void, and inseparable from the Great Body of Radiance... Knowing this is sufficient.\" Everything that dawns afterwards is referred back to the hearer's own heart or brain, so mind is never a product of a body here. The stronger formulations around the text are framing and should be kept separate from it: the Knower that \"neither incarnates nor re-incarnates — it is the Spectator\" is the translator's opinion as the editor reports it, and Jung's claim that \"even the gods are the radiance and reflection of our own souls\" is his own psychological axiom about the psyche rather than a statement about what survives.",
+        "sourceDocs": [
+          "notes/tibetan-book-of-the-dead/08-book1-chikhai-clear-light.md",
+          "notes/tibetan-book-of-the-dead/06-intro-judgement-and-rebirth.md",
+          "notes/tibetan-book-of-the-dead/01-jung-psychological-commentary.md"
+        ]
       }
     ],
     "connections": [
@@ -209,6 +218,16 @@
         "sourceDocs": [
           "notes/american-cosmic/05-when-star-wars-became-real.md"
         ]
+      },
+      {
+        "book": "tibetan-book-of-the-dead",
+        "position": "The liturgy's single instruction is that what appears is manufactured by the percipient: \"It is quite sufficient for thee to know that these apparitions are thine own thought-forms,\" the forty-two peaceful deities \"issuing from within thy heart,\" each wrathful Heruka from a named quarter of the hearer's own brain, and the terrifying forms of the Lord of Death \"exist not in reality.\" Its account of how the construction is undone is the stuffed lion-skin: fear ends when someone tells you what you are looking at, which makes recognition rather than perception the operative faculty. Evans-Wentz extends the premise into a cultural claim the text does not itself make — that the visions describe only what a devotee of one school would visualize, so that a Moslem, a Christian, an American Indian or a materialist would meet correspondingly different or empty ones — and Govinda reaches the same conclusion from inside the tradition. Both are the apparatus's inference, not the liturgy's statement.",
+        "sourceDocs": [
+          "notes/tibetan-book-of-the-dead/09-book1-peaceful-deities.md",
+          "notes/tibetan-book-of-the-dead/10-book1-wrathful-deities.md",
+          "notes/tibetan-book-of-the-dead/05-intro-wisdom-and-death-rites.md",
+          "notes/tibetan-book-of-the-dead/02-govinda-foreword.md"
+        ]
       }
     ],
     "connections": [
@@ -260,7 +279,7 @@
     "track": "practice",
     "title": "Who Is the Self?",
     "question": "Is the self an enduring agent, a useful interface, a divided narrative, or an ego built from fear and identification?",
-    "orientation": "Practice track: this hub asks how models of self and ego change day-to-day observation, conduct, relationship, and self-protection. Tolle contributes introspective practice rather than evidence for consciousness-first physics; Pirsig contributes philosophy and lived integration rather than a physical Theory of Everything; Campbell is an explicit bridge because his cosmology also prescribes conduct. The Satan anthology enters here as description rather than practice: its 1951 clinical and doctrinal accounts of a divided self are offered as diagnosis and dogma, prescribe nothing for ordinary conduct, and do not support the other positions' ontologies.",
+    "orientation": "Practice track: this hub asks how models of self and ego change day-to-day observation, conduct, relationship, and self-protection. Tolle contributes introspective practice rather than evidence for consciousness-first physics; Pirsig contributes philosophy and lived integration rather than a physical Theory of Everything; Campbell is an explicit bridge because his cosmology also prescribes conduct. The Satan anthology enters here as description rather than practice: its 1951 clinical and doctrinal accounts of a divided self are offered as diagnosis and dogma, prescribe nothing for ordinary conduct, and do not support the other positions' ontologies. The two Books of the Dead enter on the same footing as description rather than practice, and as funerary corpora rather than manuals for living: each specifies what becomes of a self at death — the Egyptian working to keep it intact and equipped, the Tibetan to have it recognised as self-generated and let go — and neither prescribes anything for ordinary conduct.",
     "bookPositions": [
       {
         "book": "power-of-now",
@@ -296,6 +315,24 @@
           "notes/satan/12-demoniacs-in-the-gospel.md",
           "notes/satan/14-aspects-of-possession.md",
           "notes/satan/19-pseudo-possession.md"
+        ]
+      },
+      {
+        "book": "egyptian-book-of-the-dead",
+        "position": "A funerary corpus rather than a practice book, and it enters here because its tribunal reaches inside the person it judges. The heart is weighed as \"the symbol of all the emotions, desires, and passions, both good and evil,\" and Ani recites Chapter XXXB over it while it hangs in the Balance — \"Make no stand against me when testifying... utter no lie against me before the Great God\" — so a part of the self is a witness that could convict its owner and has to be quieted; Thoth's verdict likewise records that \"his soul hath borne testimony concerning him\" without ever giving the words. The same reach inward appears in the bargain struck with the seven who \"make slaughterings in the Lake of Fire\": \"I know you and I know your names... for ye live in me and I would live in you.\" What the book prescribes is mastery, not dissolution — the self is equipped, defended, finally rejoined to its own body and promised a name that never perishes, and nothing in it asks the deceased to stop being someone. The reading of Chapter XXXB as silencing a hostile witness is the note's inference from the quoted wording rather than Budge's own gloss.",
+        "sourceDocs": [
+          "notes/egyptian-book-of-the-dead/04-the-judgment-of-osiris.md",
+          "notes/egyptian-book-of-the-dead/08-preservation-of-the-soul.md",
+          "notes/egyptian-book-of-the-dead/10-soul-body-and-the-fields.md"
+        ]
+      },
+      {
+        "book": "tibetan-book-of-the-dead",
+        "position": "Also a funerary liturgy rather than a practice manual, and it takes the opposite exit from the same problem. It stages the most externalized tribunal on this shelf — a Good Genius counting good deeds with white pebbles and an Evil Genius counting evil ones with black, both \"born simultaneously with thee,\" the Lord of Death consulting the Mirror of Karma, an Executive Fury dismembering a body that revives — and then withdraws the whole scene: \"The Lords of Death are thine own hallucinations... Apart from one's own hallucinations, in reality there are no such things existing outside oneself as Lord of Death, or god, or demon, or the Bull-headed Spirit of Death.\" What blocks liberation is named as the self: a footnote to the Clear Light passage says flatly that \"it is ideation of ego, self, which prevents the realization of Nirvana.\" The remedy is therefore recognition rather than mastery, and it is instantaneous rather than earned. Two attributions to keep: the liturgy names the judge only as the Lord of Death, \"Shinje\" being the editor's apparatus, and Govinda's relocation of the bardos to \"different states of consciousness of our life\" is his reframing rather than the text's.",
+        "sourceDocs": [
+          "notes/tibetan-book-of-the-dead/11-book2-after-death-world.md",
+          "notes/tibetan-book-of-the-dead/08-book1-chikhai-clear-light.md",
+          "notes/tibetan-book-of-the-dead/02-govinda-foreword.md"
         ]
       }
     ],
@@ -1079,6 +1116,15 @@
         "position": "As a secondary contribution, Virk argues that simulated reality need not make life meaningless, especially under the conscious-player model. His FAQ moves toward experience, learning, and kindness as plausible purposes, but presents these as tentative implications rather than deductions from computation alone or a complete ethical system.",
         "sourceDocs": [
           "notes/simulation-hypothesis/16-appendix-faq.md"
+        ]
+      },
+      {
+        "book": "egyptian-book-of-the-dead",
+        "position": "The Negative Confession is the most explicit specification on the shelf of what a life is judged on: forty-two hails, each naming a god and the city he comes forth from, each answered by one disavowed act — iniquity, robbery with violence, theft, killing, making light the bushel, defiling another man's wife, encroaching on sacred times, prying into matters to make mischief, making anyone weep. Almost all of it is denial. The single substantial passage of positive works, \"I have given bread to the hungry, water to the thirsty, raiment to the naked, and a boat to him that needed one,\" stands after the denials and reads as further assertion rather than as a plea. And the argument the text finally rests on is not conduct but knowledge: \"therefore let not evil befall me... because I, even I, know the name[s] of these gods who are therein.\" Budge's own volume calls the received label \"somewhat inexact,\" and sets the stakes lower than the scene suggests — \"there was no eternal punishment for men, for the wicked were annihilated quickly and completely.\"",
+        "sourceDocs": [
+          "notes/egyptian-book-of-the-dead/11-passage-and-the-gates.md",
+          "notes/egyptian-book-of-the-dead/04-the-judgment-of-osiris.md",
+          "notes/egyptian-book-of-the-dead/03-osiris-judge-of-the-dead.md"
         ]
       }
     ],
